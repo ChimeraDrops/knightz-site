@@ -21,7 +21,7 @@ from email.utils import format_datetime
 from xml.sax.saxutils import escape
 
 # Set this to your GitHub Pages address (used for RSS links).
-SITE_URL = "https://YOUR-USERNAME.github.io/knightz"
+SITE_URL = "https://chimeradrops.github.io/knightz-site"
 SITE_TITLE = "KnightZ: The Failing Light | Dev Log"
 SITE_DESC = "Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming."
 
