@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>KnightZ: The Failing Light | Dev Log</title>
+<link>https://YOUR-USERNAME.github.io/knightz/devlog.html</link>
+<description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
+<language>en</language>
+<item>
+<title>Dev Log #9: Bedwyr and Cadoc complete, Owain textured</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=cadoc-complete-and-a-bigger-body</link>
+<guid isPermaLink="false">cadoc-complete-and-a-bigger-body</guid>
+<pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
+<description>Two heads finished with 52 facial shapes each, Owain's face and hair approved, and a new large male body for the smith.</description>
+</item>
+<item>
+<title>Dev Log #8: Sir Bedwyr</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=sir-bedwyr</link>
+<guid isPermaLink="false">sir-bedwyr</guid>
+<pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+<description>The first named character head on the new pipeline: seam fit, expressive topology, skin, long grey hair and beard, and a face rig.</description>
+</item>
+<item>
+<title>Dev Log #7: Tools of the manor</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=tools-of-the-manor</link>
+<guid isPermaLink="false">tools-of-the-manor</guid>
+<pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+<description>Sickle, billhook, work axe and spade, each in new, worn and mended states, plus a pipeline for swapping heads on shared bodies.</description>
+</item>
+<item>
+<title>Dev Log #6: The design set and eleven heightmaps</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=the-design-set</link>
+<guid isPermaLink="false">the-design-set</guid>
+<pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+<description>The screenplay, character bible, economy design and world plan are written, and every region now has a 16-bit heightmap with terrain masks.</description>
+</item>
+<item>
+<title>Dev Log #5: The armoury</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=eight-weapons</link>
+<guid isPermaLink="false">eight-weapons</guid>
+<pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
+<description>Longsword, battle axe, mace, pike, shortsword, double axe and the Grendel Slayer: eight game-ready weapon assets with collision, sockets and 2K to 4K textures.</description>
+</item>
+<item>
+<title>Dev Log #4: Building the hero</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=building-the-hero</link>
+<guid isPermaLink="false">building-the-hero</guid>
+<pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+<description>HERO1, the 1.93 m body behind Owain: hands, face shapes, four hairstyles and a skeleton baked to the Unreal bind pose.</description>
+</item>
+<item>
+<title>Dev Log #3: The first humans of a hungry manor</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=the-first-humans</link>
+<guid isPermaLink="false">the-first-humans</guid>
+<pubDate>Sun, 27 Sep 2026 12:00:00 +0000</pubDate>
+<description>Peasant bodies, layered period clothing, swappable hair and a dynamic dirt, wet and gore material for the folk of the manor.</description>
+</item>
+<item>
+<title>Dev Log #2: Undead twins and the Uld woman</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=undead-twins-and-the-uld-woman</link>
+<guid isPermaLink="false">undead-twins-and-the-uld-woman</guid>
+<pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
+<description>Two methods for making characters: a clean rebuild, and a fast conform that reuses a finished model's topology, UVs and rig.</description>
+</item>
+<item>
+<title>Dev Log #1: The first Uld runs in Unreal Engine 5</title>
+<link>https://YOUR-USERNAME.github.io/knightz/post.html?p=the-first-uld-runs-in-unreal</link>
+<guid isPermaLink="false">the-first-uld-runs-in-unreal</guid>
+<pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+<description>Our first character made the full trip from Blender to UE 5.8: rigged, physics-driven hair and clothing, and retargeted animation.</description>
+</item>
+</channel></rss>
