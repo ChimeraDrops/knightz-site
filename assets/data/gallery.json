@@ -107,5 +107,11 @@
     "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
     "caption": "Sir Bedwyr, combat outfit concept",
     "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/roster_status_1006.jpg",
+    "caption": "Named cast head pipeline status, Dev Log #11",
+    "size": "wide"
   }
 ]
