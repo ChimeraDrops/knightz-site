@@ -1,5 +1,56 @@
 [
   {
+    "slug": "2026-10-08-lighter-characters-same-faces",
+    "title": "Dev Log #14: Lighter characters, same faces",
+    "date": "2026-10-08",
+    "summary": "Textured hair and beard shells, reduced bodies and heads, and a typical character cut from about 93,000 to about 45,000 triangles.",
+    "tags": [
+      "performance",
+      "characters",
+      "hair"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
+    "slug": "2026-10-08-hands-ears-and-the-review-pass",
+    "title": "Dev Log #15: Hands, ears, and the review pass",
+    "date": "2026-10-08",
+    "summary": "A wrist texture fix on both male bodies, new hair rules around the ears, and a ten-step review checklist for every hero.",
+    "tags": [
+      "characters",
+      "textures",
+      "hair",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
+    "slug": "2026-10-07-every-head-unreal-ready",
+    "title": "Dev Log #12: Every head is Unreal-ready, Geraint and Custennin, eyelashes, and a live link to the editor",
+    "date": "2026-10-07",
+    "summary": "Eight heads packaged for Unreal Engine, Geraint complete, Custennin's face widened, eyelashes on every head, an armpit fix on the standard body, and Unreal connected to Claude.",
+    "tags": [
+      "characters",
+      "faces",
+      "rigging",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
+    "slug": "2026-10-07-seven-new-faces-nine-in-unreal",
+    "title": "Dev Log #13: Seven new faces, and nine characters standing in Unreal",
+    "date": "2026-10-07",
+    "summary": "Seven more heads built overnight, and nine characters running the unarmed animation set in Unreal on skeletons rebuilt to match the mannequin.",
+    "tags": [
+      "characters",
+      "unreal",
+      "pipeline",
+      "animation"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-06-cynan-complete-einion-goch",
     "title": "Dev Log #11: Cynan complete, Einion Goch's head, and shared rules for every head",
     "date": "2026-10-06",

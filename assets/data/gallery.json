@@ -6,6 +6,12 @@
     "size": "wide"
   },
   {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/lp_budget_1008.png",
+    "caption": "Triangle budget before and after the reduction pass",
+    "contain": true
+  },
+  {
     "group": "Arms and armour",
     "src": "assets/img/gallery/arms_spathas.jpg",
     "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
