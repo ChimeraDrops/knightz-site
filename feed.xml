@@ -5,6 +5,34 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #19: A motion library written in plain English</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-11-a-motion-library-written-in-plain-english</link>
+<guid isPermaLink="false">2026-10-11-a-motion-library-written-in-plain-english</guid>
+<pubDate>Sun, 11 Oct 2026 12:00:00 +0000</pubDate>
+<description>865 combat and movement animations for the player, allies, four undead bodies and brigands, generated locally from plain-English descriptions and audited clip by clip.</description>
+</item>
+<item>
+<title>Dev Log #18: Combat prototype, real terrain and hair level of detail</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-10-combat-prototype-real-terrain-and-hair-lods</link>
+<guid isPermaLink="false">2026-10-10-combat-prototype-real-terrain-and-hair-lods</guid>
+<pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+<description>A first playable combat system in C++, ten regions rebuilt from real elevation and river data, and hair level of detail for 15 heroes imported into Unreal.</description>
+</item>
+<item>
+<title>Dev Log #16: Hair caps under review</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-09-hair-caps-under-review</link>
+<guid isPermaLink="false">2026-10-09-hair-caps-under-review</guid>
+<pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+<description>Five of fifteen hair caps approved, new scalp, neck and silhouette rules, and a triangle budget for every cap.</description>
+</item>
+<item>
+<title>Dev Log #17: Outfits, cloaks and textured hair for the whole cast</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-09-outfits-cloaks-and-textured-hair-for-the-whole-cast</link>
+<guid isPermaLink="false">2026-10-09-outfits-cloaks-and-textured-hair-for-the-whole-cast</guid>
+<pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+<description>A shared garment kit, casual and work outfits for 15 characters, physics cloaks, hidden under-layers and a new hair method.</description>
+</item>
+<item>
 <title>Dev Log #14: Lighter characters, same faces</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-08-lighter-characters-same-faces</link>
 <guid isPermaLink="false">2026-10-08-lighter-characters-same-faces</guid>

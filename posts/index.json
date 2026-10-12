@@ -1,5 +1,56 @@
 [
   {
+    "slug": "2026-10-11-a-motion-library-written-in-plain-english",
+    "title": "Dev Log #19: A motion library written in plain English",
+    "date": "2026-10-11",
+    "summary": "865 combat and movement animations for the player, allies, four undead bodies and brigands, generated locally from plain-English descriptions and audited clip by clip.",
+    "tags": [
+      "animation",
+      "combat",
+      "pipeline",
+      "tools"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
+    "slug": "2026-10-10-combat-prototype-real-terrain-and-hair-lods",
+    "title": "Dev Log #18: Combat prototype, real terrain and hair level of detail",
+    "date": "2026-10-10",
+    "summary": "A first playable combat system in C++, ten regions rebuilt from real elevation and river data, and hair level of detail for 15 heroes imported into Unreal.",
+    "tags": [
+      "combat",
+      "world",
+      "hair",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
+    "slug": "2026-10-09-hair-caps-under-review",
+    "title": "Dev Log #16: Hair caps under review",
+    "date": "2026-10-09",
+    "summary": "Five of fifteen hair caps approved, new scalp, neck and silhouette rules, and a triangle budget for every cap.",
+    "tags": [
+      "hair",
+      "characters",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
+    "slug": "2026-10-09-outfits-cloaks-and-textured-hair-for-the-whole-cast",
+    "title": "Dev Log #17: Outfits, cloaks and textured hair for the whole cast",
+    "date": "2026-10-09",
+    "summary": "A shared garment kit, casual and work outfits for 15 characters, physics cloaks, hidden under-layers and a new hair method.",
+    "tags": [
+      "clothing",
+      "characters",
+      "unreal",
+      "hair"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-08-lighter-characters-same-faces",
     "title": "Dev Log #14: Lighter characters, same faces",
     "date": "2026-10-08",

@@ -119,5 +119,65 @@
     "src": "assets/img/gallery/roster_status_1006.jpg",
     "caption": "Named cast head pipeline status, Dev Log #11",
     "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
+    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_outfits_lineup_b_1009.jpg",
+    "caption": "Casual outfits, second half of the cast, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_cloaks_back_1009.jpg",
+    "caption": "Cloaks from behind with Kawaii Physics, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_hidden_under_clothes_1009.jpg",
+    "caption": "Outfit in game, and the same character with outer layers removed, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_garment_kit_blender_1009.jpg",
+    "caption": "Shared garment kit in Blender, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog18_region_windows_1010.png",
+    "caption": "Region windows at their real positions, Dev Log #18",
+    "contain": true
+  },
+  {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/devlog18_hair_lod_triangles_1010.png",
+    "caption": "Hair and beard triangles per hero at each level of detail, Dev Log #18",
+    "contain": true
+  },
+  {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/devlog19_owain_attacks_1011.png",
+    "caption": "Owain attacks generated from text: heavy chop, push-kick, stealth kill, Dev Log #19",
+    "contain": true
+  },
+  {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/devlog19_undead_bodies_1011.png",
+    "caption": "The same walk for four undead bodies, Dev Log #19",
+    "contain": true
+  },
+  {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/devlog19_turn_audit_1011.png",
+    "caption": "Auditing the turn-in-place clips, Dev Log #19",
+    "contain": true
   }
 ]
