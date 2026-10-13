@@ -179,5 +179,23 @@
     "src": "assets/img/gallery/devlog19_turn_audit_1011.png",
     "caption": "Auditing the turn-in-place clips, Dev Log #19",
     "contain": true
+  },
+  {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/devlog20_shield_clearance_1012.png",
+    "caption": "Shield clearance on the guard walk after the stance fix, Dev Log #20",
+    "contain": true
+  },
+  {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/devlog20_locomotion_cycles_1012.png",
+    "caption": "Travel direction and speed of each looping guard walk and jog clip, Dev Log #20",
+    "contain": true
+  },
+  {
+    "group": "Pipeline",
+    "src": "assets/img/gallery/devlog20_ground_fix_1012.png",
+    "caption": "Putting 883 clips back on the ground, Dev Log #20",
+    "contain": true
   }
 ]

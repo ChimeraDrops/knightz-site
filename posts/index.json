@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-12-from-motion-library-to-fighting-stance",
+    "title": "Dev Log #20: From motion library to fighting stance",
+    "date": "2026-10-12",
+    "summary": "All 883 generated clips retargeted into Unreal, put back on the ground and reviewed in a new editor level, with a sword and shield guard, one-cycle loops and a first pass over every weapon set.",
+    "tags": [
+      "animation",
+      "combat",
+      "unreal",
+      "tools"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-11-a-motion-library-written-in-plain-english",
     "title": "Dev Log #19: A motion library written in plain English",
     "date": "2026-10-11",
