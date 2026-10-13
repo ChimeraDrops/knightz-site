@@ -10,13 +10,16 @@
       <video:title>Episode 2: AI Pipeline Improvement for Game Character Development in Unreal Engine</video:title>
       <video:description>What the first AI character pipeline got wrong, what changed, and the cast it produced for KnightZ in Unreal Engine 5.</video:description>
       <video:player_loc>https://www.youtube.com/embed/PECacarqLfk</video:player_loc>
-      <video:duration>1146</video:duration>
+      <video:duration>1147</video:duration>
+      <video:publication_date>2026-10-12T12:00:00-05:00</video:publication_date>
     </video:video>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/KGuS8q2UXDE/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Episode 1: AI Pipeline for Building Game Characters</video:title>
       <video:description>The AI pipeline used to build game characters for KnightZ: The Failing Light.</video:description>
       <video:player_loc>https://www.youtube.com/embed/KGuS8q2UXDE</video:player_loc>
+      <video:duration>711</video:duration>
+      <video:publication_date>2026-10-05T12:00:00-05:00</video:publication_date>
     </video:video>
   </url>
 </urlset>
