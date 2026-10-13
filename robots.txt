@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chimeradrops.github.io/knightz-site/sitemap.xml
