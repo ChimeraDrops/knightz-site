@@ -14,9 +14,9 @@
       <video:publication_date>2026-10-12T12:00:00-05:00</video:publication_date>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/KGuS8q2UXDE/hqdefault.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://chimeradrops.github.io/knightz-site/assets/img/videos/ep1_title.jpg</video:thumbnail_loc>
       <video:title>Episode 1: AI Pipeline for Building Game Characters</video:title>
-      <video:description>The AI pipeline used to build game characters for KnightZ: The Failing Light.</video:description>
+      <video:description>One reference image becomes a rigged, textured head with hair for Cynan, a KnightZ character, through an eight-step head pipeline and a six-step hair pipeline.</video:description>
       <video:player_loc>https://www.youtube.com/embed/KGuS8q2UXDE</video:player_loc>
       <video:duration>711</video:duration>
       <video:publication_date>2026-10-05T12:00:00-05:00</video:publication_date>
