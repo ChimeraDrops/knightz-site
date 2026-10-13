@@ -197,5 +197,53 @@
     "src": "assets/img/gallery/devlog20_ground_fix_1012.png",
     "caption": "Putting 883 clips back on the ground, Dev Log #20",
     "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_unarmed_guard_1013.jpg",
+    "caption": "Unarmed guard walk with closed fists, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
+    "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_spear_guard_1013.jpg",
+    "caption": "Two-hand spear guard, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_axe_shoulder_1013.jpg",
+    "caption": "Axe and shield guard with squared shoulders, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_walk_swing_1013.jpg",
+    "caption": "Arm swing tied to the stride, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_jog_arms_1013.jpg",
+    "caption": "Jog with the hands in front of the shoulders, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_large_body_jog_1013.jpg",
+    "caption": "Large body jog, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_bow_jog_1013.jpg",
+    "caption": "Bow jog with the bow in the left hand, Dev Log #21",
+    "contain": true
   }
 ]

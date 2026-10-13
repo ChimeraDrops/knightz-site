@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-13-arms-that-carry-their-weight",
+    "title": "Dev Log #21: Arms that carry their weight",
+    "date": "2026-10-13",
+    "summary": "A full arm pass on every movement clip: fists, free wrists, square shoulders, leg-driven arm swing and a carried bow. The approved set is now in the game with walk and run, a guard walk on right mouse, and hidden dismemberment seams.",
+    "tags": [
+      "animation",
+      "combat",
+      "unreal",
+      "controls"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-12-from-motion-library-to-fighting-stance",
     "title": "Dev Log #20: From motion library to fighting stance",
     "date": "2026-10-12",
