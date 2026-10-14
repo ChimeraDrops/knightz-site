@@ -1,5 +1,53 @@
 [
   {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
+    "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
+    "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
+    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog18_region_windows_1010.png",
+    "caption": "Region windows at their real positions, Dev Log #18",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/bedwyr_final.jpg",
+    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
+    "size": "wide"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_spear_guard_1013.jpg",
+    "caption": "Two-hand spear guard, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
+    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_manor.jpg",
+    "caption": "The manor, overall concept and site plan",
+    "size": "wide"
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/tysilio_hair_beard.jpg",
     "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
@@ -53,12 +101,6 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/bedwyr_final.jpg",
-    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
     "src": "assets/img/gallery/owain_head_4view.jpg",
     "caption": "Owain, textured head on the healthy male body, hair hidden"
   },
@@ -93,12 +135,6 @@
   },
   {
     "group": "Concept art",
-    "src": "assets/img/gallery/concept_manor.jpg",
-    "caption": "The manor, overall concept and site plan",
-    "size": "wide"
-  },
-  {
-    "group": "Concept art",
     "src": "assets/img/gallery/concept_manor_house_kit.jpg",
     "caption": "Manor house modular building kit, post-Roman Britain"
   },
@@ -118,12 +154,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/roster_status_1006.jpg",
     "caption": "Named cast head pipeline status, Dev Log #11",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
-    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
     "size": "wide"
   },
   {
@@ -149,12 +179,6 @@
     "src": "assets/img/gallery/devlog17_garment_kit_blender_1009.jpg",
     "caption": "Shared garment kit in Blender, Dev Log #17",
     "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog18_region_windows_1010.png",
-    "caption": "Region windows at their real positions, Dev Log #18",
-    "contain": true
   },
   {
     "group": "Pipeline",
@@ -206,18 +230,6 @@
   },
   {
     "group": "Animation",
-    "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
-    "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
-    "contain": true
-  },
-  {
-    "group": "Animation",
-    "src": "assets/img/gallery/devlog21_spear_guard_1013.jpg",
-    "caption": "Two-hand spear guard, Dev Log #21",
-    "contain": true
-  },
-  {
-    "group": "Animation",
     "src": "assets/img/gallery/devlog21_axe_shoulder_1013.jpg",
     "caption": "Axe and shield guard with squared shoulders, Dev Log #21",
     "contain": true
@@ -248,12 +260,6 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
-    "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
-    "size": "full"
-  },
-  {
-    "group": "World",
     "src": "assets/img/gallery/devlog22_chapel_village_1014.jpg",
     "caption": "Chapel, granaries, byres and workshops as level instances, Dev Log #22",
     "size": "full"
@@ -268,12 +274,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
     "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
-    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
     "size": "wide"
   },
   {
@@ -304,5 +304,11 @@
     "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
     "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
     "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_hall_longhouses_1014.jpg",
+    "caption": "Timber and daub hall with a thatched roof, built from kit pieces in Unreal",
+    "size": "wide"
   }
 ]
