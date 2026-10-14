@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-14-a-village-from-kit-pieces",
+    "title": "Dev Log #22: A village from kit pieces",
+    "date": "2026-10-14",
+    "summary": "Buildings now come from shared kit pieces on one grid: timber and daub, palisade, build stages and reused Roman stone. Sixteen buildings are in Unreal as level instances, with weathered, snow, burned, charred and rotten states.",
+    "tags": [
+      "environment",
+      "buildings",
+      "unreal",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-13-arms-that-carry-their-weight",
     "title": "Dev Log #21: Arms that carry their weight",
     "date": "2026-10-13",

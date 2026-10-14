@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #22: A village from kit pieces</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-14-a-village-from-kit-pieces</link>
+<guid isPermaLink="false">2026-10-14-a-village-from-kit-pieces</guid>
+<pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+<description>Buildings now come from shared kit pieces on one grid: timber and daub, palisade, build stages and reused Roman stone. Sixteen buildings are in Unreal as level instances, with weathered, snow, burned, charred and rotten states.</description>
+</item>
+<item>
 <title>Dev Log #21: Arms that carry their weight</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-13-arms-that-carry-their-weight</link>
 <guid isPermaLink="false">2026-10-13-arms-that-carry-their-weight</guid>
