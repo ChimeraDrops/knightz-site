@@ -1,6 +1,30 @@
 [
   {
     "group": "World",
+    "src": "assets/img/gallery/devlog23_hall_firelight_1015.jpg",
+    "caption": "The hall lit by its long hearth, Dev Log #23",
+    "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_household_props_1015.jpg",
+    "caption": "Household props kit: hearths, beds, benches, chests and lights, Dev Log #23",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
+    "caption": "First Blender-built oak in Unreal, Dev Log #23",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_tree_variants_1015.png",
+    "caption": "Oak, ash and alder variants by height, Dev Log #23",
+    "contain": true
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
     "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
     "size": "full"
