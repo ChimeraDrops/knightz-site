@@ -4,7 +4,15 @@
   <url><loc>https://chimeradrops.github.io/knightz-site/devlog.html</loc></url>
   <url>
     <loc>https://chimeradrops.github.io/knightz-site/videos.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-15</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Episode 3: Improving Prompts for AI Game Development</video:title>
+      <video:description>How prompts are written to get game-ready results from AI for KnightZ: session-start prompts, annotated screenshots, limits and gates, four mistakes and a loop where every session writes the next prompt.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Bp-HNgwDLhE</video:player_loc>
+      <video:duration>1088</video:duration>
+      <video:publication_date>2026-10-14T22:01:07-07:00</video:publication_date>
+    </video:video>
     <video:video>
       <video:thumbnail_loc>https://chimeradrops.github.io/knightz-site/assets/img/videos/ep2_title.jpg</video:thumbnail_loc>
       <video:title>Episode 2: AI Pipeline Improvement for Game Character Development in Unreal Engine</video:title>
