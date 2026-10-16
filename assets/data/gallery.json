@@ -25,6 +25,29 @@
   },
   {
     "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_unreal_1014.jpg",
+    "caption": "Longhouse wall and door in Unreal, Dev Log #22"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_unarmed_guard_1013.jpg",
+    "caption": "Unarmed guard walk with closed fists, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_hidden_under_clothes_1009.jpg",
+    "caption": "Outfit in game, and the same character with outer layers removed, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Tools",
+    "src": "assets/img/gallery/tools_conditions.jpg",
+    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
+    "size": "full"
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
     "caption": "First Blender-built oak in Unreal, Dev Log #23",
     "size": "wide"
@@ -154,12 +177,6 @@
     "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
   },
   {
-    "group": "Tools",
-    "src": "assets/img/gallery/tools_conditions.jpg",
-    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
-    "size": "full"
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/owain_head_4view.jpg",
     "caption": "Owain, textured head on the healthy male body, hair hidden"
@@ -224,12 +241,6 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/devlog17_hidden_under_clothes_1009.jpg",
-    "caption": "Outfit in game, and the same character with outer layers removed, Dev Log #17",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
     "src": "assets/img/gallery/devlog17_garment_kit_blender_1009.jpg",
     "caption": "Shared garment kit in Blender, Dev Log #17",
     "size": "wide"
@@ -278,12 +289,6 @@
   },
   {
     "group": "Animation",
-    "src": "assets/img/gallery/devlog21_unarmed_guard_1013.jpg",
-    "caption": "Unarmed guard walk with closed fists, Dev Log #21",
-    "contain": true
-  },
-  {
-    "group": "Animation",
     "src": "assets/img/gallery/devlog21_axe_shoulder_1013.jpg",
     "caption": "Axe and shield guard with squared shoulders, Dev Log #21",
     "contain": true
@@ -326,11 +331,6 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_unreal_1014.jpg",
-    "caption": "Longhouse wall and door in Unreal, Dev Log #22"
-  },
-  {
-    "group": "World",
     "src": "assets/img/gallery/devlog22_kit_pieces_1014.jpg",
     "caption": "All 116 timber, wall, door and roof kit pieces, Dev Log #22",
     "contain": true
@@ -351,6 +351,12 @@
     "group": "World",
     "src": "assets/img/gallery/home_chapel_village_1015.jpg",
     "caption": "Stone chapel with thatched granaries and byres, built from kit pieces in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_longhouse_interior_1016.jpg",
+    "caption": "Longhouse interior under the thatched roof frame, built from timber and daub kit pieces",
     "size": "wide"
   }
 ]
