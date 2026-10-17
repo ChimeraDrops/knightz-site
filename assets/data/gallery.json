@@ -1,6 +1,18 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog25_hair_budget_1017.png",
+    "caption": "Female hair, first pass and game budget triangles, Dev Log #25",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog25_character_lods_1017.png",
+    "caption": "Four women, whole character triangles per level of detail, Dev Log #25",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog24_body_detail_regions_1016.png",
     "caption": "Female base body, detail kept by region during reduction, Dev Log #24",
     "contain": true

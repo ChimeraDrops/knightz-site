@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-17-four-women-twelve-outfits-and-cloth-that-swings",
+    "title": "Dev Log #25: Four women, twelve outfits and cloth that swings",
+    "date": "2026-10-17",
+    "summary": "Four female heads are built on the new body with face rigs, skin, hair and eyelashes. Twelve outfits follow, every cloak and shawl now simulates as cloth in Unreal, a woman in a riding outfit is the test player and character parts now change detail together.",
+    "tags": [
+      "characters",
+      "clothing",
+      "unreal",
+      "performance"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-16-a-female-base-body-and-a-heavier-grip",
     "title": "Dev Log #24: A female base body and a heavier grip",
     "date": "2026-10-16",
