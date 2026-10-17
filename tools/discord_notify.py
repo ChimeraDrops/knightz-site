@@ -65,6 +65,8 @@ def send(webhook, post):
         "username": "KnightZ Dev Log",
         "content": "New dev log is up.",
         "embeds": [embed],
+        "allowed_mentions": {"parse": []},  # never ping @everyone, @here, roles or users
+        "flags": 4096,  # SUPPRESS_NOTIFICATIONS: silent post, no push or desktop alert
     }).encode()
     req = urllib.request.Request(
         webhook, data=body, method="POST",
