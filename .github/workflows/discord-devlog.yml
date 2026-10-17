@@ -1,0 +1,28 @@
+name: Discord devlog post
+
+on:
+  push:
+    branches: [main]
+    paths: ["posts/index.json"]
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Post this slug to Discord (test or repost)"
+        required: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Wait for GitHub Pages to publish images
+        if: github.event_name == 'push'
+        run: sleep 120
+      - name: Send new posts to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          BEFORE_SHA: ${{ github.event.before }}
+          FORCE_SLUG: ${{ github.event.inputs.slug }}
+        run: python3 tools/discord_notify.py
