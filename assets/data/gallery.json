@@ -13,14 +13,38 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/devlog25_hair_budget_1017.png",
-    "caption": "Female hair, first pass and game budget triangles, Dev Log #25",
+    "src": "assets/img/gallery/devlog25_character_lods_1017.png",
+    "caption": "Four women, whole character triangles per level of detail, Dev Log #25",
     "contain": true
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/devlog25_character_lods_1017.png",
-    "caption": "Four women, whole character triangles per level of detail, Dev Log #25",
+    "src": "assets/img/gallery/devlog17_cloaks_back_1009.jpg",
+    "caption": "Cloaks from behind with Kawaii Physics, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_bow_jog_1013.jpg",
+    "caption": "Bow jog with the bow in the left hand, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_kit_pieces_1014.jpg",
+    "caption": "All 116 timber, wall, door and roof kit pieces, Dev Log #22",
+    "contain": true
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_kit.jpg",
+    "caption": "Boar-crest spangenhelm, war horn, gold and silver arm-rings",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog25_hair_budget_1017.png",
+    "caption": "Female hair, first pass and game budget triangles, Dev Log #25",
     "contain": true
   },
   {
@@ -93,18 +117,6 @@
     "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
     "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
     "size": "full"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_cloaks_back_1009.jpg",
-    "caption": "Cloaks from behind with Kawaii Physics, Dev Log #17",
-    "size": "wide"
-  },
-  {
-    "group": "Animation",
-    "src": "assets/img/gallery/devlog21_bow_jog_1013.jpg",
-    "caption": "Bow jog with the bow in the left hand, Dev Log #21",
-    "contain": true
   },
   {
     "group": "World",
@@ -204,12 +216,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/owain_head_4view.jpg",
     "caption": "Owain, textured head on the healthy male body, hair hidden"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_kit.jpg",
-    "caption": "Boar-crest spangenhelm, war horn, gold and silver arm-rings",
-    "size": "wide"
   },
   {
     "group": "Arms and armour",
@@ -352,12 +358,6 @@
     "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
     "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
     "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_kit_pieces_1014.jpg",
-    "caption": "All 116 timber, wall, door and roof kit pieces, Dev Log #22",
-    "contain": true
   },
   {
     "group": "World",
