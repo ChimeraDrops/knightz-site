@@ -1,5 +1,17 @@
 [
   {
+    "group": "World",
+    "src": "assets/img/gallery/devlog26_ash_sky_light_1018.png",
+    "caption": "Ash sky, sunlight over 90 minutes with heavy cloud and lightning, Dev Log #26",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog26_crossing_time_1018.png",
+    "caption": "Time to cross a region on foot by compression factor, Dev Log #26",
+    "contain": true
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog25_hair_budget_1017.png",
     "caption": "Female hair, first pass and game budget triangles, Dev Log #25",
