@@ -1,6 +1,45 @@
 [
   {
     "group": "World",
+    "src": "assets/img/gallery/devlog27_pasture_1019.jpg",
+    "caption": "Grazed pasture on the environment test map, Dev Log #27",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog27_woodland_floor_1019.jpg",
+    "caption": "Woodland floor with hazel, ferns and leaf litter, Dev Log #27"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog27_hay_meadow_1019.jpg",
+    "caption": "Hay meadow by the river, Dev Log #27"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog27_grain_field_1019.jpg",
+    "caption": "Grain field, Dev Log #27",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog27_pasture_fields_1019.jpg",
+    "caption": "Pasture rising to the crop fields, Dev Log #27"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog27_biome_map_1019.png",
+    "caption": "Biome map of the 3 km test area, Dev Log #27",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog27_groundcover_biomes_1019.png",
+    "caption": "Ground cover instances by biome, Dev Log #27",
+    "contain": true
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog26_ash_sky_light_1018.png",
     "caption": "Ash sky, sunlight over 90 minutes with heavy cloud and lightning, Dev Log #26",
     "contain": true

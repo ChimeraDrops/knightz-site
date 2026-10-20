@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-20-five-million-plants-crop-strips-and-kitchen-gardens",
+    "title": "Dev Log #27: Five million plants, crop strips and kitchen gardens",
+    "date": "2026-10-20",
+    "summary": "A test copy of the hub now carries over five million plants placed by script across ten biomes, from grazed pasture and hay meadow to reed beds and bluebell woods. Fields hold strips of spelt, rye, barley, oats, peas, beans and flax, the manor has kitchen gardens, and a bug that turned leaves black is fixed project wide.",
+    "tags": [
+      "environment",
+      "unreal",
+      "foliage",
+      "tech"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-18-an-ash-sky-horses-and-life-on-the-road",
     "title": "Dev Log #26: An ash sky, horses and life on the road",
     "date": "2026-10-18",
