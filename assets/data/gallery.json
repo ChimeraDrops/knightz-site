@@ -22,6 +22,29 @@
     "size": "wide"
   },
   {
+    "group": "Characters",
+    "src": "assets/img/gallery/cynan_topology.jpg",
+    "caption": "Cynan, expression topology, eye, mouth and chipped tooth",
+    "size": "full"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_axe_shoulder_1013.jpg",
+    "caption": "Axe and shield guard with squared shoulders, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_build_site_1014.jpg",
+    "caption": "Build site kit: outline, postholes, scaffold and materials, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_shield_damage.jpg",
+    "caption": "Round shield, intact and two damage states"
+  },
+  {
     "group": "World",
     "src": "assets/img/gallery/devlog27_pasture_fields_1019.jpg",
     "caption": "Pasture rising to the crop fields, Dev Log #27"
@@ -257,11 +280,6 @@
     "caption": "Owain, textured head on the healthy male body, hair hidden"
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_shield_damage.jpg",
-    "caption": "Round shield, intact and two damage states"
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/bedwyr_expressions.jpg",
     "caption": "Sir Bedwyr, facial shapes with the beard: angry, sad, pucker, funnel, snarl, surprise",
@@ -271,12 +289,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/cadoc_expressions.jpg",
     "caption": "Brother Cadoc, expression and speech shapes",
-    "size": "full"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/cynan_topology.jpg",
-    "caption": "Cynan, expression topology, eye, mouth and chipped tooth",
     "size": "full"
   },
   {
@@ -358,12 +370,6 @@
   },
   {
     "group": "Animation",
-    "src": "assets/img/gallery/devlog21_axe_shoulder_1013.jpg",
-    "caption": "Axe and shield guard with squared shoulders, Dev Log #21",
-    "contain": true
-  },
-  {
-    "group": "Animation",
     "src": "assets/img/gallery/devlog21_walk_swing_1013.jpg",
     "caption": "Arm swing tied to the stride, Dev Log #21",
     "contain": true
@@ -400,12 +406,6 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog22_build_site_1014.jpg",
-    "caption": "Build site kit: outline, postholes, scaffold and materials, Dev Log #22",
-    "size": "full"
-  },
-  {
-    "group": "World",
     "src": "assets/img/gallery/home_hall_longhouses_1014.jpg",
     "caption": "Timber and daub hall with a thatched roof, built from kit pieces in Unreal",
     "size": "wide"
@@ -420,6 +420,12 @@
     "group": "World",
     "src": "assets/img/gallery/home_longhouse_interior_1016.jpg",
     "caption": "Longhouse interior under the thatched roof frame, built from timber and daub kit pieces",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_pasture_oak_1020.jpg",
+    "caption": "Open pasture with a lone oak on the environment test map in Unreal",
     "size": "wide"
   }
 ]
