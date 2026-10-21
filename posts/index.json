@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-21-the-women-start-to-move",
+    "title": "Dev Log #28: The women start to move",
+    "date": "2026-10-21",
+    "summary": "The female body gets its own movement set: 201 clips across seven weapon sets, generated fresh for her build and scaled to her stride. The sword and the sword and shield sets are cut into loops and checked, and generation for the rest is running.",
+    "tags": [
+      "animation",
+      "characters",
+      "unreal",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-20-five-million-plants-crop-strips-and-kitchen-gardens",
     "title": "Dev Log #27: Five million plants, crop strips and kitchen gardens",
     "date": "2026-10-20",

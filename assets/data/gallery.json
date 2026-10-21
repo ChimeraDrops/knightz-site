@@ -1,5 +1,19 @@
 [
   {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog28_hf1_walk_strip_1020.png",
+    "caption": "Generated walk forward for the female body, side view, Dev Log #28",
+    "size": "full",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog28_hf1_clip_status_1020.png",
+    "caption": "Female movement set: clip status for the first two weapon sets, Dev Log #28",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "World",
     "src": "assets/img/gallery/devlog27_pasture_1019.jpg",
     "caption": "Grazed pasture on the environment test map, Dev Log #27",
