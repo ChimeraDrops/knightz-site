@@ -15,6 +15,41 @@
   },
   {
     "group": "World",
+    "src": "assets/img/gallery/home_woodland_stream_1021.jpg",
+    "caption": "Oak woodland with saplings along a shallow stream on the environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/bedwyr_expressions.jpg",
+    "caption": "Sir Bedwyr, facial shapes with the beard: angry, sad, pucker, funnel, snarl, surprise",
+    "size": "full"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_owain_combat.jpg",
+    "caption": "Owain, combat outfit concept",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_chapel_village_1014.jpg",
+    "caption": "Chapel, granaries, byres and workshops as level instances, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_large_body_jog_1013.jpg",
+    "caption": "Large body jog, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/owain_head_4view.jpg",
+    "caption": "Owain, textured head on the healthy male body, hair hidden"
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog27_pasture_1019.jpg",
     "caption": "Grazed pasture on the environment test map, Dev Log #27",
     "size": "wide"
@@ -290,17 +325,6 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/owain_head_4view.jpg",
-    "caption": "Owain, textured head on the healthy male body, hair hidden"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/bedwyr_expressions.jpg",
-    "caption": "Sir Bedwyr, facial shapes with the beard: angry, sad, pucker, funnel, snarl, surprise",
-    "size": "full"
-  },
-  {
-    "group": "Characters",
     "src": "assets/img/gallery/cadoc_expressions.jpg",
     "caption": "Brother Cadoc, expression and speech shapes",
     "size": "full"
@@ -309,12 +333,6 @@
     "group": "Concept art",
     "src": "assets/img/gallery/concept_manor_house_kit.jpg",
     "caption": "Manor house modular building kit, post-Roman Britain"
-  },
-  {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_owain_combat.jpg",
-    "caption": "Owain, combat outfit concept",
-    "size": "wide"
   },
   {
     "group": "Concept art",
@@ -393,18 +411,6 @@
     "src": "assets/img/gallery/devlog21_jog_arms_1013.jpg",
     "caption": "Jog with the hands in front of the shoulders, Dev Log #21",
     "contain": true
-  },
-  {
-    "group": "Animation",
-    "src": "assets/img/gallery/devlog21_large_body_jog_1013.jpg",
-    "caption": "Large body jog, Dev Log #21",
-    "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_chapel_village_1014.jpg",
-    "caption": "Chapel, granaries, byres and workshops as level instances, Dev Log #22",
-    "size": "full"
   },
   {
     "group": "World",
