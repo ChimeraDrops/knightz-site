@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-22-all-201-clips-generated",
+    "title": "Dev Log #29: All 201 clips generated",
+    "date": "2026-10-22",
+    "summary": "One overnight run generated all 201 clips of the female movement set across seven weapon sets. Six sets are cut and checked: 149 clips pass, 14 are flagged for another pass, and a first arm pass has run on 153 clips.",
+    "tags": [
+      "animation",
+      "characters",
+      "unreal",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-21-the-women-start-to-move",
     "title": "Dev Log #28: The women start to move",
     "date": "2026-10-21",

@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog29_hf1_clip_status_1021.png",
+    "caption": "Female movement set: clip status for all seven weapon sets, Dev Log #29",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog29_hf1_generation_run_1021.png",
+    "caption": "Female movement set: all 201 clips generated in one overnight run, Dev Log #29",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog28_hf1_walk_strip_1020.png",
     "caption": "Generated walk forward for the female body, side view, Dev Log #28",
     "size": "full",
