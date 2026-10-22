@@ -14,6 +14,42 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_river_meander_1022.jpg",
+    "caption": "River winding through open grassland with trees along the bank, environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
+    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_shields.jpg",
+    "caption": "One round limewood shield, six of its seven painted designs",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/tysilio_hair_beard.jpg",
+    "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_manor.jpg",
+    "caption": "The manor, overall concept and site plan",
+    "size": "wide"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_spear_guard_1013.jpg",
+    "caption": "Two-hand spear guard, Dev Log #21",
+    "contain": true
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog28_hf1_walk_strip_1020.png",
     "caption": "Generated walk forward for the female body, side view, Dev Log #28",
@@ -274,30 +310,6 @@
     "size": "wide"
   },
   {
-    "group": "Animation",
-    "src": "assets/img/gallery/devlog21_spear_guard_1013.jpg",
-    "caption": "Two-hand spear guard, Dev Log #21",
-    "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
-    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
-    "size": "wide"
-  },
-  {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_manor.jpg",
-    "caption": "The manor, overall concept and site plan",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/tysilio_hair_beard.jpg",
-    "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
-    "size": "wide"
-  },
-  {
     "group": "Pipeline",
     "src": "assets/img/gallery/lp_budget_1008.png",
     "caption": "Triangle budget before and after the reduction pass",
@@ -325,12 +337,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/tysilio_skin_close.jpg",
     "caption": "Brother Tysilio, skin detail and the cataract eye"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_shields.jpg",
-    "caption": "One round limewood shield, six of its seven painted designs",
-    "size": "wide"
   },
   {
     "group": "Characters",
