@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Episode 3: Vibe Coding Prompts | KnightZ Videos</title>
+  <meta name="description" content="Episode 3 breakdown: the real prompts used to build KnightZ with Claude in Blender and Unreal Engine. Session-start prompts, marked-up visual feedback, hard limits, gates, fixed replies, night runs, four costly mistakes and copyable templates.">
+  <meta name="theme-color" content="#0e1011">
+  <link rel="canonical" href="https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html">
+  <meta property="og:type" content="video.episode">
+  <meta property="og:site_name" content="KnightZ: The Failing Light">
+  <meta property="og:title" content="Episode 3: Vibe Coding Prompts">
+  <meta property="og:description" content="Episode 3 breakdown: the real prompts used to build KnightZ with Claude in Blender and Unreal Engine. Session-start prompts, marked-up visual feedback, hard limits, gates, fixed replies, night runs, four costly mistakes and copyable templates.">
+  <meta property="og:url" content="https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html">
+  <meta property="og:image" content="https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg">
+  <meta property="og:video" content="https://www.youtube.com/embed/Bp-HNgwDLhE">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="KnightZ Dev Log" href="../feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html#video",
+      "name": "AI Game Development - Vibe Coding Prompts Ep3",
+      "description": "Episode 3 of the AI Game Development series. How prompts are written to get game-ready results from AI. Bedwyr's hair took 24 prompt iterations; the one that worked was an annotated screenshot and one sentence. The episode covers a session-start prompt with context, tasks and a finish line, annotated screenshots for animation fixes, hard limits, gates and fixed reply words that let 15 characters run through review overnight, four mistakes and their fixes, and a loop where every session writes the next prompt.",
+      "duration": "PT18M9S",
+      "uploadDate": "2026-10-14T22:01:07-07:00",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg",
+        "https://i.ytimg.com/vi/Bp-HNgwDLhE/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/Bp-HNgwDLhE",
+      "contentUrl": "https://www.youtube.com/watch?v=Bp-HNgwDLhE",
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Intro",
+          "startOffset": 0,
+          "endOffset": 14,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=0s"
+        },
+        {
+          "@type": "Clip",
+          "name": "What this episode covers",
+          "startOffset": 14,
+          "endOffset": 27,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=14s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Bedwyr's hair: 24 prompt iterations",
+          "startOffset": 27,
+          "endOffset": 117,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=27s"
+        },
+        {
+          "@type": "Clip",
+          "name": "The session-start prompt",
+          "startOffset": 117,
+          "endOffset": 193,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=117s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Visual feedback: annotated screenshots for animation fixes",
+          "startOffset": 193,
+          "endOffset": 314,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=193s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Say what must not happen: limits, gates and fixed replies",
+          "startOffset": 314,
+          "endOffset": 460,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=314s"
+        },
+        {
+          "@type": "Clip",
+          "name": "The review loop and the night run",
+          "startOffset": 460,
+          "endOffset": 528,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=460s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Four mistakes I made so you don't have to",
+          "startOffset": 528,
+          "endOffset": 767,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=528s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Every session writes the next prompt",
+          "startOffset": 767,
+          "endOffset": 1004,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=767s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Wrap-up",
+          "startOffset": 1004,
+          "endOffset": 1089,
+          "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=1004s"
+        }
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "KSUIE Dev Studio",
+        "url": "https://www.youtube.com/@ksuiegaming9346"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "headline": "Episode 3: Vibe Coding Prompts",
+      "description": "Episode 3 breakdown: the real prompts used to build KnightZ with Claude in Blender and Unreal Engine. Session-start prompts, marked-up visual feedback, hard limits, gates, fixed replies, night runs, four costly mistakes and copyable templates.",
+      "url": "https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html",
+      "image": "https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg",
+      "datePublished": "2026-10-14",
+      "author": {
+        "@type": "Person",
+        "name": "KSUIE_Gaming"
+      },
+      "about": [
+        "Prompting",
+        "AI pipeline",
+        "Claude",
+        "Unreal Engine 5",
+        "Blender"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Videos",
+          "item": "https://chimeradrops.github.io/knightz-site/videos.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Episode 3",
+          "item": "https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../index.html" aria-label="KnightZ home">
+      <img src="../assets/img/logo.svg" alt="" width="34" height="34">
+      <span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">KSUIE_Gaming</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="../index.html#game">The Game</a></li>
+      <li><a href="../index.html#world">World</a></li>
+      <li><a href="../index.html#characters">Characters</a></li>
+      <li><a href="../index.html#progress">Progress</a></li>
+      <li><a href="../index.html#gallery">Gallery</a></li>
+      <li><a href="../devlog.html">Dev Log</a></li>
+      <li><a href="../videos.html" aria-current="page">Videos</a></li>
+      <li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-head ep-head">
+    <div class="container">
+      <div class="crumbs"><a href="../videos.html">Videos</a> / Episode 3</div>
+      <span class="eyebrow">Episode 3 &middot; AI Game Development</span>
+      <h1>Vibe Coding Prompts</h1>
+      <p class="muted" style="font-size:14px;margin:-4px 0 14px;font-family:var(--font-ui)">On YouTube: AI Game Development - Vibe Coding Prompts Ep3</p>
+      <p>How I write prompts that get game-ready results from AI: session-start prompts, marked-up screenshots, limits and gates, four mistakes, and a loop where every session writes the next prompt.</p>
+      <div class="ep-pills"><span>18 min</span><span>Published Oct 15, 2026</span><span>10 chapters</span><span>10 real prompts</span><span>2 templates</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="ep-player" style="margin-top:36px">
+      <div class="yt-frame">
+        <iframe id="ep-frame" src="https://www.youtube-nocookie.com/embed/Bp-HNgwDLhE?rel=0" data-src="https://www.youtube-nocookie.com/embed/Bp-HNgwDLhE" title="Episode 3: Vibe Coding Prompts" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="ep-layout">
+      <article class="ep-body">
+<section id="overview">
+<h2>Overview</h2>
+
+<p class="lead">Bedwyr's hair took 24 versions. The prompt that finally landed was one screenshot with two coloured circles and four plain sentences: what I saw, where I saw it, what it should look like, and why.</p>
+<p>Episode 3 goes back through three weeks of KnightZ sessions and pulls out the prompts that made the biggest difference. In that time Claude helped build 16 hero characters with face rigs, imported them all into Unreal, generated hundreds of animation clips, and wrote a screenplay, a combat design and an economy. This page lists the actual prompts, what each one did, why it worked, the four that cost time, and two templates you can copy.</p>
+<div class="stat-row"><div><b>24</b><span>versions of Bedwyr's hair</span></div><div><b>15</b><span>characters reviewed in one loop</span></div><div><b>4</b><span>parts of a session-start prompt</span></div><div><b>200+</b><span>project docs used as memory</span></div></div>
+
+</section>
+<section id="chapters">
+<h2>Chapters</h2>
+<p>Click a chapter to jump the player to that point.</p>
+<ol class="chap-list">
+            <li><button type="button" data-t="0"><span class="ts">0:00</span><span>Intro</span></button></li>
+            <li><button type="button" data-t="14"><span class="ts">0:14</span><span>What this episode covers</span></button></li>
+            <li><button type="button" data-t="27"><span class="ts">0:27</span><span>Bedwyr&#x27;s hair: 24 prompt iterations</span></button></li>
+            <li><button type="button" data-t="117"><span class="ts">1:57</span><span>The session-start prompt</span></button></li>
+            <li><button type="button" data-t="193"><span class="ts">3:13</span><span>Visual feedback: annotated screenshots for animation fixes</span></button></li>
+            <li><button type="button" data-t="314"><span class="ts">5:14</span><span>Say what must not happen: limits, gates and fixed replies</span></button></li>
+            <li><button type="button" data-t="460"><span class="ts">7:40</span><span>The review loop and the night run</span></button></li>
+            <li><button type="button" data-t="528"><span class="ts">8:48</span><span>Four mistakes I made so you don&#x27;t have to</span></button></li>
+            <li><button type="button" data-t="767"><span class="ts">12:47</span><span>Every session writes the next prompt</span></button></li>
+            <li><button type="button" data-t="1004"><span class="ts">16:44</span><span>Wrap-up</span></button></li>
+          </ol>
+</section>
+<section id="software">
+<h2>Software and tools</h2>
+<div class="tbl"><table><thead><tr><th>Tool</th><th>Role in this episode</th></tr></thead><tbody><tr><td>Claude (desktop app)</td><td>Every session, prompt and review in the episode</td></tr><tr><td>Claude project docs</td><td>Shared memory between sessions: character records, rules, scripts, next-session prompts</td></tr><tr><td>Claude skills</td><td>/newhead, /newfathead, /newhair, rigging and Weight Pose Adjust: one line replaces a page of instructions</td></tr><tr><td>Blender 5.2 with Blender MCP</td><td>Hair caps, skin, rig rebuild</td></tr><tr><td>Unreal Engine 5.8 with Unreal MCP</td><td>Character import, animation review tool, root motion edits</td></tr><tr><td>HY-Motion</td><td>Text-to-motion model that generated the animation clips (four takes per prompt)</td></tr><tr><td>Git with LFS</td><td>Every edit committed from inside the Unreal editor</td></tr><tr><td>Filmora</td><td>Episode edit</td></tr></tbody></table></div>
+</section>
+<section id="bedwyr">
+<h2>The prompt that fixed Bedwyr's hair</h2>
+
+<p>Version 1 of Bedwyr's hair cap came out of an overnight batch. Versions 2 to 23 came from text feedback. Version 24 was approved after this prompt and one marked-up screenshot.</p>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep3/bedwyr_markup.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep3/bedwyr_markup.jpg" alt="Bedwyr hair cap with blue and red circles" loading="lazy"></a><figcaption>The screenshot: blue for skull showing through the cap, red for grey streaks running across the hair grain.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep2/caps_iter.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/caps_iter.jpg" alt="Bedwyr hair version 1 and version 24" loading="lazy"></a><figcaption>Version 1 (top) and the approved version 24 (bottom).</figcaption></figure>
+</div>
+<div class="prompt"><div class="prompt-head"><span>Visual feedback prompt (Bedwyr hair)</span><button type="button" class="copy">Copy</button></div><pre>I can see the skull mesh through the hair cap where circled in blue.
+Your grey streaks run perpendicular to the hair grain where circled in red.
+The grey streaks should run the same direction as the hair texture so they look like grey hairs.
+The idea for the grey streaks is to make his hair more grey; it is too brown for an old man with a grey beard.</pre><div class="why"><b>What it did:</b> Claude mapped the circles back onto the 3D mesh, filled the hole, re-aligned the streaks and shifted the overall hair colour.<br><b>Why it worked:</b> location (colour-coded circles), problem, desired result and the reason. The reason fixed a problem the circles never showed: the overall colour was too brown.</div></div>
+
+</section>
+<section id="session-start">
+<h2>The session-start prompt: four parts</h2>
+
+<p>Every new AI session starts with no memory of yesterday. The first prompt has to carry the context. The best session starts all had the same four parts:</p>
+<div class="tbl"><table><thead><tr><th>#</th><th>Part</th><th>What to include</th></tr></thead><tbody><tr><td>1</td><td>Where the work lives</td><td>Engine and version, project path, file and object names. Claude stops guessing which file you mean.</td></tr><tr><td>2</td><td>What to read first</td><td>The project docs that hold the history. Naming three docs replaces pages of explaining.</td></tr><tr><td>3</td><td>Numbered tasks</td><td>One fix per item, in order, each with the exact change wanted.</td></tr><tr><td>4</td><td>The finish line</td><td>Save, commit, update the checklist. Without it you get a different idea of done every time.</td></tr></tbody></table></div>
+<div class="prompt"><div class="prompt-head"><span>Session start (animation review, Oct 12)</span><button type="button" class="copy">Copy</button></div><pre>We are reviewing and editing the HY-Motion animation clips in Unreal
+(KnightZ, UE 5.8.3, project D:/__KSUIE_Gaming/KnightZ_3D/KnightZ_3D).
+Read these project docs first: SESSION_NOTES_20261012_anim_review.md,
+ANIM_POSE_RULES_20261012.md, UE_ANIM_REVIEW_tool_20261012.md.
+
+1. Apply the 4 "Needs edit" notes on Guard_Walk:
+   - FL: trim the opening where he walks forward-right; start where he walks forward-left.
+   - R: trim the opening half step left; start where he steps right.
+   - L: keep the animation, scale root motion so the feet stop sliding.
+   - BR: he moves back-left. Tell me the options before changing it.
+   Edit clips in place, keep root motion, check shield clearance, save, commit to git.
+   I think we generated four options for each animation on our first pass,
+   so check whether one of the others is correct.
+
+Keep responses brief and factual. No em dashes.</pre><div class="why"><b>What it did:</b> a brand new session fixed all four clips and committed them in three commits with no re-explaining.<br><b>Why it worked:</b> exact path and engine version, docs to read, one numbered fix per clip, safety rules (edit in place, keep root motion), a gate on the one risky item, and a hunch.</div></div>
+<div class="note"><b>Share your hunch.</b> The line "I think we generated four options for each animation" sent Claude to the alternate takes, where it found the real cause: the motion generator ranks its four takes by how far they travel, never by direction, so wrong-way steps pass. Future runs now check path direction too.</div>
+<p>The finished clips can be seen in <a href="../post.html?p=2026-10-12-from-motion-library-to-fighting-stance">Dev Log #20</a>.</p>
+
+</section>
+<section id="visual">
+<h2>Feedback on visual work</h2>
+
+<p>Game development is visual. The AI can measure a mesh, but it cannot see what bothers you unless you say it.</p>
+<h3>Name a reference and the symptoms</h3>
+<p>The first look at Owain in Unreal got the feedback "he looks deformed". That gave Claude nothing to measure, so it came back with questions. The second try named a reference and four symptoms:</p>
+<div class="prompt"><div class="prompt-head"><span>Owain in Unreal (Oct 7)</span><button type="button" class="copy">Copy</button></div><pre>Compare this to our blender model. He is deformed. At idle he should be
+standing up straight and look like our blender model that was approved.
+His bones look like they have been repositioned so his chest is stretched,
+his back is crooked, he is leaning forward and his toes go into the ground.</pre><div class="why"><b>What it did:</b> Claude measured all four symptoms and traced them to bone axes off by 76 to 104 degrees from Unreal's Manny skeleton. It rebuilt the rig with Manny's bone frames. Idle lean went from 16.3 cm to 10.2 cm (Manny: 9.5 cm).<br><b>Why it worked:</b> "deformed" alone gives nothing to test. "Leaning forward, toes in the ground, compared to the approved model" gives a target and a measurement.</div></div>
+<figure><a href="../assets/img/videos/ep3/posture_vs_manny.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep3/posture_vs_manny.jpg" alt="Body on the rebuilt rig next to Manny" loading="lazy"></a><figcaption>Posture check after the rig rebuild: our body on the new rig (left) next to Manny (right).</figcaption></figure>
+<h3>Mark it up</h3>
+<p>Take a screenshot and circle the problems, one colour per problem. Then add the reason (see the Bedwyr prompt above).</p>
+<h3>Plain words work</h3>
+<p>You do not need the technical term. A clear description of the look and the direction of change is enough.</p>
+<div class="prompt"><div class="prompt-head"><span>Bedwyr skin (Oct 8)</span><button type="button" class="copy">Copy</button></div><pre>His skin looks like dry leather, reduce the depth of the texture a bit
+to make it look more natural and less dry and tanned rhino hidish.</pre><div class="why"><b>What it did:</b> became a standing rule for every head in the game: if skin reads like dry leather, use a softer copy of its normal map.</div></div>
+<div class="note"><b>Formula for visual feedback:</b> where, what is wrong, what it should look like, and why.</div>
+
+</section>
+<section id="limits">
+<h2>Limits, gates and fixed replies</h2>
+
+<p>An AI that can run Blender and Unreal can also break them. Four habits keep that in check:</p>
+<div class="tbl"><table><thead><tr><th>Habit</th><th>Example from KnightZ</th><th>Effect</th></tr></thead><tbody><tr><td>Hard limits</td><td>"Do not export FBX or touch Unreal until all 15 are approved."</td><td>One line protects the whole downstream pipeline</td></tr><tr><td>Non-negotiables</td><td>"We definitely want face bones."</td><td>All 45 face, skirt and cloak bones survived the skeleton rebuild</td></tr><tr><td>Gates</td><td>"Tell me the options before changing it."</td><td>Claude laid out three choices for the back-left walk; one was picked and nothing was lost</td></tr><tr><td>Fixed reply words</td><td>Approve, Edit or Revert</td><td>Fifteen characters became a repeatable loop</td></tr></tbody></table></div>
+<div class="prompt"><div class="prompt-head"><span>Review loop (hair caps, Oct 8)</span><button type="button" class="copy">Copy</button></div><pre>For each hero:
+1. Open the right blend. Show only body, head, eyes, lashes and the new hair.
+2. Show me the review sheet plus the known issue for that hero.
+3. Wait for my call: Approve, Edit, or Revert.
+4. On Approve: tick the checklist, add a dated note, save, open the next hero.
+5. On Edit: change the new hair object only, re-render as a new version, show it, wait again.
+
+Rules:
+- Do not export FBX or touch UE until all 15 are approved, unless I say so.</pre><div class="why"><b>Why it worked:</b> a fixed order, a fixed set of replies, what to do after each reply, versioned outputs, and a hard stop line.</div></div>
+<figure><a href="../assets/img/videos/ep2/checklist.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/checklist.jpg" alt="Per-hero review checklist" loading="lazy"></a><figcaption>The per-hero checklist the Approve / Edit / Revert loop filled in.</figcaption></figure>
+<div class="prompt"><div class="prompt-head"><span>Skeleton rebuild: check the record, name what must survive (Oct 7)</span><button type="button" class="copy">Copy</button></div><pre>Please review our notes because I'm pretty sure you suggested a different skeleton than Manny. Review the notes while I pose the session working in blender... figure out why we didn't use a manny skeleton to begin with. But we definitely want face bones so figure that out also.</pre><div class="why"><b>What it did:</b> Claude found two earlier skeletons in the notes, showed that the old rule "never import onto Manny's skeleton" had no recorded reason, and built a Manny-conformed rig that kept every face, skirt and cloak bone.</div></div>
+
+</section>
+<section id="night-run">
+<h2>The night run: decide first, then one word</h2>
+
+<p>For the overnight hair cap rebuild, Claude asked its planning questions first: which characters, Blender only or Unreal too, keep the old meshes, triangle budget, how to handle ears. The answers went into a project doc so an interrupted session could resume. Then:</p>
+<div class="prompt"><div class="prompt-head"><span>The whole prompt</span><button type="button" class="copy">Copy</button></div><pre>Go</pre></div>
+<p>Next morning: 15 new hair caps, each with a review sheet and a known-issues list. Every decision had been made before leaving, so nothing stalled overnight.</p>
+<figure><a href="../assets/img/videos/ep2/caps_night.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/caps_night.jpg" alt="Fifteen hair caps from the night run" loading="lazy"></a><figcaption>Night run output: 15 caps for the standard and large bodies.</figcaption></figure>
+
+</section>
+<section id="mistakes">
+<h2>Four mistakes I made so you don't have to</h2>
+
+<div class="tbl"><table><thead><tr><th>Mistake</th><th>What was missing</th><th>Cost</th><th>Fix now in use</th></tr></thead><tbody><tr><td>Sent a big character build from my phone</td><td>Blender was connected through the desktop app; the phone session could not reach it</td><td>Session stalled until reopened on the desktop</td><td>Start tool-heavy sessions from the computer that runs the tools</td></tr><tr><td>A rule with no reason: "never import onto Manny's skeleton"</td><td>Nobody wrote down why</td><td>A whole session working out the history</td><td>Every rule lives in a doc with the reason and the measurement</td></tr><tr><td>Described a hair underside shape in words</td><td>A clear picture of the target shape</td><td>Generated version rejected</td><td>Asked for a flat plane, sculpted it by hand, had Claude measure the sculpt and turn it into a rule</td></tr><tr><td>Vague opener: "review the project files and you'll get an idea for the economy"</td><td>A specific question</td><td>A general summary before the real answer</td><td>Ask the direct question first</td></tr></tbody></table></div>
+<figure><a href="../assets/img/videos/ep3/cynan_underside_n13_n14.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep3/cynan_underside_n13_n14.jpg" alt="Cynan hair cap version 13 and version 14" loading="lazy"></a><figcaption>Cynan's hair underside: generated version 13, rejected (top), and version 14 from the hand-sculpted plane (bottom).</figcaption></figure>
+<div class="prompt"><div class="prompt-head"><span>The direct question that worked</span><button type="button" class="copy">Copy</button></div><pre>We have production of stone, but how are we consuming it?
+Have we worked out that logic and that structure?</pre></div>
+<div class="note"><b>The pattern:</b> when you can show it (sculpt, circle, screenshot), show it. When you can name the reference, name it. When a rule exists, write down why.</div>
+<figure><a href="../assets/img/videos/ep2/hair_rules.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/hair_rules.jpg" alt="Rules written from corrections" loading="lazy"></a><figcaption>Rules written from corrections, each with its measurement.</figcaption></figure>
+
+</section>
+<section id="loop">
+<h2>Every session writes the next prompt</h2>
+
+<p>The prompts got shorter over time, and better. At the end of every session Claude saves what was learned to the project: character records, scripts and rule docs (over 200 so far). Then it writes the prompt for the next session, ready to paste. The animation prompt above was written that way.</p>
+<ol>
+<li><strong>Session prompt</strong>: where, what to read, numbered tasks, finish line.</li>
+<li><strong>Claude does the work</strong> and renders review images.</li>
+<li><strong>You review</strong>: Approve, Edit or Revert.</li>
+<li><strong>Lessons saved</strong>: rules with reasons and measurements.</li>
+<li><strong>Next prompt written</strong> into a NEXT_SESSION doc.</li>
+<li><strong>Repeated procedures become skills.</strong></li>
+</ol>
+<p>When a procedure repeats, it becomes a skill. The question that started it:</p>
+<div class="prompt"><div class="prompt-head"><span>Asking for judgement</span><button type="button" class="copy">Copy</button></div><pre>Is it possible to build a subagent that does all of these hair edits we are working on?
+Do you know how to do that? Would it make sense to do that?</pre><div class="why"><b>What it did:</b> Claude recommended a skill instead of the subagent named in the question, with reasons. Asking whether something makes sense got a better answer than the tool first named.</div></div>
+<p>Now a new hairstyle or head starts with one line:</p>
+<div class="prompt"><div class="prompt-head"><span>Skill call</span><button type="button" class="copy">Copy</button></div><pre>/newhair Wulfstan</pre></div>
+<p>Skills in use: <code>/newhead</code>, <code>/newfathead</code>, <code>/newhair</code>, <code>knightz-rig-model</code> and Weight Pose Adjust. Episode 1 shows <code>/newhead</code> and <code>/newhair</code> step by step.</p>
+
+</section>
+<section id="templates">
+<h2>Templates you can copy</h2>
+
+<div class="prompt"><div class="prompt-head"><span>Session-start template</span><button type="button" class="copy">Copy</button></div><pre>We are [task] in [tool + version], project [path].
+Read these docs first: [doc 1], [doc 2], [doc 3].
+Use [connector / tool] for [what].
+
+Tasks, in order:
+1. [Item]: [exact change wanted].
+2. [Item]: [exact change wanted].
+3. [Risky item]: tell me the options before changing it.
+
+Rules:
+- Do not [hard limit] until I say so.
+- Keep [thing that must survive].
+- Back up / version every change.
+
+Finish: save, commit, update [checklist / notes], write the next-session prompt.
+Hunch: [anything you suspect, even if unsure].
+Keep responses brief and factual.</pre></div>
+<div class="prompt"><div class="prompt-head"><span>Visual feedback template</span><button type="button" class="copy">Copy</button></div><pre>[Attach screenshot with circles, one colour per problem.]
+Blue: [what is wrong there].
+Red: [what is wrong there].
+It should look like [reference: approved model, reference image, real-world comparison].
+The reason: [why you want it].</pre></div>
+<h3>Checklist before you send</h3>
+<ul class="checklist">
+<li>Did I name the files, paths and versions?</li>
+<li>Did I point to the docs that hold the history?</li>
+<li>Is each fix its own numbered item?</li>
+<li>Did I say what must not happen?</li>
+<li>Did I gate the risky step behind "show me options"?</li>
+<li>For visual issues: did I give a reference and a reason?</li>
+<li>Did I say what "done" means (save, commit, notes)?</li>
+</ul>
+
+</section>
+<section id="rules">
+<h2>Ten rules for effective prompts</h2>
+<div class="tbl"><table><thead><tr><th>#</th><th>Rule</th><th>KnightZ example</th></tr></thead><tbody><tr><td>1</td><td>Say where the work lives</td><td>"UE 5.8.3, project [path]"</td></tr><tr><td>2</td><td>Point to the memory</td><td>"Read these project docs first"</td></tr><tr><td>3</td><td>Number the tasks</td><td>FL / R / L / BR, each with its own instruction</td></tr><tr><td>4</td><td>State the finish line</td><td>Save, commit, update the checklist</td></tr><tr><td>5</td><td>Set hard limits</td><td>"Do not export FBX until all 15 are approved"</td></tr><tr><td>6</td><td>Gate the risky step</td><td>"BR: tell me the options before changing it"</td></tr><tr><td>7</td><td>Describe symptoms against a reference</td><td>"Leaning forward, toes in the ground, compared to the approved model"</td></tr><tr><td>8</td><td>Give the reason</td><td>"Too brown for an old man with a grey beard"</td></tr><tr><td>9</td><td>Mark it up</td><td>Blue for skull showing, red for streak direction</td></tr><tr><td>10</td><td>Fix the reply format</td><td>Approve / Edit / Revert; "brief, factual, no em dashes"</td></tr></tbody></table></div>
+</section>
+<section id="script">
+<h2>Episode talking points</h2>
+<details class="script"><summary>Show the talking points</summary><div class="inner"><p><b>Cold open</b>This is Bedwyr's hair. Version 1, built overnight by Claude. Version 24, approved. The fix that finally landed came from one plain-language prompt: what I saw, where I saw it, and why it mattered.</p><p><b>Session start</b>Every new AI session starts with no memory of yesterday. My best session starts had four parts: where the work lives, what to read first, numbered tasks with one fix per item, and the finish line. Bonus: share your hunch.</p><p><b>Visual feedback</b>The AI can measure a mesh, but it can't see what bothers you unless you tell it. Name a reference and the symptoms. Mark it up with one colour per problem. Add the reason. Plain words work.</p><p><b>Limits and gates</b>Hard limits protect the downstream pipeline. Non-negotiables protect what must survive. Gates stop risky changes until you pick an option. Fixed reply words turn review into a loop. Then the night run: answer the planning questions, save them to a doc, and type one word.</p><p><b>Mistakes</b>Wrong device. A rule with no reason. Describing a shape in words instead of showing it. A vague opener instead of a direct question.</p><p><b>The loop</b>At the end of every session Claude saves what we learned and writes the next prompt. When a procedure repeats, it becomes a skill.</p><p><b>Template</b>Where it lives, what to read, numbered tasks, hard limits, a gate on the risky step, the finish line, and your hunch. For visual feedback: where, what's wrong, what it should look like, and why.</p></div></details>
+</section>
+<section id="related">
+<h2>Related</h2>
+
+<ul>
+<li><a href="episode-1-character-pipeline.html">Episode 1: Character Pipeline</a> (the /newhead and /newhair skills)</li>
+<li><a href="episode-2-optimizing-characters.html">Episode 2: Optimizing Characters</a> (the night run and review loop in context)</li>
+<li><a href="../post.html?p=2026-10-11-a-motion-library-written-in-plain-english">Dev Log #19: A motion library written in plain English</a></li>
+<li><a href="../post.html?p=2026-10-12-from-motion-library-to-fighting-stance">Dev Log #20: From motion library to fighting stance</a></li>
+</ul>
+
+</section>
+
+        <nav class="ep-pager" aria-label="Episodes"><a class="prev" href="episode-2-optimizing-characters.html"><small>Previous episode</small>Episode 2: Optimizing Characters</a></nav>
+      </article>
+
+      <aside class="ep-aside">
+        <div class="side-card toc-card">
+          <h4>On this page</h4>
+          <ol class="toc">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#chapters">Chapters</a></li>
+          <li><a href="#software">Software and tools</a></li>
+          <li><a href="#bedwyr">Bedwyr&#x27;s hair prompt</a></li>
+          <li><a href="#session-start">Session-start prompt</a></li>
+          <li><a href="#visual">Visual feedback</a></li>
+          <li><a href="#limits">Limits and gates</a></li>
+          <li><a href="#night-run">The night run</a></li>
+          <li><a href="#mistakes">Four mistakes</a></li>
+          <li><a href="#loop">The loop and skills</a></li>
+          <li><a href="#templates">Templates</a></li>
+          <li><a href="#rules">Ten rules</a></li>
+          <li><a href="#script">Talking points</a></li>
+          <li><a href="#related">Related</a></li>
+          </ol>
+        </div>
+        <div class="side-card">
+          <h4>Episode facts</h4>
+          <div class="kv"><span>Length</span><b>18:09</b></div>
+          <div class="kv"><span>Published</span><b>Oct 15, 2026</b></div>
+          <div class="kv"><span>Prompts shown</span><b>10</b></div>
+          <div class="kv"><span>Templates</span><b>2</b></div>
+          <div class="kv"><span>Sessions studied</span><b>3 weeks</b></div>
+          <div class="kv"><span>Docs as memory</span><b>200+</b></div>
+        </div>
+        <div class="side-card">
+          <h4>Watch</h4>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=Bp-HNgwDLhE" target="_blank" rel="noopener">Open on YouTube</a>
+          <a class="btn btn-ghost" style="margin-top:8px" href="https://www.youtube.com/@ksuiegaming9346?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html"><img src="../assets/img/logo.svg" alt="" width="34" height="34"><span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">The Failing Light</span></span></a>
+        <p style="margin-top:16px;max-width:380px">A third-person action adventure in development by KSUIE_Gaming. All content shown is work in progress and subject to change.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="../index.html#game">The Game</a></li><li><a href="../index.html#world">World</a></li><li><a href="../index.html#characters">Characters</a></li><li><a href="../index.html#progress">Progress</a></li></ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul><li><a href="../index.html#gallery">Gallery</a></li>
+      <li><a href="../devlog.html">Dev Log</a></li><li><a href="../videos.html">Videos</a></li><li><a href="https://www.youtube.com/@ksuiegaming9346" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li><li><a href="../feed.xml">RSS feed</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> KSUIE_Gaming. All rights reserved.</span>
+      <span class="rating"><b>M</b> Intended for mature audiences</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/episode.js"></script>
+</body>
+</html>

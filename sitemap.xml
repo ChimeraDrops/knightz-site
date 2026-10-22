@@ -2,29 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url><loc>https://chimeradrops.github.io/knightz-site/</loc></url>
   <url><loc>https://chimeradrops.github.io/knightz-site/devlog.html</loc></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/videos.html</loc><lastmod>2026-10-22</lastmod></url>
   <url>
-    <loc>https://chimeradrops.github.io/knightz-site/videos.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <loc>https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html</loc>
+    <lastmod>2026-10-22</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>Episode 3: Improving Prompts for AI Game Development</video:title>
-      <video:description>How prompts are written to get game-ready results from AI for KnightZ: session-start prompts, annotated screenshots, limits and gates, four mistakes and a loop where every session writes the next prompt.</video:description>
+      <video:title>AI Game Development - Vibe Coding Prompts Ep3</video:title>
+      <video:description>Episode 3 breakdown: the real prompts used to build KnightZ with Claude in Blender and Unreal Engine. Session-start prompts, marked-up visual feedback, hard limits, gates, fixed replies, night runs, four costly mistakes and copyable templates.</video:description>
       <video:player_loc>https://www.youtube.com/embed/Bp-HNgwDLhE</video:player_loc>
-      <video:duration>1088</video:duration>
+      <video:duration>1089</video:duration>
       <video:publication_date>2026-10-14T22:01:07-07:00</video:publication_date>
     </video:video>
+  </url>
+  <url>
+    <loc>https://chimeradrops.github.io/knightz-site/videos/episode-2-optimizing-characters.html</loc>
+    <lastmod>2026-10-22</lastmod>
     <video:video>
-      <video:thumbnail_loc>https://chimeradrops.github.io/knightz-site/assets/img/videos/ep2_title.jpg</video:thumbnail_loc>
-      <video:title>Episode 2: AI Pipeline Improvement for Game Character Development in Unreal Engine</video:title>
-      <video:description>What the first AI character pipeline got wrong, what changed, and the cast it produced for KnightZ in Unreal Engine 5.</video:description>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/PECacarqLfk/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Game Development - Optimizing Characters Ep2</video:title>
+      <video:description>Episode 2 breakdown: auditing AI-built game characters against MetaHuman budgets, cutting heroes from 105K to 47K triangles with all 52 facial shapes, six automated hair rules, a ten-step review pass, LODs, hybrid hair and a shared garment kit in Unreal Engine 5.</video:description>
       <video:player_loc>https://www.youtube.com/embed/PECacarqLfk</video:player_loc>
       <video:duration>1147</video:duration>
       <video:publication_date>2026-10-12T12:00:00-05:00</video:publication_date>
     </video:video>
+  </url>
+  <url>
+    <loc>https://chimeradrops.github.io/knightz-site/videos/episode-1-character-pipeline.html</loc>
+    <lastmod>2026-10-22</lastmod>
     <video:video>
-      <video:thumbnail_loc>https://chimeradrops.github.io/knightz-site/assets/img/videos/ep1_title.jpg</video:thumbnail_loc>
-      <video:title>Episode 1: AI Pipeline for Building Game Characters</video:title>
-      <video:description>One reference image becomes a rigged, textured head with hair for Cynan, a KnightZ character, through an eight-step head pipeline and a six-step hair pipeline.</video:description>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/KGuS8q2UXDE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Game Development - Character Pipeline Ep1</video:title>
+      <video:description>Episode 1 breakdown: how one reference image becomes a game-ready KnightZ head with AI image-to-3D, a shared 64-vertex neck seam, MakeHuman topology, 4K procedural skin, 52 ARKit shape keys and swappable hair cards.</video:description>
       <video:player_loc>https://www.youtube.com/embed/KGuS8q2UXDE</video:player_loc>
       <video:duration>711</video:duration>
       <video:publication_date>2026-10-05T12:00:00-05:00</video:publication_date>

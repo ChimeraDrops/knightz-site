@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Episode 1: Character Pipeline | KnightZ Videos</title>
+  <meta name="description" content="Episode 1 breakdown: how one reference image becomes a game-ready KnightZ head with AI image-to-3D, a shared 64-vertex neck seam, MakeHuman topology, 4K procedural skin, 52 ARKit shape keys and swappable hair cards.">
+  <meta name="theme-color" content="#0e1011">
+  <link rel="canonical" href="https://chimeradrops.github.io/knightz-site/videos/episode-1-character-pipeline.html">
+  <meta property="og:type" content="video.episode">
+  <meta property="og:site_name" content="KnightZ: The Failing Light">
+  <meta property="og:title" content="Episode 1: Character Pipeline">
+  <meta property="og:description" content="Episode 1 breakdown: how one reference image becomes a game-ready KnightZ head with AI image-to-3D, a shared 64-vertex neck seam, MakeHuman topology, 4K procedural skin, 52 ARKit shape keys and swappable hair cards.">
+  <meta property="og:url" content="https://chimeradrops.github.io/knightz-site/videos/episode-1-character-pipeline.html">
+  <meta property="og:image" content="https://i.ytimg.com/vi/KGuS8q2UXDE/maxresdefault.jpg">
+  <meta property="og:video" content="https://www.youtube.com/embed/KGuS8q2UXDE">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="KnightZ Dev Log" href="../feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://chimeradrops.github.io/knightz-site/videos/episode-1-character-pipeline.html#video",
+      "name": "AI Game Development - Character Pipeline Ep1",
+      "description": "Episode 1 of the AI Game Development series. One reference image becomes a rigged, textured head with hair for Cynan, a KnightZ character. An eight-step head pipeline covers the AI mesh, seam fit to a shared 64-vertex neck, emote topology, 4K skin and a face rig with 52 ARKit keys. A six-step hair pipeline builds hair cards from a four-view reference using masks, a visual hull and a strand atlas.",
+      "duration": "PT11M51S",
+      "uploadDate": "2026-10-05T12:00:00-05:00",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/KGuS8q2UXDE/maxresdefault.jpg",
+        "https://i.ytimg.com/vi/KGuS8q2UXDE/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/KGuS8q2UXDE",
+      "contentUrl": "https://www.youtube.com/watch?v=KGuS8q2UXDE",
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Intro: Cynan, from one image to a game-ready head",
+          "startOffset": 0,
+          "endOffset": 84,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=0s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Pipeline overview: /newhead and /newhair",
+          "startOffset": 84,
+          "endOffset": 164,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=84s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 1: Reference",
+          "startOffset": 164,
+          "endOffset": 187,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=164s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 2: AI mesh",
+          "startOffset": 187,
+          "endOffset": 252,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=187s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 3: Seam fit to the shared neck",
+          "startOffset": 252,
+          "endOffset": 340,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=252s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 4: Emote topology and teeth",
+          "startOffset": 340,
+          "endOffset": 404,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=340s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 5: Reference sheet",
+          "startOffset": 404,
+          "endOffset": 424,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=404s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 6: Skin",
+          "startOffset": 424,
+          "endOffset": 462,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=424s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 7: Neck seam",
+          "startOffset": 462,
+          "endOffset": 477,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=462s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Head step 8: Face rig",
+          "startOffset": 477,
+          "endOffset": 495,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=477s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Hair step 1: Four-view hair reference",
+          "startOffset": 495,
+          "endOffset": 510,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=495s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Hair step 2: Masks and camera",
+          "startOffset": 510,
+          "endOffset": 535,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=510s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Hair step 3: Visual hull",
+          "startOffset": 535,
+          "endOffset": 549,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=535s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Hair step 4: Strand atlas",
+          "startOffset": 549,
+          "endOffset": 562,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=549s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Hair step 5: Hair cards",
+          "startOffset": 562,
+          "endOffset": 586,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=562s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Hair step 6: Final check against reference",
+          "startOffset": 586,
+          "endOffset": 599,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=586s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Final result",
+          "startOffset": 599,
+          "endOffset": 711,
+          "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=599s"
+        }
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "KSUIE Dev Studio",
+        "url": "https://www.youtube.com/@ksuiegaming9346"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "headline": "Episode 1: Character Pipeline",
+      "description": "Episode 1 breakdown: how one reference image becomes a game-ready KnightZ head with AI image-to-3D, a shared 64-vertex neck seam, MakeHuman topology, 4K procedural skin, 52 ARKit shape keys and swappable hair cards.",
+      "url": "https://chimeradrops.github.io/knightz-site/videos/episode-1-character-pipeline.html",
+      "image": "https://i.ytimg.com/vi/KGuS8q2UXDE/maxresdefault.jpg",
+      "datePublished": "2026-10-05",
+      "author": {
+        "@type": "Person",
+        "name": "KSUIE_Gaming"
+      },
+      "about": [
+        "AI pipeline",
+        "Character heads",
+        "Hair cards",
+        "Face rig",
+        "Blender"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Videos",
+          "item": "https://chimeradrops.github.io/knightz-site/videos.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Episode 1",
+          "item": "https://chimeradrops.github.io/knightz-site/videos/episode-1-character-pipeline.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../index.html" aria-label="KnightZ home">
+      <img src="../assets/img/logo.svg" alt="" width="34" height="34">
+      <span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">KSUIE_Gaming</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="../index.html#game">The Game</a></li>
+      <li><a href="../index.html#world">World</a></li>
+      <li><a href="../index.html#characters">Characters</a></li>
+      <li><a href="../index.html#progress">Progress</a></li>
+      <li><a href="../index.html#gallery">Gallery</a></li>
+      <li><a href="../devlog.html">Dev Log</a></li>
+      <li><a href="../videos.html" aria-current="page">Videos</a></li>
+      <li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-head ep-head">
+    <div class="container">
+      <div class="crumbs"><a href="../videos.html">Videos</a> / Episode 1</div>
+      <span class="eyebrow">Episode 1 &middot; AI Game Development</span>
+      <h1>Character Pipeline</h1>
+      <p class="muted" style="font-size:14px;margin:-4px 0 14px;font-family:var(--font-ui)">On YouTube: AI Game Development - Character Pipeline Ep1</p>
+      <p>From one reference image to a rigged, textured head with swappable hair: the full /newhead and /newhair pipeline on Cynan.</p>
+      <div class="ep-pills"><span>12 min</span><span>Published Oct 5, 2026</span><span>17 chapters</span><span>Blender 5.2</span><span>Trellis.2</span><span>Claude + Blender MCP</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="ep-player" style="margin-top:36px">
+      <div class="yt-frame">
+        <iframe id="ep-frame" src="https://www.youtube-nocookie.com/embed/KGuS8q2UXDE?rel=0" data-src="https://www.youtube-nocookie.com/embed/KGuS8q2UXDE" title="Episode 1: Character Pipeline" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="ep-layout">
+      <article class="ep-body">
+<section id="overview">
+<h2>Overview</h2>
+
+<p class="lead">One reference image goes in. A game-ready head comes out: fitted to the shared body, rebuilt with animation topology, textured at 4K, rigged with 52 facial shapes, and wearing a hairstyle that can be swapped onto any other head.</p>
+<p>Episode 1 follows Cynan, captain of the garrison, through the two repeatable skills that build every KnightZ character head: <code>/newhead</code> (8 steps) and <code>/newhair</code> (6 steps). Claude runs the steps in Blender and in a cloud Python workspace. Each step saves a versioned file and a review render, and nothing moves forward until the owner approves it.</p>
+<p>This page expands on the video with the numbers, settings, tools and fixes behind each step, so you can follow the same process on your own characters.</p>
+<div class="stat-row"><div><b>208,701</b><span>vertices in the raw AI bust</span></div><div><b>13,014</b><span>quads in the final head</span></div><div><b>52</b><span>ARKit facial shape keys</span></div><div><b>10,991</b><span>quads of swappable hair</span></div></div>
+
+</section>
+<section id="chapters">
+<h2>Chapters</h2>
+
+<p>Click a chapter to jump the player to that point.</p>
+<ol class="chap-list">
+            <li><button type="button" data-t="0"><span class="ts">0:00</span><span>Intro: Cynan, from one image to a game-ready head</span></button></li>
+            <li><button type="button" data-t="84"><span class="ts">1:24</span><span>Pipeline overview: /newhead and /newhair</span></button></li>
+            <li><button type="button" data-t="164"><span class="ts">2:44</span><span>Head step 1: Reference</span></button></li>
+            <li><button type="button" data-t="187"><span class="ts">3:07</span><span>Head step 2: AI mesh</span></button></li>
+            <li><button type="button" data-t="252"><span class="ts">4:12</span><span>Head step 3: Seam fit to the shared neck</span></button></li>
+            <li><button type="button" data-t="340"><span class="ts">5:40</span><span>Head step 4: Emote topology and teeth</span></button></li>
+            <li><button type="button" data-t="404"><span class="ts">6:44</span><span>Head step 5: Reference sheet</span></button></li>
+            <li><button type="button" data-t="424"><span class="ts">7:04</span><span>Head step 6: Skin</span></button></li>
+            <li><button type="button" data-t="462"><span class="ts">7:42</span><span>Head step 7: Neck seam</span></button></li>
+            <li><button type="button" data-t="477"><span class="ts">7:57</span><span>Head step 8: Face rig</span></button></li>
+            <li><button type="button" data-t="495"><span class="ts">8:15</span><span>Hair step 1: Four-view hair reference</span></button></li>
+            <li><button type="button" data-t="510"><span class="ts">8:30</span><span>Hair step 2: Masks and camera</span></button></li>
+            <li><button type="button" data-t="535"><span class="ts">8:55</span><span>Hair step 3: Visual hull</span></button></li>
+            <li><button type="button" data-t="549"><span class="ts">9:09</span><span>Hair step 4: Strand atlas</span></button></li>
+            <li><button type="button" data-t="562"><span class="ts">9:22</span><span>Hair step 5: Hair cards</span></button></li>
+            <li><button type="button" data-t="586"><span class="ts">9:46</span><span>Hair step 6: Final check against reference</span></button></li>
+            <li><button type="button" data-t="599"><span class="ts">9:59</span><span>Final result</span></button></li>
+          </ol>
+
+</section>
+<section id="software">
+<h2>Software and tools used</h2>
+<div class="tbl"><table><thead><tr><th>Tool</th><th>Version / type</th><th>What it did in this episode</th></tr></thead><tbody><tr><td>Claude</td><td>Claude desktop app, Opus model</td><td>Ran every pipeline step, wrote and ran the scripts, rendered review sheets, kept the build records</td></tr><tr><td>Blender</td><td>5.2</td><td>Master scene, QuadriFlow remesh, shape keys, rig, final asset files</td></tr><tr><td>Blender MCP</td><td>Local MCP server</td><td>Lets Claude drive the open Blender session: run Python, read objects, save files</td></tr><tr><td>Cloud Python workspace</td><td>Python 3 with numpy, scipy, trimesh, fast_simplification, Pillow</td><td>Heavy geometry work: solidify, ICP fit, seam band, masks, visual hull, hair growth</td></tr><tr><td>bpy (headless Blender)</td><td>pip wheel 5.2.2</td><td>Cycles and Workbench renders in the cloud for review sheets and the episode frames</td></tr><tr><td>Trellis.2</td><td>Image-to-3D generator</td><td>Turned the portrait into a textured 3D bust. Pixal3d, stable-fast-3d and Hunyuan3D were also tested on earlier heads</td></tr><tr><td>AI image generator</td><td>Text-to-image</td><td>Three-quarter portrait, bald four-view head sheet, four-view hair sheet</td></tr><tr><td>MakeHuman hm08 head</td><td>CC0 template mesh</td><td>Animation-ready edge loops wrapped over the AI shape</td></tr><tr><td>Apple ARKit naming</td><td>52 blendshape standard</td><td>Shape key names, so phone face capture and Unreal Live Link can drive the face</td></tr><tr><td>Filmora</td><td>Video editor</td><td>Edited the episode from the 44 rendered frames and narration</td></tr></tbody></table></div>
+<p>Everything runs on one desktop: RTX 5090 (32 GB), Intel Core Ultra 9 285K, 64 GB DDR5. Episode 2 covers the full hardware and software list.</p>
+
+</section>
+<section id="skills">
+<h2>Two skills: /newhead and /newhair</h2>
+
+<p>A <strong>skill</strong> is a saved set of instructions Claude loads on demand. Instead of pasting a page of steps into every session, you type one line. Both skills follow the same pattern:</p>
+<ol>
+<li><strong>Load context first.</strong> Read the playbook, the "Don't" list of rejected attempts, and the script docs from the project, then rebuild the scripts in the cloud workspace.</li>
+<li><strong>Ask once, only for what is missing.</strong> Character name, which base body, special notes such as scars or baldness.</li>
+<li><strong>Back up before writing.</strong> The master Blender file is copied to a <code>MayNeedLater</code> folder before anything changes.</li>
+<li><strong>Version every output.</strong> Each step writes a new file name (<code>_v1</code>, <code>_v2</code>), so any step can be reverted.</li>
+<li><strong>Gate on approval.</strong> Renders go to the owner at fixed points. A rejected attempt is reverted and added to the "Don't" list so it never repeats.</li>
+<li><strong>Record.</strong> New methods, numbers and failed attempts go back into the project docs, so the next character starts with everything learned so far.</li>
+</ol>
+<div class="prompt"><div class="prompt-head"><span>How a new head starts</span><button type="button" class="copy">Copy</button></div><pre>/newhead Cynan
+[attach: 3/4 portrait + bald four-view head sheet]
+Notes: scar across the nose bridge, chipped front tooth, keep the AI face shape. No stubble.</pre><div class="why"><b>Why it works:</b> the skill already holds the 8 steps, the rules and the file paths. The prompt only needs what is unique to this character.</div></div>
+<div class="prompt"><div class="prompt-head"><span>How the hair starts</span><button type="button" class="copy">Copy</button></div><pre>/newhair Cynan
+[attach: four-view hair reference]
+Style: medium shag, dark brown with grey streaks. Hair only, no stubble.</pre></div>
+
+</section>
+<section id="head">
+<h2>/newhead: building the head, step by step</h2>
+
+<h3 id="head-1"><span class="stepno">01</span>Reference</h3>
+<p>Two AI-generated images set the character. The <strong>three-quarter portrait</strong> carries the personality and the details to keep: a scar across the nose bridge, pale brown eyes and a chipped upper incisor. The <strong>bald four-view sheet</strong> (front, left, back, right) gives skin tone and proportions from every angle. It is bald on purpose, because hair is built separately.</p>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep1/portrait.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/portrait.jpg" alt="Cynan three-quarter portrait reference" loading="lazy"></a><figcaption>Three-quarter portrait: scar, eye colour and the chipped tooth come from here.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep1/four_view_bald.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/four_view_bald.jpg" alt="Cynan bald four-view head reference sheet" loading="lazy"></a><figcaption>Bald four-view sheet: front, left, back and right for tone and proportion.</figcaption></figure>
+</div>
+<div class="note"><b>What to ask your image tool for:</b> a neutral expression, even studio lighting, the same head in four orthographic-style views at the same scale, shoulders included, and no hair for the head sheet. Consistent views matter more than style.</div>
+
+<h3 id="head-2"><span class="stepno">02</span>AI mesh (image-to-3D)</h3>
+<p>The portrait runs through image-to-3D. When several generators are available, all candidates are rendered from the front, quarter and side and ranked against the reference. For Cynan, Trellis.2 gave the best likeness: a textured bust of <strong>208,701 vertices</strong> in under a minute.</p>
+<p>It looks right but cannot be used as is. The surface is a dense soup of triangles with no edge flow, so it will not deform cleanly, cannot be UV-unwrapped well, and is far over a game budget. AI meshes are also thin double shells about 1 mm thick, which breaks most remesh tools. From here on the AI output is treated as a <strong>shape to match</strong>, never as final geometry.</p>
+
+<h3 id="head-3"><span class="stepno">03</span>Seam fit to the shared neck</h3>
+<p>All male heroes share one base body, <strong>HM1</strong>. Dropped on that body, the raw bust is the wrong size, angle and position, and its shoulders clash with the body.</p>
+<p>The fit runs as a chain of scripts:</p>
+<ol>
+<li><strong>Solidify.</strong> Voxelize the shell at 0.5 mm, fill each slice below the neck, flood fill from outside, then marching cubes. This turns the thin shell into a closed solid (about 0.0042 m&sup3; for Cynan).</li>
+<li><strong>Decimate and remesh.</strong> Reduce to 400k, then 120k triangles, then QuadriFlow into clean quads (about 20,800 for Cynan).</li>
+<li><strong>Align.</strong> ICP (iterative closest point) matches the AI skull to the HM1 head above the neck. For Cynan, free rotation tilted the chin up 17 degrees, so the pitch was fixed at -8 degrees and only scale and position were solved.</li>
+<li><strong>Widen the neck</strong> so its radius matches HM1, then cut 12 mm above the seam.</li>
+<li><strong>Bridge band.</strong> A ring of quads (546 for Cynan) connects the head to the <strong>64-vertex neck ring</strong>, followed by a relax pass that removes folds. Result: 0 flipped faces, seam gap 0.0 mm.</li>
+</ol>
+<figure><a href="../assets/img/videos/ep1/fit_compare.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/fit_compare.jpg" alt="Cynan fitted head compared with the HM1 base head" loading="lazy"></a><figcaption>Fit v2: the base HM1 head (top) and Cynan fitted to the same body (bottom), four views.</figcaption></figure>
+<p><strong>The 64-vertex ring is the key design choice.</strong> Every head welds to exactly the same ring with zero gap, so any head fits any body built on HM1, and helmets and armour carry across characters.</p>
+<div class="note warn"><b>Fix from this build:</b> fit v1 was rejected because the brow, nose, ears and chin sat too far forward and the neck looked angled. The head was scaled to 94 % and shifted so the ear centre lines up with the HM1 ear. Rule added: a face 13 to 19 mm forward of the base ear makes the neck lean forward.</div>
+
+<h3 id="head-4"><span class="stepno">04</span>Emote topology, eyes and mouth</h3>
+<p>Even clean quads animate poorly without the right edge loops. A <strong>MakeHuman hm08 head template</strong> (CC0) is wrapped over the fitted shape using facial landmarks (eye corners, lids, mouth corners, nose, chin) and a thin-plate-spline warp. The template brings loops that follow the facial muscles. The face area is then subdivided for detail, ending at <strong>13,014 quads</strong>.</p>
+<p>The inside of the mouth and eyes is built too: eyeballs with lids rolled over them (6.1 mm lid opening for Cynan), upper and lower teeth, gums, tongue and a mouth bag. Cynan's chipped incisor is cut into the upper teeth with a slanted plane 2.6 mm deep.</p>
+<figure><a href="../assets/img/videos/ep1/emote_wire.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/emote_wire.jpg" alt="Cynan emote topology wireframe sheet" loading="lazy"></a><figcaption>Emote topology review sheet: clay views, eye loops, mouth loops, cutaway with teeth and tongue, and the teeth close-up.</figcaption></figure>
+
+<h3 id="head-5"><span class="stepno">05</span>Reference sheet</h3>
+<p>Our clay head is rendered in the same four views as the reference. Features are then placed <strong>relative to our own eyes, ears and mouth</strong>. AI references never match our proportions exactly, so the image is never projected straight onto the model.</p>
+
+<h3 id="head-6"><span class="stepno">06</span>Skin</h3>
+<p>The head is unwrapped first. The face UV island is scaled up 1.6 times so the area people look at gets the most texture detail. The base colour map is 4096 px.</p>
+<p>Only <strong>tone, brow shape and eye colour</strong> come from the reference. All fine detail is generated procedurally in 3D and baked into base colour, roughness (ORM) and normal maps: pores, forehead furrows, frown lines, crow's feet, nasolabial creases and the nose scar with a raised centre. Brows are 1,400 painted strokes, dark brown with about 20 % grey. Procedural detail stays sharp at any distance and never carries lighting baked into a photo.</p>
+<figure><a href="../assets/img/videos/ep1/skin_compare.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/skin_compare.jpg" alt="Cynan skin render compared with the reference" loading="lazy"></a><figcaption>Every skin pass is checked against reference crops. If the render does not match, it is not approved.</figcaption></figure>
+<div class="note warn"><b>Fix from this build:</b> the first skin pass had an orange iris, solid-looking brows, forehead stripes that were too regular, a faint scar and a collar band at the neck. The band came from copying streaky body texels and from pore detail running into the seam. Fixes: wider tone sampling, pore detail faded out within 4 to 34 mm of the seam, and head plus body rendered as one welded object.</div>
+
+<h3 id="head-7"><span class="stepno">07</span>Neck seam</h3>
+<p>Where the head meets the shared body there can be a crease or a colour band. Three passes hide it:</p>
+<ul>
+<li><strong>Shape:</strong> the profile kink at the seam was 18 degrees on average (40 max). Taubin smoothing over 8 rings of vertices, 60 passes, brought it to 2.4 degrees. All 52 shape keys were rebased on the new shape.</li>
+<li><strong>Normals:</strong> head seam normals copied from the body (they differed by up to 11 degrees), so lighting is continuous.</li>
+<li><strong>Colour:</strong> a 16 mm band above the seam blended into the body tone. Maximum colour difference across the seam: 3.1 out of 255.</li>
+</ul>
+
+<h3 id="head-8"><span class="stepno">08</span>Face rig</h3>
+<p>A jaw bone, two eye bones and the <strong>52 ARKit shape keys</strong>, named exactly to Apple's standard, so the face can be driven by phone face capture or keyed by hand in Unreal. Teeth, lower gums and tongue follow the jaw; the lids partly follow the eye bones. The keys stack into full expressions.</p>
+<figure><a href="../assets/img/videos/ep1/arkit52.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/arkit52.jpg" alt="All 52 ARKit shape keys on Cynan" loading="lazy"></a><figcaption>The 52 ARKit shape keys, one tile each.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep1/expressions.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/expressions.jpg" alt="Cynan combined facial expressions" loading="lazy"></a><figcaption>Combined expressions built from the keys.</figcaption></figure>
+<div class="note warn"><b>Bug caught here:</b> in Blender 5.2, a new shape key added from script starts at value 1.0. Every key was on at once, so the saved face showed all 52 summed. All values were reset to 0, and the same fix was applied to earlier heads. The loader scripts now set new keys to 0.</div>
+
+</section>
+<section id="hair">
+<h2>/newhair: building the hairstyle, step by step</h2>
+
+<p>Hair is its own skill and its own object, so any style can be moved to any head. It is built as <strong>hair cards</strong>: thin strips with a strand texture and transparency.</p>
+
+<h3 id="hair-1"><span class="stepno">01</span>Hair reference</h3>
+<p>A four-view hair sheet from the image tool: a medium shag, dark brown with grey streaks. Same four views as the head sheet.</p>
+<figure><a href="../assets/img/videos/ep1/hair_reference.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/hair_reference.jpg" alt="Cynan four-view hair reference" loading="lazy"></a><figcaption>Four-view hair reference: front, left, back and right.</figcaption></figure>
+
+<h3 id="hair-2"><span class="stepno">02</span>Masks and camera fit</h3>
+<p>Each view is split into background, skin and hair using colour and local texture variance. Hair is fine and noisy; skin is smooth and more saturated. That difference finds the hairline. Only hair regions that reach the top 30 % of the panel are kept, which drops shoulders and stubble.</p>
+<p>A <strong>camera fit</strong> then scales and shifts our clay render until its outline matches each reference silhouette. For Cynan all four views agreed on a shared scale of 0.83, with a silhouette error of 0.5 to 2 %. From that point every reference pixel maps to a point on our head.</p>
+
+<h3 id="hair-3"><span class="stepno">03</span>Visual hull</h3>
+<p>With four matched silhouettes, the volume all four views agree on is carved out. Subtract the head and what remains is where hair lives and how thick it is at each point on the scalp. A minimum thickness of 8 mm stops thin spots at the back from going bald.</p>
+
+<h3 id="hair-4"><span class="stepno">04</span>Strand atlas</h3>
+<p>Most of the look comes from one 2048 px texture: <strong>8 columns</strong> of fine, clumped strands, 90 to 120 strands per column, painted procedurally with colours sampled from the reference hair, including the grey streaks. Roots are darkened over the first 45 % of each strand.</p>
+<figure><a href="../assets/img/videos/ep1/strand_atlas.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/strand_atlas.jpg" alt="Procedural strand atlas detail" loading="lazy"></a><figcaption>Detail of the strand atlas: clumped, wavy strands with alpha.</figcaption></figure>
+
+<h3 id="hair-5"><span class="stepno">05</span>Hair cards</h3>
+<p>Roots are scattered over the scalp with Poisson spacing (9.5 mm), in four layers at different heights. Each strand grows along a <strong>flow field</strong>: swept back, pulled down by gravity, a fringe across the forehead (45 % of the front roots) with a ragged stop line, and stop rules around the ears. Strands end at heights set per angle around the head. Cynan's hair is <strong>10,991 quads</strong> (21,982 triangles), inside the budget for short hair at the time.</p>
+<div class="note"><b>Ear rule from the reference:</b> hair touches the ear over the top and back (2 to 3 mm), sits 4 mm behind the lobe, and never covers the ear below or in front of the lobe.</div>
+
+<h3 id="hair-6"><span class="stepno">06</span>Final check against the reference</h3>
+<p>The atlas goes on the cards and the hair is rendered through the same four cameras, side by side with the reference. That comparison is the approval gate.</p>
+<figure><a href="../assets/img/videos/ep1/hair_compare.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep1/hair_compare.jpg" alt="Final hair compared with the reference in four views" loading="lazy"></a><figcaption>Reference (top) and our hair (bottom), plus top and three-quarter views.</figcaption></figure>
+<div class="note warn"><b>Fixes during the hair build:</b> a bald stripe over the top (surface sampling returned only 33.5k of 60k points; switched sampler), a bald back crown (hull too thin; dilated hull for the exit test), a visible part gap (hard split replaced by a smooth outward term), and a fringe that looked like a bowl cut (only 45 % of front roots forward, ragged stop).</div>
+
+</section>
+<section id="gates">
+<h2>Approval gates and versioned files</h2>
+<div class="tbl"><table><thead><tr><th>Gate</th><th>What the owner sees</th><th>Possible answers</th></tr></thead><tbody><tr><td>After the seam fit</td><td>Front, side and back renders on the body</td><td>Approve, or list what is off (for Cynan: too far forward, scale down)</td></tr><tr><td>After emote topology</td><td>Wireframe sheet: face, eye loops, mouth loops, cutaway</td><td>Approve or edit</td></tr><tr><td>After skin</td><td>Cycles close-ups beside reference crops</td><td>Approve or list fixes</td></tr><tr><td>After hair</td><td>Four views plus ear close-ups beside the reference</td><td>Approve, edit, or revert to the last version</td></tr><tr><td>After the face rig</td><td>Expression contact sheet</td><td>Approve</td></tr></tbody></table></div>
+<p>Every step writes a new file name (for example <code>Cynan_fit_v1</code>, then <code>Cynan_fit_v2</code>), and the master scene is backed up before each write. A rejected step is reverted from its file, and the attempt is written to the "Don't" list in the playbook.</p>
+
+</section>
+<section id="prompts">
+<h2>Prompts and feedback used</h2>
+
+<p>The skills carry most of the instructions, so the prompts in this build were short. These are the inputs that moved Cynan forward, condensed from the session records.</p>
+<div class="prompt"><div class="prompt-head"><span>Fit feedback that produced fit v2</span><button type="button" class="copy">Copy</button></div><pre>The brow, nose, ears, chin and Adam's apple sit too far forward. Scale the head down. The neck angle looks wrong.</pre><div class="why"><b>Result:</b> head scaled to 94 % and aligned by the ear position. Approved as fit v2, and a new rule was saved about ear position.</div></div>
+<div class="prompt"><div class="prompt-head"><span>Touch-up request</span><button type="button" class="copy">Copy</button></div><pre>Smooth the neck seam.</pre><div class="why"><b>Result:</b> kink 18 to 2.4 degrees, seam normals matched, colour band blended. It also exposed the shape-key-at-1.0 bug.</div></div>
+<div class="prompt"><div class="prompt-head"><span>Rig request</span><button type="button" class="copy">Copy</button></div><pre>Rig head and hair.</pre><div class="why"><b>Result:</b> face rig checked, hair weighted to the head bone. A 20 degree head turn moves the hair with the scalp (69 mm at the top).</div></div>
+<div class="prompt"><div class="prompt-head"><span>Body binding</span><button type="button" class="copy">Copy</button></div><pre>Full body pass.</pre><div class="why"><b>Result:</b> head bound to the HM1 body rig with 4 influences, seam vertices copying body weights exactly. Pose test: seam gap 0 mm.</div></div>
+
+</section>
+<section id="lessons">
+<h2>What we learned</h2>
+
+<ul>
+<li><strong>AI gives the shape; you build the structure.</strong> Image-to-3D gives a likeness in a minute. Topology, UVs, rig and seams still have to be built.</li>
+<li><strong>One shared seam makes everything modular.</strong> The 64-vertex ring is why heads, hair, helmets and bodies can be mixed.</li>
+<li><strong>Measure against your own model.</strong> Place features relative to your head, never by projecting the reference image.</li>
+<li><strong>Procedural detail beats sampled detail.</strong> Take tone and colour from the reference; generate pores, lines and scars in 3D.</li>
+<li><strong>Every fix becomes a rule.</strong> The ear-position rule, the seam fade distances and the shape-key reset all came from Cynan and now apply to every head.</li>
+</ul>
+
+</section>
+<section id="try">
+<h2>Try it yourself: checklist</h2>
+
+<ul class="checklist">
+<li>Pick one shared base body and lock its neck ring vertex count before building heads.</li>
+<li>Generate a portrait and a bald four-view sheet with consistent views and lighting.</li>
+<li>Run two or more image-to-3D tools and rank them against the portrait.</li>
+<li>Solidify the AI shell before remeshing; thin shells break remesh tools.</li>
+<li>Fit with scale and position first; fix the pitch if free rotation tilts the head.</li>
+<li>Wrap a template head (MakeHuman CC0) for animation loops.</li>
+<li>Bake procedural detail into colour, roughness and normal maps at 4K.</li>
+<li>Name shape keys to the ARKit standard if you want phone capture.</li>
+<li>Version every file and keep a written list of attempts that failed.</li>
+</ul>
+
+</section>
+<section id="glossary">
+<h2>Glossary</h2>
+<div class="tbl"><table><thead><tr><th>Term</th><th>Meaning</th></tr></thead><tbody><tr><td>Image-to-3D</td><td>An AI model that turns a picture into a textured 3D mesh</td></tr><tr><td>Topology</td><td>How the polygons of a mesh are laid out; good topology follows muscles so faces deform cleanly</td></tr><tr><td>ICP</td><td>Iterative closest point: an algorithm that aligns one shape to another by repeated matching</td></tr><tr><td>QuadriFlow</td><td>A remesher built into Blender that converts triangles into evenly sized quads</td></tr><tr><td>UV island</td><td>A flattened piece of the mesh that a texture is painted onto</td></tr><tr><td>ORM map</td><td>One texture holding ambient occlusion, roughness and metalness in its three channels</td></tr><tr><td>Shape key / morph</td><td>A stored version of the mesh, blended in to make an expression</td></tr><tr><td>ARKit 52</td><td>Apple's standard set of 52 facial shapes used by phone face capture</td></tr><tr><td>Visual hull</td><td>The 3D volume consistent with several 2D silhouettes</td></tr><tr><td>Hair card</td><td>A flat strip with a strand texture and transparency, the standard way to draw game hair</td></tr></tbody></table></div>
+</section>
+<section id="script">
+<h2>Episode narration</h2>
+<details class="script"><summary>Show the narration (condensed)</summary><div class="inner"><p><b>Intro</b>Welcome to KSUIE_Gaming. We are building KnightZ, a 3D action adventure game, and this channel follows the AI pipeline we use to make it. In this first episode we take one character, Cynan, captain of the garrison, from a single reference image to a game-ready head with skin, hair and a face rig.</p><p><b>Overview</b>The work is split into two repeatable skills. Newhead builds the head. The first four steps take us from a reference image to an AI mesh, fit it to our base body, and rebuild it with topology that can animate. The next four steps finish the head: a reference sheet to line up features, the skin textures, the neck seam blend, and the face rig. Newhair builds a swappable hairstyle on top: the hair sheet, masks and camera fit, the visual hull, the strand atlas, then the hair cards and a check against the reference. Every step ends with a saved, versioned file and a review render, and nothing moves forward until I approve it.</p><p><b>Reference</b>Everything starts with a reference. For Cynan I generated a three-quarter portrait and a bald four-view sheet: front, both sides and back. The portrait carries the details we want to keep: the scar across the nose bridge, pale brown eyes and a chipped front tooth.</p><p><b>AI mesh</b>The portrait goes through image-to-3D. I run several generators and rank them against the reference; for Cynan, Trellis.2 gave the best likeness. In under a minute we have a textured bust with 208,701 vertices. Up close it is a dense soup of triangles with no edge flow.</p><p><b>Seam fit</b>Our characters share one base body, HM1. We solidify the AI shell, remesh it into clean quads, and fit it to the base head with a scale and position solve. The key is a ring of 64 vertices around the neck. Every head welds to exactly the same ring with a gap of zero.</p><p><b>Emote topology</b>We wrap a MakeHuman head template over the shape. It brings proper edge loops, then the face area is subdivided for detail. This head lands at 13,014 quads. Inside, we build eyeballs with lids, teeth, gums, a tongue and a mouth bag. Cynan's chipped incisor is modeled into the upper teeth.</p><p><b>Reference sheet and skin</b>We render our own clay head in the same four views as the reference and place features relative to our own eyes, ears and mouth. The face island is scaled up 1.6 times and the base colour map is 4K. Tone, brow shape and eye colour come from the reference. Pores, wrinkles, crow's feet and the nose scar are generated procedurally in 3D and baked into colour, roughness and normal maps.</p><p><b>Neck seam and face rig</b>We smooth the shape across the seam, match the normals, and blend the head colour into the body tone so the join disappears. Then a jaw bone, two eye bones and the 52 ARKit facial shape keys, named to Apple's standard.</p><p><b>Hair</b>Each view is split into background, skin and hair. A camera fit matches our head outline to the reference silhouette. With four matched silhouettes we carve the visual hull. The strand atlas holds eight columns of clumped strands. Roots are scattered over the scalp and each strand follows a flow field. Cynan's hair is 10,991 quads.</p><p><b>Outro</b>This is Cynan: AI mesh, fitted to our body, animation topology, procedural skin, a 52-key face rig and swappable hair. Because every head shares the same neck seam, this body can wear any of them.</p></div></details>
+</section>
+<section id="related">
+<h2>Related dev log posts</h2>
+
+<ul>
+<li><a href="../post.html?p=2026-10-05-opening-cinematic-and-the-armoury">Dev Log #10: The opening cinematic, two more heads, and the full armoury</a></li>
+<li><a href="../post.html?p=2026-10-06-cynan-complete-einion-goch">Dev Log #11: Cynan complete, Einion Goch's head, and shared rules for every head</a></li>
+<li><a href="../post.html?p=sir-bedwyr">Dev Log #8: Sir Bedwyr</a></li>
+</ul>
+
+</section>
+
+        <nav class="ep-pager" aria-label="Episodes"><a class="next" href="episode-2-optimizing-characters.html"><small>Next episode</small>Episode 2: Optimizing Characters</a></nav>
+      </article>
+
+      <aside class="ep-aside">
+        <div class="side-card toc-card">
+          <h4>On this page</h4>
+          <ol class="toc">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#chapters">Chapters</a></li>
+          <li><a href="#software">Software and tools</a></li>
+          <li><a href="#skills">The two skills</a></li>
+          <li><a href="#head">/newhead steps 1 to 8</a></li>
+          <li><a href="#hair">/newhair steps 1 to 6</a></li>
+          <li><a href="#gates">Approval gates</a></li>
+          <li><a href="#prompts">Prompts used</a></li>
+          <li><a href="#lessons">What we learned</a></li>
+          <li><a href="#try">Try it yourself</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+          <li><a href="#script">Narration</a></li>
+          <li><a href="#related">Related posts</a></li>
+          </ol>
+        </div>
+        <div class="side-card">
+          <h4>Episode facts</h4>
+          <div class="kv"><span>Length</span><b>11:51</b></div>
+          <div class="kv"><span>Published</span><b>Oct 5, 2026</b></div>
+          <div class="kv"><span>Character</span><b>Cynan</b></div>
+          <div class="kv"><span>Head steps</span><b>8</b></div>
+          <div class="kv"><span>Hair steps</span><b>6</b></div>
+          <div class="kv"><span>Final head</span><b>13,014 quads</b></div>
+          <div class="kv"><span>Hair</span><b>10,991 quads</b></div>
+          <div class="kv"><span>Face keys</span><b>52 ARKit</b></div>
+        </div>
+        <div class="side-card">
+          <h4>Watch</h4>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=KGuS8q2UXDE" target="_blank" rel="noopener">Open on YouTube</a>
+          <a class="btn btn-ghost" style="margin-top:8px" href="https://www.youtube.com/@ksuiegaming9346?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html"><img src="../assets/img/logo.svg" alt="" width="34" height="34"><span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">The Failing Light</span></span></a>
+        <p style="margin-top:16px;max-width:380px">A third-person action adventure in development by KSUIE_Gaming. All content shown is work in progress and subject to change.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="../index.html#game">The Game</a></li><li><a href="../index.html#world">World</a></li><li><a href="../index.html#characters">Characters</a></li><li><a href="../index.html#progress">Progress</a></li></ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul><li><a href="../index.html#gallery">Gallery</a></li>
+      <li><a href="../devlog.html">Dev Log</a></li><li><a href="../videos.html">Videos</a></li><li><a href="https://www.youtube.com/@ksuiegaming9346" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li><li><a href="../feed.xml">RSS feed</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> KSUIE_Gaming. All rights reserved.</span>
+      <span class="rating"><b>M</b> Intended for mature audiences</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/episode.js"></script>
+</body>
+</html>

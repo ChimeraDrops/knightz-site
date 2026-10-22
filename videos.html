@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Game Development Videos | KnightZ by KSUIE Dev Studio</title>
-  <meta name="description" content="Watch the AI Game Development series from KSUIE Dev Studio. Episodes cover the AI pipeline and prompting used to build game characters for KnightZ: The Failing Light in Unreal Engine 5.">
+  <meta name="description" content="Watch the AI Game Development series from KSUIE Dev Studio. Each episode has its own page with the full breakdown: steps, numbers, software, prompts and fixes used to build KnightZ: The Failing Light in Blender and Unreal Engine 5.">
   <meta name="theme-color" content="#0e1011">
   <link rel="canonical" href="https://chimeradrops.github.io/knightz-site/videos.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="KnightZ: The Failing Light">
   <meta property="og:title" content="AI Game Development Videos | KSUIE Dev Studio">
-  <meta property="og:description" content="Episodes on the AI pipeline and prompting for building game characters in Unreal Engine 5 for KnightZ.">
+  <meta property="og:description" content="Episodes on the AI pipeline and prompting behind KnightZ, each with a full written breakdown.">
   <meta property="og:url" content="https://chimeradrops.github.io/knightz-site/videos.html">
   <meta property="og:image" content="https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -20,348 +20,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script>(function(){var m={"#episode-1": "videos/episode-1-character-pipeline.html", "#episode-2": "videos/episode-2-optimizing-characters.html", "#episode-3": "videos/episode-3-vibe-coding-prompts.html"};if(m[location.hash])location.replace(m[location.hash]);})();</script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "VideoObject",
-        "@id": "https://chimeradrops.github.io/knightz-site/videos.html#episode-3",
-        "name": "Episode 3: Improving Prompts for AI Game Development",
-        "description": "Episode 3 of the AI Game Development series. How prompts are written to get game-ready results from AI. Bedwyr's hair took 24 prompt iterations; the one that worked was an annotated screenshot and one sentence. The episode covers a session-start prompt with context, tasks and a finish line, annotated screenshots for animation fixes, hard limits, gates and fixed reply words that let 15 characters run through review overnight, four mistakes and their fixes, and a loop where every session writes the next prompt.",
-        "duration": "PT18M8S",
-        "uploadDate": "2026-10-14T22:01:07-07:00",
-        "thumbnailUrl": ["https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg", "https://i.ytimg.com/vi/Bp-HNgwDLhE/hqdefault.jpg"],
-        "embedUrl": "https://www.youtube.com/embed/Bp-HNgwDLhE",
-        "contentUrl": "https://www.youtube.com/watch?v=Bp-HNgwDLhE",
-        "hasPart": [
-          {
-            "@type": "Clip",
-            "name": "Intro",
-            "startOffset": 0,
-            "endOffset": 14,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=0s"
-          },
-          {
-            "@type": "Clip",
-            "name": "What this episode covers",
-            "startOffset": 14,
-            "endOffset": 27,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=14s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Bedwyr's hair: 24 prompt iterations",
-            "startOffset": 27,
-            "endOffset": 117,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=27s"
-          },
-          {
-            "@type": "Clip",
-            "name": "The session-start prompt",
-            "startOffset": 117,
-            "endOffset": 193,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=117s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Visual feedback: annotated screenshots for animation fixes",
-            "startOffset": 193,
-            "endOffset": 314,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=193s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Say what must not happen: limits, gates and fixed replies",
-            "startOffset": 314,
-            "endOffset": 460,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=314s"
-          },
-          {
-            "@type": "Clip",
-            "name": "The review loop and the night run",
-            "startOffset": 460,
-            "endOffset": 528,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=460s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Four mistakes I made so you don't have to",
-            "startOffset": 528,
-            "endOffset": 767,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=528s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Every session writes the next prompt",
-            "startOffset": 767,
-            "endOffset": 1004,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=767s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Wrap-up",
-            "startOffset": 1004,
-            "endOffset": 1088,
-            "url": "https://www.youtube.com/watch?v=Bp-HNgwDLhE&t=1004s"
-          }
-        ],
-        "author": { "@type": "Organization", "name": "KSUIE Dev Studio", "url": "https://www.youtube.com/@ksuiegaming9346" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://chimeradrops.github.io/knightz-site/videos.html#episode-1",
-        "name": "Episode 1: AI Pipeline for Building Game Characters",
-        "description": "Episode 1 of the AI Game Development series. One reference image becomes a rigged, textured head with hair for Cynan, a KnightZ character. An eight-step head pipeline covers the AI mesh, seam fit to a shared 64-vertex neck, emote topology, 4K skin and a face rig with 52 ARKit keys. A six-step hair pipeline builds hair cards from a four-view reference using masks, a visual hull and a strand atlas.",
-        "thumbnailUrl": ["https://i.ytimg.com/vi/KGuS8q2UXDE/hqdefault.jpg", "https://chimeradrops.github.io/knightz-site/assets/img/videos/ep1_title.jpg"],
-        "embedUrl": "https://www.youtube.com/embed/KGuS8q2UXDE",
-        "contentUrl": "https://www.youtube.com/watch?v=KGuS8q2UXDE",
-        "uploadDate": "2026-10-05T12:00:00-05:00",
-        "duration": "PT11M51S",
-        "hasPart": [
-          {
-            "@type": "Clip",
-            "name": "Intro: Cynan, from one image to a game-ready head",
-            "startOffset": 0,
-            "endOffset": 84,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=0s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Pipeline overview: /newhead and /newhair",
-            "startOffset": 84,
-            "endOffset": 164,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=84s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 1: Reference",
-            "startOffset": 164,
-            "endOffset": 187,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=164s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 2: AI mesh",
-            "startOffset": 187,
-            "endOffset": 252,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=187s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 3: Seam fit to the shared neck",
-            "startOffset": 252,
-            "endOffset": 340,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=252s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 4: Emote topology and teeth",
-            "startOffset": 340,
-            "endOffset": 404,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=340s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 5: Reference sheet",
-            "startOffset": 404,
-            "endOffset": 424,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=404s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 6: Skin",
-            "startOffset": 424,
-            "endOffset": 462,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=424s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 7: Neck seam",
-            "startOffset": 462,
-            "endOffset": 477,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=462s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Head step 8: Face rig",
-            "startOffset": 477,
-            "endOffset": 495,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=477s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Hair step 1: Four-view hair reference",
-            "startOffset": 495,
-            "endOffset": 510,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=495s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Hair step 2: Masks and camera",
-            "startOffset": 510,
-            "endOffset": 535,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=510s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Hair step 3: Visual hull",
-            "startOffset": 535,
-            "endOffset": 549,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=535s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Hair step 4: Strand atlas",
-            "startOffset": 549,
-            "endOffset": 562,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=549s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Hair step 5: Hair cards",
-            "startOffset": 562,
-            "endOffset": 586,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=562s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Hair step 6: Final check against reference",
-            "startOffset": 586,
-            "endOffset": 599,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=586s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Final result",
-            "startOffset": 599,
-            "endOffset": 711,
-            "url": "https://www.youtube.com/watch?v=KGuS8q2UXDE&t=599s"
-          }
-        ],
-        "author": { "@type": "Organization", "name": "KSUIE Dev Studio", "url": "https://www.youtube.com/@ksuiegaming9346" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://chimeradrops.github.io/knightz-site/videos.html#episode-2",
-        "name": "Episode 2: AI Pipeline Improvement for Game Character Development in Unreal Engine",
-        "description": "Episode 2 of the AI Game Development series. What the first character pipeline got wrong, what changed, and the cast it produced. An audit of 20 characters on screen found 1.9 million triangles, no LODs and hair cards stacked 7 to 10 deep. The rebuild halved character triangle counts, added six automated hair rules, a ten-step review pass per hero, and shell plus strand-card hair with one shared garment kit.",
-        "duration": "PT19M7S",
-        "uploadDate": "2026-10-12T12:00:00-05:00",
-        "thumbnailUrl": ["https://i.ytimg.com/vi/PECacarqLfk/hqdefault.jpg", "https://chimeradrops.github.io/knightz-site/assets/img/videos/ep2_title.jpg"],
-        "embedUrl": "https://www.youtube.com/embed/PECacarqLfk",
-        "contentUrl": "https://www.youtube.com/watch?v=PECacarqLfk",
-        "hasPart": [
-          {
-            "@type": "Clip",
-            "name": "Intro",
-            "startOffset": 0,
-            "endOffset": 6,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=0s"
-          },
-          {
-            "@type": "Clip",
-            "name": "The studio: one desktop does everything",
-            "startOffset": 6,
-            "endOffset": 48,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=6s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Software and tools",
-            "startOffset": 48,
-            "endOffset": 128,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=48s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Part 1 overview: what we found",
-            "startOffset": 128,
-            "endOffset": 162,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=128s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Part 2 overview: how we rebuilt it",
-            "startOffset": 162,
-            "endOffset": 168,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=162s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 1: Where we started",
-            "startOffset": 168,
-            "endOffset": 228,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=168s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 2: The audit",
-            "startOffset": 228,
-            "endOffset": 318,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=228s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 3: Hair cost",
-            "startOffset": 318,
-            "endOffset": 353,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=318s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 4: Close-up flaws",
-            "startOffset": 353,
-            "endOffset": 427,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=353s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 5: Lighter characters",
-            "startOffset": 427,
-            "endOffset": 540,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=427s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 6: Hair rules",
-            "startOffset": 540,
-            "endOffset": 691,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=540s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 7: Review pass",
-            "startOffset": 691,
-            "endOffset": 839,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=691s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Step 8: Final hair and clothes",
-            "startOffset": 839,
-            "endOffset": 1029,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=839s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Lessons learned",
-            "startOffset": 1029,
-            "endOffset": 1088,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=1029s"
-          },
-          {
-            "@type": "Clip",
-            "name": "Next episode: Animation",
-            "startOffset": 1088,
-            "endOffset": 1146,
-            "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=1088s"
-          }
-        ],
-        "author": { "@type": "Organization", "name": "KSUIE Dev Studio", "url": "https://www.youtube.com/@ksuiegaming9346" }
-      }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "AI Game Development video series",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "url": "https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html",
+      "name": "Episode 3: Vibe Coding Prompts"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "url": "https://chimeradrops.github.io/knightz-site/videos/episode-2-optimizing-characters.html",
+      "name": "Episode 2: Optimizing Characters"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "url": "https://chimeradrops.github.io/knightz-site/videos/episode-1-character-pipeline.html",
+      "name": "Episode 1: Character Pipeline"
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -392,7 +77,7 @@
     <div class="container">
       <span class="eyebrow">YouTube &middot; KSUIE Dev Studio</span>
       <h1>AI Game Development</h1>
-      <p>A video series on the AI pipeline behind KnightZ: The Failing Light. The series follows how game characters are built for Unreal Engine 5 and how the prompts behind them are written.</p>
+      <p>A video series on the AI pipeline behind KnightZ: The Failing Light. Pick an episode to watch it and read the full breakdown: every step, the numbers, the software, the prompts we typed and the fixes that followed.</p>
       <div class="hero-cta" style="margin-top:26px">
         <a class="btn btn-primary" href="https://www.youtube.com/@ksuiegaming9346?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
         <a class="btn btn-ghost" href="https://www.youtube.com/playlist?list=PLaMPwZNwIm7g" target="_blank" rel="noopener">Open the Playlist</a>
@@ -402,110 +87,52 @@
 
   <section style="border-bottom:none;padding-top:56px">
     <div class="container">
-      <div class="episode-list">
-
-        <article class="episode" id="episode-3">
-          <div class="yt-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/Bp-HNgwDLhE" title="Episode 3: Improving Prompts for AI Game Development" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="ep-grid">
+        <a class="ep-card" href="videos/episode-3-vibe-coding-prompts.html" id="episode-3">
+          <div class="ep-thumb">
+            <img src="https://i.ytimg.com/vi/Bp-HNgwDLhE/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/Bp-HNgwDLhE/hqdefault.jpg'" alt="Episode 3 thumbnail: Vibe Coding Prompts" loading="lazy" width="640" height="360">
+            <div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></div>
+            <span class="num">Episode 3</span>
+            <span class="dur">18:09</span>
           </div>
-          <div class="episode-text">
-            <span class="eyebrow">Episode 3</span>
-            <h2>Improving Prompts for AI Game Development</h2>
-            <p>How prompts are written to get game-ready results from AI.</p>
-            <p>Bedwyr's hair took 24 prompt iterations. The one that worked was a screenshot with a blue circle and one sentence. The episode covers what changed between version 1 and version 24: a session-start prompt with context, tasks and a finish line; annotated screenshots for animation fixes; hard limits, gates and fixed reply words that let 15 characters run through review overnight; four mistakes and their fixes; and a loop where every session writes the next prompt.</p>
-            <p class="muted" style="font-size:14px">18 minutes. Published October 14, 2026. Tools: Claude, Blender with Blender MCP, Unreal Engine with Unreal MCP, Filmora.</p>
-            <details class="chapters">
-              <summary>Chapters</summary>
-              <ol>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=0s" target="_blank" rel="noopener"><span class="ts">0:00</span> Intro</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=14s" target="_blank" rel="noopener"><span class="ts">0:14</span> What this episode covers</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=27s" target="_blank" rel="noopener"><span class="ts">0:27</span> Bedwyr&#39;s hair: 24 prompt iterations</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=117s" target="_blank" rel="noopener"><span class="ts">1:57</span> The session-start prompt</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=193s" target="_blank" rel="noopener"><span class="ts">3:13</span> Visual feedback: annotated screenshots for animation fixes</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=314s" target="_blank" rel="noopener"><span class="ts">5:14</span> Say what must not happen: limits, gates and fixed replies</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=460s" target="_blank" rel="noopener"><span class="ts">7:40</span> The review loop and the night run</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=528s" target="_blank" rel="noopener"><span class="ts">8:48</span> Four mistakes I made so you don&#39;t have to</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=767s" target="_blank" rel="noopener"><span class="ts">12:47</span> Every session writes the next prompt</a></li>
-              <li><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE&amp;t=1004s" target="_blank" rel="noopener"><span class="ts">16:44</span> Wrap-up</a></li>
-              </ol>
-            </details>
-            <div class="tags"><span class="tag">AI pipeline</span><span class="tag">Prompting</span><span class="tag">Unreal Engine 5</span><span class="tag">Blender</span></div>
-            <p style="margin-top:18px"><a href="https://www.youtube.com/watch?v=Bp-HNgwDLhE" target="_blank" rel="noopener">Watch Episode 3 on YouTube</a></p>
+          <div class="ep-card-body">
+            <h2>Vibe Coding Prompts</h2>
+            <p>Bedwyr&#x27;s hair took 24 prompt iterations. The real prompts behind KnightZ, what each did, four mistakes, and two templates to copy.</p>
+            <div class="ep-card-meta">October 15, 2026 &middot; 10 chapters</div>
+            <div class="tags"><span class="tag">Prompting</span><span class="tag">AI pipeline</span><span class="tag">Claude</span><span class="tag">Unreal Engine 5</span></div>
+            <span class="more">Watch and read the full breakdown &rarr;</span>
           </div>
-        </article>
-
-        <article class="episode" id="episode-2">
-          <div class="yt-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/PECacarqLfk" title="Episode 2: AI Pipeline Improvement for Game Character Development in Unreal Engine" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </a>
+        <a class="ep-card" href="videos/episode-2-optimizing-characters.html" id="episode-2">
+          <div class="ep-thumb">
+            <img src="https://i.ytimg.com/vi/PECacarqLfk/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/PECacarqLfk/hqdefault.jpg'" alt="Episode 2 thumbnail: Optimizing Characters" loading="lazy" width="640" height="360">
+            <div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></div>
+            <span class="num">Episode 2</span>
+            <span class="dur">19:07</span>
           </div>
-          <div class="episode-text">
-            <span class="eyebrow">Episode 2</span>
-            <h2>AI Pipeline Improvement for Game Character Development in Unreal Engine</h2>
-            <p>What the first character pipeline got wrong, what changed, and the cast it produced.</p>
-            <p>An audit of 20 characters on screen counted 1.9 million triangles before shadows, no LODs, and hair cards stacked 7 to 10 layers deep. The rebuild cut character triangles about in half, turned every flaw into one of six automated hair rules, added a ten-step review pass per hero, and replaced dense hair cards with a shell plus strand cards and one shared garment kit.</p>
-            <p class="muted" style="font-size:14px">19 minutes. Published October 12, 2026. Next episode: Animation.</p>
-            <details class="chapters">
-              <summary>Chapters</summary>
-              <ol>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=0s" target="_blank" rel="noopener"><span class="ts">0:00</span> Intro</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=6s" target="_blank" rel="noopener"><span class="ts">0:06</span> The studio: one desktop does everything</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=48s" target="_blank" rel="noopener"><span class="ts">0:48</span> Software and tools</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=128s" target="_blank" rel="noopener"><span class="ts">2:08</span> Part 1 overview: what we found</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=162s" target="_blank" rel="noopener"><span class="ts">2:42</span> Part 2 overview: how we rebuilt it</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=168s" target="_blank" rel="noopener"><span class="ts">2:48</span> Step 1: Where we started</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=228s" target="_blank" rel="noopener"><span class="ts">3:48</span> Step 2: The audit</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=318s" target="_blank" rel="noopener"><span class="ts">5:18</span> Step 3: Hair cost</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=353s" target="_blank" rel="noopener"><span class="ts">5:53</span> Step 4: Close-up flaws</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=427s" target="_blank" rel="noopener"><span class="ts">7:07</span> Step 5: Lighter characters</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=540s" target="_blank" rel="noopener"><span class="ts">9:00</span> Step 6: Hair rules</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=691s" target="_blank" rel="noopener"><span class="ts">11:31</span> Step 7: Review pass</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=839s" target="_blank" rel="noopener"><span class="ts">13:59</span> Step 8: Final hair and clothes</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=1029s" target="_blank" rel="noopener"><span class="ts">17:09</span> Lessons learned</a></li>
-              <li><a href="https://www.youtube.com/watch?v=PECacarqLfk&amp;t=1088s" target="_blank" rel="noopener"><span class="ts">18:08</span> Next episode: Animation</a></li>
-              </ol>
-            </details>
-            <div class="tags"><span class="tag">AI pipeline</span><span class="tag">Unreal Engine 5</span><span class="tag">Hair cards</span><span class="tag">Optimization</span></div>
-            <p style="margin-top:18px"><a href="https://www.youtube.com/watch?v=PECacarqLfk" target="_blank" rel="noopener">Watch Episode 2 on YouTube</a></p>
+          <div class="ep-card-body">
+            <h2>Optimizing Characters</h2>
+            <p>An audit found 1.9 million triangles for 20 characters. The rebuild halved every hero, kept every face, and added hair rules, a review pass and one garment kit.</p>
+            <div class="ep-card-meta">October 12, 2026 &middot; 15 chapters</div>
+            <div class="tags"><span class="tag">Optimization</span><span class="tag">Unreal Engine 5</span><span class="tag">Hair cards</span><span class="tag">LODs</span></div>
+            <span class="more">Watch and read the full breakdown &rarr;</span>
           </div>
-        </article>
-
-        <article class="episode" id="episode-1">
-          <div class="yt-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/KGuS8q2UXDE" title="Episode 1: AI Pipeline for Building Game Characters" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </a>
+        <a class="ep-card" href="videos/episode-1-character-pipeline.html" id="episode-1">
+          <div class="ep-thumb">
+            <img src="https://i.ytimg.com/vi/KGuS8q2UXDE/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/KGuS8q2UXDE/hqdefault.jpg'" alt="Episode 1 thumbnail: Character Pipeline" loading="lazy" width="640" height="360">
+            <div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></div>
+            <span class="num">Episode 1</span>
+            <span class="dur">11:51</span>
           </div>
-          <div class="episode-text">
-            <span class="eyebrow">Episode 1</span>
-            <h2>AI Pipeline for Building Game Characters</h2>
-            <p>From one reference image to a rigged, textured head with hair: Cynan.</p>
-            <p>The head pipeline runs eight steps: reference, AI mesh, a seam fit to the shared 64-vertex neck, emote topology, a reference sheet, 4K skin, an invisible neck seam and a face rig with 52 ARKit keys. The hair pipeline runs six: a four-view reference, masks and camera fit, a visual hull, a strand atlas, hair cards grown along a flow field, and a final check against the reference.</p>
-            <p class="muted" style="font-size:14px">12 minutes. Published October 5, 2026.</p>
-            <details class="chapters">
-              <summary>Chapters</summary>
-              <ol>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=0s" target="_blank" rel="noopener"><span class="ts">0:00</span> Intro: Cynan, from one image to a game-ready head</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=84s" target="_blank" rel="noopener"><span class="ts">1:24</span> Pipeline overview: /newhead and /newhair</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=164s" target="_blank" rel="noopener"><span class="ts">2:44</span> Head step 1: Reference</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=187s" target="_blank" rel="noopener"><span class="ts">3:07</span> Head step 2: AI mesh</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=252s" target="_blank" rel="noopener"><span class="ts">4:12</span> Head step 3: Seam fit to the shared neck</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=340s" target="_blank" rel="noopener"><span class="ts">5:40</span> Head step 4: Emote topology and teeth</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=404s" target="_blank" rel="noopener"><span class="ts">6:44</span> Head step 5: Reference sheet</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=424s" target="_blank" rel="noopener"><span class="ts">7:04</span> Head step 6: Skin</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=462s" target="_blank" rel="noopener"><span class="ts">7:42</span> Head step 7: Neck seam</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=477s" target="_blank" rel="noopener"><span class="ts">7:57</span> Head step 8: Face rig</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=495s" target="_blank" rel="noopener"><span class="ts">8:15</span> Hair step 1: Four-view hair reference</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=510s" target="_blank" rel="noopener"><span class="ts">8:30</span> Hair step 2: Masks and camera</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=535s" target="_blank" rel="noopener"><span class="ts">8:55</span> Hair step 3: Visual hull</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=549s" target="_blank" rel="noopener"><span class="ts">9:09</span> Hair step 4: Strand atlas</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=562s" target="_blank" rel="noopener"><span class="ts">9:22</span> Hair step 5: Hair cards</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=586s" target="_blank" rel="noopener"><span class="ts">9:46</span> Hair step 6: Final check against reference</a></li>
-              <li><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE&amp;t=599s" target="_blank" rel="noopener"><span class="ts">9:59</span> Final result</a></li>
-              </ol>
-            </details>
+          <div class="ep-card-body">
+            <h2>Character Pipeline</h2>
+            <p>One reference image becomes a rigged, textured head with hair: an 8-step head pipeline and a 6-step hair pipeline on Cynan.</p>
+            <div class="ep-card-meta">October 5, 2026 &middot; 17 chapters</div>
             <div class="tags"><span class="tag">AI pipeline</span><span class="tag">Character heads</span><span class="tag">Hair cards</span><span class="tag">Face rig</span></div>
-            <p style="margin-top:18px"><a href="https://www.youtube.com/watch?v=KGuS8q2UXDE" target="_blank" rel="noopener">Watch Episode 1 on YouTube</a></p>
+            <span class="more">Watch and read the full breakdown &rarr;</span>
           </div>
-        </article>
-
+        </a>
       </div>
 
       <div class="card" style="margin-top:56px">

@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Episode 2: Optimizing Characters | KnightZ Videos</title>
+  <meta name="description" content="Episode 2 breakdown: auditing AI-built game characters against MetaHuman budgets, cutting heroes from 105K to 47K triangles with all 52 facial shapes, six automated hair rules, a ten-step review pass, LODs, hybrid hair and a shared garment kit in Unreal Engine 5.">
+  <meta name="theme-color" content="#0e1011">
+  <link rel="canonical" href="https://chimeradrops.github.io/knightz-site/videos/episode-2-optimizing-characters.html">
+  <meta property="og:type" content="video.episode">
+  <meta property="og:site_name" content="KnightZ: The Failing Light">
+  <meta property="og:title" content="Episode 2: Optimizing Characters">
+  <meta property="og:description" content="Episode 2 breakdown: auditing AI-built game characters against MetaHuman budgets, cutting heroes from 105K to 47K triangles with all 52 facial shapes, six automated hair rules, a ten-step review pass, LODs, hybrid hair and a shared garment kit in Unreal Engine 5.">
+  <meta property="og:url" content="https://chimeradrops.github.io/knightz-site/videos/episode-2-optimizing-characters.html">
+  <meta property="og:image" content="https://i.ytimg.com/vi/PECacarqLfk/maxresdefault.jpg">
+  <meta property="og:video" content="https://www.youtube.com/embed/PECacarqLfk">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="KnightZ Dev Log" href="../feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://chimeradrops.github.io/knightz-site/videos/episode-2-optimizing-characters.html#video",
+      "name": "AI Game Development - Optimizing Characters Ep2",
+      "description": "Episode 2 of the AI Game Development series. What the first character pipeline got wrong, what changed, and the cast it produced. An audit of 20 characters on screen found 1.9 million triangles, no LODs and hair cards stacked 7 to 10 deep. The rebuild halved character triangle counts, added six automated hair rules, a ten-step review pass per hero, and shell plus strand-card hair with one shared garment kit.",
+      "duration": "PT19M7S",
+      "uploadDate": "2026-10-12T12:00:00-05:00",
+      "thumbnailUrl": [
+        "https://i.ytimg.com/vi/PECacarqLfk/maxresdefault.jpg",
+        "https://i.ytimg.com/vi/PECacarqLfk/hqdefault.jpg"
+      ],
+      "embedUrl": "https://www.youtube.com/embed/PECacarqLfk",
+      "contentUrl": "https://www.youtube.com/watch?v=PECacarqLfk",
+      "hasPart": [
+        {
+          "@type": "Clip",
+          "name": "Intro",
+          "startOffset": 0,
+          "endOffset": 6,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=0s"
+        },
+        {
+          "@type": "Clip",
+          "name": "The studio: one desktop does everything",
+          "startOffset": 6,
+          "endOffset": 48,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=6s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Software and tools",
+          "startOffset": 48,
+          "endOffset": 128,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=48s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Part 1 overview: what we found",
+          "startOffset": 128,
+          "endOffset": 162,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=128s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Part 2 overview: how we rebuilt it",
+          "startOffset": 162,
+          "endOffset": 168,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=162s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 1: Where we started",
+          "startOffset": 168,
+          "endOffset": 228,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=168s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 2: The audit",
+          "startOffset": 228,
+          "endOffset": 318,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=228s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 3: Hair cost",
+          "startOffset": 318,
+          "endOffset": 353,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=318s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 4: Close-up flaws",
+          "startOffset": 353,
+          "endOffset": 427,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=353s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 5: Lighter characters",
+          "startOffset": 427,
+          "endOffset": 540,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=427s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 6: Hair rules",
+          "startOffset": 540,
+          "endOffset": 691,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=540s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 7: Review pass",
+          "startOffset": 691,
+          "endOffset": 839,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=691s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Step 8: Final hair and clothes",
+          "startOffset": 839,
+          "endOffset": 1029,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=839s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Lessons learned",
+          "startOffset": 1029,
+          "endOffset": 1088,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=1029s"
+        },
+        {
+          "@type": "Clip",
+          "name": "Next episode",
+          "startOffset": 1088,
+          "endOffset": 1147,
+          "url": "https://www.youtube.com/watch?v=PECacarqLfk&t=1088s"
+        }
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "KSUIE Dev Studio",
+        "url": "https://www.youtube.com/@ksuiegaming9346"
+      }
+    },
+    {
+      "@type": "TechArticle",
+      "headline": "Episode 2: Optimizing Characters",
+      "description": "Episode 2 breakdown: auditing AI-built game characters against MetaHuman budgets, cutting heroes from 105K to 47K triangles with all 52 facial shapes, six automated hair rules, a ten-step review pass, LODs, hybrid hair and a shared garment kit in Unreal Engine 5.",
+      "url": "https://chimeradrops.github.io/knightz-site/videos/episode-2-optimizing-characters.html",
+      "image": "https://i.ytimg.com/vi/PECacarqLfk/maxresdefault.jpg",
+      "datePublished": "2026-10-12",
+      "author": {
+        "@type": "Person",
+        "name": "KSUIE_Gaming"
+      },
+      "about": [
+        "Optimization",
+        "Unreal Engine 5",
+        "Hair cards",
+        "LODs",
+        "AI pipeline"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Videos",
+          "item": "https://chimeradrops.github.io/knightz-site/videos.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Episode 2",
+          "item": "https://chimeradrops.github.io/knightz-site/videos/episode-2-optimizing-characters.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../index.html" aria-label="KnightZ home">
+      <img src="../assets/img/logo.svg" alt="" width="34" height="34">
+      <span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">KSUIE_Gaming</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="../index.html#game">The Game</a></li>
+      <li><a href="../index.html#world">World</a></li>
+      <li><a href="../index.html#characters">Characters</a></li>
+      <li><a href="../index.html#progress">Progress</a></li>
+      <li><a href="../index.html#gallery">Gallery</a></li>
+      <li><a href="../devlog.html">Dev Log</a></li>
+      <li><a href="../videos.html" aria-current="page">Videos</a></li>
+      <li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-head ep-head">
+    <div class="container">
+      <div class="crumbs"><a href="../videos.html">Videos</a> / Episode 2</div>
+      <span class="eyebrow">Episode 2 &middot; AI Game Development</span>
+      <h1>Optimizing Characters</h1>
+      <p class="muted" style="font-size:14px;margin:-4px 0 14px;font-family:var(--font-ui)">On YouTube: AI Game Development - Optimizing Characters Ep2</p>
+      <p>What the first AI character pipeline got wrong, what we changed, and the cast it produced: an audit, a low-poly rebuild, hair rules and one shared garment kit.</p>
+      <div class="ep-pills"><span>19 min</span><span>Published Oct 12, 2026</span><span>15 chapters</span><span>Unreal Engine 5.8</span><span>Blender 5.2</span><span>MetaHuman budgets</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="ep-player" style="margin-top:36px">
+      <div class="yt-frame">
+        <iframe id="ep-frame" src="https://www.youtube-nocookie.com/embed/PECacarqLfk?rel=0" data-src="https://www.youtube-nocookie.com/embed/PECacarqLfk" title="Episode 2: Optimizing Characters" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="ep-layout">
+      <article class="ep-body">
+<section id="overview">
+<h2>Overview</h2>
+
+<p class="lead">The first pipeline made good-looking heads. Put twenty of them in one level and the editor slowed to a crawl. This episode is the audit that found out why, and the rebuild that cut every hero roughly in half without changing a face.</p>
+<p>Part 1 measures what was wrong: triangle counts, missing levels of detail, hair cards stacked up to ten deep, and the small flaws that only show up close. Part 2 is the fix: a low-poly pass that kept all 52 facial shapes, six hair rules the tools now check on their own, a ten-step review per hero, and a final hair and clothing system built for a crowd.</p>
+<div class="stat-row"><div><b>1.9M</b><span>triangles for 20 characters before</span></div><div><b>105,670 &rarr; 47,344</b><span>Wulfstan, full character</span></div><div><b>36,492 &rarr; 7,030</b><span>Wulfstan hair and beard</span></div><div><b>15</b><span>outfits from one garment kit</span></div></div>
+
+</section>
+<section id="chapters">
+<h2>Chapters</h2>
+<p>Click a chapter to jump the player to that point.</p>
+<ol class="chap-list">
+            <li><button type="button" data-t="0"><span class="ts">0:00</span><span>Intro</span></button></li>
+            <li><button type="button" data-t="6"><span class="ts">0:06</span><span>The studio: one desktop does everything</span></button></li>
+            <li><button type="button" data-t="48"><span class="ts">0:48</span><span>Software and tools</span></button></li>
+            <li><button type="button" data-t="128"><span class="ts">2:08</span><span>Part 1 overview: what we found</span></button></li>
+            <li><button type="button" data-t="162"><span class="ts">2:42</span><span>Part 2 overview: how we rebuilt it</span></button></li>
+            <li><button type="button" data-t="168"><span class="ts">2:48</span><span>Step 1: Where we started</span></button></li>
+            <li><button type="button" data-t="228"><span class="ts">3:48</span><span>Step 2: The audit</span></button></li>
+            <li><button type="button" data-t="318"><span class="ts">5:18</span><span>Step 3: Hair cost</span></button></li>
+            <li><button type="button" data-t="353"><span class="ts">5:53</span><span>Step 4: Close-up flaws</span></button></li>
+            <li><button type="button" data-t="427"><span class="ts">7:07</span><span>Step 5: Lighter characters</span></button></li>
+            <li><button type="button" data-t="540"><span class="ts">9:00</span><span>Step 6: Hair rules</span></button></li>
+            <li><button type="button" data-t="691"><span class="ts">11:31</span><span>Step 7: Review pass</span></button></li>
+            <li><button type="button" data-t="839"><span class="ts">13:59</span><span>Step 8: Final hair and clothes</span></button></li>
+            <li><button type="button" data-t="1029"><span class="ts">17:09</span><span>Lessons learned</span></button></li>
+            <li><button type="button" data-t="1088"><span class="ts">18:08</span><span>Next episode</span></button></li>
+          </ol>
+</section>
+<section id="studio">
+<h2>The studio: hardware</h2>
+
+<p>Every step in the series runs on one desktop. The game itself targets a standard gaming PC, so all budgets in this episode are set for that standard PC.</p>
+<div class="tbl"><table><thead><tr><th>Part</th><th>Spec</th></tr></thead><tbody><tr><td>GPU</td><td>NVIDIA RTX 5090, 32 GB VRAM</td></tr><tr><td>CPU</td><td>Intel Core Ultra 9 285K, 24 cores</td></tr><tr><td>Memory</td><td>64 GB DDR5-6000</td></tr><tr><td>Motherboard</td><td>Gigabyte Z890</td></tr><tr><td>System drive</td><td>2 TB WD Black NVMe</td></tr><tr><td>Project drive</td><td>Samsung T9 portable SSD, so the project moves between machines</td></tr></tbody></table></div>
+<figure><a href="../assets/img/videos/ep2/specs.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/specs.jpg" alt="Machine specs slide" loading="lazy"></a><figcaption>The build machine. The audit numbers below were also checked against a laptop, where the slowdown was first noticed.</figcaption></figure>
+
+</section>
+<section id="software">
+<h2>Software and tools</h2>
+<div class="tbl"><table><thead><tr><th>Tool</th><th>Used for</th></tr></thead><tbody><tr><td>Blender 5.2</td><td>Modelling, rigging, hair, textures, low-poly reduction, garment building</td></tr><tr><td>Unreal Engine 5.8</td><td>The game: import, materials, levels of detail, in-level review</td></tr><tr><td>Claude</td><td>Drives Blender and Unreal through MCP, writes and runs every batch script, keeps the records</td></tr><tr><td>Blender MCP and Unreal MCP</td><td>Connections that let Claude run Python inside the open Blender and Unreal editors</td></tr><tr><td>KZ Python toolset (Unreal)</td><td>Our own editor plugin: run_python, run_python_file, project info, git from the editor</td></tr><tr><td>Trellis.2</td><td>Image-to-3D heads</td></tr><tr><td>Meshy</td><td>Source meshes for the base bodies</td></tr><tr><td>AI image generators</td><td>Portraits, four-view sheets and hair references</td></tr><tr><td>MakeHuman</td><td>Animation-ready face topology</td></tr><tr><td>Python (numpy, scipy, trimesh)</td><td>Cloud batch work: audits, shell builder, hair rules, texture fixes</td></tr><tr><td>Git with LFS</td><td>Every automated batch is committed before and after it runs</td></tr><tr><td>Kawaii Physics</td><td>Cloak and cape simulation in Unreal</td></tr><tr><td>OBS and Filmora</td><td>Recording and editing the episodes</td></tr></tbody></table></div><figure><a href="../assets/img/videos/ep2/software.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/software.jpg" alt="Software list slide" loading="lazy"></a><figcaption>Software used so far in the series.</figcaption></figure>
+</section>
+<section id="part1">
+<h2>Part 1: what we found</h2>
+
+<h3 id="step-1"><span class="stepno">01</span>Where we started</h3>
+<p>The first pipeline: a four-view reference per character, an AI image-to-3D head, a MakeHuman topology wrap so the face could animate, and hair grown as cards from the reference sheet. Every character shared one standard body. Episode 1 shows this pipeline on Cynan.</p>
+<p>It worked. Sixteen heads were built and nine were in Unreal, and up close they looked right. The trouble started with several of them in a level together.</p>
+<figure><a href="../assets/img/videos/ep2/first_pipeline.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/first_pipeline.jpg" alt="The first character pipeline" loading="lazy"></a><figcaption>The original pipeline, before the audit.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep2/sixteen_heads.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/sixteen_heads.jpg" alt="Sixteen heads, nine in Unreal" loading="lazy"></a><figcaption>Sixteen heads built, nine standing in Unreal.</figcaption></figure>
+
+<h3 id="step-2"><span class="stepno">02</span>The audit</h3>
+<p>The editor slowed down with only a few characters loaded, so everything was counted: every mesh, every texture, every material slot, measured from the export files. The yardstick was <strong>Epic's MetaHuman level-of-detail specification</strong>, since it is the published budget for realistic characters in Unreal.</p>
+<div class="tbl"><table><thead><tr><th>Item</th><th>Ours (full detail)</th><th>MetaHuman budget</th><th>Result</th></tr></thead><tbody><tr><td>Body</td><td>17,422 verts / 34,778 tris, 4 bone influences</td><td>30,500 verts, 8 influences</td><td>Pass</td></tr><tr><td>Head</td><td>about 13,100 verts / 26,000 tris, 52 morphs</td><td>24,000 verts</td><td>Pass</td></tr><tr><td>Eyes, teeth, gums, tongue, lashes</td><td>8,400 tris</td><td>part of head</td><td>Pass, but wasteful at distance</td></tr><tr><td>Hair cards</td><td>9,800 to 26,000 tris</td><td>about 10,000 verts</td><td>1.5 to 3 times over</td></tr><tr><td>Beards</td><td>1,000 to 26,700 tris</td><td>500 to 10,000 verts</td><td>Three characters over</td></tr><tr><td>Levels of detail (LODs)</td><td>none</td><td>8 head, 4 body, 8 hair</td><td>Missing</td></tr><tr><td>Textures per unique head</td><td>about 43 MB at 4096 px</td><td>up to 8192 on high-end PC</td><td>Heavy for 20 characters</td></tr></tbody></table></div>
+<p>Per character: 84,000 triangles (Tudwal, the lightest) to 105,670 (Wulfstan, the heaviest), 93,000 on average. Twenty on screen: about <strong>1.9 million triangles</strong> and 120 to 140 draw calls before shadows, plus 0.7 to 1.0 GB of unique textures. The faces, rigs and skin weights all passed. The cost was in hair, missing LODs and textures.</p>
+<figure><a href="../assets/img/videos/ep2/audit_chart.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/audit_chart.jpg" alt="Audit chart of triangles per character" loading="lazy"></a><figcaption>Triangles per character at full detail. Orange and green are head, hair and beard.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep2/audit_numbers.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/audit_numbers.jpg" alt="What 20 characters cost" loading="lazy"></a><figcaption>What twenty characters cost on screen.</figcaption></figure>
+
+<h3 id="step-3"><span class="stepno">03</span>The cost of hair</h3>
+<p>Wulfstan's approved hair and beard alone were <strong>36,492 triangles</strong>. Hair cards are see-through layers, and ours stacked seven to ten deep over every point of the scalp. Every layer is drawn for colour, for depth and again for shadow, so the cost multiplies. This is called overdraw, and it made hair the most expensive thing on screen.</p>
+<figure><a href="../assets/img/videos/ep2/hair_cost.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/hair_cost.jpg" alt="Why hair cards are expensive" loading="lazy"></a><figcaption>Layered cards: each layer is drawn several times per frame.</figcaption></figure>
+
+<h3 id="step-4"><span class="stepno">04</span>Close-up flaws</h3>
+<p>Looking closely turned up a second list:</p>
+<ul>
+<li>A seam at the wrist where the hand texture met the arm, like a bracelet.</li>
+<li>Hair sitting over the ears instead of around them.</li>
+<li>Hair edges floating above the skin.</li>
+<li>Caps that looked like helmets: straight slopes and no natural volume.</li>
+<li>Gaps between the hair and the back of the neck.</li>
+<li>Beards covering the mouth opening by up to 2.3 cm.</li>
+</ul>
+<figure><a href="../assets/img/videos/ep2/flaws.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/flaws.jpg" alt="Wrist seam and hair over the ears" loading="lazy"></a><figcaption>Two of the close-up flaws: the wrist band and hair over the ear.</figcaption></figure>
+
+</section>
+<section id="part2">
+<h2>Part 2: how we rebuilt it</h2>
+
+<h3 id="step-5"><span class="stepno">05</span>Lighter characters</h3>
+<p>The goal: the same faces, with all 52 facial shapes intact, at about half the triangles.</p>
+<p><strong>The hair test came first.</strong> On Wulfstan, the approved cards (36,492 triangles) were compared with a single textured <strong>shell</strong> that follows the scalp, at about 4,000. That is about 89 % less, and from normal game distance it holds up. The owner compared three versions (shell with cards, shell with a bottom fringe, shell only) and picked shell only as the new plan at that stage.</p>
+<figure><a href="../assets/img/videos/ep2/shell_test.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/shell_test.jpg" alt="Hair cards compared with a single shell" loading="lazy"></a><figcaption>Approved cards (left) against a single textured shell (right).</figcaption></figure>
+<p><strong>Then the low-poly pass on the whole character:</strong></p>
+<ul>
+<li><strong>Head:</strong> a morph-preserving reduction that keeps all 52 ARKit keys. Heads settled around 17,700 triangles.</li>
+<li><strong>Mouth parts:</strong> dental arches of 280 triangles each, tongue 150, eyes 736 each, lashes 272.</li>
+<li><strong>Body:</strong> reduced with joint weighting, so elbows, knees and shoulders keep their density. Standard body 34,778 to 22,952.</li>
+<li><strong>Hair and beard:</strong> textured shells, about 2,300 and 1,700 triangles.</li>
+</ul>
+<div class="tbl"><table><thead><tr><th>Character</th><th class="num">Head</th><th class="num">Hair</th><th class="num">Beard</th><th class="num">Total with body</th></tr></thead><tbody><tr><td>Bedwyr</td><td class="num">17,714</td><td class="num">2,316</td><td class="num">1,700</td><td class="num">47,136</td></tr><tr><td>Cynan</td><td class="num">17,698</td><td class="num">2,308</td><td class="num">none</td><td class="num">45,412</td></tr><tr><td>Owain</td><td class="num">17,674</td><td class="num">2,324</td><td class="num">none</td><td class="num">45,402</td></tr><tr><td>Brother Tysilio</td><td class="num">17,738</td><td class="num">2,397</td><td class="num">1,706</td><td class="num">47,247</td></tr><tr><td>Tudwal</td><td class="num">17,698</td><td class="num">2,429</td><td class="num">608</td><td class="num">46,141</td></tr><tr><td>Einion (large body)</td><td class="num">17,938</td><td class="num">2,375</td><td class="num">1,708</td><td class="num">47,427</td></tr><tr><td>Iddon (large body)</td><td class="num">17,938</td><td class="num">2,320</td><td class="num">1,699</td><td class="num">47,363</td></tr></tbody></table></div>
+<p>Every head export was checked: 7 meshes, 134 bones, 52 keys, at most 4 influences per vertex and 0 unweighted vertices. Wulfstan went from 105,670 to 47,344. A typical hero went from about 93,000 to about 45,000.</p>
+<figure><a href="../assets/img/videos/ep2/budget_chart.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/budget_chart.jpg" alt="Low-poly budget chart" loading="lazy"></a><figcaption>Before and after the low-poly pass.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep2/lp_compare.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/lp_compare.jpg" alt="Original and low-poly faces for Owain and Cynan" loading="lazy"></a><figcaption>The check that mattered: original (left) and low-poly (right) for Owain and Cynan. Same likeness.</figcaption></figure>
+<p><strong>Background characters</strong> were cut harder, to 66 %: peasants, Neanderthals and the undead. An importance map protects the face (head, jaw, lips and brows weighted at 0.6) while the rest collapses. The full mesh is kept hidden in the file so any character can be reverted.</p>
+<figure><a href="../assets/img/videos/ep2/npc_sheet.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/npc_sheet.jpg" alt="Background characters after reduction" loading="lazy"></a><figcaption>Background character sets after the 66 % reduction.</figcaption></figure>
+
+<h3 id="step-6"><span class="stepno">06</span>Hair rules</h3>
+<p>Every flaw from Part 1 became a written rule with a measurement, and the tools check each rule automatically on every cap.</p>
+<div class="tbl"><table><thead><tr><th>#</th><th>Rule</th><th>Measurement</th></tr></thead><tbody><tr><td>1</td><td>Hairline hugs the ear and never covers it</td><td>0 to 3 mm from the ear outline</td></tr><tr><td>2</td><td>Top and front edges sit on the scalp</td><td>pinned 0.8 mm above the skin</td></tr><tr><td>3</td><td>Volume follows the skull with natural variation</td><td>no straight slopes</td></tr><tr><td>4</td><td>The back closes cleanly at the nape</td><td>no gap to the neck</td></tr><tr><td>5</td><td>Long hair rests on the body</td><td>ends 1.8 mm above shoulders and back</td></tr><tr><td>6</td><td>Beard mouth opening follows the lip</td><td>cut on the real lip line</td></tr></tbody></table></div>
+<figure><a href="../assets/img/videos/ep2/hair_rules.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/hair_rules.jpg" alt="Six rules for every hair cap" loading="lazy"></a><figcaption>The six rules, each tied to a measurement.</figcaption></figure>
+<p><strong>Overnight batch.</strong> With the rules written down, one night run traced the outline of each character's old hair cards and built 15 new caps with the rules applied, for the standard and the large body. Interior vertices were lifted at least 1.5 mm (hair) or 2.5 mm (beard) above the skin. Every cap came with a review sheet in eight views: front, left, back, right, both ears, three-quarter and three-quarter back.</p>
+<figure><a href="../assets/img/videos/ep2/caps_night.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/caps_night.jpg" alt="Fifteen hair caps built overnight" loading="lazy"></a><figcaption>Night run output: 15 caps, standard body and large body.</figcaption></figure>
+<p><strong>Iteration.</strong> The batch was a starting point. Bedwyr's cap went from the overnight version 1 to an approved version 24, and Cynan's was approved at about 1,200 triangles. Every version kept its own number, so any of them could be restored.</p>
+<figure><a href="../assets/img/videos/ep2/caps_iter.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/caps_iter.jpg" alt="Bedwyr hair cap version 1 and version 24" loading="lazy"></a><figcaption>Bedwyr: overnight version 1 (top) and approved version 24 (bottom).</figcaption></figure>
+
+<h3 id="step-7"><span class="stepno">07</span>Review pass</h3>
+<p>Ten steps per hero, one hero at a time, and nothing is exported until it passes.</p>
+<ol>
+<li>Head check in Blender</li>
+<li>Hair cap check</li>
+<li>Beard check</li>
+<li>Mouth and eyes check</li>
+<li>Body joints check</li>
+<li>Blender sign-off</li>
+<li>FBX export</li>
+<li>Unreal import</li>
+<li>In-level check: a walk, a face check and a back view</li>
+<li>Approval</li>
+</ol>
+<p>Characters go into the test level one at a time and come out after review. Owain was the first to pass.</p>
+<figure><a href="../assets/img/videos/ep2/checklist.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/checklist.jpg" alt="Ten-step review checklist" loading="lazy"></a><figcaption>The per-hero review checklist.</figcaption></figure>
+<p><strong>The wrist fix</strong> came out of this pass. The hand and forearm textures had a tone step, a ring of strong tilt in the normal map, and a roughness step at the join. The fix rebuilt the textures only: base colour and roughness crossfade over about 11 cm of the forearm, and the low-frequency tilt in the normal map was removed around the seam. The mesh did not change.</p>
+<figure><a href="../assets/img/videos/ep2/wrist_fix.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/wrist_fix.jpg" alt="Wrist seam before and after" loading="lazy"></a><figcaption>Wrist join before and after the texture crossfade.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep2/ue_review.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/ue_review.jpg" alt="In-level review in Unreal" loading="lazy"></a><figcaption>Every hero gets a walk, a face check and a back view in Unreal before approval.</figcaption></figure>
+
+<h3 id="step-8"><span class="stepno">08</span>Final hair and clothes</h3>
+<p><strong>Hair version 7: shell plus strand cards.</strong> The shell-only hair saved the most, but lost detail at the hairline and edges up close. The final hair is a hybrid: the shell covers the head, and a small number of strand cards sit only where they show (hairline, edges, beard). Each character gets a procedural 2048 px strand atlas with clumps, waves, frizz and curl.</p>
+<figure><a href="../assets/img/videos/ep2/hair_v7.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/hair_v7.jpg" alt="Approved cards, shell only and final hybrid" loading="lazy"></a><figcaption>Top: approved cards. Middle: shell only. Bottom: shell plus strand cards.</figcaption></figure>
+<div class="tbl"><table><thead><tr><th>Wulfstan hair and beard</th><th class="num">Triangles</th></tr></thead><tbody><tr><td>Approved cards (start)</td><td class="num">36,492</td></tr><tr><td>Shell only</td><td class="num">3,754</td></tr><tr><td>Shell plus strand cards (final)</td><td class="num">7,030</td></tr></tbody></table></div>
+<p>That is about a fifth of the starting cost, with the close-up detail kept. Across the cast, the final hair runs from about 4,000 to 9,000 triangles per character.</p>
+<p><strong>Levels of detail.</strong> Every skeletal mesh now has four LODs at 100, 50, 25 and 10 % of the triangles, switching at screen sizes of about 1.0, 0.5, 0.25 and 0.1. Facial shapes are kept on the first two LODs only; mouth parts and lashes drop from LOD 2. Strand cards are used at full detail only, and further away the character drops to the shell.</p>
+<figure><a href="../assets/img/videos/ep2/hair_lod.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/hair_lod.jpg" alt="Hair cost per level of detail" loading="lazy"></a><figcaption>Hair cost at each level of detail for every hero, on a log scale.</figcaption></figure>
+<p><strong>One garment kit.</strong> Instead of modelling clothes per character, one kit was built for the whole cast. Each piece is shaped from the body surface itself: body faces in the region are copied, pushed out along the normals by a fixed clearance, smoothed and cut at the hems. Then each piece is recoloured per character with a material tint.</p>
+<div class="tbl"><table><thead><tr><th>Garment</th><th class="num">Triangles (standard body)</th><th>Offset from skin</th></tr></thead><tbody><tr><td>Under-tunic</td><td class="num">9,375</td><td>1.2 cm</td></tr><tr><td>Tunic</td><td class="num">9,063</td><td>2.1 cm</td></tr><tr><td>Padded tunic</td><td class="num">8,863</td><td>3.2 cm</td></tr><tr><td>Trousers</td><td class="num">5,395</td><td>0.5 to 1.5 cm</td></tr><tr><td>Drawers</td><td class="num">2,711</td><td>0.3 to 0.55 cm</td></tr><tr><td>Leg wraps</td><td class="num">2,158</td><td>1.05 cm</td></tr><tr><td>Turnshoes</td><td class="num">2,496</td><td>0.9 cm</td></tr><tr><td>Belt</td><td class="num">692</td><td>on the tunic</td></tr><tr><td>Cloak</td><td class="num">3,452</td><td>body plus clothing, +2 cm</td></tr></tbody></table></div>
+<figure><a href="../assets/img/videos/ep2/garment_kit.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/garment_kit.jpg" alt="The shared garment kit" loading="lazy"></a><figcaption>One garment kit, shaped from the body surface.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep2/outfits.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/outfits.jpg" alt="Fifteen characters in casual and work outfits" loading="lazy"></a><figcaption>The kit dressed fifteen characters, with a casual and a work outfit each.</figcaption></figure>
+<p><strong>Cloaks</strong> hang on five bone chains and run on Kawaii Physics in Unreal (damping 0.2, stiffness 0.08, gravity -350, angle limit 45 degrees, collision from the body physics asset). <strong>Hidden skin</strong> under clothing is masked out so the engine does not draw what nobody can see.</p>
+<figure><a href="../assets/img/videos/ep2/cloaks_hidden.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/cloaks_hidden.jpg" alt="Cloaks and hidden body layers" loading="lazy"></a><figcaption>Cloak simulation and the body regions hidden under clothes.</figcaption></figure>
+
+</section>
+<section id="prompts">
+<h2>Prompts and instructions used</h2>
+
+<p>These are the instructions behind the overnight cap rebuild and the review loop, condensed from the session records.</p>
+<div class="prompt"><div class="prompt-head"><span>Night run rules (given before leaving)</span><button type="button" class="copy">Copy</button></div><pre>1. No review or approval needed until finished.
+2. Apply the hairline-around-ears rule and the natural-volume rule to every character.
+3. Use the trace method: trace the volume of the original approved hair cards so the cap matches their outline.
+4. Cap edges that meet the skull or face bend down and touch, or almost touch, the head. No floating edges. The bottom and back get more transparent toward the tips so they look organic and broken up.
+5. No spikes on moustaches. Trace the cards for moustaches and beards too.</pre><div class="why"><b>Why it works:</b> every rule is something you can check on the mesh, and the owner answered the planning questions before leaving.</div></div>
+<div class="prompt"><div class="prompt-head"><span>Answers to Claude's planning questions</span><button type="button" class="copy">Copy</button></div><pre>Scope: the 15 heroes after Owain. No background characters.
+Wulfstan: fix only where he breaks the rules.
+Blender only. No FBX export and no Unreal. I review first.
+Keep the old meshes hidden in the file for comparison.
+Triangle budget stays close to the current one.
+Ears: cover an ear only where the original cards covered it. Never put hair on the ear surface.</pre><div class="why"><b>Result:</b> 15 caps and review sheets waiting in the morning. Nothing stalled, because every decision was made before the run started.</div></div>
+<div class="prompt"><div class="prompt-head"><span>Review loop (one hero at a time)</span><button type="button" class="copy">Copy</button></div><pre>For each hero:
+1. Open the right file. Show only body, head, eyes, lashes and the new hair.
+2. Show me the review sheet plus the known issue for that hero.
+3. Wait for my call: Approve, Edit, or Revert.
+4. On Approve: tick the checklist, add a dated note, save, open the next hero.
+5. On Edit: change the new hair object only, re-render as a new version, show it, wait again.
+
+Rules:
+- Do not export FBX or touch Unreal until all 15 are approved, unless I say so.</pre></div>
+
+</section>
+<section id="lessons">
+<h2>What we took from it</h2>
+
+<ol>
+<li><strong>Measure before you polish.</strong> The audit found what looking could not.</li>
+<li><strong>Give every part a budget.</strong> Body, head, hair and beard each get a number.</li>
+<li><strong>Turn every mistake into a rule,</strong> and let the tools check the rule.</li>
+<li><strong>Review one character at a time,</strong> and export nothing that has not passed.</li>
+<li><strong>Keep the old version until the new one is approved.</strong> Every master was backed up and every original mesh kept hidden in the file.</li>
+</ol>
+<figure><a href="../assets/img/videos/ep2/lessons.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep2/lessons.jpg" alt="Lessons slide" loading="lazy"></a><figcaption>Five lessons from the rebuild.</figcaption></figure>
+</section>
+<section id="try">
+<h2>Try it yourself: checklist</h2>
+
+<ul class="checklist">
+<li>Pick a published budget (MetaHuman LOD spec works for Unreal) and measure every mesh against it.</li>
+<li>Count hair layers as well as triangles. Overdraw is the hidden cost.</li>
+<li>Reduce heads with a method that preserves shape keys, then check likeness side by side.</li>
+<li>Give background characters a harder cut with the face protected.</li>
+<li>Build LODs for every skeletal mesh; keep morphs on the first two only.</li>
+<li>Write each flaw as a rule with a number, and check it in code.</li>
+<li>Run batches unattended only after every decision is written down.</li>
+<li>Shape clothes from the body surface and recolour them per character.</li>
+</ul>
+
+</section>
+<section id="script">
+<h2>Episode narration</h2>
+<details class="script"><summary>Show the narration (condensed)</summary><div class="inner"><p><b>Intro</b>Welcome back to KnightZ. In Episode 2 we look at the first way we built our characters, what went wrong once we put them all in the game, and how we rebuilt the process to make the cast you see today.</p><p><b>The audit</b>Each character came in at about 93,000 triangles at full detail, and full detail was the only level we had. We measured against Epic's MetaHuman budgets. Twenty characters on screen came to 1.9 million triangles before shadows. Our hair was one and a half to three times over the card budget. There were no levels of detail. And each head carried about 43 megabytes of unique 4K textures.</p><p><b>Hair cost</b>Wulfstan's approved hair and beard alone were 36,492 triangles. Hair cards are see-through layers, and ours stacked seven to ten deep. Every layer gets drawn for colour, for depth and for shadow, so the cost multiplies.</p><p><b>Close-up flaws</b>The wrist had a visible seam like a bracelet. Hair sat over the ears. Hair edges floated above the skin. Some caps looked like helmets. There were gaps at the back of the neck. Some beards covered the mouth by up to 2.3 centimetres.</p><p><b>Lighter characters</b>We started with one test on Wulfstan: approved cards at 36,492 triangles against a single textured shell at about 4,000. Then the low-poly pass. Wulfstan went from 105,670 to 47,344. A typical hero went from about 93,000 to about 45,000. Background characters were cut harder, to 66 percent.</p><p><b>Hair rules</b>Every mistake became a rule, and the tools check each rule automatically. With the rules written down, an overnight batch built fifteen new caps. Bedwyr went from his first overnight cap to version 24, the one we approved.</p><p><b>Review pass</b>Ten steps per hero, one hero at a time. Five checks in Blender, a Blender sign-off, FBX export, Unreal import, an in-level check, and approval. The wrist seam was fixed here: three textures crossfade over 11 centimetres of the forearm, and the mesh did not change.</p><p><b>Final hair and clothes</b>The final hair is a hybrid: a shell plus strand cards only where they show. Wulfstan: approved cards 36,492, shell only 3,754, shell plus cards 7,030. One garment kit dressed fifteen characters. Cloaks run on Kawaii Physics, and covered skin is masked out.</p><p><b>Lessons</b>Measure before you polish. Give every part a budget. Turn every mistake into a rule. Review one character at a time. Keep the old version until the new one is approved.</p></div></details>
+</section>
+<section id="related">
+<h2>Related dev log posts</h2>
+
+<ul>
+<li><a href="../post.html?p=2026-10-08-lighter-characters-same-faces">Dev Log #14: Lighter characters, same faces</a></li>
+<li><a href="../post.html?p=2026-10-08-hands-ears-and-the-review-pass">Dev Log #15: Hands, ears, and the review pass</a></li>
+<li><a href="../post.html?p=2026-10-09-hair-caps-under-review">Dev Log #16: Hair caps under review</a></li>
+<li><a href="../post.html?p=2026-10-09-outfits-cloaks-and-textured-hair-for-the-whole-cast">Dev Log #17: Outfits, cloaks and textured hair for the whole cast</a></li>
+<li><a href="../post.html?p=2026-10-10-combat-prototype-real-terrain-and-hair-lods">Dev Log #18: Combat prototype, real terrain and hair level of detail</a></li>
+</ul>
+
+</section>
+
+        <nav class="ep-pager" aria-label="Episodes"><a class="prev" href="episode-1-character-pipeline.html"><small>Previous episode</small>Episode 1: Character Pipeline</a><a class="next" href="episode-3-vibe-coding-prompts.html"><small>Next episode</small>Episode 3: Vibe Coding Prompts</a></nav>
+      </article>
+
+      <aside class="ep-aside">
+        <div class="side-card toc-card">
+          <h4>On this page</h4>
+          <ol class="toc">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#chapters">Chapters</a></li>
+          <li><a href="#studio">Hardware</a></li>
+          <li><a href="#software">Software and tools</a></li>
+          <li><a href="#part1">Part 1: what we found</a></li>
+          <li><a href="#part2">Part 2: the rebuild</a></li>
+          <li><a href="#prompts">Prompts used</a></li>
+          <li><a href="#lessons">Lessons</a></li>
+          <li><a href="#try">Try it yourself</a></li>
+          <li><a href="#script">Narration</a></li>
+          <li><a href="#related">Related posts</a></li>
+          </ol>
+        </div>
+        <div class="side-card">
+          <h4>Episode facts</h4>
+          <div class="kv"><span>Length</span><b>19:07</b></div>
+          <div class="kv"><span>Published</span><b>Oct 12, 2026</b></div>
+          <div class="kv"><span>Characters audited</span><b>16 heroes</b></div>
+          <div class="kv"><span>Before</span><b>~93K tris each</b></div>
+          <div class="kv"><span>After</span><b>~45K tris each</b></div>
+          <div class="kv"><span>Facial shapes kept</span><b>52 of 52</b></div>
+          <div class="kv"><span>Hair rules</span><b>6</b></div>
+          <div class="kv"><span>Review steps</span><b>10 per hero</b></div>
+        </div>
+        <div class="side-card">
+          <h4>Watch</h4>
+          <a class="btn btn-primary" href="https://www.youtube.com/watch?v=PECacarqLfk" target="_blank" rel="noopener">Open on YouTube</a>
+          <a class="btn btn-ghost" style="margin-top:8px" href="https://www.youtube.com/@ksuiegaming9346?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html"><img src="../assets/img/logo.svg" alt="" width="34" height="34"><span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">The Failing Light</span></span></a>
+        <p style="margin-top:16px;max-width:380px">A third-person action adventure in development by KSUIE_Gaming. All content shown is work in progress and subject to change.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="../index.html#game">The Game</a></li><li><a href="../index.html#world">World</a></li><li><a href="../index.html#characters">Characters</a></li><li><a href="../index.html#progress">Progress</a></li></ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul><li><a href="../index.html#gallery">Gallery</a></li>
+      <li><a href="../devlog.html">Dev Log</a></li><li><a href="../videos.html">Videos</a></li><li><a href="https://www.youtube.com/@ksuiegaming9346" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li><li><a href="../feed.xml">RSS feed</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> KSUIE_Gaming. All rights reserved.</span>
+      <span class="rating"><b>M</b> Intended for mature audiences</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/episode.js"></script>
+</body>
+</html>
