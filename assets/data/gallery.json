@@ -14,6 +14,41 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_reed_bank_1023.jpg",
+    "caption": "Reed beds and trees along a river bank, environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
+    "caption": "Sir Bedwyr, combat outfit concept",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
+    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/bedwyr_final.jpg",
+    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_spathas.jpg",
+    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
+    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog29_hf1_clip_status_1021.png",
     "caption": "Female movement set: clip status for all seven weapon sets, Dev Log #29",
@@ -306,33 +341,15 @@
     "contain": true
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
-    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
-    "size": "wide"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog18_region_windows_1010.png",
     "caption": "Region windows at their real positions, Dev Log #18",
     "contain": true
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/bedwyr_final.jpg",
-    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
-    "size": "wide"
-  },
-  {
     "group": "Pipeline",
     "src": "assets/img/gallery/lp_budget_1008.png",
     "caption": "Triangle budget before and after the reduction pass",
-    "contain": true
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_spathas.jpg",
-    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
     "contain": true
   },
   {
@@ -354,11 +371,6 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
-    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
-  },
-  {
-    "group": "Characters",
     "src": "assets/img/gallery/cadoc_expressions.jpg",
     "caption": "Brother Cadoc, expression and speech shapes",
     "size": "full"
@@ -367,12 +379,6 @@
     "group": "Concept art",
     "src": "assets/img/gallery/concept_manor_house_kit.jpg",
     "caption": "Manor house modular building kit, post-Roman Britain"
-  },
-  {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
-    "caption": "Sir Bedwyr, combat outfit concept",
-    "size": "wide"
   },
   {
     "group": "Characters",
