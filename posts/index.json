@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-23-every-region-gets-its-own-plants-and-the-seasons-turn",
+    "title": "Dev Log #30: Every region gets its own plants, and the seasons turn",
+    "date": "2026-10-23",
+    "summary": "All 99 hand-built plant sets are now assigned across the 11 regions, and every region has plants found nowhere else. One switch now turns every plant through spring, summer, autumn and winter, and the environment test map was rebuilt with only our own plants.",
+    "tags": [
+      "world",
+      "environment",
+      "unreal",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-22-all-201-clips-generated",
     "title": "Dev Log #29: All 201 clips generated",
     "date": "2026-10-22",

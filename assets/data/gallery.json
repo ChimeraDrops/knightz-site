@@ -1,5 +1,19 @@
 [
   {
+    "group": "World",
+    "src": "assets/img/gallery/devlog30_flora_by_region_1022.png",
+    "caption": "99 hand-built plant sets assigned across the 11 regions, Dev Log #30",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog30_season_switch_1022.png",
+    "caption": "One season switch for every plant: grass height and leaf colour groups, Dev Log #30",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog29_hf1_clip_status_1021.png",
     "caption": "Female movement set: clip status for all seven weapon sets, Dev Log #29",
