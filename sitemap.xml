@@ -2,7 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url><loc>https://chimeradrops.github.io/knightz-site/</loc></url>
   <url><loc>https://chimeradrops.github.io/knightz-site/devlog.html</loc></url>
-  <url><loc>https://chimeradrops.github.io/knightz-site/videos.html</loc><lastmod>2026-10-22</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/videos.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/videos/episode-4-world-plants-and-sky.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/heroes.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/heroines.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/animations.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/regions.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/trees.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/shrubs-and-climbers.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/ground-plants.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/world-effects.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/buildings.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://chimeradrops.github.io/knightz-site/roadmap/props.html</loc><lastmod>2026-10-23</lastmod></url>
   <url>
     <loc>https://chimeradrops.github.io/knightz-site/videos/episode-3-vibe-coding-prompts.html</loc>
     <lastmod>2026-10-22</lastmod>

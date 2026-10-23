@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Episode 4: World, Plants and Sky | KnightZ Videos</title>
+  <meta name="description" content="Episode 4 breakdown: building the KnightZ world with AI. Real elevation data to Unreal landscapes, map scale rules, placement plans, flowing rivers, trees and 54 ground plants built in Blender with four seasons, 60 million plants, a season switch and a C++ volcanic ash sky.">
+  <meta name="theme-color" content="#0e1011">
+  <link rel="canonical" href="https://chimeradrops.github.io/knightz-site/videos/episode-4-world-plants-and-sky.html">
+  <meta property="og:type" content="video.episode">
+  <meta property="og:site_name" content="KnightZ: The Failing Light">
+  <meta property="og:title" content="Episode 4: World, Plants and Sky">
+  <meta property="og:description" content="Episode 4 breakdown: building the KnightZ world with AI. Real elevation data to Unreal landscapes, map scale rules, placement plans, flowing rivers, trees and 54 ground plants built in Blender with four seasons, 60 million plants, a season switch and a C++ volcanic ash sky.">
+  <meta property="og:url" content="https://chimeradrops.github.io/knightz-site/videos/episode-4-world-plants-and-sky.html">
+  <meta property="og:image" content="https://chimeradrops.github.io/knightz-site/assets/img/videos/ep4_title.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="KnightZ Dev Log" href="../feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "headline": "Episode 4: World, Plants and Sky",
+      "description": "Episode 4 breakdown: building the KnightZ world with AI. Real elevation data to Unreal landscapes, map scale rules, placement plans, flowing rivers, trees and 54 ground plants built in Blender with four seasons, 60 million plants, a season switch and a C++ volcanic ash sky.",
+      "url": "https://chimeradrops.github.io/knightz-site/videos/episode-4-world-plants-and-sky.html",
+      "image": "https://chimeradrops.github.io/knightz-site/assets/img/videos/ep4_title.jpg",
+      "datePublished": "2026-10-23",
+      "author": {
+        "@type": "Person",
+        "name": "KSUIE_Gaming"
+      },
+      "about": [
+        "Environment",
+        "Foliage",
+        "Terrain",
+        "Unreal Engine 5",
+        "Blender"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Videos",
+          "item": "https://chimeradrops.github.io/knightz-site/videos.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Episode 4",
+          "item": "https://chimeradrops.github.io/knightz-site/videos/episode-4-world-plants-and-sky.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../index.html" aria-label="KnightZ home">
+      <img src="../assets/img/logo.svg" alt="" width="34" height="34">
+      <span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">KSUIE_Gaming</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="../index.html#game">The Game</a></li>
+      <li><a href="../index.html#world">World</a></li>
+      <li><a href="../index.html#characters">Characters</a></li>
+      <li><a href="../index.html#progress">Progress</a></li>
+      <li><a href="../index.html#gallery">Gallery</a></li>
+      <li><a href="../devlog.html">Dev Log</a></li>
+      <li><a href="../videos.html" aria-current="page">Videos</a></li>
+      <li><a href="../roadmap.html">RoadMap</a></li>
+      <li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-head ep-head">
+    <div class="container">
+      <div class="crumbs"><a href="../videos.html">Videos</a> / Episode 4</div>
+      <span class="eyebrow">Episode 4 &middot; AI Game Development</span>
+      <h1>World, Plants and Sky</h1>
+      <p class="muted" style="font-size:14px;margin:-4px 0 14px;font-family:var(--font-ui)">Planned YouTube title: AI Game Development - World, Plants and Sky Ep4</p>
+      <p>How the world of KnightZ was built: real elevation data, rules for map scale, 99 hand-built plant sets with four seasons, more than 60 million plants placed by script, and a volcanic ash sky.</p>
+      <div class="ep-pills"><span>Video coming soon</span><span>Breakdown published Oct 23, 2026</span><span>13 segments</span><span>11 maps</span><span>99 plant sets</span></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="ep-player" style="margin-top:36px">
+      <div class="yt-frame yt-soon">
+        <img src="../assets/img/videos/ep4_title.jpg" alt="Episode 4 title card: World, Plants and Sky">
+        <div class="soon"><span>Video coming soon</span><small>Recording early next week. The full breakdown is below.</small></div>
+      </div>
+    </div>
+
+    <div class="ep-layout">
+      <article class="ep-body">
+<section id="overview">
+<h2>Overview</h2>
+
+<p class="lead">Eleven maps of real ground, 99 plant sets built by hand, more than 60 million plants placed by script, one switch for the seasons and a sky full of volcanic ash. This is how the world of KnightZ was built in two weeks with Claude, Blender and Unreal Engine 5.</p>
+<p>Episode 4 covers the environment pipeline from the ground up: real elevation data turned into game terrain, rules for how big a map should feel on foot, plans that place every tree and building, rivers that flow, trees and plants modelled in Blender instead of bought, a season system that drives every leaf, and a custom sky. Each step lists the tools, the numbers and the mistakes that cost time.</p>
+<div class="stat-row"><div><b>11</b><span>region maps from real elevation</span></div><div><b>99</b><span>hand-built plant sets</span></div><div><b>60 M+</b><span>plants placed across the maps</span></div><div><b>4</b><span>seasons from one switch</span></div></div>
+<div class="note"><b>Video status.</b> The video for this episode is being recorded now. This page is the full written breakdown and goes live first. The <a href="../roadmap.html">RoadMap</a> has the checklists behind every section below.</div>
+
+</section>
+<section id="plan">
+<h2>Episode plan</h2>
+<div class="tbl"><table><thead><tr><th>#</th><th>Segment</th><th>What it shows</th></tr></thead><tbody><tr><td>1</td><td>Cold open</td><td>One woodland view turning through spring, summer, autumn and winter</td></tr><tr><td>2</td><td>Real ground</td><td>Elevation data and rivers turned into 2017 x 2017 heightmaps</td></tr><tr><td>3</td><td>How big is a map?</td><td>Crossing time, true-size story sites and squeezed empty land</td></tr><tr><td>4</td><td>Plans before props</td><td>Placement plans, gray box and biomes</td></tr><tr><td>5</td><td>Water</td><td>One continuous river surface and the ford</td></tr><tr><td>6</td><td>Trees from Blender</td><td>Why the bought packs went, and how a tree is built</td></tr><tr><td>7</td><td>Shrubs, climbers and 54 ground plants</td><td>Four seasons on one texture sheet</td></tr><tr><td>8</td><td>Five million plants</td><td>The environment test map and the density rules</td></tr><tr><td>9</td><td>One plant list per region</td><td>Core, minor and exclusive sets</td></tr><tr><td>10</td><td>The season switch</td><td>Grass height and autumn colour groups</td></tr><tr><td>11</td><td>The ash sky</td><td>Two cloud layers, sun cover, lightning and a red moon</td></tr><tr><td>12</td><td>Streaming and performance</td><td>World Partition grids and draw distances</td></tr><tr><td>13</td><td>Lessons and what's next</td><td>Six mistakes and the next episode</td></tr></tbody></table></div>
+</section>
+<section id="software">
+<h2>Software and tools</h2>
+<div class="tbl"><table><thead><tr><th>Tool</th><th>Role in this episode</th></tr></thead><tbody><tr><td>Claude (desktop app)</td><td>Planning, every script, review of every capture, project docs as memory between sessions</td></tr><tr><td>Claude skills</td><td>/newtree builds a tree species from a reference folder; plant and shrub procedures saved as docs</td></tr><tr><td>Blender 5.2 with Blender MCP</td><td>Trees, shrubs, climbers, 54 ground plants, water mesh, impostor and wind bakes</td></tr><tr><td>Unreal Engine 5.8 with Unreal MCP</td><td>Landscapes, World Partition, foliage placement, materials, sky system in C++</td></tr><tr><td>Python</td><td>Heightmaps, placement plans, biome maps, density maps and the season switch</td></tr><tr><td>Copernicus GLO-30</td><td>30 m surface elevation data for the real terrain</td></tr><tr><td>OpenStreetMap</td><td>Rivers, brooks and lakes (ODbL)</td></tr><tr><td>Pivot Painter 2</td><td>Per-branch wind on the trees</td></tr><tr><td>Git with LFS</td><td>Every map and asset committed from the editor</td></tr></tbody></table></div>
+</section>
+<section id="real-ground">
+<h2>Real ground from elevation data</h2>
+
+<p>The game is set in western Britain in AD 548, so the land is real. Each region map starts from a window cut out of satellite elevation data around the real place.</p>
+<h3><span class="stepno">1</span>Get the elevation</h3>
+<p>Copernicus GLO-30 is a free 30 m surface model of the world. It is a surface model, so it includes trees and buildings. A grey-scale opening with a 90 m kernel strips them off and leaves the ground.</p>
+<h3><span class="stepno">2</span>Add the water</h3>
+<p>Rivers, brooks and lakes come from OpenStreetMap. Modern water is removed: canals, reservoirs, fish pools and park lakes. River banks are regraded with runoff gullies so the water sits in a believable channel.</p>
+<h3><span class="stepno">3</span>Write the heightmap</h3>
+<p>Each map becomes a 2017 x 2017 pixel, 16-bit heightmap with masks for forest, field, meadow, moor, marsh, road, river, ruin and rock, plus a metadata file with the exact scale for Unreal. Building pads are flattened into the ground where the manor and other sites stand.</p>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep4/real_map.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/real_map.jpg" alt="Hillshade of the real terrain at the manor with the Severn" loading="lazy"></a><figcaption>The manor window: hillshade from the elevation data with the Severn loop in blue.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/river_map.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/river_map.jpg" alt="River channel cut into the terrain" loading="lazy"></a><figcaption>The river channel cut into the ground with the brook joining from the south.</figcaption></figure>
+</div>
+<figure><a href="../assets/img/videos/ep4/bank_compare.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/bank_compare.jpg" alt="River banks before and after regrading" loading="lazy"></a><figcaption>River banks before (left) and after the regrade with runoff gullies (right).</figcaption></figure>
+<div class="tbl"><table><thead><tr><th>Map</th><th>Ground range in game</th><th>Real reference</th></tr></thead><tbody><tr><td>M03 The Wrekin</td><td>103 to 396 m</td><td>Summit 407 m</td></tr><tr><td>M04 Wenlock Edge</td><td>96 to 276 m</td><td>Edge top about 280 m</td></tr><tr><td>M06 The Long Mynd</td><td>221 to 512 m</td><td>Pole Bank 516 m</td></tr><tr><td>M07 The Stiperstones</td><td>247 to 523 m</td><td>Manstone Rock 536 m</td></tr><tr><td>M10 The Clee Hills</td><td>183 to 532 m</td><td>Abdon Burf 540 m</td></tr><tr><td>M11 Salinae</td><td>26 to 59 m</td><td>River about 30 m, hill about 55 m</td></tr></tbody></table></div>
+<div class="note"><b>Lesson.</b> Summits read 4 to 14 m low. The same 90 m opening that strips trees also trims narrow hilltops. A summit restore pass is on the list.</div>
+
+</section>
+<section id="scale">
+<h2>How big should a map feel?</h2>
+
+<p>A real valley takes a long time to cross on foot. The rules below were settled in one design session and applied to every map.</p>
+<ul>
+<li><b>Measure in time.</b> Crossing a map at a 5 m/s jog should take 10 to 15 minutes.</li>
+<li><b>True size by default.</b> Only empty land (moor, bog, deep wood, long field runs) can be squeezed, and never more than 2x.</li>
+<li><b>Places stay true size.</b> The manor, buildings, towns, ruins and fords sit in keep zones that are copied 1:1. Buildings are moved, never scaled.</li>
+<li><b>Height is never compressed.</b> Squeezed land gets steeper, so slopes over 33 degrees outside keep zones are smoothed (30 passes).</li>
+<li><b>Density target.</b> Something worth stopping for every 1 to 2 minutes of walking.</li>
+<li><b>The simulation keeps real acres.</b> The fields you see are a sample of real-size strips; the manor's books use the true total.</li>
+</ul>
+<figure><a href="../assets/img/videos/ep4/chart_crossing.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/chart_crossing.jpg" alt="Crossing time for each region map" loading="lazy"></a><figcaption>Crossing time for every map. Five maps are squeezed by 1.15x to 1.25x, the rest are true size. Salinae is a small town map by design.</figcaption></figure>
+<p>The warp is separable and monotone, so rivers stay continuous. Every later tool converts real coordinates to game coordinates through the same warp table stored with the map.</p>
+<div class="prompt"><div class="prompt-head"><span>Owner decisions before the overnight build (condensed)</span><button type="button" class="copy">Copy</button></div><pre>Scope: rebuild M02 to M10, build M11 Salinae new.
+Elevation: same source and method as M01 (bank regrade with runoff gullies, building pads).
+Scale: compress per the map scale procedure. Keep zones 1:1, height never scaled, slopes capped.
+Foliage: M01 density, our own plants only, per the plant allocation by map.
+Clearings: building footprint + 8 m with no trees, shrubs or tall plants;
+short grass allowed from 2 m outside the walls.</pre><div class="why"><b>What it did:</b> Claude rebuilt ten maps overnight with no step errors.<br><b>Why it worked:</b> every rule pointed at a saved project doc, so nothing had to be explained twice, and the clearing rule was a number, not a description.</div></div>
+
+</section>
+<section id="plans">
+<h2>Plans before props</h2>
+
+<p>Nothing is placed by hand. A Python planner per map reads authored zones (the manor, fields, coppice, ford, ruins) and writes rule rasters at 1 m. Trees, props and buildings are then scattered with Poisson spacing so nothing overlaps and nothing lines up.</p>
+<ul>
+<li>The hub gray box: <b>49,259</b> placeholder props in 74 sets, so scale and walking time could be tested before any art existed.</li>
+<li>The coppice wood near the manor is managed the period way: six panels cut on rotation under oak standards.</li>
+<li>Every building pad is cleared for its footprint plus 8 m.</li>
+</ul>
+<figure><a href="../assets/img/videos/ep4/graybox_manor.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/graybox_manor.jpg" alt="Gray-box manor with placeholder buildings" loading="lazy"></a><figcaption>The manor in gray box: placeholder blocks and props on the real ground before final art.</figcaption></figure>
+<h3>Biomes</h3>
+<p>Each map is split into biomes from the plan masks and the terrain: slope, height above the nearest water, altitude over 250 m, building footprints and scene zones. Edges are softened with noise so one biome bleeds into the next.</p>
+<figure><a href="../assets/img/videos/ep4/biomes_m02_m11.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/biomes_m02_m11.jpg" alt="Biome maps for ten regions" loading="lazy"></a><figcaption>Biome maps for M02 to M11. Dark green woodland, light green pasture, purple moor, blue-green wet ground, yellow fields.</figcaption></figure>
+<div class="tbl"><table><thead><tr><th>Map</th><th>Main biomes</th></tr></thead><tbody><tr><td>M05 The Long Forest</td><td>Woodland 80%, wet woodland along the brooks 16%</td></tr><tr><td>M06 The Long Mynd</td><td>Heather and bilberry moor 58%, batch woods 20%, bog and flush 8%, rock and scree 4%</td></tr><tr><td>M09 The Meres</td><td>Mere-country woods and carr 56%, pasture 25%, water 6%, bog 3%</td></tr><tr><td>M11 Salinae</td><td>Pasture 54%, strip fields 17%, town 11%, wet grassland 7%</td></tr></tbody></table></div>
+
+</section>
+<section id="water">
+<h2>Water that flows</h2>
+
+<p>The Severn, the mill leat and the brook share <b>one continuous water mesh</b> built in Blender: 9 tiles, 119,000 triangles, with the flow direction baked into the mesh. The material moves the surface downstream, lightens it in the shallows and fades it at the banks.</p>
+<ul><li>The Severn is about 3 m deep.</li><li>The ford is 50 cm deep, so it can be waded.</li></ul>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep4/water_ford.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/water_ford.jpg" alt="The ford on the Severn" loading="lazy"></a><figcaption>The ford: shallow enough to cross on foot.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/sky_river.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/sky_river.jpg" alt="River and alders under the ash sky" loading="lazy"></a><figcaption>The river with alders on the bank, under the ash sky.</figcaption></figure>
+</div>
+
+</section>
+<section id="trees">
+<h2>Trees built in Blender</h2>
+
+<p>The first plan was to buy foliage. An audit of the bought packs changed that: most did not match the period or the region, some had no textures, and the clean-up removed <b>2,911 packages and 13 GB</b>. New rule: only fully textured packs are kept, and every plant in the game is built for KnightZ.</p>
+<h3><span class="stepno">1</span>Grow a skeleton</h3>
+<p>A Python script grows each tree in four levels: trunk, limbs, branches and branchlets, with twigs and leaf cards riding on the last level. Rules per species set the shape: a tall leader for ash, a cone for alder, a dense tangle for hawthorn.</p>
+<h3><span class="stepno">2</span>Bark and leaf cards</h3>
+<p>Bark is tiled with species detail. Leaves are cards cut from a leaf sheet with opacity, roughness and translucency packed into one mask.</p>
+<h3><span class="stepno">3</span>Wind</h3>
+<p>Pivot Painter 2 stores a pivot and a direction for every branch, so wind moves the trunk, limbs, branches and twigs separately.</p>
+<h3><span class="stepno">4</span>Far trees</h3>
+<p>Impostors: the tree is rendered from 144 directions (12 x 12) into a 2048 atlas. Past a set distance the mesh is swapped for one flat card that shows the right view.</p>
+<h3><span class="stepno">5</span>Seasons and budget</h3>
+<p>Each species has mature, young and old forms and spring, summer, autumn and winter states. Young oaks keep their brown leaves through winter, as real ones do. Full detail is capped at 5,000 triangles.</p>
+<figure><a href="../assets/img/videos/ep4/oak_sheet.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/oak_sheet.jpg" alt="Oak variants in summer and winter" loading="lazy"></a><figcaption>The oak set: young, mature, veteran, pollard and dead forms in summer (top) and winter (bottom).</figcaption></figure>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep4/ashalder_summer.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/ashalder_summer.jpg" alt="Ash and alder variants in summer" loading="lazy"></a><figcaption>Ash and alder, summer.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/ashalder_winter.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/ashalder_winter.jpg" alt="Ash and alder variants in winter" loading="lazy"></a><figcaption>Ash and alder, winter.</figcaption></figure>
+</div>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep4/oak_wind.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/oak_wind.jpg" alt="Oaks in Unreal with wind" loading="lazy"></a><figcaption>Oaks in Unreal with per-branch wind.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/impostor_row.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/impostor_row.jpg" alt="A row of trees fading from mesh to impostor" loading="lazy"></a><figcaption>Distance test: meshes near the camera, impostor cards far away.</figcaption></figure>
+</div>
+<div class="prompt"><div class="prompt-head"><span>Building a new species</span><button type="button" class="copy">Copy</button></div><pre>/newtree "Rowan reference folder"</pre><div class="why"><b>What it does:</b> the skill reads the reference photos in the folder and builds mature, young and old forms in three seasons with levels of detail and the 5,000-triangle cap, then updates the procedure and writes the Unreal import notes.<br><b>Why it matters:</b> after the oak, every species was a one-line prompt. 21 species and 66 meshes exist now.</div></div>
+<p>The full species list with every step is on the <a href="../roadmap/trees.html">Trees checklist</a>.</p>
+
+</section>
+<section id="shrubs">
+<h2>Shrubs, understory and climbers</h2>
+
+<p>Below the canopy sit 11 shrubs (hazel coppice, hawthorn and blackthorn thickets, holly, elder, osier willow, dog rose, dogwood, spindle, guelder rose and juniper), 4 understory plants (bracken, bramble, heather and bilberry) and 2 climber kits.</p>
+<p>The ivy kit has mats, caps, edges, hangs and stems for ruined Roman walls. The honeysuckle kit has twines, loops, sprays and hangs. Both are also baked onto host trees, split by species so each region gets its own: birch on the Wrekin, wych elm on Wenlock Edge, lime in the Long Forest, alder in the Meres and ash on the Clee Hills.</p>
+<div class="fig-2">
+<figure><a href="../assets/img/roadmap/shrubs/ivy.jpg" target="_blank" rel="noopener"><img src="../assets/img/roadmap/shrubs/ivy.jpg" alt="Ivy kit pieces" loading="lazy"></a><figcaption>The ivy kit.</figcaption></figure>
+<figure><a href="../assets/img/roadmap/shrubs/dogwood.jpg" target="_blank" rel="noopener"><img src="../assets/img/roadmap/shrubs/dogwood.jpg" alt="Dogwood in autumn" loading="lazy"></a><figcaption>Dogwood in autumn, one of the Wenlock Edge plants.</figcaption></figure>
+</div>
+
+</section>
+<section id="plants">
+<h2>54 ground plants, four seasons on one sheet</h2>
+
+<p>The ground layer has 54 plants: woodland flowers, ferns, mosses, fungi and litter; grasses and meadow herbs; reeds, sedges and bog plants; and the crops of the manor (spelt, six-row barley, oats, rye, peas, field beans, flax, leeks, onions, garlic, brassicas and orchard fruit). Each is under 1,000 triangles.</p>
+<h3>One texture sheet, four seasons</h3>
+<p>Every plant's texture sheet is split into four quarters: spring top-left, summer top-right, autumn bottom-left, winter bottom-right. The material shifts the texture coordinates by half a sheet to pick the season, so a season change costs nothing at run time and needs no second mesh.</p>
+<figure><a href="../assets/img/videos/ep4/bluebell_seasons.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/bluebell_seasons.jpg" alt="Bluebell in spring, summer, autumn and winter" loading="lazy"></a><figcaption>Bluebell from one mesh and one sheet: spring, summer, autumn and winter.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/card_sheet_barley.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/card_sheet_barley.jpg" alt="Six-row barley card sheet" loading="lazy"></a><figcaption>A crop card sheet: six-row barley.</figcaption></figure>
+<div class="fig-2">
+<figure><a href="../assets/img/roadmap/plants/c04.jpg" target="_blank" rel="noopener"><img src="../assets/img/roadmap/plants/c04.jpg" alt="Ramsons close-up" loading="lazy"></a><figcaption>Ramsons, spring.</figcaption></figure>
+<figure><a href="../assets/img/roadmap/plants/f07.jpg" target="_blank" rel="noopener"><img src="../assets/img/roadmap/plants/f07.jpg" alt="Flax close-up" loading="lazy"></a><figcaption>Flax, one of the manor crops.</figcaption></figure>
+</div>
+<p>All 54 with their regions are on the <a href="../roadmap/ground-plants.html">Ground Plants checklist</a>.</p>
+
+</section>
+<section id="five-million">
+<h2>Five million plants on a test map</h2>
+
+<p>The hub was copied to an environment test map, 3 km by 3 km, so ground cover could be tuned without touching the real map. The ash sky was swapped for plain white light there so plant colours could be judged on their own.</p>
+<ul>
+<li><b>10 biomes</b> from the existing masks: grazed pasture, woodland interior, wood edge, hay meadow, wet grassland, river bank, fallow, two crop fields and the manor gardens.</li>
+<li><b>44 plant layers</b>, each with its own meshes, spacing, scale and random seed.</li>
+<li><b>Density</b> = biome weight x clump noise (8 to 45 m) x broad noise (160 m). That gives drifts, thin grazed patches and carpets of one flower.</li>
+<li><b>5,244,259 plants</b>, grouped into one batch per mesh per 256 m cell.</li>
+</ul>
+<div class="tbl"><table><thead><tr><th>Plant size</th><th>Draw distance</th></tr></thead><tbody><tr><td>Litter and moss</td><td>30 to 60 m</td></tr><tr><td>Short herbs</td><td>60 to 110 m</td></tr><tr><td>Tall herbs and tussocks</td><td>140 to 200 m</td></tr><tr><td>Reeds</td><td>320 m</td></tr><tr><td>Crops</td><td>650 m</td></tr></tbody></table></div>
+<div class="fig-2">
+<figure><a href="../assets/img/gallery/devlog27_woodland_floor_1019.jpg" target="_blank" rel="noopener"><img src="../assets/img/gallery/devlog27_woodland_floor_1019.jpg" alt="Woodland floor with bluebells and ferns" loading="lazy"></a><figcaption>Woodland floor.</figcaption></figure>
+<figure><a href="../assets/img/gallery/devlog27_hay_meadow_1019.jpg" target="_blank" rel="noopener"><img src="../assets/img/gallery/devlog27_hay_meadow_1019.jpg" alt="Hay meadow" loading="lazy"></a><figcaption>Hay meadow.</figcaption></figure>
+</div>
+<div class="fig-2">
+<figure><a href="../assets/img/gallery/devlog27_grain_field_1019.jpg" target="_blank" rel="noopener"><img src="../assets/img/gallery/devlog27_grain_field_1019.jpg" alt="Strip field of grain" loading="lazy"></a><figcaption>Crop strips.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/meadow.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/meadow.jpg" alt="Pasture with clover and buttercups" loading="lazy"></a><figcaption>Pasture after the ground-grass fix.</figcaption></figure>
+</div>
+<div class="note"><b>Black leaves.</b> Leaves turned black under some light angles. The cause was the normals on the leaf cards. The fix went into the shared plant materials, so every plant in the project was fixed at once.</div>
+<p>After the owner approved the test map, the same planting was rebuilt on the real hub: <b>5,559,591</b> plant instances, <b>33,681</b> trees and shrubs and <b>249,300</b> crop tiles.</p>
+
+</section>
+<section id="regions-plants">
+<h2>One plant list per region</h2>
+
+<p>All 99 plant sets were assigned to the 11 maps by real habitat. Core sets are the dominant or signature plants of a map; minor sets appear at low weight. Every map has at least one set of its own, so each place looks different on the ground.</p>
+<div class="tbl"><table><thead><tr><th>Map</th><th>Plants found only here</th></tr></thead><tbody><tr><td>M01 Pengwern (the manor)</td><td>Orchard apple and pear, spelt, barley, peas, field beans, flax</td></tr><tr><td>M02 Viroconium</td><td>Feral plum from Roman gardens, elder scrub, ivy on ruined walls</td></tr><tr><td>M04 Wenlock Edge</td><td>Wych elm, dogwood, spindle</td></tr><tr><td>M05 The Long Forest</td><td>Small-leaved lime, wild cherry, honeysuckle, holly understory</td></tr><tr><td>M06 The Long Mynd</td><td>Juniper</td></tr><tr><td>M07 The Stiperstones</td><td>Reindeer lichen</td></tr><tr><td>M08 The High Country</td><td>Rowan</td></tr><tr><td>M09 The Meres</td><td>Alder and willow carr</td></tr><tr><td>M11 Salinae</td><td>Ash pollards, guelder rose</td></tr></tbody></table></div>
+<figure><a href="../assets/img/gallery/devlog30_flora_by_region_1022.png" target="_blank" rel="noopener"><img src="../assets/img/gallery/devlog30_flora_by_region_1022.png" alt="Plant sets by region" loading="lazy"></a><figcaption>Plant sets assigned to each region.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/chart_plants.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/chart_plants.jpg" alt="Trees and ground plants per map" loading="lazy"></a><figcaption>Plants placed per map after the overnight build. The Long Forest has the most trees; the moors carry the most ground plants.</figcaption></figure>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep4/m03_wrekin.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/m03_wrekin.jpg" alt="The Wrekin in autumn" loading="lazy"></a><figcaption>The Wrekin: hanging woods below the open crest.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/m06_polebank.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/m06_polebank.jpg" alt="Heather and bilberry on the Long Mynd" loading="lazy"></a><figcaption>Pole Bank on the Long Mynd: heather and bilberry.</figcaption></figure>
+</div>
+
+</section>
+<section id="seasons">
+<h2>The season switch</h2>
+
+<p>One call sets the season for the whole project: <code>set_season('autumn')</code>. It drives the plant material parameters, the older tree materials and the day of the year for the sun.</p>
+<div class="tbl"><table><thead><tr><th>Season</th><th>Sheet quarter</th><th>Grass height</th><th>Leaves</th><th>Sun day</th></tr></thead><tbody><tr><td>Spring</td><td>Top left</td><td>Half</td><td>Fresh green</td><td>120</td></tr><tr><td>Summer</td><td>Top right</td><td>Full</td><td>Full growth</td><td>196</td></tr><tr><td>Autumn</td><td>Bottom left</td><td>Full</td><td>Colour by species</td><td>303</td></tr><tr><td>Winter</td><td>Bottom right</td><td>Full, dead</td><td>Broadleaf trees bare</td><td>15</td></tr></tbody></table></div>
+<div class="tbl"><table><thead><tr><th>Autumn group</th><th>Species</th></tr></thead><tbody><tr><td>Red</td><td>Hawthorn, blackthorn, bramble, dog rose, wild cherry, rowan, dogwood, spindle, guelder rose, crab apple, bilberry</td></tr><tr><td>Orange</td><td>Field maple, apple, pear, plum, both oaks</td></tr><tr><td>Rust</td><td>Bracken</td></tr><tr><td>Gold</td><td>Ash, birch, hazel, willow, lime, wych elm, elder, alder</td></tr><tr><td>Stays green</td><td>Holly, yew, juniper, heather, moss, clover</td></tr></tbody></table></div>
+<figure><a href="../assets/img/videos/ep4/seasons_grid.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/seasons_grid.jpg" alt="The same woodland in four seasons" loading="lazy"></a><figcaption>One woodland view in spring, summer, autumn and winter.</figcaption></figure>
+<div class="note"><b>Floating trees.</b> Trees were placed with collision on, so later trees landed on the crowns of earlier ones. All 233,344 trees, shrubs and crops were dropped again with collision off: 7,971 moved, and a check of 6,158 found none floating. Placement now always runs with collision off.</div>
+
+</section>
+<section id="sky">
+<h2>The volcanic ash sky</h2>
+
+<p>Twelve winters after the sun went grey, the light comes through ash. The brief for the sky was short:</p>
+<div class="prompt"><div class="prompt-head"><span>Sky brief (condensed)</span><button type="button" class="copy">Copy</button></div><pre>Black volcanic ash clouds. Lightning every 20 to 30 minutes, not constant.
+Thin high cloud always over the sun so it glows red.
+Now and then a heavy black cloud covers the sun: darker, but never black, always a red glow.
+A dim red moon at night.</pre><div class="why"><b>What it did:</b> Claude wrote one sky system in C++ that drives the sun, moon, clouds, lightning and haze together.<br><b>Why it worked:</b> every line is something you can see and check in a screenshot.</div></div>
+<div class="tbl"><table><thead><tr><th>Part</th><th>Setting</th></tr></thead><tbody><tr><td>Heavy ash layer</td><td>1.5 to 5.3 km, drifting coverage</td></tr><tr><td>High veil</td><td>8.5 to 10 km, always present, keeps the sun red</td></tr><tr><td>Gap toward the sun</td><td>Heavy ash thins along the sightline, wider at low sun</td></tr><tr><td>Sun cover</td><td>A heavy cell every 6 to 14 minutes for about 150 s; light floor 30 percent</td></tr><tr><td>Lightning</td><td>Every 20 to 30 minutes, 1 to 3 strokes, 3 to 12 km away</td></tr><tr><td>Thunder</td><td>Delayed by distance at 343 m/s</td></tr><tr><td>Day</td><td>48 minutes, red moon at night</td></tr></tbody></table></div>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep4/sky_clear.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/sky_clear.jpg" alt="The manor under the ash sky with the sun showing" loading="lazy"></a><figcaption>Sun clear: ground brightness 17.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/sky_covered.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/sky_covered.jpg" alt="The manor with a heavy cell over the sun" loading="lazy"></a><figcaption>Sun covered: ground brightness 7, never black.</figcaption></figure>
+</div>
+<div class="fig-2">
+<figure><a href="../assets/img/videos/ep4/sky_lightning.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/sky_lightning.jpg" alt="Lightning inside the ash" loading="lazy"></a><figcaption>Lightning lights the inside of the ash.</figcaption></figure>
+<figure><a href="../assets/img/videos/ep4/sky_moon.jpg" target="_blank" rel="noopener"><img src="../assets/img/videos/ep4/sky_moon.jpg" alt="Night under the red moon" loading="lazy"></a><figcaption>Night under the red moon.</figcaption></figure>
+</div>
+<div class="note"><b>Two crashes.</b> The editor crashed in the cloud shadow pass because the cloud material was not flagged for volumetric cloud use. Setting that flag fixed it. A second crash at startup came from a cloud layer saved with an unfinished shader, so the layer is now created at run time, only after its shaders are ready.</div>
+<figure><a href="../assets/img/gallery/devlog23_hall_firelight_1015.jpg" target="_blank" rel="noopener"><img src="../assets/img/gallery/devlog23_hall_firelight_1015.jpg" alt="The hall lit by firelight" loading="lazy"></a><figcaption>Inside, firelight: the hall has 12 lights sharing one flicker pattern.</figcaption></figure>
+
+</section>
+<section id="streaming">
+<h2>Streaming and performance</h2>
+
+<p>Every map is a World Partition level. Content is split into grids that load at different distances, so the player only holds what is near.</p>
+<div class="tbl"><table><thead><tr><th>Grid</th><th>Cell size</th><th>Loading range</th></tr></thead><tbody><tr><td>Terrain</td><td>512 m</td><td>6 km</td></tr><tr><td>Trees</td><td>256 m</td><td>700 m</td></tr><tr><td>Buildings</td><td>256 m</td><td>600 m</td></tr><tr><td>Detail</td><td>128 m</td><td>300 m</td></tr><tr><td>Ground cover</td><td>256 m</td><td>200 m</td></tr></tbody></table></div>
+<ul>
+<li>Distant trees switch to a hierarchical level of detail with impostor cards.</li>
+<li>Grass and small clutter fade at 50 to 80 m; shrubs at 150 to 300 m.</li>
+<li>First standalone measurement at the hub's north gate: about <b>6.7 ms per frame</b> (about 150 fps) with about 570,000 plant and prop instances in range, before the five-million-plant pass.</li>
+<li>The ten new maps hold about 8.8 GB of streamed actor files between them.</li>
+</ul>
+
+</section>
+<section id="lessons">
+<h2>Lessons</h2>
+<div class="tbl"><table><thead><tr><th>#</th><th>Mistake</th><th>Fix</th></tr></thead><tbody><tr><td>1</td><td>Bought foliage that did not fit the period</td><td>Build every plant for the game; keep only fully textured packs</td></tr><tr><td>2</td><td>Trees placed with collision on landed on other trees</td><td>Place with collision off, switch it on after</td></tr><tr><td>3</td><td>A re-run left the first ground-cover pass behind</td><td>World Partition only deletes loaded actors: load the folder first</td></tr><tr><td>4</td><td>Grass kept spawning old meshes</td><td>Recompile and save the terrain material, then flush the grass cache</td></tr><tr><td>5</td><td>Console commands during a level load crashed the editor</td><td>Never run them from Python while a map is loading</td></tr><tr><td>6</td><td>Summits 4 to 14 m low</td><td>The tree-stripping filter trims narrow tops; restore pass planned</td></tr></tbody></table></div>
+</section>
+<section id="next">
+<h2>What's next</h2>
+
+<ul>
+<li>Autumn colours for the older oak, ash and alder canopies.</li>
+<li>Summit restore on the ten new maps and a far-view build for each.</li>
+<li>Replace the placeholder blocks with finished buildings and scene sets (see the <a href="../roadmap/buildings.html">Buildings checklist</a>).</li>
+<li>Playtest each map for crossing time and points of interest.</li>
+</ul>
+
+</section>
+<section id="script">
+<h2>Episode talking points</h2>
+<details class="script"><summary>Show the talking points</summary><div class="inner"><p><b>Cold open</b>Same woodland, four seasons, one switch. Every plant here was built for this game in Blender. Here's how the world came together.</p><p><b>Real ground</b>Satellite elevation, trees stripped off, real rivers cut in. Eleven maps of real Shropshire, each a 2017 pixel heightmap.</p><p><b>Scale</b>Real land is slow to cross. Rule: 10 to 15 minutes at a jog, story places true size, only empty land squeezed, height never squeezed.</p><p><b>Plans</b>Nothing placed by hand. Zones, 1 m rules and Poisson spacing; gray box first, 49,259 placeholders on the hub.</p><p><b>Water</b>One continuous river mesh with the flow baked in. Severn 3 m deep, ford 50 cm.</p><p><b>Trees</b>Bought packs out: 13 GB deleted. Skeleton, cards, Pivot Painter wind, impostors, seasons, 5,000 triangles. Then /newtree for the other 20 species.</p><p><b>Ground plants</b>54 plants, four seasons on one sheet, under 1,000 triangles each.</p><p><b>Five million</b>Test map, 10 biomes, 44 layers, density from noise. Five million plants, then onto the real hub.</p><p><b>Regions</b>99 sets, each map with plants of its own. 60 million plus across all maps.</p><p><b>Seasons</b>One call. Grass height, colour groups, the sun's day. The floating trees bug.</p><p><b>Sky</b>The brief in four lines. Two cloud layers, sun cover, lightning, red moon. Two crashes and their fixes.</p><p><b>Performance</b>World Partition grids, draw distances, 6.7 ms at the gate.</p><p><b>Wrap</b>Six lessons, the RoadMap page, next episode.</p></div></details>
+</section>
+<section id="related">
+<h2>Related</h2>
+
+<ul>
+<li><a href="../roadmap.html">RoadMap</a>: <a href="../roadmap/regions.html">Region maps</a>, <a href="../roadmap/trees.html">Trees</a>, <a href="../roadmap/shrubs-and-climbers.html">Shrubs and climbers</a>, <a href="../roadmap/ground-plants.html">Ground plants</a>, <a href="../roadmap/world-effects.html">Sky and seasons</a></li>
+<li><a href="../post.html?p=2026-10-15-firelight-earthworks-and-the-first-trees">Dev Log #23: Firelight, earthworks and the first trees</a></li>
+<li><a href="../post.html?p=2026-10-18-an-ash-sky-horses-and-life-on-the-road">Dev Log #26: An ash sky, horses and life on the road</a></li>
+<li><a href="../post.html?p=2026-10-20-five-million-plants-crop-strips-and-kitchen-gardens">Dev Log #27: Five million plants</a></li>
+<li><a href="../post.html?p=2026-10-23-every-region-gets-its-own-plants-and-the-seasons-turn">Dev Log #30: Every region gets its own plants</a></li>
+</ul>
+
+</section>
+
+        <nav class="ep-pager" aria-label="Episodes"><a class="prev" href="episode-3-vibe-coding-prompts.html"><small>Previous episode</small>Episode 3: Vibe Coding Prompts</a></nav>
+      </article>
+
+      <aside class="ep-aside">
+        <div class="side-card toc-card">
+          <h4>On this page</h4>
+          <ol class="toc">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#plan">Episode plan</a></li>
+          <li><a href="#software">Software and tools</a></li>
+          <li><a href="#real-ground">Real ground</a></li>
+          <li><a href="#scale">Map scale</a></li>
+          <li><a href="#plans">Plans and biomes</a></li>
+          <li><a href="#water">Water</a></li>
+          <li><a href="#trees">Trees</a></li>
+          <li><a href="#shrubs">Shrubs and climbers</a></li>
+          <li><a href="#plants">54 ground plants</a></li>
+          <li><a href="#five-million">Five million plants</a></li>
+          <li><a href="#regions-plants">Plants per region</a></li>
+          <li><a href="#seasons">Season switch</a></li>
+          <li><a href="#sky">Ash sky</a></li>
+          <li><a href="#streaming">Streaming</a></li>
+          <li><a href="#lessons">Lessons</a></li>
+          <li><a href="#next">What&#x27;s next</a></li>
+          <li><a href="#script">Talking points</a></li>
+          <li><a href="#related">Related</a></li>
+          </ol>
+        </div>
+        <div class="side-card">
+          <h4>Episode facts</h4>
+          <div class="kv"><span>Status</span><b>Video in production</b></div>
+          <div class="kv"><span>Maps</span><b>11 from real elevation</b></div>
+          <div class="kv"><span>Plant sets</span><b>99</b></div>
+          <div class="kv"><span>Ground plants</span><b>54, four seasons each</b></div>
+          <div class="kv"><span>Tree species</span><b>21</b></div>
+          <div class="kv"><span>Plants placed</span><b>60 M+</b></div>
+        </div>
+        <div class="side-card">
+          <h4>Watch</h4>
+          <p class="muted" style="font-size:14px;margin:0 0 10px">The video is in production. Subscribe to get it when it goes live.</p>
+          <a class="btn btn-primary" href="https://www.youtube.com/@ksuiegaming9346?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html"><img src="../assets/img/logo.svg" alt="" width="34" height="34"><span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">The Failing Light</span></span></a>
+        <p style="margin-top:16px;max-width:380px">A third-person action adventure in development by KSUIE_Gaming. All content shown is work in progress and subject to change.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="../index.html#game">The Game</a></li><li><a href="../index.html#world">World</a></li><li><a href="../index.html#characters">Characters</a></li><li><a href="../index.html#progress">Progress</a></li><li><a href="../roadmap.html">RoadMap</a></li></ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul><li><a href="../index.html#gallery">Gallery</a></li><li><a href="../devlog.html">Dev Log</a></li><li><a href="../videos.html">Videos</a></li><li><a href="https://www.youtube.com/@ksuiegaming9346" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li><li><a href="../feed.xml">RSS feed</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> KSUIE_Gaming. All rights reserved.</span>
+      <span class="rating"><b>M</b> Intended for mature audiences</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/episode.js"></script>
+</body>
+</html>
