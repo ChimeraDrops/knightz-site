@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #31: Ten regions rebuilt, and the rivers start over</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over</link>
+<guid isPermaLink="false">2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over</guid>
+<pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+<description>All ten region maps around the hub were rebuilt overnight from real elevation data, each with its own biome map and our own plants. The hub got the approved planting, and the rivers were cleared and restarted from one test stretch where the Rea Brook meets the Severn.</description>
+</item>
+<item>
 <title>Dev Log #30: Every region gets its own plants, and the seasons turn</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-23-every-region-gets-its-own-plants-and-the-seasons-turn</link>
 <guid isPermaLink="false">2026-10-23-every-region-gets-its-own-plants-and-the-seasons-turn</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">undead-twins-and-the-uld-woman</guid>
 <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
 <description>Two methods for making characters: a clean rebuild, and a fast conform that reuses a finished model's topology, UVs and rig.</description>
-</item>
-<item>
-<title>Dev Log #1: The first Uld runs in Unreal Engine 5</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=the-first-uld-runs-in-unreal</link>
-<guid isPermaLink="false">the-first-uld-runs-in-unreal</guid>
-<pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
-<description>Our first character made the full trip from Blender to UE 5.8: rigged, physics-driven hair and clothing, and retargeted animation.</description>
 </item>
 </channel></rss>

@@ -1,6 +1,27 @@
 [
   {
     "group": "World",
+    "src": "assets/img/gallery/devlog31_region_terrain_1023.jpg",
+    "caption": "The ten region maps rebuilt from real elevation data, Dev Log #31",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog31_region_biomes_1023.jpg",
+    "caption": "Biome maps for the Wrekin, the Long Mynd and Salinae, Dev Log #31",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog31_plants_per_region_1023.png",
+    "caption": "Trees, shrubs and ground plants on each region map, Dev Log #31",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog30_flora_by_region_1022.png",
     "caption": "99 hand-built plant sets assigned across the 11 regions, Dev Log #30",
     "size": "wide",
