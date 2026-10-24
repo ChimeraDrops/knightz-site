@@ -22,6 +22,34 @@
   },
   {
     "group": "World",
+    "src": "assets/img/gallery/home_grain_field_1024.jpg",
+    "caption": "Ripe grain field under a cloudy sky on the environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_axes_relic.jpg",
+    "caption": "Battle axe, mace, double axe and the giant-made Grendel Slayer. Same scale.",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/tysilio_skin_close.jpg",
+    "caption": "Brother Tysilio, skin detail and the cataract eye"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_outfits_lineup_b_1009.jpg",
+    "caption": "Casual outfits, second half of the cast, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_manor_house_kit.jpg",
+    "caption": "Manor house modular building kit, post-Roman Britain"
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog30_flora_by_region_1022.png",
     "caption": "99 hand-built plant sets assigned across the 11 regions, Dev Log #30",
     "size": "wide",
@@ -380,37 +408,15 @@
     "contain": true
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_axes_relic.jpg",
-    "caption": "Battle axe, mace, double axe and the giant-made Grendel Slayer. Same scale.",
-    "contain": true
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/tysilio_skin_close.jpg",
-    "caption": "Brother Tysilio, skin detail and the cataract eye"
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/cadoc_expressions.jpg",
     "caption": "Brother Cadoc, expression and speech shapes",
     "size": "full"
   },
   {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_manor_house_kit.jpg",
-    "caption": "Manor house modular building kit, post-Roman Britain"
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/roster_status_1006.jpg",
     "caption": "Named cast head pipeline status, Dev Log #11",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_outfits_lineup_b_1009.jpg",
-    "caption": "Casual outfits, second half of the cast, Dev Log #17",
     "size": "wide"
   },
   {
