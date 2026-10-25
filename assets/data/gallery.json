@@ -7,12 +7,6 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog32_confluence_1024.jpg",
-    "caption": "Where the Rea Brook meets the Severn, Dev Log #32",
-    "size": "wide"
-  },
-  {
-    "group": "World",
     "src": "assets/img/gallery/devlog32_creek_bed_1024.jpg",
     "caption": "Creek bed with a damp margin past the waterline, Dev Log #32",
     "size": "wide"
@@ -23,6 +17,42 @@
     "caption": "Every river and stream in the water test area, Dev Log #32",
     "size": "wide",
     "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_confluence_1025.jpg",
+    "caption": "Stepping down to the river where the Rea Brook meets the Severn, environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "Tools",
+    "src": "assets/img/gallery/tools_conditions.jpg",
+    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
+    "size": "full"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_spears_bow.jpg",
+    "caption": "War spear, hunting spear, angon, 1.75 m yew bow, quiver, arrows and sling. Same scale.",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cadoc_expressions.jpg",
+    "caption": "Brother Cadoc, expression and speech shapes",
+    "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
+    "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog32_confluence_1024.jpg",
+    "caption": "Where the Rea Brook meets the Severn, Dev Log #32",
+    "size": "wide"
   },
   {
     "group": "World",
@@ -380,12 +410,6 @@
     "size": "wide"
   },
   {
-    "group": "Tools",
-    "src": "assets/img/gallery/tools_conditions.jpg",
-    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
-    "size": "full"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
     "caption": "First Blender-built oak in Unreal, Dev Log #23",
@@ -410,12 +434,6 @@
     "size": "full"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
-    "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
-    "size": "full"
-  },
-  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
     "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
@@ -432,18 +450,6 @@
     "src": "assets/img/gallery/lp_budget_1008.png",
     "caption": "Triangle budget before and after the reduction pass",
     "contain": true
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_spears_bow.jpg",
-    "caption": "War spear, hunting spear, angon, 1.75 m yew bow, quiver, arrows and sling. Same scale.",
-    "contain": true
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/cadoc_expressions.jpg",
-    "caption": "Brother Cadoc, expression and speech shapes",
-    "size": "full"
   },
   {
     "group": "Characters",
