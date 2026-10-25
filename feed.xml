@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #32: Rivers that move, and creeks you can wade</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-25-rivers-that-move-and-creeks-you-can-wade</link>
+<guid isPermaLink="false">2026-10-25-rivers-that-move-and-creeks-you-can-wade</guid>
+<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+<description>The river and creek look was rebuilt and approved, starting where the Rea Brook meets the Severn. Every river in the test area is filled, the player can wade in, the live water simulation now costs 0.04 ms per frame, and the ground under the water is real creek bed.</description>
+</item>
+<item>
 <title>Dev Log #31: Ten regions rebuilt, and the rivers start over</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over</link>
 <guid isPermaLink="false">2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">the-first-humans</guid>
 <pubDate>Sun, 27 Sep 2026 12:00:00 +0000</pubDate>
 <description>Peasant bodies, layered period clothing, swappable hair and a dynamic dirt, wet and gore material for the folk of the manor.</description>
-</item>
-<item>
-<title>Dev Log #2: Undead twins and the Uld woman</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=undead-twins-and-the-uld-woman</link>
-<guid isPermaLink="false">undead-twins-and-the-uld-woman</guid>
-<pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
-<description>Two methods for making characters: a clean rebuild, and a fast conform that reuses a finished model's topology, UVs and rig.</description>
 </item>
 </channel></rss>

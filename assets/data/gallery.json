@@ -1,6 +1,38 @@
 [
   {
     "group": "World",
+    "src": "assets/img/gallery/devlog32_wading_creek_1024.jpg",
+    "caption": "Wading the Rea Brook, the water reacts to the player, Dev Log #32",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog32_confluence_1024.jpg",
+    "caption": "Where the Rea Brook meets the Severn, Dev Log #32",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog32_creek_bed_1024.jpg",
+    "caption": "Creek bed with a damp margin past the waterline, Dev Log #32",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog32_water_map_1024.jpg",
+    "caption": "Every river and stream in the water test area, Dev Log #32",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog32_water_sim_cost_1024.png",
+    "caption": "Live water simulation cost per frame, before and after the rewrite, Dev Log #32",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog31_region_terrain_1023.jpg",
     "caption": "The ten region maps rebuilt from real elevation data, Dev Log #31",
     "size": "wide",

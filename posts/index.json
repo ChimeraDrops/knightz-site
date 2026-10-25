@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-25-rivers-that-move-and-creeks-you-can-wade",
+    "title": "Dev Log #32: Rivers that move, and creeks you can wade",
+    "date": "2026-10-25",
+    "summary": "The river and creek look was rebuilt and approved, starting where the Rea Brook meets the Severn. Every river in the test area is filled, the player can wade in, the live water simulation now costs 0.04 ms per frame, and the ground under the water is real creek bed.",
+    "tags": [
+      "world",
+      "environment",
+      "unreal",
+      "performance"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over",
     "title": "Dev Log #31: Ten regions rebuilt, and the rivers start over",
     "date": "2026-10-24",
