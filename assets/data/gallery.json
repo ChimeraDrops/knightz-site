@@ -17,14 +17,15 @@
     "caption": "The Salinae ford, shallow water across the road over a gravel bar, Dev Log #33"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/devlog33_severn_ford_gravel_1025.jpg",
-    "caption": "The Severn ford, a gravel bar under the water from post to post, Dev Log #33"
+    "group": "Characters",
+    "src": "assets/img/gallery/home_outfits_1026.jpg",
+    "caption": "The four women in their twelve rebuilt outfits, fitted gowns and open capes",
+    "size": "wide"
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog33_roman_piers_1025.jpg",
-    "caption": "The ruined Roman bridge piers in the Severn, Dev Log #33"
+    "src": "assets/img/gallery/devlog33_severn_ford_gravel_1025.jpg",
+    "caption": "The Severn ford, a gravel bar under the water from post to post, Dev Log #33"
   },
   {
     "group": "World",
@@ -39,14 +40,19 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/devlog33_outfits_lineup_1025.jpg",
-    "caption": "All twelve rebuilt outfits for the four women in the engine, Dev Log #33",
+    "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
+    "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
     "size": "wide"
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_roman_piers_1025.jpg",
+    "caption": "The ruined Roman bridge piers in the Severn, Dev Log #33"
+  },
+  {
     "group": "Characters",
-    "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
-    "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
+    "src": "assets/img/gallery/devlog33_outfits_lineup_1025.jpg",
+    "caption": "All twelve rebuilt outfits for the four women in the engine, Dev Log #33",
     "size": "wide"
   },
   {
