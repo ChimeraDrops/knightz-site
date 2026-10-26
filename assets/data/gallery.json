@@ -1,6 +1,56 @@
 [
   {
     "group": "World",
+    "src": "assets/img/gallery/devlog33_salwarpe_flowing_1025.jpg",
+    "caption": "The river at Salinae under the willows, one continuous channel, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_salinae_flow_carve_map_1025.jpg",
+    "caption": "Salinae from above: water, carved ground and flow all heading west, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_salwarpe_ford_1025.jpg",
+    "caption": "The Salinae ford, shallow water across the road over a gravel bar, Dev Log #33"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_severn_ford_gravel_1025.jpg",
+    "caption": "The Severn ford, a gravel bar under the water from post to post, Dev Log #33"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_roman_piers_1025.jpg",
+    "caption": "The ruined Roman bridge piers in the Severn, Dev Log #33"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_moorland_streams_1025.jpg",
+    "caption": "High Country moorland streams cut into the hillside, Dev Log #33"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_cape_before_after_1025.jpg",
+    "caption": "Nest's court outfit before and after: fitted gown and open cape, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_outfits_lineup_1025.jpg",
+    "caption": "All twelve rebuilt outfits for the four women in the engine, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
+    "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/devlog32_wading_creek_1024.jpg",
     "caption": "Wading the Rea Brook, the water reacts to the player, Dev Log #32",
     "size": "wide"

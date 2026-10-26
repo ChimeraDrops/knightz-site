@@ -423,7 +423,7 @@
    "title": "Heroines",
    "short": "Heroines",
    "eyebrow": "Characters",
-   "intro": "Four women on the new female body: Rhiannon, Elen, Hild and Nest. Heads, face rigs, hair and the body are in Unreal. Twelve outfits (three each) are built in Blender and in review. The movement set of 201 clips is generated and checked.",
+   "intro": "Four women on the new female body: Rhiannon, Elen, Hild and Nest. Heads, face rigs, hair and the body are in Unreal. Twelve outfits (three each) are rebuilt with fitted gowns, open capes and period footwear, and in review. The movement set of 201 clips is generated and checked.",
    "cover": "assets/img/roadmap/heroines/cover.jpg",
    "thumbs": "cols",
    "steps": [
@@ -3402,7 +3402,7 @@
       },
       {
        "name": "River water",
-       "sub": "One continuous flow surface for the Severn and brooks; ford 50 cm deep.",
+       "sub": "Look rebuilt and approved; live simulation around the player, wading and creek beds. Placed on all eleven regions with carved channels, one flow direction per river system and fords at road crossings.",
        "imgs": [
         {
          "src": "assets/img/videos/ep4/water_ford.jpg",
