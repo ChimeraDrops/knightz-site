@@ -14,14 +14,44 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog34_groundcover_after_1026.jpg",
-    "caption": "Ground cover patches following the slope, Dev Log #34"
+    "src": "assets/img/gallery/home_groundcover_1027.jpg",
+    "caption": "Sword and shield on a woodland floor, ground cover set onto the slope",
+    "size": "wide"
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
+    "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
+    "contain": true
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_kit.jpg",
+    "caption": "Boar-crest spangenhelm, war horn, gold and silver arm-rings",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_cloaks_back_1009.jpg",
+    "caption": "Cloaks from behind with Kawaii Physics, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_hall_firelight_1015.jpg",
+    "caption": "The hall lit by its long hearth, Dev Log #23",
+    "size": "full"
   },
   {
     "group": "World",
     "src": "assets/img/gallery/devlog33_salwarpe_flowing_1025.jpg",
     "caption": "The river at Salinae under the willows, one continuous channel, Dev Log #33",
     "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog34_groundcover_after_1026.jpg",
+    "caption": "Ground cover patches following the slope, Dev Log #34"
   },
   {
     "group": "World",
@@ -413,12 +443,6 @@
     "contain": true
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_cloaks_back_1009.jpg",
-    "caption": "Cloaks from behind with Kawaii Physics, Dev Log #17",
-    "size": "wide"
-  },
-  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog21_bow_jog_1013.jpg",
     "caption": "Bow jog with the bow in the left hand, Dev Log #21",
@@ -429,12 +453,6 @@
     "src": "assets/img/gallery/devlog22_kit_pieces_1014.jpg",
     "caption": "All 116 timber, wall, door and roof kit pieces, Dev Log #22",
     "contain": true
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_kit.jpg",
-    "caption": "Boar-crest spangenhelm, war horn, gold and silver arm-rings",
-    "size": "wide"
   },
   {
     "group": "Characters",
@@ -453,12 +471,6 @@
     "src": "assets/img/gallery/devlog24_body_lods_1016.png",
     "caption": "Female base body, triangles per level of detail, Dev Log #24",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog23_hall_firelight_1015.jpg",
-    "caption": "The hall lit by its long hearth, Dev Log #23",
-    "size": "full"
   },
   {
     "group": "World",
@@ -506,12 +518,6 @@
     "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
     "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
     "size": "full"
-  },
-  {
-    "group": "Animation",
-    "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
-    "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
-    "contain": true
   },
   {
     "group": "World",
