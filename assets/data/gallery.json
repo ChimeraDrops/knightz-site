@@ -1,5 +1,23 @@
 [
   {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog34_gait_checks_chart_1026.png",
+    "caption": "Walk cycles before and after the gait fix, per body, Dev Log #34",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog34_groundcover_before_after_1026.jpg",
+    "caption": "Ground cover before and after the reshape, Dev Log #34",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog34_groundcover_after_1026.jpg",
+    "caption": "Ground cover patches following the slope, Dev Log #34"
+  },
+  {
     "group": "World",
     "src": "assets/img/gallery/devlog33_salwarpe_flowing_1025.jpg",
     "caption": "The river at Salinae under the willows, one continuous channel, Dev Log #33",

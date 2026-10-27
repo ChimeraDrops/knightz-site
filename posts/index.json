@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-27-walking-by-the-numbers",
+    "title": "Dev Log #34: Walking by the numbers",
+    "date": "2026-10-27",
+    "summary": "Every walk on the three main bodies was scored on 35 measures from clinical gait research and rebuilt to match. Ground cover on all eleven regions was reshaped and set onto the land, and the rules for how the player grows stronger were settled.",
+    "tags": [
+      "animation",
+      "environment",
+      "design",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-26-every-river-finds-its-way-downhill",
     "title": "Dev Log #33: Every river finds its way downhill",
     "date": "2026-10-26",

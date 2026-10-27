@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #34: Walking by the numbers</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-27-walking-by-the-numbers</link>
+<guid isPermaLink="false">2026-10-27-walking-by-the-numbers</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<description>Every walk on the three main bodies was scored on 35 measures from clinical gait research and rebuilt to match. Ground cover on all eleven regions was reshaped and set onto the land, and the rules for how the player grows stronger were settled.</description>
+</item>
+<item>
 <title>Dev Log #33: Every river finds its way downhill</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-26-every-river-finds-its-way-downhill</link>
 <guid isPermaLink="false">2026-10-26-every-river-finds-its-way-downhill</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">eight-weapons</guid>
 <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
 <description>Longsword, battle axe, mace, pike, shortsword, double axe and the Grendel Slayer: eight game-ready weapon assets with collision, sockets and 2K to 4K textures.</description>
-</item>
-<item>
-<title>Dev Log #4: Building the hero</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=building-the-hero</link>
-<guid isPermaLink="false">building-the-hero</guid>
-<pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
-<description>HERO1, the 1.93 m body behind Owain: hands, face shapes, four hairstyles and a skeleton baked to the Unreal bind pose.</description>
 </item>
 </channel></rss>
