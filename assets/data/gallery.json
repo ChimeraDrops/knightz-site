@@ -8,9 +8,15 @@
   },
   {
     "group": "Props",
-    "src": "assets/img/gallery/devlog35_carts_and_wagons_1027.jpg",
-    "caption": "Carts, wagons and their loads, Dev Log #35",
+    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
+    "caption": "The chapel set, Dev Log #35",
     "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_hay_meadow_1028.jpg",
+    "caption": "Hay meadow by the river on the environment test map",
+    "size": "wide"
   },
   {
     "group": "Props",
@@ -20,9 +26,32 @@
     "contain": true
   },
   {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_shield_damage.jpg",
+    "caption": "Round shield, intact and two damage states"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
+    "caption": "First Blender-built oak in Unreal, Dev Log #23",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_blender_1014.jpg",
+    "caption": "Small longhouse built from timber and daub kit pieces (Blender), Dev Log #22",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_garment_kit_blender_1009.jpg",
+    "caption": "Shared garment kit in Blender, Dev Log #17",
+    "size": "wide"
+  },
+  {
     "group": "Props",
-    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
-    "caption": "The chapel set, Dev Log #35",
+    "src": "assets/img/gallery/devlog35_carts_and_wagons_1027.jpg",
+    "caption": "Carts, wagons and their loads, Dev Log #35",
     "contain": true
   },
   {
@@ -463,11 +492,6 @@
     "size": "full"
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_shield_damage.jpg",
-    "caption": "Round shield, intact and two damage states"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog27_pasture_fields_1019.jpg",
     "caption": "Pasture rising to the crop fields, Dev Log #27"
@@ -557,12 +581,6 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
-    "caption": "First Blender-built oak in Unreal, Dev Log #23",
-    "size": "wide"
-  },
-  {
-    "group": "World",
     "src": "assets/img/gallery/devlog23_tree_variants_1015.png",
     "caption": "Oak, ash and alder variants by height, Dev Log #23",
     "contain": true
@@ -595,12 +613,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/roster_status_1006.jpg",
     "caption": "Named cast head pipeline status, Dev Log #11",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_garment_kit_blender_1009.jpg",
-    "caption": "Shared garment kit in Blender, Dev Log #17",
     "size": "wide"
   },
   {
@@ -656,12 +668,6 @@
     "src": "assets/img/gallery/devlog21_jog_arms_1013.jpg",
     "caption": "Jog with the hands in front of the shoulders, Dev Log #21",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_blender_1014.jpg",
-    "caption": "Small longhouse built from timber and daub kit pieces (Blender), Dev Log #22",
-    "size": "wide"
   },
   {
     "group": "World",
