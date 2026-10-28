@@ -1,5 +1,65 @@
 [
   {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_farm_yard_props_1027.jpg",
+    "caption": "Farm and yard props, Dev Log #35",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_carts_and_wagons_1027.jpg",
+    "caption": "Carts, wagons and their loads, Dev Log #35",
+    "contain": true
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_river_ruins_and_tools_1027.jpg",
+    "caption": "River pieces, Roman ruins and hand tools, Dev Log #35",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
+    "caption": "The chapel set, Dev Log #35",
+    "contain": true
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_the_dead_1027.jpg",
+    "caption": "Fallen villagers, the ox at the ford and bones, Dev Log #35",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_bones_high_vs_low_1027.jpg",
+    "caption": "Bones at full detail and the game versions, Dev Log #35",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Materials",
+    "src": "assets/img/gallery/devlog35_new_materials_1027.jpg",
+    "caption": "Fifteen new surface materials, Dev Log #35",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Materials",
+    "src": "assets/img/gallery/devlog35_decals_1027.jpg",
+    "caption": "Nine new decals, Dev Log #35",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog35_in_engine_1027.jpg",
+    "caption": "Props placed in the hub, Dev Log #35",
+    "size": "full",
+    "contain": true
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog34_gait_checks_chart_1026.png",
     "caption": "Walk cycles before and after the gait fix, per body, Dev Log #34",

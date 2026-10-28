@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #35: A hundred props and the Roman road</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-28-a-hundred-props-and-the-roman-road</link>
+<guid isPermaLink="false">2026-10-28-a-hundred-props-and-the-roman-road</guid>
+<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+<description>About 100 new period props, a chapel set, the dead and bones made from images, 15 new materials and 9 decals replaced the grey boxes in the hub. Watling Street was built as a road kit and laid with Roman tombstones along its verge.</description>
+</item>
+<item>
 <title>Dev Log #34: Walking by the numbers</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-27-walking-by-the-numbers</link>
 <guid isPermaLink="false">2026-10-27-walking-by-the-numbers</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">the-design-set</guid>
 <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
 <description>The screenplay, character bible, economy design and world plan are written, and every region now has a 16-bit heightmap with terrain masks.</description>
-</item>
-<item>
-<title>Dev Log #5: The armoury</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=eight-weapons</link>
-<guid isPermaLink="false">eight-weapons</guid>
-<pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
-<description>Longsword, battle axe, mace, pike, shortsword, double axe and the Grendel Slayer: eight game-ready weapon assets with collision, sockets and 2K to 4K textures.</description>
 </item>
 </channel></rss>
