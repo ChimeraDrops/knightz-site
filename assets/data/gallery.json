@@ -1,5 +1,33 @@
 [
   {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog36_ox_gaits_1028.jpg",
+    "caption": "Ox walk, trot and gallop prototype on the new bovine skeleton, Dev Log #36",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog36_ox_idle_graze_1028.jpg",
+    "caption": "Ox standing idle and grazing sets, Dev Log #36",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog36_bovine_gaits_chart_1028.png",
+    "caption": "Ox and cow speed and stride per gait, Dev Log #36",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog36_ruin_kit_swap_chart_1028.png",
+    "caption": "Roman ruin kit pieces placed in the old Roman city, Dev Log #36",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "Props",
     "src": "assets/img/gallery/devlog35_farm_yard_props_1027.jpg",
     "caption": "Farm and yard props, Dev Log #35",

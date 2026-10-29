@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #36: The ox walks and the Roman city falls</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-29-the-ox-walks-and-the-roman-city-falls</link>
+<guid isPermaLink="false">2026-10-29-the-ox-walks-and-the-roman-city-falls</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+<description>The ox is the first animal rigged and animated, with walk and trot timed from published cattle studies, idle and grazing sets, and a cow on the same skeleton, both in Unreal. A Roman ruin kit replaced over 15,000 stand-ins, and every remaining prop on the list was built.</description>
+</item>
+<item>
 <title>Dev Log #35: A hundred props and the Roman road</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-28-a-hundred-props-and-the-roman-road</link>
 <guid isPermaLink="false">2026-10-28-a-hundred-props-and-the-roman-road</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">tools-of-the-manor</guid>
 <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
 <description>Sickle, billhook, work axe and spade, each in new, worn and mended states, plus a pipeline for swapping heads on shared bodies.</description>
-</item>
-<item>
-<title>Dev Log #6: The design set and eleven heightmaps</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=the-design-set</link>
-<guid isPermaLink="false">the-design-set</guid>
-<pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-<description>The screenplay, character bible, economy design and world plan are written, and every region now has a 16-bit heightmap with terrain masks.</description>
 </item>
 </channel></rss>

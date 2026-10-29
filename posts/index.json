@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-10-29-the-ox-walks-and-the-roman-city-falls",
+    "title": "Dev Log #36: The ox walks and the Roman city falls",
+    "date": "2026-10-29",
+    "summary": "The ox is the first animal rigged and animated, with walk and trot timed from published cattle studies, idle and grazing sets, and a cow on the same skeleton, both in Unreal. A Roman ruin kit replaced over 15,000 stand-ins, and every remaining prop on the list was built.",
+    "tags": [
+      "animation",
+      "animals",
+      "props",
+      "world"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-28-a-hundred-props-and-the-roman-road",
     "title": "Dev Log #35: A hundred props and the Roman road",
     "date": "2026-10-28",
