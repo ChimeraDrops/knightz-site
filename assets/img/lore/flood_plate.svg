@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Manuscript-style drawing of the ark riding the Flood under falling rain">
+  <rect width="800" height="520" fill="#e6dcc5"/>
+  <rect x="18" y="18" width="764" height="484" fill="none" stroke="#1b1712" stroke-width="3"/>
+  <rect x="28" y="28" width="744" height="464" fill="none" stroke="#b4432e" stroke-width="1.5"/>
+  <g stroke="#1b1712" stroke-width="1.4" opacity="0.55">
+    <line x1="80" y1="50" x2="60" y2="130"/><line x1="140" y1="60" x2="120" y2="140"/><line x1="200" y1="44" x2="180" y2="124"/>
+    <line x1="260" y1="58" x2="240" y2="138"/><line x1="320" y1="46" x2="300" y2="126"/><line x1="380" y1="60" x2="360" y2="140"/>
+    <line x1="440" y1="48" x2="420" y2="128"/><line x1="500" y1="62" x2="480" y2="142"/><line x1="560" y1="46" x2="540" y2="126"/>
+    <line x1="620" y1="58" x2="600" y2="138"/><line x1="680" y1="48" x2="660" y2="128"/><line x1="740" y1="60" x2="720" y2="140"/>
+    <line x1="110" y1="150" x2="94" y2="214"/><line x1="230" y1="156" x2="214" y2="220"/><line x1="560" y1="152" x2="544" y2="216"/><line x1="690" y1="158" x2="674" y2="222"/>
+  </g>
+  <!-- drowned hilltops -->
+  <g fill="#1b1712">
+    <path d="M70 360 l20 -70 l14 0 l20 70 Z"/>
+    <path d="M600 362 q40 -80 90 -60 q30 14 50 60 Z"/>
+  </g>
+  <!-- ark -->
+  <g>
+    <path d="M250 318 Q400 368 550 318 L530 352 Q400 392 270 352 Z" fill="#1b1712"/>
+    <rect x="300" y="262" width="200" height="58" fill="#e6dcc5" stroke="#1b1712" stroke-width="4"/>
+    <path d="M290 266 L400 220 L510 266 Z" fill="#b4432e" stroke="#1b1712" stroke-width="4"/>
+    <g fill="#1b1712"><rect x="322" y="280" width="16" height="20"/><rect x="352" y="280" width="16" height="20"/><rect x="382" y="280" width="16" height="20"/><rect x="412" y="280" width="16" height="20"/><rect x="442" y="280" width="16" height="20"/><rect x="472" y="280" width="16" height="20"/></g>
+    <path d="M400 220 L400 196" stroke="#1b1712" stroke-width="3"/>
+    <path d="M400 196 q14 -8 26 0 q-12 6 -26 0" fill="#1b1712"/>
+  </g>
+  <!-- waves -->
+  <g fill="none" stroke="#1b1712" stroke-width="3" stroke-linecap="round">
+    <path d="M40 380 q30 -22 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0"/>
+    <path d="M40 412 q30 -22 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0" stroke="#b4432e"/>
+    <path d="M40 444 q30 -22 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0"/>
+    <path d="M40 476 q30 -22 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0"/>
+  </g>
+</svg>

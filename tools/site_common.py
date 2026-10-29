@@ -26,6 +26,7 @@ def nav(p, current=""):
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     <ul class="nav-links">
       <li><a href="{p}index.html#game">The Game</a></li>
+      <li><a href="{p}lore.html"{cur('lore')}>Lore</a></li>
       <li><a href="{p}index.html#world">World</a></li>
       <li><a href="{p}index.html#characters">Characters</a></li>
       <li><a href="{p}index.html#progress">Progress</a></li>
@@ -49,7 +50,7 @@ def foot(p):
       </div>
       <div>
         <h5>Explore</h5>
-        <ul><li><a href="{p}index.html#game">The Game</a></li><li><a href="{p}index.html#world">World</a></li><li><a href="{p}index.html#characters">Characters</a></li><li><a href="{p}index.html#progress">Progress</a></li><li><a href="{p}roadmap.html">RoadMap</a></li></ul>
+        <ul><li><a href="{p}index.html#game">The Game</a></li><li><a href="{p}lore.html">Lore</a></li><li><a href="{p}index.html#world">World</a></li><li><a href="{p}index.html#characters">Characters</a></li><li><a href="{p}index.html#progress">Progress</a></li><li><a href="{p}roadmap.html">RoadMap</a></li></ul>
       </div>
       <div>
         <h5>Follow</h5>

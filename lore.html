@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>KnightZ Lore</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <meta name="description" content="The real history behind KnightZ: The Failing Light. The volcanic winter of 536, the famine and plague of sixth-century Britain, Beowulf and the Neanderthals, and the Nephilim of Genesis and the Book of Enoch.">
+  <meta name="theme-color" content="#0e1011">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="KnightZ Lore: The History Behind the Failing Light">
+  <meta property="og:description" content="Volcanoes, famine, Beowulf and the giants before the Flood. Three stories, one generation, AD 548.">
+  <meta property="og:image" content="assets/img/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Lore page. Layout: a long illuminated chronicle. Four "books" (I to IV) in alternating text/plate rows,
+       then a convergence timeline, the period-accuracy grid and the sources. Dark only, like the rest of the site. */
+    :root {
+      color-scheme: dark;
+      --ash: #2b2a28;
+      --ember: #c9805c;
+      --plate-bg: var(--vellum);
+      --plate-ink: var(--ink);
+      --measure: 66ch;
+    }
+    body { background: var(--bg); color: var(--text); }
+    body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: var(--bg); }
+    .site-header { top: env(safe-area-inset-top, 0px); }
+    .lore .container { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+    @media (min-width: 601px) { .lore .container { padding-left: max(24px, env(safe-area-inset-left, 0px)); padding-right: max(24px, env(safe-area-inset-right, 0px)); } }
+
+    /* ---------- Hero ---------- */
+    .lore-hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); padding: 0; }
+    .lore-hero .art { position: absolute; inset: 0; background: url("assets/img/lore/lore_hero.svg") center/cover no-repeat; }
+    .lore-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(14,16,17,.2) 0%, rgba(14,16,17,.35) 55%, var(--bg) 100%), radial-gradient(ellipse at 15% 55%, rgba(14,16,17,.7), rgba(14,16,17,0) 60%); }
+    .ashfall { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+    .lore-hero .container { position: relative; z-index: 2; padding-block: clamp(96px, 14vw, 168px) clamp(72px, 9vw, 112px); }
+    .lore-hero h1 { font-family: var(--font-insular); font-weight: 400; color: var(--vellum); font-size: clamp(44px, 8vw, 96px); line-height: 1; margin: 18px 0 18px; letter-spacing: .01em; text-wrap: balance; text-shadow: 0 2px 30px rgba(0,0,0,.6); max-width: 15ch; }
+    .lore-hero h1 em { font-style: normal; color: var(--red-2); }
+    .lore-hero .lede { font-family: var(--font-serif); font-size: clamp(19px, 2.1vw, 23px); line-height: 1.55; color: var(--text); max-width: 58ch; margin: 0; }
+    .strands { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; padding: 0; list-style: none; }
+    .strands a { display: inline-flex; gap: 10px; align-items: baseline; padding: 9px 14px; border: 1px solid var(--line-2); border-radius: var(--radius); background: rgba(14,16,17,.55); color: var(--text); font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+    .strands a b { font-family: var(--font-display); color: var(--bronze); font-weight: 700; }
+    .strands a:hover { border-color: var(--bronze); color: var(--vellum); }
+
+    /* ---------- Opening pitch ---------- */
+    .pitch { background: var(--bg); }
+    .pitch-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
+    .pitch-text > * { min-width: 0; }
+    .pitch h2, .book h2, .meet h2, .period h2, .sources h2 { font-family: var(--font-display); font-weight: 600; color: var(--vellum); font-size: clamp(28px, 3.6vw, 42px); line-height: 1.15; margin: 14px 0 22px; text-wrap: balance; letter-spacing: .02em; }
+    .prose p { font-family: var(--font-serif); font-size: 19.5px; line-height: 1.7; color: var(--text); max-width: var(--measure); margin: 0 0 1.05em; }
+    .prose p.drop::first-letter { font-family: var(--font-insular); float: left; font-size: 4.1em; line-height: .82; padding: .06em .12em 0 0; color: var(--red-2); }
+    .prose a { border-bottom: 1px solid rgba(195,154,85,.35); }
+    .prose a:hover { border-color: var(--vellum); }
+    .figure { margin: 0; }
+    .figure img { width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); }
+    .figure figcaption { font-size: 13px; color: var(--text-3); margin-top: 10px; line-height: 1.5; }
+    .pitch .figure img { aspect-ratio: 3 / 2; object-fit: cover; }
+    .oath { margin-top: 28px; padding: 22px 24px; border: 1px solid var(--line-2); border-radius: var(--radius); background: var(--bg-2); }
+    .oath h3 { font-family: var(--font-display); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: var(--bronze); margin: 0 0 12px; }
+    .oath ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+    .oath li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; color: var(--text-2); font-size: 15px; line-height: 1.55; }
+    .oath li::before { content: "\2726"; color: var(--red-2); font-size: 13px; padding-top: 3px; }
+
+    /* ---------- Books I to IV ---------- */
+    .book { position: relative; }
+    .book:nth-of-type(even) { background: var(--bg-2); }
+    .book-head { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 22px; align-items: end; margin-bottom: 34px; }
+    .numeral { font-family: var(--font-insular); font-size: clamp(64px, 9vw, 112px); line-height: .8; color: var(--red); opacity: .9; }
+    .book-head h2 { margin: 6px 0 0; }
+    .book-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
+    .book.flip .book-grid > .aside { order: -1; }
+    .aside { display: grid; gap: 22px; min-width: 0; }
+    .quote { margin: 0; padding: 26px 26px 22px; background: var(--plate-bg); color: var(--plate-ink); border-radius: var(--radius); position: relative; box-shadow: inset 0 0 0 1px rgba(27,23,18,.25), inset 0 0 0 7px var(--plate-bg), inset 0 0 0 8px rgba(180,67,46,.6); }
+    .quote p { font-family: var(--font-serif); font-style: italic; font-size: 21px; line-height: 1.5; margin: 0 0 12px; }
+    .quote cite { display: block; font-style: normal; font-family: var(--font-ui); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: #6d5d47; }
+    .quote cite a { color: var(--red); }
+    .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+    .stat { background: var(--bg-3); padding: 18px 16px; }
+    .stat b { display: block; font-family: var(--font-display); font-size: clamp(24px, 2.6vw, 32px); color: var(--vellum); font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+    .stat span { display: block; font-size: 12.5px; color: var(--text-2); line-height: 1.45; margin-top: 6px; }
+    .book:nth-of-type(even) .stat { background: var(--bg); }
+    .callout { border-left: 2px solid var(--bronze); padding: 4px 0 4px 18px; }
+    .callout h4 { margin: 0 0 6px; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--bronze); font-weight: 600; }
+    .callout p { margin: 0; color: var(--text-2); font-size: 15px; line-height: 1.6; }
+    .ingame { margin-top: 26px; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: start; padding: 18px 20px; border-radius: var(--radius); background: rgba(180,67,46,.08); border: 1px solid rgba(180,67,46,.35); max-width: var(--measure); }
+    .ingame .tag { font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--red-2); padding-top: 3px; white-space: nowrap; }
+    .ingame p { margin: 0; font-size: 15.5px; color: var(--text); line-height: 1.6; }
+    .twocol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .ledger { border: 1px solid var(--line-2); border-radius: var(--radius); padding: 16px 18px; background: var(--bg); }
+    .book:nth-of-type(odd) .ledger { background: var(--bg-2); }
+    .ledger h4 { margin: 0 0 8px; font-family: var(--font-display); font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--vellum); }
+    .ledger p { margin: 0; font-size: 14.5px; color: var(--text-2); line-height: 1.6; }
+    .portrait img { aspect-ratio: 39 / 42; object-fit: cover; }
+
+    /* ---------- Where the three meet ---------- */
+    .meet { background: radial-gradient(ellipse at 50% 0%, rgba(180,67,46,.12), rgba(14,16,17,0) 60%), var(--bg); }
+    .meet-intro { max-width: 70ch; }
+    .meet-intro p { font-family: var(--font-serif); font-size: 19.5px; line-height: 1.7; color: var(--text); margin: 0 0 1em; }
+    .legend { display: flex; flex-wrap: wrap; gap: 18px; margin: 26px 0 30px; font-size: 13px; color: var(--text-2); }
+    .legend span { display: inline-flex; align-items: center; gap: 8px; }
+    .legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .k-sky { background: var(--ember); } .k-kin { background: var(--bronze); } .k-giant { background: var(--pewter); } .k-game { background: var(--red-2); }
+    .timeline { list-style: none; margin: 0; padding: 0; position: relative; display: grid; gap: 0; }
+    .timeline::before { content: ""; position: absolute; left: 132px; top: 8px; bottom: 8px; width: 1px; background: var(--line-2); }
+    .timeline li { display: grid; grid-template-columns: 112px 40px minmax(0, 1fr); align-items: start; padding: 12px 0; }
+    .timeline .when { font-family: var(--font-display); font-weight: 600; color: var(--vellum); text-align: right; font-size: 15px; line-height: 1.35; font-variant-numeric: tabular-nums; padding-top: 1px; }
+    .timeline .dot { justify-self: center; margin-top: 6px; width: 11px; height: 11px; border-radius: 50%; box-shadow: 0 0 0 4px var(--bg); }
+    .timeline .what { color: var(--text-2); font-size: 15.5px; line-height: 1.55; max-width: 70ch; }
+    .timeline .what strong { color: var(--text); font-weight: 600; }
+    .timeline .gap { grid-column: 3; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--text-3); }
+    .timeline li.game .what strong { color: var(--red-2); }
+    .timeline li.game .when { color: var(--red-2); }
+    .timeline li.game .dot { width: 15px; height: 15px; margin-top: 4px; }
+    .verdict { margin-top: 40px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .verdict .ledger { background: var(--bg-2); }
+    .verdict .ledger h4 { color: var(--bronze); }
+
+    /* ---------- Built to the period ---------- */
+    .period { background: var(--bg-2); }
+    .period-lede { font-family: var(--font-serif); font-size: 19.5px; line-height: 1.7; max-width: 66ch; color: var(--text); margin: 0 0 36px; }
+    .pgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .pcard { background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: grid; grid-template-rows: auto 1fr; }
+    .pcard img { width: 100%; aspect-ratio: 16 / 8; object-fit: cover; border-bottom: 1px solid var(--line); }
+    .pcard .body { padding: 20px 22px 22px; }
+    .pcard h3 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 600; font-size: 19px; letter-spacing: .06em; color: var(--vellum); }
+    .pcard p { margin: 0; color: var(--text-2); font-size: 15px; line-height: 1.6; }
+
+    /* ---------- Sources ---------- */
+    .sources { background: var(--bg); }
+    .src-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 40px; }
+    .src-grid h3 { font-family: var(--font-display); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: var(--bronze); margin: 0 0 12px; font-weight: 600; }
+    .src-grid ol { margin: 0; padding-left: 20px; display: grid; gap: 8px; color: var(--text-3); font-size: 14px; line-height: 1.5; }
+    .src-grid li { padding-left: 4px; }
+    .src-grid a { color: var(--text); border-bottom: 1px solid var(--line-2); }
+    .src-grid a:hover { color: var(--vellum); border-color: var(--bronze); }
+    .src-note { margin-top: 36px; max-width: 80ch; color: var(--text-3); font-size: 14px; line-height: 1.6; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+
+    @media (max-width: 900px) {
+      .pitch-grid, .book-grid { grid-template-columns: minmax(0, 1fr); }
+      .book.flip .book-grid > .aside { order: 0; }
+      .verdict { grid-template-columns: minmax(0, 1fr); }
+      .src-grid, .pgrid { grid-template-columns: minmax(0, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .prose p, .meet-intro p, .period-lede { font-size: 18px; }
+      .book-head { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+      .stats { grid-template-columns: minmax(0, 1fr); }
+      .twocol { grid-template-columns: minmax(0, 1fr); }
+      .timeline::before { left: 6px; }
+      .timeline li { grid-template-columns: 13px minmax(0, 1fr); column-gap: 14px; row-gap: 2px; }
+      .timeline .when { grid-column: 2; grid-row: 1; text-align: left; }
+      .timeline .dot { grid-column: 1; grid-row: 1 / span 2; justify-self: start; margin-left: 1px; }
+      .timeline li.game .dot { margin-left: -1px; }
+      .timeline .what { grid-column: 2; }
+      .timeline .gap { grid-column: 2; }
+      .ingame { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+    }
+    a:focus-visible, button:focus-visible { outline: 2px solid var(--bronze); outline-offset: 3px; }
+    @media (prefers-reduced-motion: reduce) { .ashfall { display: none; } }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="KnightZ home">
+      <img src="assets/img/logo.svg" alt="" width="34" height="34">
+      <span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">KSUIE_Gaming</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html#game">The Game</a></li>
+      <li><a href="lore.html" aria-current="page">Lore</a></li>
+      <li><a href="index.html#world">World</a></li>
+      <li><a href="index.html#characters">Characters</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="devlog.html">Dev Log</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="roadmap.html">RoadMap</a></li>
+      <li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main" class="lore">
+
+  <!-- ===== HERO ===== -->
+  <section class="lore-hero" aria-label="Introduction">
+    <div class="art" role="img" aria-label="A red, veiled sun over dark hills under drifting ash, with a beacon on a hillfort"></div>
+    <canvas class="ashfall" aria-hidden="true"></canvas>
+    <div class="container">
+      <span class="eyebrow">The Lore of KnightZ</span>
+      <h1>The Year the Sun Went <em>Grey</em></h1>
+      <p class="lede">Three of the oldest stories in the western world fall inside one generation: a sky that failed, a monster in a Danish hall, and the giants who lived before the Flood. KnightZ sets all three in the same place, in the same years, and asks what if each one was true.</p>
+      <ul class="strands" aria-label="Jump to a section">
+        <li><a href="#sky"><b>I</b> The Ash Sky</a></li>
+        <li><a href="#famine"><b>II</b> The Famine</a></li>
+        <li><a href="#kin"><b>III</b> Beowulf and the Old People</a></li>
+        <li><a href="#giants"><b>IV</b> The Flood and the Nephilim</a></li>
+        <li><a href="#meet"><b>&#10022;</b> Where They Meet</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== PITCH ===== -->
+  <section class="pitch" aria-labelledby="pitch-h">
+    <div class="container">
+      <div class="pitch-grid">
+        <div class="pitch-text prose">
+          <span class="eyebrow">History First</span>
+          <h2 id="pitch-h">Every legend starts with something that really happened</h2>
+          <p class="drop">In AD 536 the sun dimmed over Europe for more than a year. Ice cores, tree rings and the chroniclers of three empires all record it. The harvests failed, then plague came out of the Mediterranean and crossed to Britain. In the same years the Danes were building great halls and singing about a creature that walked the fens in the shape of a man. The monks who kept the annals were reading Genesis, and some of them knew an older book about giants and the angels who fathered them.</p>
+          <p>KnightZ: The Failing Light is built from those records. We took the real eruptions, the real famine entries, the real plague DNA, the oldest epic in the English language and the oldest surviving apocalypse, and laid them on a single timeline. They fit. The story we tell lives in the gaps between what was written down and what nobody dared to write.</p>
+          <p>That is why we hold the rest of the game to the same standard. If the chronicle says the bread failed, the fields in the game are thin. If a sixth-century Briton could not have owned it, worn it or built it, you will not find it in Powys in 548.</p>
+        </div>
+        <div class="aside">
+          <figure class="figure">
+            <img src="assets/img/gallery/concept_manor.jpg" alt="Concept sheet of the KnightZ manor: a timber hall and longhouses inside a bank and palisade on a hill above a winding river, with a site plan and building studies" loading="lazy">
+            <figcaption>The manor on its hill above the Severn, concept sheet. The game map is built on the real elevation of the valley.</figcaption>
+          </figure>
+          <div class="oath">
+            <h3>Kept to the period</h3>
+            <ul>
+              <li>The land: real terrain, real rivers, and only plants that grew in Britain in the sixth century.</li>
+              <li>The dress: wool and linen in layers, period footwear, colours from the dyes of the time.</li>
+              <li>The economy: grain, iron, livestock, and salt carried in along the old Roman road.</li>
+              <li>The arms: the spatha, the seax, the spear and the round shield.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== I. THE SKY ===== -->
+  <section class="book" id="sky" aria-labelledby="sky-h">
+    <div class="container">
+      <div class="book-head"><span class="numeral" aria-hidden="true">I</span><div><span class="eyebrow">AD 536 to 547</span><h2 id="sky-h">The Sun Put On Ashes</h2></div></div>
+      <div class="book-grid">
+        <div class="prose">
+          <p class="drop">In 536 a cloud of volcanic dust spread across the northern hemisphere and stayed. The Byzantine historian Procopius, writing from the court of Justinian, said the sun shone without brightness, like the moon, for the whole year. In Ireland the annalists wrote three words for 536: <em>failure of bread</em>.</p>
+          <p>For a long time nobody knew the cause. Then the ice answered. Sulphate layers in cores drilled from Greenland and Antarctica show large eruptions in 536 and again around 540 (<a href="https://doi.org/10.1029/2007GL032450" target="_blank" rel="noopener">Larsen et al., 2008</a>). A re-dating of the ice-core record in <a href="https://www.nature.com/articles/nature14565" target="_blank" rel="noopener">Nature in 2015</a> confirmed two great eruptions back to back: a northern one in 536 and a tropical one in 540, among the largest of the last 2,500 years.</p>
+          <p>The tree rings agree. A study of Alpine and Russian Altai trees found summers so cold after 536 that the authors named the period the <a href="https://www.nature.com/articles/ngeo2652" target="_blank" rel="noopener">Late Antique Little Ice Age</a>, running from 536 to around 660, with a third eruption in 547. A climate study of the double event placed 536 to 545 among the coldest decades of the last two thousand years (<a href="https://link.springer.com/article/10.1007/s10584-016-1648-7" target="_blank" rel="noopener">Toohey et al., 2016</a>).</p>
+          <p>Where the first eruption happened is still argued. Medieval historian Michael McCormick's team pointed to Iceland, as reported in <a href="https://www.science.org/content/article/why-536-was-worst-year-be-alive" target="_blank" rel="noopener">Science</a>, which named 536 "the worst year to be alive". The Ilopango volcano in El Salvador has been proposed for the second (<a href="https://doi.org/10.1016/j.quascirev.2019.07.037" target="_blank" rel="noopener">Dull et al., 2019</a>), though later dating work places that eruption a century earlier.</p>
+          <div class="ingame"><span class="tag">In the game</span><p>KnightZ opens twelve winters after 536. The sky is a milky veil over a pale, reddish sun, summers are short and cold, and clear blue sky is rare enough to be remembered.</p></div>
+        </div>
+        <div class="aside">
+          <blockquote class="quote">
+            <p>"For the sun gave forth its light without brightness, like the moon, during this whole year."</p>
+            <cite>Procopius, <a href="https://www.gutenberg.org/ebooks/16765" target="_blank" rel="noopener">History of the Wars IV.14</a>, AD 536</cite>
+          </blockquote>
+          <div class="stats" role="list">
+            <div class="stat" role="listitem"><b>536 &middot; 540 &middot; 547</b><span>Three major eruptions in eleven years, read in polar ice</span></div>
+            <div class="stat" role="listitem"><b>1.5 to 2.5&nbsp;&deg;C</b><span>Drop in European summer temperatures after 536 (Science, 2018)</span></div>
+            <div class="stat" role="listitem"><b>~120 years</b><span>Length of the cold period that followed, 536 to about 660</span></div>
+          </div>
+          <div class="callout"><h4>How we know</h4><p>Three independent records line up on the same years: sulphate in polar ice, narrow growth rings in old timber, and eyewitness writing from Constantinople, Italy and Ireland.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== II. FAMINE ===== -->
+  <section class="book flip" id="famine" aria-labelledby="famine-h">
+    <div class="container">
+      <div class="book-head"><span class="numeral" aria-hidden="true">II</span><div><span class="eyebrow">Britain, 536 to 549</span><h2 id="famine-h">Then the Bread Failed</h2></div></div>
+      <div class="book-grid">
+        <div class="prose">
+          <p class="drop">Britain had no Procopius, but it had annals. The Welsh annals, the <em>Annales Cambriae</em>, set down 537 in one line: the battle of Camlann, in which Arthur and Medraut fell, <em>and there was plague in Britain and Ireland</em>. Ten years later they record the great death in which Maelgwn, king of Gwynedd, died. A later hand called it the Yellow Plague, the name it still carries in Wales.</p>
+          <p>The disease was the Plague of Justinian, the first pandemic of <em>Yersinia pestis</em>, the bacterium of the Black Death. It reached Constantinople in 541. In 2019 a team led by the Max Planck Institute recovered its DNA from burials at Edix Hill in Cambridgeshire and linked it to a pestilence in the British Isles around 544 (<a href="https://www.pnas.org/doi/10.1073/pnas.1820447116" target="_blank" rel="noopener">Keller et al., PNAS</a>). The chroniclers were describing something real.</p>
+          <p>Hunger came first and plague followed a population already starving. Roman Britain may have held three to six million people (<a href="https://www.academia.edu/480680" target="_blank" rel="noopener">H&auml;rke</a>). By the later sixth century the archaeology of the west goes quiet: a 2023 survey found a sharp and lasting fall in activity at the hillforts and grain-drying kilns of western Britain (<a href="https://nottingham-repository.worktribe.com/index.php/output/44223499/plague-climate-and-faith-in-early-medieval-western-britain-investigating-narratives-of-change" target="_blank" rel="noopener">Comeau, Seaman and Bloxam</a>). Writers such as David Keys in <a href="https://en.wikipedia.org/wiki/Catastrophe:_An_Investigation_into_the_Origins_of_the_Modern_World" target="_blank" rel="noopener"><em>Catastrophe</em></a> argue that famine and plague together came close to emptying the British kingdoms, and opened the east of the island to the Saxons.</p>
+          <p>How many died is still debated, and some historians think the plague's toll has been overstated (<a href="https://www.pnas.org/doi/10.1073/pnas.1903674116" target="_blank" rel="noopener">Mordechai et al., 2019</a>). What the record shows beyond argument is a decade of failed harvests, a pandemic, and kings dying of it.</p>
+          <div class="ingame"><span class="tag">In the game</span><p>Owain was orphaned in the famine. The manor he inherits has empty houses, untended strips and too few hands for the harvest. Keeping its people fed through five winters is the heart of the game.</p></div>
+        </div>
+        <div class="aside">
+          <blockquote class="quote">
+            <p>"The battle of Camlann, in which Arthur and Medraut fell: and there was plague in Britain and Ireland."</p>
+            <cite><a href="https://sourcebooks.web.fordham.edu/source/annalescambriae.asp" target="_blank" rel="noopener">Annales Cambriae</a>, year 537</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>"Failure of bread."</p>
+            <cite><a href="https://celt.ucc.ie/published/T100001A/text106.html" target="_blank" rel="noopener">Annals of Ulster</a>, U536.3</cite>
+          </blockquote>
+          <figure class="figure">
+            <img src="assets/img/gallery/home_grain_field_1024.jpg" alt="A wide field of thin, pale grain under a cloudy sky, in Unreal Engine" loading="lazy">
+            <figcaption>A grain field on the test map. Crops in KnightZ are period varieties, grown in open strips.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== III. BEOWULF ===== -->
+  <section class="book" id="kin" aria-labelledby="kin-h">
+    <div class="container">
+      <div class="book-head"><span class="numeral" aria-hidden="true">III</span><div><span class="eyebrow">Denmark and Britain, around 500 to 550</span><h2 id="kin-h">Beowulf and the Old People of the Hills</h2></div></div>
+      <div class="book-grid">
+        <div class="prose">
+          <p class="drop"><em>Beowulf</em> survives in a single manuscript copied around the year 1000, but the story is set much earlier. Its one datable event is the death of King Hygelac in a raid on the Franks, which Gregory of Tours records around 516 to 521. A later Latin book of wonders, the <em>Liber Monstrorum</em>, claims Hygelac was so huge that his bones were kept on an island in the Rhine for travellers to see (<a href="https://en.wikipedia.org/wiki/Hygelac" target="_blank" rel="noopener">Hygelac</a>).</p>
+          <p>At Lejre in Denmark, the traditional seat of King Hrothgar, archaeologist Tom Christensen excavated a hall about 50 metres long, dated to the mid-sixth century (<a href="https://en.wikipedia.org/wiki/Heorot" target="_blank" rel="noopener">Heorot</a>). By the poem's own chronology, Grendel's attacks on Heorot fall within a generation of 548.</p>
+          <p>And what was Grendel? The poem gives few details, but it is clear on one point. He walked <em>on weres w&aelig;stmum</em>, in the form of a man, only larger than any other man. He was strong enough to carry off thirty sleeping warriors, he lived with his mother in the fens and under the mere, and the poet calls him the kin of Cain.</p>
+          <p>Readers have long wondered whether a memory of another kind of human lies under the monster. Michael Crichton built his 1976 novel <a href="https://en.wikipedia.org/wiki/Eaters_of_the_Dead" target="_blank" rel="noopener"><em>Eaters of the Dead</em></a>, filmed as <em>The 13th Warrior</em>, on that idea, with the Grendel figures written as surviving Neanderthals. Writer Mark Carpenter makes the case in <a href="https://www.ancient-origins.net/myths-legends-europe/beowulf-0015523" target="_blank" rel="noopener"><em>Beowulf and Grendel: A Genetic Interpretation</em></a>. Medieval Europe was full of such figures: the hairy <a href="https://en.wikipedia.org/wiki/Wild_man" target="_blank" rel="noopener">wild man of the woods</a>, the <em>wodewose</em> of English carving.</p>
+          <p>The Neanderthals were real and they lived here. Teeth from <a href="https://museum.wales/articles/1014/Dannedd-Neanderthalaidd-o-Ogof-Pontnewydd/" target="_blank" rel="noopener">Pontnewydd Cave</a> in north Wales, about 230,000 years old, are the oldest human remains found in Wales. Their DNA survives in most people living today. Science dates their disappearance to around 40,000 years ago (<a href="https://www.nature.com/articles/nature13621" target="_blank" rel="noopener">Higham et al., Nature 2014</a>). KnightZ asks what would follow if a few of them never left the high country.</p>
+          <div class="ingame"><span class="tag">In the game</span><p>The manor's folk fear the Uld, a heavy-boned people of the uplands. The Saxon traders have their own name for them, taken from a song about a Danish hall. How you treat the Uld decides how the story ends.</p></div>
+        </div>
+        <div class="aside">
+          <figure class="figure portrait">
+            <img src="assets/img/characters/uld_ghaeth.jpg" alt="Concept portrait of an Uld man: heavy brow ridge, broad nose, deep-set eyes and thick dark hair" loading="lazy">
+            <figcaption>An Uld hunter, concept portrait. The Uld bodies in KnightZ are built on Neanderthal proportions: shorter, wider and far stronger than the Britons.</figcaption>
+          </figure>
+          <blockquote class="quote">
+            <p>"On weres w&aelig;stmum wr&aelig;clastas tr&aelig;d, n&aelig;fne he w&aelig;s mara &thorn;onne &aelig;nig man o&eth;er."</p>
+            <cite>Beowulf, lines 1352 to 1353. "In the form of a man he walked the paths of exile, except that he was larger than any other man." <a href="https://www.gutenberg.org/ebooks/16328" target="_blank" rel="noopener">Full text</a></cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== IV. THE FLOOD ===== -->
+  <section class="book flip" id="giants" aria-labelledby="giants-h">
+    <div class="container">
+      <div class="book-head"><span class="numeral" aria-hidden="true">IV</span><div><span class="eyebrow">Genesis, Enoch and the Anglo-Saxon poets</span><h2 id="giants-h">The Giants Before the Flood</h2></div></div>
+      <div class="book-grid">
+        <div class="prose">
+          <p class="drop">The sixth chapter of <a href="https://www.biblegateway.com/passage/?search=Genesis%206%3A1-8&amp;version=KJV" target="_blank" rel="noopener">Genesis</a> holds four strange verses. The sons of God took wives from the daughters of men, and their children were the Nephilim, "mighty men which were of old, men of renown". Then the earth was filled with violence, and God sent the Flood. Yet the Nephilim appear again after it, when the spies sent into Canaan report giants in the land (<a href="https://www.biblegateway.com/passage/?search=Numbers%2013%3A33&amp;version=KJV" target="_blank" rel="noopener">Numbers 13:33</a>).</p>
+          <p>The <a href="https://en.wikipedia.org/wiki/Book_of_Enoch" target="_blank" rel="noopener">Book of Enoch</a> tells the full story. Its first part, the Book of the Watchers, was written around 300 to 200 BC; Aramaic fragments of it were found among the Dead Sea Scrolls. Two hundred angels, the Watchers, descend on Mount Hermon, take human wives and teach mankind metalwork, war and sorcery. Their sons are giants who devour the labour of men and then men themselves. The Flood is sent to end them. The New Testament letter of <a href="https://www.biblegateway.com/passage/?search=Jude%201%3A14-15&amp;version=KJV" target="_blank" rel="noopener">Jude</a> quotes Enoch directly, and the Ethiopian Orthodox Church still holds it as scripture. The Watchers section closes with a warning. The bodies of the giants drowned, and their spirits remained on the earth.</p>
+          <p>This tradition was known in the British Isles. M. R. James found a Latin passage of Enoch in an eighth-century manuscript in the British Museum. And <em>Beowulf</em> itself makes the link. The poet says Grendel descends from Cain, and from Cain's line came ogres, elves and the giants who "strove with God for a long time, and he paid them their reward." Scholar Ruth Mellinkoff showed that the poet was drawing on the Enoch tradition of the giants and the Flood, and on the medieval belief that some of them survived it (<a href="https://www.cambridge.org/core/journals/anglo-saxon-england/article/cains-monstrous-progeny-in-beowulf-part-i-noachic-tradition/DCCDA02A0B445A48651C35EFD75EEDBA" target="_blank" rel="noopener">Part I</a>, <a href="https://www.cambridge.org/core/journals/anglo-saxon-england/article/abs/cains-monstrous-progeny-in-beowulf-part-ii-postdiluvian-survival/A595FC7AA0ABAA89D7054A5BF36B976F" target="_blank" rel="noopener">Part II: Postdiluvian Survival</a>).</p>
+          <div class="ingame"><span class="tag">In the game</span><p>The monks of the manor have read Genesis. Some have read further. What the giants left behind in Britain is something you will have to find for yourself.</p></div>
+        </div>
+        <div class="aside">
+          <figure class="figure">
+            <img src="assets/img/lore/flood_plate.svg" alt="Manuscript-style drawing in black ink and red lead of the ark riding the Flood under falling rain" loading="lazy" width="800" height="520">
+            <figcaption>The Flood, drawn in the iron-gall ink and red lead of the game's chronicle pages.</figcaption>
+          </figure>
+          <blockquote class="quote">
+            <p>"There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men."</p>
+            <cite><a href="https://www.biblegateway.com/passage/?search=Genesis%206%3A4&amp;version=KJV" target="_blank" rel="noopener">Genesis 6:4</a>, King James Version</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>"And now, the giants, who are produced from the spirits and flesh, shall be called evil spirits upon the earth."</p>
+            <cite><a href="https://www.sacred-texts.com/bib/boe/index.htm" target="_blank" rel="noopener">1 Enoch 15:8</a>, R. H. Charles translation</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHERE THEY MEET ===== -->
+  <section class="meet" id="meet" aria-labelledby="meet-h">
+    <div class="container">
+      <span class="eyebrow">One generation</span>
+      <h2 id="meet-h">Where the Three Stories Meet</h2>
+      <div class="meet-intro">
+        <p>Set the dates side by side and the three stories collapse into a single lifetime. A boy born in 520 saw the sun fail at sixteen, buried his family in the plague years, and could have heard the song of Heorot from a Saxon trader before he was thirty. Every monk who read him the chronicle also knew the story of the giants and the Flood.</p>
+      </div>
+      <div class="legend" aria-label="Key">
+        <span><i class="k-sky"></i>Sky, famine and plague</span>
+        <span><i class="k-kin"></i>Beowulf and the Neanderthals</span>
+        <span><i class="k-giant"></i>The giants and the Flood</span>
+        <span><i class="k-game"></i>KnightZ</span>
+      </div>
+      <ol class="timeline">
+        <li><span class="when">c. 230,000 BP</span><span class="dot k-kin"></span><span class="what"><strong>Neanderthals at Pontnewydd Cave</strong>, north Wales. The oldest human remains in Wales.</span></li>
+        <li><span class="when">c. 40,000 BP</span><span class="dot k-kin"></span><span class="what"><strong>Neanderthals vanish</strong> from the scientific record across Europe.</span></li>
+        <li><span class="when">300 to 200 BC</span><span class="dot k-giant"></span><span class="what"><strong>The Book of the Watchers</strong> is written: angels, giants and the Flood.</span></li>
+        <li><span class="when">c. 516 to 521</span><span class="dot k-kin"></span><span class="what"><strong>Hygelac dies raiding the Franks</strong>, the one datable event in <em>Beowulf</em>.</span></li>
+        <li><span class="when">536</span><span class="dot k-sky"></span><span class="what"><strong>The dust veil.</strong> The sun dims for over a year. Ireland records "failure of bread".</span></li>
+        <li><span class="when">537</span><span class="dot k-sky"></span><span class="what"><strong>Camlann</strong>, where Arthur and Medraut fell, and plague in Britain and Ireland.</span></li>
+        <li><span class="when">540</span><span class="dot k-sky"></span><span class="what"><strong>The second eruption</strong>, one of the largest in 2,500 years. The cold deepens.</span></li>
+        <li><span class="when">541 to 544</span><span class="dot k-sky"></span><span class="what"><strong>The Plague of Justinian</strong> reaches Constantinople, then Britain.</span></li>
+        <li><span class="when">mid 500s</span><span class="dot k-kin"></span><span class="what"><strong>The great hall at Lejre</strong> stands, the traditional Heorot.</span></li>
+        <li><span class="when">547</span><span class="dot k-sky"></span><span class="what"><strong>The great death.</strong> Maelgwn of Gwynedd dies of plague. A third eruption.</span></li>
+        <li class="game"><span class="when">548</span><span class="dot k-game"></span><span class="what"><strong>KnightZ: The Failing Light begins.</strong> Spring on the Severn, twelve winters after the sun went grey.</span></li>
+        <li><span class="when">c. 1000</span><span class="dot k-kin"></span><span class="what"><strong>The Beowulf manuscript</strong> is copied, the only one to survive.</span></li>
+      </ol>
+      <div class="verdict">
+        <div class="ledger"><h4>Recorded</h4><p>The eruptions, the cold, the failed harvests, the plague, the death of Maelgwn, Hygelac's raid and the hall at Lejre all stand on documents, ice, timber or DNA.</p></div>
+        <div class="ledger"><h4>Believed</h4><p>The Nephilim and the Flood were history to every literate person in sixth-century Britain. The monks wrote them down as plainly as the weather.</p></div>
+        <div class="ledger"><h4>Imagined</h4><p>A last band of Neanderthals in the Welsh hills is our invention. Every other piece of KnightZ is built to sit beside the record without contradicting it.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BUILT TO THE PERIOD ===== -->
+  <section class="period" aria-labelledby="period-h">
+    <div class="container">
+      <span class="eyebrow">Historical accuracy</span>
+      <h2 id="period-h">Built to the Period</h2>
+      <p class="period-lede">A story this close to the record only works if the world around it is right. We research every building, garment and trade good against what archaeology and the written sources say about western Britain in the 540s, and we cut what does not belong.</p>
+      <div class="pgrid">
+        <article class="pcard">
+          <img src="assets/img/gallery/home_hall_longhouses_1014.jpg" alt="A timber longhouse with a thatched roof, built in Unreal Engine" loading="lazy">
+          <div class="body"><h3>The Land and the Buildings</h3><p>The map follows the real elevation of the Severn valley. Halls and longhouses are timber, wattle and daub under thatch. Stone is old Roman work, reused. Timber is cut in saw pits, since water-powered sawmills belong to a much later age.</p></div>
+        </article>
+        <article class="pcard">
+          <img src="assets/img/gallery/devlog33_outfits_lineup_1025.jpg" alt="A line-up of women's outfits in wool and linen: kirtles, cloaks and hoods in madder red, woad blue and undyed browns" loading="lazy">
+          <div class="body"><h3>Dress</h3><p>Wool and linen worn in layers: tunics, kirtles, cloaks fastened with brooches, and turnshoes of leather. Colours come from the dyes of the period, such as madder, woad and weld, and the poor wear undyed cloth.</p></div>
+        </article>
+        <article class="pcard">
+          <img src="assets/img/gallery/arms_spathas.jpg" alt="Three spatha swords and two seaxes laid side by side" loading="lazy">
+          <div class="body"><h3>Arms</h3><p>The long spatha for those who can afford one, the seax for everyone else, the spear and the round shield. Armour is rare and costly. A mail shirt is a fortune.</p></div>
+        </article>
+        <article class="pcard">
+          <img src="assets/img/gallery/home_longhouse_interior_1016.jpg" alt="The interior of an empty timber longhouse with daubed walls and a high thatched roof" loading="lazy">
+          <div class="body"><h3>The Economy</h3><p>Grain, livestock, iron and labour. Salt cannot be made in the hills, so it comes in by road from the brine springs at Droitwich. Names follow the Brittonic of the time, and the Saxons are traders and exiles, as the record suggests.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOURCES ===== -->
+  <section class="sources" aria-labelledby="src-h">
+    <div class="container">
+      <span class="eyebrow">Further reading</span>
+      <h2 id="src-h">Sources</h2>
+      <div class="src-grid">
+        <div>
+          <h3>The volcanoes and the cold</h3>
+          <ol>
+            <li><a href="https://www.science.org/content/article/why-536-was-worst-year-be-alive" target="_blank" rel="noopener">Gibbons, "Why 536 was 'the worst year to be alive'"</a>, Science, 2018</li>
+            <li><a href="https://www.nature.com/articles/nature14565" target="_blank" rel="noopener">Sigl et al., "Timing and climate forcing of volcanic eruptions for the past 2,500 years"</a>, Nature, 2015</li>
+            <li><a href="https://doi.org/10.1029/2007GL032450" target="_blank" rel="noopener">Larsen et al., "New ice core evidence for a volcanic cause of the A.D. 536 dust veil"</a>, Geophysical Research Letters, 2008</li>
+            <li><a href="https://www.nature.com/articles/ngeo2652" target="_blank" rel="noopener">B&uuml;ntgen et al., "Cooling and societal change during the Late Antique Little Ice Age"</a>, Nature Geoscience, 2016</li>
+            <li><a href="https://link.springer.com/article/10.1007/s10584-016-1648-7" target="_blank" rel="noopener">Toohey et al., "Climatic and societal impacts of a volcanic double event"</a>, Climatic Change, 2016</li>
+            <li><a href="https://doi.org/10.1016/j.quascirev.2019.07.037" target="_blank" rel="noopener">Dull et al., Ilopango as source of the 539/40 eruption</a>, Quaternary Science Reviews, 2019</li>
+            <li><a href="https://www.gutenberg.org/ebooks/16765" target="_blank" rel="noopener">Procopius, History of the Wars, Books III and IV</a>, Project Gutenberg</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Famine and plague in Britain</h3>
+          <ol>
+            <li><a href="https://sourcebooks.web.fordham.edu/source/annalescambriae.asp" target="_blank" rel="noopener">Annales Cambriae (the Welsh Annals)</a>, Fordham Medieval Sourcebook</li>
+            <li><a href="https://celt.ucc.ie/published/T100001A/text106.html" target="_blank" rel="noopener">Annals of Ulster, AD 536</a>, CELT, University College Cork</li>
+            <li><a href="https://www.pnas.org/doi/10.1073/pnas.1820447116" target="_blank" rel="noopener">Keller et al., ancient Yersinia pestis genomes from Western Europe</a>, PNAS, 2019</li>
+            <li><a href="https://www.medievalists.net/2019/06/the-justinianic-plague-reached-as-far-as-the-british-isles-study-finds/" target="_blank" rel="noopener">"The Justinianic Plague reached as far as the British Isles"</a>, Medievalists.net, 2019</li>
+            <li><a href="https://nottingham-repository.worktribe.com/index.php/output/44223499/plague-climate-and-faith-in-early-medieval-western-britain-investigating-narratives-of-change" target="_blank" rel="noopener">Comeau, Seaman and Bloxam, "Plague, Climate and Faith in Early Medieval Western Britain"</a>, Medieval Archaeology, 2023</li>
+            <li><a href="https://www.academia.edu/480680" target="_blank" rel="noopener">H&auml;rke, "Population replacement or acculturation?"</a>, on the population of Roman and post-Roman Britain</li>
+            <li><a href="https://en.wikipedia.org/wiki/Catastrophe:_An_Investigation_into_the_Origins_of_the_Modern_World" target="_blank" rel="noopener">Keys, Catastrophe: An Investigation into the Origins of the Modern World</a>, 1999</li>
+            <li><a href="https://www.pnas.org/doi/10.1073/pnas.1903674116" target="_blank" rel="noopener">Mordechai et al., "The Justinianic Plague: An inconsequential pandemic?"</a>, PNAS, 2019 (the opposing view)</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Beowulf and the Neanderthals</h3>
+          <ol>
+            <li><a href="https://www.gutenberg.org/ebooks/16328" target="_blank" rel="noopener">Beowulf, translated by J. Lesslie Hall</a>, Project Gutenberg</li>
+            <li><a href="https://www.ancient-origins.net/myths-legends-europe/beowulf-0015523" target="_blank" rel="noopener">Carpenter, "Beowulf and Grendel: Monsters, Mistranslations and a Genetic Interpretation"</a>, Ancient Origins, 2021</li>
+            <li><a href="https://en.wikipedia.org/wiki/Eaters_of_the_Dead" target="_blank" rel="noopener">Crichton, Eaters of the Dead</a>, 1976, Beowulf retold with relict Neanderthals</li>
+            <li><a href="https://en.wikipedia.org/wiki/Hygelac" target="_blank" rel="noopener">Hygelac and the raid on the Franks</a>, with Gregory of Tours and the Liber Monstrorum</li>
+            <li><a href="https://en.wikipedia.org/wiki/Heorot" target="_blank" rel="noopener">Heorot and the Lejre hall excavations</a></li>
+            <li><a href="https://museum.wales/articles/1014/Dannedd-Neanderthalaidd-o-Ogof-Pontnewydd/" target="_blank" rel="noopener">The oldest people in Wales: Neanderthal teeth from Pontnewydd Cave</a>, Museum Wales</li>
+            <li><a href="https://www.nature.com/articles/nature13621" target="_blank" rel="noopener">Higham et al., "The timing and spatiotemporal patterning of Neanderthal disappearance"</a>, Nature, 2014</li>
+            <li><a href="https://en.wikipedia.org/wiki/Wild_man" target="_blank" rel="noopener">The wild man of medieval folklore</a></li>
+          </ol>
+        </div>
+        <div>
+          <h3>The Flood, the Nephilim and Enoch</h3>
+          <ol>
+            <li><a href="https://www.biblegateway.com/passage/?search=Genesis%206%3A1-8&amp;version=KJV" target="_blank" rel="noopener">Genesis 6:1 to 8</a> and <a href="https://www.biblegateway.com/passage/?search=Numbers%2013%3A33&amp;version=KJV" target="_blank" rel="noopener">Numbers 13:33</a>, King James Version</li>
+            <li><a href="https://www.sacred-texts.com/bib/boe/index.htm" target="_blank" rel="noopener">The Book of Enoch, R. H. Charles translation (1917)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Book_of_Enoch" target="_blank" rel="noopener">Book of Enoch: dating, the Dead Sea Scroll fragments and the Latin fragment</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Book_of_Giants" target="_blank" rel="noopener">The Book of Giants</a>, from the Dead Sea Scrolls</li>
+            <li><a href="https://www.biblegateway.com/passage/?search=Jude%201%3A14-15&amp;version=KJV" target="_blank" rel="noopener">Jude 1:14 to 15</a>, the New Testament quotation of Enoch</li>
+            <li><a href="https://www.cambridge.org/core/journals/anglo-saxon-england/article/cains-monstrous-progeny-in-beowulf-part-i-noachic-tradition/DCCDA02A0B445A48651C35EFD75EEDBA" target="_blank" rel="noopener">Mellinkoff, "Cain's Monstrous Progeny in Beowulf: Part I, Noachic Tradition"</a>, Anglo-Saxon England</li>
+            <li><a href="https://www.cambridge.org/core/journals/anglo-saxon-england/article/abs/cains-monstrous-progeny-in-beowulf-part-ii-postdiluvian-survival/A595FC7AA0ABAA89D7054A5BF36B976F" target="_blank" rel="noopener">Mellinkoff, "Part II: Postdiluvian Survival"</a>, Anglo-Saxon England</li>
+          </ol>
+        </div>
+      </div>
+      <p class="src-note">KnightZ is a work of fiction built on the historical record. Where historians disagree, we say so here and choose one reading for the game. Quotations from Procopius, Genesis, Enoch and the annals are from public-domain translations.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="index.html#opening">&#9654;&nbsp; Watch the Opening</a>
+        <a class="btn btn-ghost" href="devlog.html">Read the Dev Log</a>
+        <a class="btn btn-ghost" href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Join the Discord</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="" width="34" height="34"><span class="brand-text"><span class="brand-title">KNIGHTZ</span><span class="brand-sub">The Failing Light</span></span></a>
+        <p style="margin-top:16px;max-width:380px">A third-person action adventure in development by KSUIE_Gaming. All content shown is work in progress and subject to change.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul><li><a href="index.html#game">The Game</a></li><li><a href="lore.html">Lore</a></li><li><a href="index.html#world">World</a></li><li><a href="index.html#characters">Characters</a></li><li><a href="roadmap.html">RoadMap</a></li></ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul><li><a href="devlog.html">Dev Log</a></li><li><a href="videos.html">Videos</a></li><li><a href="https://www.youtube.com/@ksuiegaming9346" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://discord.gg/72p2FcuExf" target="_blank" rel="noopener">Discord</a></li><li><a href="feed.xml">RSS feed</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> KSUIE_Gaming. All rights reserved.</span>
+      <span class="rating"><b>M</b> Intended for mature audiences</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* Slow ash drifting over the hero. Skipped when reduced motion is on. */
+(function () {
+  var c = document.querySelector(".ashfall");
+  if (!c || !c.getContext) return;
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var ctx = c.getContext("2d"), flakes = [], w = 0, h = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+  function size() {
+    var r = c.getBoundingClientRect(); w = r.width; h = r.height;
+    c.width = w * dpr; c.height = h * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = Math.round(w * h / 9000); flakes = [];
+    for (var i = 0; i < n; i++) flakes.push({ x: Math.random() * w, y: Math.random() * h, r: Math.random() * 1.6 + 0.4, s: Math.random() * 0.35 + 0.12, d: Math.random() * 0.6 - 0.15, a: Math.random() * 0.45 + 0.15 });
+  }
+  function tick() {
+    ctx.clearRect(0, 0, w, h);
+    for (var i = 0; i < flakes.length; i++) {
+      var f = flakes[i]; f.y += f.s; f.x += f.d + Math.sin((f.y + i) / 60) * 0.15;
+      if (f.y > h + 4) { f.y = -4; f.x = Math.random() * w; }
+      if (f.x > w + 4) f.x = -4; if (f.x < -4) f.x = w + 4;
+      ctx.beginPath(); ctx.arc(f.x, f.y, f.r, 0, 6.283); ctx.fillStyle = "rgba(205,195,180," + f.a + ")"; ctx.fill();
+    }
+    requestAnimationFrame(tick);
+  }
+  size(); window.addEventListener("resize", size); requestAnimationFrame(tick);
+})();
+</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

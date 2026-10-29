@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1112"/>
+      <stop offset="0.38" stop-color="#2b2a28"/>
+      <stop offset="0.66" stop-color="#5b4a3d"/>
+      <stop offset="0.82" stop-color="#7a5a43"/>
+      <stop offset="1" stop-color="#3a3430"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e9a27a" stop-opacity="0.45"/>
+      <stop offset="0.4" stop-color="#b4432e" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#b4432e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="0.45" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#f3d2b4"/>
+      <stop offset="1" stop-color="#c9805c"/>
+    </radialGradient>
+    <radialGradient id="plume" cx="0.5" cy="0.7" r="0.6">
+      <stop offset="0" stop-color="#4a423c" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#4a423c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="b4"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="b12"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="b40"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <!-- the veiled sun -->
+  <circle cx="1380" cy="360" r="420" fill="url(#halo)"/>
+  <circle cx="1380" cy="360" r="74" fill="url(#sun)" filter="url(#b4)" opacity="0.85"/>
+  <circle cx="1392" cy="366" r="70" fill="#5b4a3d" opacity="0.42" filter="url(#b12)"/>
+  <!-- ash bands drifting across -->
+  <ellipse cx="900" cy="300" rx="1100" ry="40" fill="#1b1917" opacity="0.45" filter="url(#b40)"/>
+  <ellipse cx="1300" cy="420" rx="900" ry="34" fill="#1b1917" opacity="0.5" filter="url(#b40)"/>
+  <ellipse cx="600" cy="520" rx="900" ry="50" fill="#2a2522" opacity="0.4" filter="url(#b40)"/>
+  <!-- distant column far over the sea -->
+  <path d="M300 690 C290 600 260 520 230 440 C200 360 240 300 320 260 C400 220 520 230 600 270 C680 310 720 360 700 420 C680 470 560 500 470 540 C400 570 380 620 380 690 Z" fill="url(#plume)" filter="url(#b12)" opacity="0.7"/>
+  <!-- far ridge -->
+  <path d="M0 700 C160 670 300 662 420 672 C520 680 600 650 700 654 C820 660 900 640 1000 646 C1100 652 1180 676 1300 668 C1420 660 1520 636 1640 642 C1760 648 1840 664 1920 660 L1920 1080 L0 1080 Z" fill="#3c3430" opacity="0.85"/>
+  <!-- mid ridge with hillfort -->
+  <path d="M0 790 C140 770 260 760 380 766 C500 772 600 740 720 700 C800 674 880 664 960 670 C1050 678 1120 712 1210 744 C1300 774 1420 786 1560 790 C1700 794 1820 786 1920 780 L1920 1080 L0 1080 Z" fill="#26211e"/>
+  <path d="M780 690 C840 672 920 668 1000 680" fill="none" stroke="#3a322d" stroke-width="3"/>
+  <path d="M760 704 C850 684 940 682 1030 698" fill="none" stroke="#3a322d" stroke-width="2"/>
+  <line x1="892" y1="668" x2="892" y2="642" stroke="#171412" stroke-width="3"/>
+  <circle cx="892" cy="638" r="5" fill="#d2593f"/>
+  <!-- river glint -->
+  <path d="M0 900 C300 880 520 920 760 900 C980 882 1180 930 1440 912 C1640 898 1800 920 1920 910" fill="none" stroke="#7a5a43" stroke-width="3" opacity="0.35"/>
+  <!-- near ground -->
+  <path d="M0 930 C240 912 520 940 820 926 C1100 914 1400 944 1920 920 L1920 1080 L0 1080 Z" fill="#141210"/>
+</svg>
