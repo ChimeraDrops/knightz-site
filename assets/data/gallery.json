@@ -28,6 +28,30 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_salwarpe_creek_1029.jpg",
+    "caption": "Wading a shallow river under yellow willows, water test map",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_chapel_village_1015.jpg",
+    "caption": "Stone chapel with thatched granaries and byres, built from kit pieces in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
+    "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_household_props_1015.jpg",
+    "caption": "Household props kit: hearths, beds, benches, chests and lights, Dev Log #23",
+    "size": "wide"
+  },
+  {
     "group": "Props",
     "src": "assets/img/gallery/devlog35_farm_yard_props_1027.jpg",
     "caption": "Farm and yard props, Dev Log #35",
@@ -586,12 +610,6 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog23_household_props_1015.jpg",
-    "caption": "Household props kit: hearths, beds, benches, chests and lights, Dev Log #23",
-    "size": "wide"
-  },
-  {
-    "group": "World",
     "src": "assets/img/gallery/devlog22_longhouse_unreal_1014.jpg",
     "caption": "Longhouse wall and door in Unreal, Dev Log #22"
   },
@@ -699,20 +717,8 @@
   },
   {
     "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
-    "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
-    "size": "wide"
-  },
-  {
-    "group": "World",
     "src": "assets/img/gallery/home_hall_longhouses_1014.jpg",
     "caption": "Timber and daub hall with a thatched roof, built from kit pieces in Unreal",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_chapel_village_1015.jpg",
-    "caption": "Stone chapel with thatched granaries and byres, built from kit pieces in Unreal",
     "size": "wide"
   },
   {
