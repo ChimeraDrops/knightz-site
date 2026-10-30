@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #37: The wolf learns to hunt</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-30-the-wolf-learns-to-hunt</link>
+<guid isPermaLink="false">2026-10-30-the-wolf-learns-to-hunt</guid>
+<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+<description>The wolf got a reviewed model, a canine skeleton, real eyes and teeth, and a face rig built on DogFACS. Its 47-clip set covers gallops, flee turns, turn-bend layers, rest, howls, threats, a leap attack straight out of the gallop and a death, with 42 clips approved.</description>
+</item>
+<item>
 <title>Dev Log #36: The ox walks and the Roman city falls</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-29-the-ox-walks-and-the-roman-city-falls</link>
 <guid isPermaLink="false">2026-10-29-the-ox-walks-and-the-roman-city-falls</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">sir-bedwyr</guid>
 <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
 <description>The first named character head on the new pipeline: seam fit, expressive topology, skin, long grey hair and beard, and a face rig.</description>
-</item>
-<item>
-<title>Dev Log #7: Tools of the manor</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=tools-of-the-manor</link>
-<guid isPermaLink="false">tools-of-the-manor</guid>
-<pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-<description>Sickle, billhook, work axe and spade, each in new, worn and mended states, plus a pipeline for swapping heads on shared bodies.</description>
 </item>
 </channel></rss>

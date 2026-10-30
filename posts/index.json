@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-10-30-the-wolf-learns-to-hunt",
+    "title": "Dev Log #37: The wolf learns to hunt",
+    "date": "2026-10-30",
+    "summary": "The wolf got a reviewed model, a canine skeleton, real eyes and teeth, and a face rig built on DogFACS. Its 47-clip set covers gallops, flee turns, turn-bend layers, rest, howls, threats, a leap attack straight out of the gallop and a death, with 42 clips approved.",
+    "tags": [
+      "animation",
+      "animals",
+      "combat"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-29-the-ox-walks-and-the-roman-city-falls",
     "title": "Dev Log #36: The ox walks and the Roman city falls",
     "date": "2026-10-29",

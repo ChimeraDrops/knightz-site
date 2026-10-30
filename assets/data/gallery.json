@@ -1,6 +1,27 @@
 [
   {
     "group": "Animals",
+    "src": "assets/img/gallery/devlog37_wolf_clip_set_chart_1029.png",
+    "caption": "Wolf animation set: 47 clips by group, 42 approved, Dev Log #37",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog37_wolf_leap_run_timeline_1029.png",
+    "caption": "Wolf running leap attack, from full gallop to the bite and back, Dev Log #37",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog37_wolf_turn_bend_chart_1029.png",
+    "caption": "Wolf turn-bend layer, degrees per bone, Dev Log #37",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
     "src": "assets/img/gallery/devlog36_ox_gaits_1028.jpg",
     "caption": "Ox walk, trot and gallop prototype on the new bovine skeleton, Dev Log #36",
     "size": "wide",
