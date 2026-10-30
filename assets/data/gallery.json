@@ -21,6 +21,35 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_pasture_fields_1030.jpg",
+    "caption": "Grazed pasture with a lone oak, rising to crop fields and a track on the environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog27_woodland_floor_1019.jpg",
+    "caption": "Woodland floor with hazel, ferns and leaf litter, Dev Log #27"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
+    "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_palisade_1014.jpg",
+    "caption": "Palisade enclosure test in Unreal, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_owain_combat.jpg",
+    "caption": "Owain, combat outfit concept",
+    "size": "wide"
+  },
+  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog36_ox_gaits_1028.jpg",
     "caption": "Ox walk, trot and gallop prototype on the new bovine skeleton, Dev Log #36",
@@ -502,12 +531,6 @@
     "size": "full"
   },
   {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_owain_combat.jpg",
-    "caption": "Owain, combat outfit concept",
-    "size": "wide"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog22_chapel_village_1014.jpg",
     "caption": "Chapel, granaries, byres and workshops as level instances, Dev Log #22",
@@ -529,11 +552,6 @@
     "src": "assets/img/gallery/devlog27_pasture_1019.jpg",
     "caption": "Grazed pasture on the environment test map, Dev Log #27",
     "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog27_woodland_floor_1019.jpg",
-    "caption": "Woodland floor with hazel, ferns and leaf litter, Dev Log #27"
   },
   {
     "group": "World",
@@ -651,18 +669,6 @@
     "src": "assets/img/gallery/devlog23_tree_variants_1015.png",
     "caption": "Oak, ash and alder variants by height, Dev Log #23",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_palisade_1014.jpg",
-    "caption": "Palisade enclosure test in Unreal, Dev Log #22",
-    "size": "full"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
-    "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
-    "size": "full"
   },
   {
     "group": "World",
