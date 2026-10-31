@@ -21,6 +21,35 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_hall_firelight_1031.jpg",
+    "caption": "Inside the aisled hall, lit by the long hearth, with benches, wall shields and the high table",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
+    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/bedwyr_final.jpg",
+    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/owain_head_4view.jpg",
+    "caption": "Owain, textured head on the healthy male body, hair hidden"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_manor.jpg",
+    "caption": "The manor, overall concept and site plan",
+    "size": "wide"
+  },
+  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog37_wolf_clip_set_chart_1029.png",
     "caption": "Wolf animation set: 47 clips by group, 42 approved, Dev Log #37",
@@ -459,12 +488,6 @@
     "size": "wide"
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/bedwyr_final.jpg",
-    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
-    "size": "wide"
-  },
-  {
     "group": "Arms and armour",
     "src": "assets/img/gallery/arms_spathas.jpg",
     "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
@@ -496,12 +519,6 @@
     "size": "wide"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
-    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
-    "size": "wide"
-  },
-  {
     "group": "Arms and armour",
     "src": "assets/img/gallery/arms_shields.jpg",
     "caption": "One round limewood shield, six of its seven painted designs",
@@ -511,12 +528,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/tysilio_hair_beard.jpg",
     "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
-    "size": "wide"
-  },
-  {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_manor.jpg",
-    "caption": "The manor, overall concept and site plan",
     "size": "wide"
   },
   {
@@ -562,11 +573,6 @@
     "src": "assets/img/gallery/devlog21_large_body_jog_1013.jpg",
     "caption": "Large body jog, Dev Log #21",
     "contain": true
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/owain_head_4view.jpg",
-    "caption": "Owain, textured head on the healthy male body, hair hidden"
   },
   {
     "group": "World",
