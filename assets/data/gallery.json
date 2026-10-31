@@ -1,6 +1,27 @@
 [
   {
     "group": "Animals",
+    "src": "assets/img/gallery/devlog38_dog_hound_clip_sets_1030.png",
+    "caption": "Herding dog and hound animation sets by group, Dev Log #38",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog38_hound_gaits_chart_1030.png",
+    "caption": "Hound gaits: speed and stride from walk to gallop, Dev Log #38",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog38_wolf_sound_cuts_1029.jpg",
+    "caption": "Spectrograms of the 15 wolf sound cuts: howls, snarls, growls and bite grunts, Dev Log #38",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
     "src": "assets/img/gallery/devlog37_wolf_clip_set_chart_1029.png",
     "caption": "Wolf animation set: 47 clips by group, 42 approved, Dev Log #37",
     "size": "wide",

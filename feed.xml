@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #38: Two dogs and a wolf in Unreal</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-31-two-dogs-and-a-wolf-in-unreal</link>
+<guid isPermaLink="false">2026-10-31-two-dogs-and-a-wolf-in-unreal</guid>
+<pubDate>Sat, 31 Oct 2026 12:00:00 +0000</pubDate>
+<description>A herding dog and a hound joined the wolf on the canine skeleton, with 37 and 58 clips solved from their own breed data. The wolf was rebuilt to 14,000 triangles, exported to Unreal with all 64 clips and given 15 sounds cut from real recordings.</description>
+</item>
+<item>
 <title>Dev Log #37: The wolf learns to hunt</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-30-the-wolf-learns-to-hunt</link>
 <guid isPermaLink="false">2026-10-30-the-wolf-learns-to-hunt</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">cadoc-complete-and-a-bigger-body</guid>
 <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
 <description>Two heads finished with 52 facial shapes each, Owain's face and hair approved, and a new large male body for the smith.</description>
-</item>
-<item>
-<title>Dev Log #8: Sir Bedwyr</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=sir-bedwyr</link>
-<guid isPermaLink="false">sir-bedwyr</guid>
-<pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-<description>The first named character head on the new pipeline: seam fit, expressive topology, skin, long grey hair and beard, and a face rig.</description>
 </item>
 </channel></rss>

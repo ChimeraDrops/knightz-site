@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-10-31-two-dogs-and-a-wolf-in-unreal",
+    "title": "Dev Log #38: Two dogs and a wolf in Unreal",
+    "date": "2026-10-31",
+    "summary": "A herding dog and a hound joined the wolf on the canine skeleton, with 37 and 58 clips solved from their own breed data. The wolf was rebuilt to 14,000 triangles, exported to Unreal with all 64 clips and given 15 sounds cut from real recordings.",
+    "tags": [
+      "animation",
+      "animals",
+      "audio"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-10-30-the-wolf-learns-to-hunt",
     "title": "Dev Log #37: The wolf learns to hunt",
     "date": "2026-10-30",
