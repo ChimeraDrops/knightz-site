@@ -21,6 +21,35 @@
     "contain": true
   },
   {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/home_shields_1101.jpg",
+    "caption": "Painted round shields of Owain, Bedwyr and Cynan",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
+    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_river_meander_1022.jpg",
+    "caption": "River winding through open grassland with trees along the bank, environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_spathas.jpg",
+    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
+    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
+  },
+  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog38_dog_hound_clip_sets_1030.png",
     "caption": "Herding dog and hound animation sets by group, Dev Log #38",
@@ -503,23 +532,6 @@
     "size": "wide"
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
-    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
-    "size": "wide"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_spathas.jpg",
-    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
-    "contain": true
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
-    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
-  },
-  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog29_hf1_clip_status_1021.png",
     "caption": "Female movement set: clip status for all seven weapon sets, Dev Log #29",
@@ -532,12 +544,6 @@
     "caption": "Female movement set: all 201 clips generated in one overnight run, Dev Log #29",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_river_meander_1022.jpg",
-    "caption": "River winding through open grassland with trees along the bank, environment test map in Unreal",
-    "size": "wide"
   },
   {
     "group": "Arms and armour",
