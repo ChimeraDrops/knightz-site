@@ -1,6 +1,27 @@
 [
   {
     "group": "Animals",
+    "src": "assets/img/gallery/devlog39_clip_counts_1031.png",
+    "caption": "Animation clips per animal, Dev Log #39",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog39_fox_gaits_chart_1031.png",
+    "caption": "Fox gaits: speed and stride from sneak to gallop, Dev Log #39",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog39_animal_heights_1031.png",
+    "caption": "Shoulder heights set for the animals, Dev Log #39",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
     "src": "assets/img/gallery/devlog38_dog_hound_clip_sets_1030.png",
     "caption": "Herding dog and hound animation sets by group, Dev Log #38",
     "size": "wide",
