@@ -1,6 +1,27 @@
 [
   {
     "group": "Animals",
+    "src": "assets/img/gallery/devlog40_clip_counts_1101.png",
+    "caption": "Animation clips per animal, Dev Log #40",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog40_equine_cervid_strides_1101.png",
+    "caption": "Stride length per gait for the pony, horse, mule and three red deer, Dev Log #40",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog40_animal_heights_1101.png",
+    "caption": "Shoulder heights set for the animals, Dev Log #40",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
     "src": "assets/img/gallery/devlog39_clip_counts_1031.png",
     "caption": "Animation clips per animal, Dev Log #39",
     "size": "wide",
