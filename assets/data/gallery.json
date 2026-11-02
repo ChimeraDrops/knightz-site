@@ -21,6 +21,35 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_moorland_stream_1102.jpg",
+    "caption": "A cloaked swordsman above a stream winding across upland moorland, environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_manor_house_kit.jpg",
+    "caption": "Manor house modular building kit, post-Roman Britain"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/tysilio_hair_beard.jpg",
+    "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_spears_bow.jpg",
+    "caption": "War spear, hunting spear, angon, 1.75 m yew bow, quiver, arrows and sling. Same scale.",
+    "contain": true
+  },
+  {
+    "group": "Tools",
+    "src": "assets/img/gallery/tools_conditions.jpg",
+    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
+    "size": "full"
+  },
+  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog39_clip_counts_1031.png",
     "caption": "Animation clips per animal, Dev Log #39",
@@ -441,18 +470,6 @@
     "size": "wide"
   },
   {
-    "group": "Tools",
-    "src": "assets/img/gallery/tools_conditions.jpg",
-    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
-    "size": "full"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_spears_bow.jpg",
-    "caption": "War spear, hunting spear, angon, 1.75 m yew bow, quiver, arrows and sling. Same scale.",
-    "contain": true
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/cadoc_expressions.jpg",
     "caption": "Brother Cadoc, expression and speech shapes",
@@ -522,11 +539,6 @@
     "size": "wide"
   },
   {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_manor_house_kit.jpg",
-    "caption": "Manor house modular building kit, post-Roman Britain"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog30_flora_by_region_1022.png",
     "caption": "99 hand-built plant sets assigned across the 11 regions, Dev Log #30",
@@ -570,12 +582,6 @@
     "group": "Arms and armour",
     "src": "assets/img/gallery/arms_shields.jpg",
     "caption": "One round limewood shield, six of its seven painted designs",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/tysilio_hair_beard.jpg",
-    "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
     "size": "wide"
   },
   {
