@@ -28,6 +28,30 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_rea_brook_wading_1103.jpg",
+    "caption": "Wading the Rea Brook with sword and shield, the water reacting around the player, water test map",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/bedwyr_expressions.jpg",
+    "caption": "Sir Bedwyr, facial shapes with the beard: angry, sad, pucker, funnel, snarl, surprise",
+    "size": "full"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_axes_relic.jpg",
+    "caption": "Battle axe, mace, double axe and the giant-made Grendel Slayer. Same scale.",
+    "contain": true
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
+    "caption": "Sir Bedwyr, combat outfit concept",
+    "size": "wide"
+  },
+  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog40_clip_counts_1101.png",
     "caption": "Animation clips per animal, Dev Log #40",
@@ -550,12 +574,6 @@
     "size": "wide"
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_axes_relic.jpg",
-    "caption": "Battle axe, mace, double axe and the giant-made Grendel Slayer. Same scale.",
-    "contain": true
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/tysilio_skin_close.jpg",
     "caption": "Brother Tysilio, skin detail and the cataract eye"
@@ -584,12 +602,6 @@
     "group": "World",
     "src": "assets/img/gallery/home_reed_bank_1023.jpg",
     "caption": "Reed beds and trees along a river bank, environment test map",
-    "size": "wide"
-  },
-  {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
-    "caption": "Sir Bedwyr, combat outfit concept",
     "size": "wide"
   },
   {
@@ -637,12 +649,6 @@
     "src": "assets/img/gallery/home_woodland_stream_1021.jpg",
     "caption": "Oak woodland with saplings along a shallow stream on the environment test map in Unreal",
     "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/bedwyr_expressions.jpg",
-    "caption": "Sir Bedwyr, facial shapes with the beard: angry, sad, pucker, funnel, snarl, surprise",
-    "size": "full"
   },
   {
     "group": "World",
