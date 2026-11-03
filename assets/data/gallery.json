@@ -1,6 +1,34 @@
 [
   {
     "group": "Animals",
+    "src": "assets/img/gallery/devlog41_twelve_birds_1102.jpg",
+    "caption": "The twelve birds on the shared bird skeleton, Dev Log #41",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog41_roe_otter_beaver_1102.jpg",
+    "caption": "Roe buck, otter and beaver, Dev Log #41",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog41_three_fish_1102.jpg",
+    "caption": "Eel, brown trout and pike, Dev Log #41",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog41_clips_by_family_1102.png",
+    "caption": "Animation clips per animal family, 36 animals and 898 clips, Dev Log #41",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animals",
     "src": "assets/img/gallery/devlog40_clip_counts_1101.png",
     "caption": "Animation clips per animal, Dev Log #40",
     "size": "wide",

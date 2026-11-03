@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #41: Birds, fish and a clearing to fight in</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-03-birds-fish-and-a-clearing-to-fight-in</link>
+<guid isPermaLink="false">2026-11-03-birds-fish-and-a-clearing-to-fight-in</guid>
+<pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+<description>A roe buck, an otter, a beaver, twelve birds and three fish complete all 36 planned animals with 898 clips, and a small combat demo level takes shape in Unreal.</description>
+</item>
+<item>
 <title>Dev Log #40: Pigs, horses and deer</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-02-pigs-horses-and-deer</link>
 <guid isPermaLink="false">2026-11-02-pigs-horses-and-deer</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-07-seven-new-faces-nine-in-unreal</guid>
 <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
 <description>Seven more heads built overnight, and nine characters running the unarmed animation set in Unreal on skeletons rebuilt to match the mannequin.</description>
-</item>
-<item>
-<title>Dev Log #11: Cynan complete, Einion Goch's head, and shared rules for every head</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-06-cynan-complete-einion-goch</link>
-<guid isPermaLink="false">2026-10-06-cynan-complete-einion-goch</guid>
-<pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-<description>Cynan finished and bound to the skeleton, Einion Goch's face rig built, and new rules to keep every head interchangeable.</description>
 </item>
 </channel></rss>

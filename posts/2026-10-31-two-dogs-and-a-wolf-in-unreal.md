@@ -46,6 +46,8 @@ A test with the wolf's walk scaled down did not work. The wolf's stride was too 
 
 The set covers walk, trot, canter and gallop on both leads, wide outrun arcs, turns and a stop. There are rest clips from standing to sleeping, a working set (holding the eye on stock, a crouched stalk, the drop and a gathering trot), and social clips: bark, pant, head tilt, play bow, sniffing, a shake-off, heeling and a tail wag layer.
 
+![The herding dog's eye stalk, low and slow toward the stock](assets/img/gallery/devlog38_herding_dog_eye_stalk_1030.gif)
+
 ## The hound
 
 The hound is a foxhound type, scaled to 61 cm at the shoulder. It needed a re-baked normal map, a straightened head and a new tail. The tail is carried high and joins the rump with a flare so it blends into the body on all sides. The mouth seam was placed under the flews, so the hanging lips stay whole.
@@ -59,6 +61,8 @@ The hound has the largest set so far, at 58 clips:
 - **Scent work.** A tracking walk with the nose 2 to 4 cm off the ground, casting arcs left and right, air scenting, freezing on a scent and investigating an object.
 - **Calls and social.** A long bay, bark, growl, whine, pant, yawn, head tilt, play bow, greeting, a submissive lowering and two tail wag layers.
 - **Gameplay extras.** Jump and land, bite and hold, a threat idle, a retreat, drinking, eating and a scratch.
+
+![The hound on a scent trail, nose close to the ground](assets/img/gallery/devlog38_hound_scent_trail_1030.gif)
 
 The resting tail now lies on the ground under its own weight. Earlier versions bent it down from the base, which looked forced.
 

@@ -66,6 +66,22 @@ The stag has 27 clips, the hind 26 and the white hart 28.
 
 A few short one-off clips, such as the mule's bray and the stag's roar, were keyed in a different rotation format from the rest of the set. In game they would have played as a plain idle. The white hart build caught it. The clips were converted on the mule, stag and hind, every check was run again and all of them were rendered again.
 
+## One clip per animal
+
+One clip from each of the nine new sets, rendered in Blender.
+
+<div class="clip-grid">
+<figure><img src="assets/img/gallery/devlog40_goat_rear_threat_1101.gif" alt="Goat: rearing threat" loading="lazy"><figcaption>Goat: rearing threat</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_pig_rooting_1101.gif" alt="Pig: rooting" loading="lazy"><figcaption>Pig: rooting</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_boar_head_toss_1101.gif" alt="Wild boar: tusk toss" loading="lazy"><figcaption>Wild boar: tusk toss</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_pony_rear_1101.gif" alt="Pony: rear" loading="lazy"><figcaption>Pony: rear</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_horse_gallop_1101.gif" alt="Horse: gallop" loading="lazy"><figcaption>Horse: gallop</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_mule_bray_1101.gif" alt="Mule: bray" loading="lazy"><figcaption>Mule: bray</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_stag_roar_1101.gif" alt="Stag: rut roar" loading="lazy"><figcaption>Stag: rut roar</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_hind_gallop_1101.gif" alt="Hind: gallop" loading="lazy"><figcaption>Hind: gallop</figcaption></figure>
+<figure><img src="assets/img/gallery/devlog40_white_hart_canter_1101.gif" alt="White hart: canter" loading="lazy"><figcaption>White hart: canter</figcaption></figure>
+</div>
+
 ## Changes to the plan
 
 - **One skeleton per animal family.** Cattle, small herd, pigs, horses, deer and dogs each get one shared skeleton in Unreal. Otters and beavers, birds and fish get theirs next.

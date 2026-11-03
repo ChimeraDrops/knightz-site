@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-11-02",
  "checklists": [
   {
    "slug": "heroes",
@@ -1025,6 +1025,788 @@
     [
      "Dev Log #29: All 201 clips generated",
      "post.html?p=2026-10-22-all-201-clips-generated"
+    ]
+   ]
+  },
+  {
+   "slug": "animals",
+   "title": "Animals",
+   "short": "Animals",
+   "eyebrow": "Environmental NPCs",
+   "intro": "Every animal in KnightZ: livestock for the manor, dogs, wild game, birds and fish. 36 animals are rigged and animated in Blender on shared family skeletons, with gaits taken from published measurements where they exist. Each clip passes ground, foot-slide, joint and skin-stretch checks. The ox and cow are in Unreal; the rest go in together in one batch after review.",
+   "cover": "assets/img/roadmap/animals/horse.jpg",
+   "steps": [
+    "Model and scale",
+    "Rig",
+    "Skin and LODs",
+    "Animation",
+    "Checks",
+    "Review",
+    "In Unreal"
+   ],
+   "legend": {
+    "Model and scale": "Mesh repaired by measurement and scaled to real shoulder heights",
+    "Rig": "Shared family skeleton fitted to the body",
+    "Skin and LODs": "Weights and four levels of detail",
+    "Animation": "Full clip set (birds: first pass)",
+    "Checks": "Ground, foot slide, joint direction, loop seams and skin stretch on every clip",
+    "Review": "Signed off by the developer"
+   },
+   "groups": [
+    {
+     "title": "Farm animals",
+     "items": [
+      {
+       "name": "Ox",
+       "sub": "Bovine skeleton, 29 clips. In Unreal with every clip matched to Blender.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/ox.jpg",
+         "thumb": "assets/img/roadmap/animals/ox_t.jpg",
+         "alt": "Ox"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done"
+       ]
+      },
+      {
+       "name": "Cow",
+       "sub": "Bovine skeleton, 29 clips including grazing and lying. In Unreal with a review level.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/cow.jpg",
+         "thumb": "assets/img/roadmap/animals/cow_t.jpg",
+         "alt": "Cow"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done"
+       ]
+      },
+      {
+       "name": "Ewe",
+       "sub": "Small herd skeleton, 0.58 m at the shoulder, 22 clips with a full grazing set.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/ewe.jpg",
+         "thumb": "assets/img/roadmap/animals/ewe_t.jpg",
+         "alt": "Ewe"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo"
+       ]
+      },
+      {
+       "name": "Ram",
+       "sub": "Small herd skeleton, 0.62 m, curled horns, 22 clips.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/ram.jpg",
+         "thumb": "assets/img/roadmap/animals/ram_t.jpg",
+         "alt": "Ram"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo"
+       ]
+      },
+      {
+       "name": "Goat",
+       "sub": "Small herd skeleton, 0.66 m, 28 clips including high browse, headbutt and a rearing threat.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/goat.jpg",
+         "thumb": "assets/img/roadmap/animals/goat_t.jpg",
+         "alt": "Goat"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo"
+       ]
+      },
+      {
+       "name": "Pig",
+       "sub": "Pig skeleton with a snout bone, 0.71 m, 27 clips including rooting and a charge.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/pig.jpg",
+         "thumb": "assets/img/roadmap/animals/pig_t.jpg",
+         "alt": "Pig"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Pony",
+       "sub": "Horse skeleton, 1.24 m, 27 clips: four gaits on both leads, rear, buck and paw.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/pony.jpg",
+         "thumb": "assets/img/roadmap/animals/pony_t.jpg",
+         "alt": "Pony"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Horse",
+       "sub": "Horse skeleton, 1.47 m medieval riding horse, 27 clips.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/horse.jpg",
+         "thumb": "assets/img/roadmap/animals/horse_t.jpg",
+         "alt": "Horse"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Mule",
+       "sub": "Horse skeleton, 1.32 m, long ears, 29 clips including bray, ear and tail flicks and a kick.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/mule.jpg",
+         "thumb": "assets/img/roadmap/animals/mule_t.jpg",
+         "alt": "Mule"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Hen",
+       "sub": "Bird skeleton, 16 clips: walk, peck, scratch, call, take-off, flight and landing.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/hen.jpg",
+         "thumb": "assets/img/roadmap/animals/hen_t.jpg",
+         "alt": "Hen"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Cockerel",
+       "sub": "Bird skeleton, 16 clips including the crow call and scratching.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/cockerel.jpg",
+         "thumb": "assets/img/roadmap/animals/cockerel_t.jpg",
+         "alt": "Cockerel"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Farm goose",
+       "sub": "Bird skeleton, 15 clips including honk and swim.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/farm-goose.jpg",
+         "thumb": "assets/img/roadmap/animals/farm-goose_t.jpg",
+         "alt": "Farm goose"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "wip",
+        "todo",
+        "todo"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Dogs",
+     "items": [
+      {
+       "name": "Herding dog",
+       "sub": "Canine skeleton with a face rig, 37 clips including the outrun, eye stalk and gather.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/herding-dog.jpg",
+         "thumb": "assets/img/roadmap/animals/herding-dog_t.jpg",
+         "alt": "Herding dog"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo"
+       ]
+      },
+      {
+       "name": "Hound",
+       "sub": "Canine skeleton, 58 clips including scent trail, casting and the bay.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/hound.jpg",
+         "thumb": "assets/img/roadmap/animals/hound_t.jpg",
+         "alt": "Hound"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo"
+       ]
+      },
+      {
+       "name": "Wolfhound",
+       "sub": "Canine skeleton, 0.84 m, 57 clips from gaits to rest, scent, calls and threats.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/wolfhound.jpg",
+         "thumb": "assets/img/roadmap/animals/wolfhound_t.jpg",
+         "alt": "Wolfhound"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Wild animals",
+     "items": [
+      {
+       "name": "Wolf",
+       "sub": "Canine skeleton with a face rig, 64 clips: gaits, flee turns, rest, calls, threats, leap attacks and death. In Unreal; re-import for the new shoulder layout to come.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/wolf.jpg",
+         "thumb": "assets/img/roadmap/animals/wolf_t.jpg",
+         "alt": "Wolf"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "wip"
+       ]
+      },
+      {
+       "name": "Red fox",
+       "sub": "Canine skeleton, 0.40 m, 49 clips including the sneak and the mouse pounce.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/fox.jpg",
+         "thumb": "assets/img/roadmap/animals/fox_t.jpg",
+         "alt": "Red fox"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo"
+       ]
+      },
+      {
+       "name": "Wild boar",
+       "sub": "Pig skeleton, 0.89 m, 29 clips including rooting, charge, tusk toss and scrape.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/wild-boar.jpg",
+         "thumb": "assets/img/roadmap/animals/wild-boar_t.jpg",
+         "alt": "Wild boar"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Red deer stag",
+       "sub": "Deer skeleton, 1.26 m, 27 clips including the rut roar and an antler threat.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/stag.jpg",
+         "thumb": "assets/img/roadmap/animals/stag_t.jpg",
+         "alt": "Red deer stag"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Red deer hind",
+       "sub": "Deer skeleton, 1.15 m, 26 clips including the alarm bark.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/hind.jpg",
+         "thumb": "assets/img/roadmap/animals/hind_t.jpg",
+         "alt": "Red deer hind"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "White hart",
+       "sub": "Deer skeleton, 1.31 m, white coat at a higher detail level, 28 clips.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/white-hart.jpg",
+         "thumb": "assets/img/roadmap/animals/white-hart_t.jpg",
+         "alt": "White hart"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Roe buck",
+       "sub": "Deer skeleton, 0.70 m, 31 clips including the bound and the bark.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/roe-buck.jpg",
+         "thumb": "assets/img/roadmap/animals/roe-buck_t.jpg",
+         "alt": "Roe buck"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Otter",
+       "sub": "New long-bodied skeleton, 25 clips on land and in water: surface swim, underwater swim and dive.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/otter.jpg",
+         "thumb": "assets/img/roadmap/animals/otter_t.jpg",
+         "alt": "Otter"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Beaver",
+       "sub": "Long-bodied skeleton shared with the otter, 28 clips including gnawing, swimming, diving and the tail slap.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/beaver.jpg",
+         "thumb": "assets/img/roadmap/animals/beaver_t.jpg",
+         "alt": "Beaver"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Wild birds",
+     "items": [
+      {
+       "name": "Carrion crow",
+       "sub": "Bird skeleton, 15 clips: walk, peck, call, take-off, flap, glide and landing.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/crow.jpg",
+         "thumb": "assets/img/roadmap/animals/crow_t.jpg",
+         "alt": "Carrion crow"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Raven",
+       "sub": "Bird skeleton, 15 clips.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/raven.jpg",
+         "thumb": "assets/img/roadmap/animals/raven_t.jpg",
+         "alt": "Raven"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Rook",
+       "sub": "Bird skeleton, 15 clips.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/rook.jpg",
+         "thumb": "assets/img/roadmap/animals/rook_t.jpg",
+         "alt": "Rook"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Mallard",
+       "sub": "Bird skeleton, 15 clips including swim.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/mallard.jpg",
+         "thumb": "assets/img/roadmap/animals/mallard_t.jpg",
+         "alt": "Mallard"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Greylag goose",
+       "sub": "Bird skeleton, 15 clips including honk and swim.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/greylag-goose.jpg",
+         "thumb": "assets/img/roadmap/animals/greylag-goose_t.jpg",
+         "alt": "Greylag goose"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Herring gull",
+       "sub": "Bird skeleton, 15 clips including swim.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/herring-gull.jpg",
+         "thumb": "assets/img/roadmap/animals/herring-gull_t.jpg",
+         "alt": "Herring gull"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Grey heron",
+       "sub": "Bird skeleton, 15 clips including the spear strike.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/grey-heron.jpg",
+         "thumb": "assets/img/roadmap/animals/grey-heron_t.jpg",
+         "alt": "Grey heron"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "wip",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Common crane",
+       "sub": "Bird skeleton, 15 clips including the spear strike.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/common-crane.jpg",
+         "thumb": "assets/img/roadmap/animals/common-crane_t.jpg",
+         "alt": "Common crane"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Goshawk",
+       "sub": "Bird skeleton, 16 clips including the strike.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/goshawk.jpg",
+         "thumb": "assets/img/roadmap/animals/goshawk_t.jpg",
+         "alt": "Goshawk"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "wip",
+        "wip",
+        "todo",
+        "todo"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Fish",
+     "items": [
+      {
+       "name": "Eel",
+       "sub": "Own fish skeleton, 5 clips: slow and fast swim, turns and a hover.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/eel.jpg",
+         "thumb": "assets/img/roadmap/animals/eel_t.jpg",
+         "alt": "Eel"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Brown trout",
+       "sub": "Own fish skeleton, 5 clips.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/brown-trout.jpg",
+         "thumb": "assets/img/roadmap/animals/brown-trout_t.jpg",
+         "alt": "Brown trout"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      },
+      {
+       "name": "Pike",
+       "sub": "Own fish skeleton, 6 clips including the strike.",
+       "imgs": [
+        {
+         "src": "assets/img/roadmap/animals/pike.jpg",
+         "thumb": "assets/img/roadmap/animals/pike_t.jpg",
+         "alt": "Pike"
+        }
+       ],
+       "steps": [
+        "done",
+        "done",
+        "done",
+        "done",
+        "done",
+        "todo",
+        "todo"
+       ]
+      }
+     ]
+    }
+   ],
+   "links": [
+    [
+     "Dev Log #40: Pigs, horses and deer",
+     "post.html?p=2026-11-02-pigs-horses-and-deer"
+    ],
+    [
+     "Dev Log #39: A wolfhound, a fox and the first sheep",
+     "post.html?p=2026-11-01-a-wolfhound-a-fox-and-the-first-sheep"
     ]
    ]
   },

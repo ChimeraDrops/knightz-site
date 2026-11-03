@@ -666,3 +666,10 @@ section { padding: 104px 0; border-bottom: 1px solid var(--line); }
 .yt-soon .soon { position: absolute; top: 16px; right: 16px; padding: 12px 16px; max-width: 70%; background: rgba(10,12,13,.86); border: 1px solid var(--line-2); border-radius: var(--radius); display: flex; flex-direction: column; gap: 2px; text-align: right; }
 .yt-soon .soon span { font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: 13px; color: var(--bronze); }
 .yt-soon .soon small { color: var(--text-2); font-size: 14px; }
+
+/* Clip grid in dev log posts */
+.prose .clip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0; }
+.prose .clip-grid figure { margin: 0; }
+.prose .clip-grid img { margin: 0; width: 100%; height: auto; max-height: none; display: block; }
+.prose .clip-grid figcaption { font-family: var(--font-ui); font-size: 14px; line-height: 1.4; color: var(--text-3); margin-top: 6px; text-align: center; }
+@media (max-width: 700px) { .prose .clip-grid { grid-template-columns: repeat(2, 1fr); } }

@@ -43,6 +43,8 @@ Its 49 clips include fox behaviour:
 
 The trot is the fox's travel gait, with a narrow track as observed in the wild.
 
+![The fox's mouse pounce](assets/img/gallery/devlog39_fox_mouse_pounce_1031.gif)
+
 ## Sheep on a new skeleton
 
 The ewe and ram are a primitive brown type with curled horns. They were scaled to medieval sheep: about 58 cm at the shoulder for the ewe and 62 cm for the ram. Both models were turned at the head, had stub tails fused to the rump and badly inverted normal maps. All three were fixed. The ram's coat was a double shell, one surface inside another. It was rebuilt as a single surface with new textures.
@@ -55,6 +57,8 @@ The new small herd skeleton has 33 bones and comes from the ox and cow skeleton.
 - The neck starts low in the chest. With the neck on top of the shoulders, the sheep could not reach the grass.
 
 Each sheep has 22 clips: walk, trot, run, turns in place, flee turns, idles, an alert, a full grazing set with a step forward, and lying down and getting up. The walk timing comes from published sheep gait measurements. The run is a prototype, since no sheep gallop data exists.
+
+![The ewe grazing](assets/img/gallery/devlog39_ewe_graze_1031.gif)
 
 A fix pass removed small hoof skids at touchdown, stopped feet sliding while lying down, and smoothed a stretch at the top of the neck in the grazing pose.
 
