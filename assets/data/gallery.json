@@ -1,5 +1,19 @@
 [
   {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog42_walk_carry_checks_1103.png",
+    "caption": "Owain's walk carry against the raw takes, Dev Log #42",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog42_owain_clip_wiring_1103.png",
+    "caption": "What Owain plays in the combat demo, before and after wiring, Dev Log #42",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog41_twelve_birds_1102.jpg",
     "caption": "The twelve birds on the shared bird skeleton, Dev Log #41",

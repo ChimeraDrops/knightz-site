@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #42: Owain's sword arm, clip by clip</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-04-owains-sword-arm-clip-by-clip</link>
+<guid isPermaLink="false">2026-11-04-owains-sword-arm-clip-by-clip</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+<description>All 51 of Owain's combat action slots now play his own clips, all 76 of his demo clips are in Blender for a hand audit after a round trip check, and a new rule sets how he carries sword and shield.</description>
+</item>
+<item>
 <title>Dev Log #41: Birds, fish and a clearing to fight in</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-03-birds-fish-and-a-clearing-to-fight-in</link>
 <guid isPermaLink="false">2026-11-03-birds-fish-and-a-clearing-to-fight-in</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-07-every-head-unreal-ready</guid>
 <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
 <description>Eight heads packaged for Unreal Engine, Geraint complete, Custennin's face widened, eyelashes on every head, an armpit fix on the standard body, and Unreal connected to Claude.</description>
-</item>
-<item>
-<title>Dev Log #13: Seven new faces, and nine characters standing in Unreal</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-07-seven-new-faces-nine-in-unreal</link>
-<guid isPermaLink="false">2026-10-07-seven-new-faces-nine-in-unreal</guid>
-<pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
-<description>Seven more heads built overnight, and nine characters running the unarmed animation set in Unreal on skeletons rebuilt to match the mannequin.</description>
 </item>
 </channel></rss>
