@@ -14,6 +14,40 @@
     "contain": true
   },
   {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/home_arms_kit_1104.jpg",
+    "caption": "Boar-crest spangenhelm, war horn, and gold and silver arm-rings",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_salwarpe_ford_1025.jpg",
+    "caption": "The Salinae ford, shallow water across the road over a gravel bar, Dev Log #33"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cadoc_expressions.jpg",
+    "caption": "Brother Cadoc, expression and speech shapes",
+    "size": "full"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
+    "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
+    "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/tysilio_skin_close.jpg",
+    "caption": "Brother Tysilio, skin detail and the cataract eye"
+  },
+  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog41_twelve_birds_1102.jpg",
     "caption": "The twelve birds on the shared bird skeleton, Dev Log #41",
@@ -467,11 +501,6 @@
     "size": "wide"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/devlog33_salwarpe_ford_1025.jpg",
-    "caption": "The Salinae ford, shallow water across the road over a gravel bar, Dev Log #33"
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/home_outfits_1026.jpg",
     "caption": "The four women in their twelve rebuilt outfits, fitted gowns and open capes",
@@ -491,12 +520,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/devlog33_cape_before_after_1025.jpg",
     "caption": "Nest's court outfit before and after: fitted gown and open cape, Dev Log #33",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
-    "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
     "size": "wide"
   },
   {
@@ -534,18 +557,6 @@
     "src": "assets/img/gallery/home_confluence_1025.jpg",
     "caption": "Stepping down to the river where the Rea Brook meets the Severn, environment test map",
     "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/cadoc_expressions.jpg",
-    "caption": "Brother Cadoc, expression and speech shapes",
-    "size": "full"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
-    "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
-    "size": "full"
   },
   {
     "group": "World",
@@ -586,11 +597,6 @@
     "src": "assets/img/gallery/home_grain_field_1024.jpg",
     "caption": "Ripe grain field under a cloudy sky on the environment test map",
     "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/tysilio_skin_close.jpg",
-    "caption": "Brother Tysilio, skin detail and the cataract eye"
   },
   {
     "group": "Characters",
