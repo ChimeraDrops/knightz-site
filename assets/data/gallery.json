@@ -28,6 +28,29 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_longhouse_thatch_1105.jpg",
+    "caption": "Small timber and daub longhouse with a hipped thatch roof, built from kit pieces",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
+    "caption": "First Blender-built oak in Unreal, Dev Log #23",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_outfits_lineup_1025.jpg",
+    "caption": "All twelve rebuilt outfits for the four women in the engine, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_shield_damage.jpg",
+    "caption": "Round shield, intact and two damage states"
+  },
+  {
     "group": "Arms and armour",
     "src": "assets/img/gallery/home_arms_kit_1104.jpg",
     "caption": "Boar-crest spangenhelm, war horn, and gold and silver arm-rings",
@@ -392,17 +415,6 @@
     "contain": true
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_shield_damage.jpg",
-    "caption": "Round shield, intact and two damage states"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
-    "caption": "First Blender-built oak in Unreal, Dev Log #23",
-    "size": "wide"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog22_longhouse_blender_1014.jpg",
     "caption": "Small longhouse built from timber and daub kit pieces (Blender), Dev Log #22",
@@ -540,12 +552,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog33_roman_piers_1025.jpg",
     "caption": "The ruined Roman bridge piers in the Severn, Dev Log #33"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog33_outfits_lineup_1025.jpg",
-    "caption": "All twelve rebuilt outfits for the four women in the engine, Dev Log #33",
-    "size": "wide"
   },
   {
     "group": "World",
