@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog43_heavy_swing_speed_1104.png",
+    "caption": "Owain's heavy cut, blade speed per frame through the downswing, Dev Log #43",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog43_light_chain_timing_1104.png",
+    "caption": "Owain's three-strike light chain, branch frames and click windows, Dev Log #43",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog42_walk_carry_checks_1103.png",
     "caption": "Owain's walk carry against the raw takes, Dev Log #42",
     "size": "wide",

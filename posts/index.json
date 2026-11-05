@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-05-a-three-strike-chain-and-a-heavy-cut",
+    "title": "Dev Log #43: A three-strike chain and a heavy cut",
+    "date": "2026-11-05",
+    "summary": "33 of Owain's 76 clips pass the hand audit. His three light attacks now chain into one combo with set click windows, and the heavy attack's downswing is rebuilt from key poses and approved.",
+    "tags": [
+      "animation",
+      "combat",
+      "blender"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-04-owains-sword-arm-clip-by-clip",
     "title": "Dev Log #42: Owain's sword arm, clip by clip",
     "date": "2026-11-04",

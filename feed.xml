@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #43: A three-strike chain and a heavy cut</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-05-a-three-strike-chain-and-a-heavy-cut</link>
+<guid isPermaLink="false">2026-11-05-a-three-strike-chain-and-a-heavy-cut</guid>
+<pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+<description>33 of Owain's 76 clips pass the hand audit. His three light attacks now chain into one combo with set click windows, and the heavy attack's downswing is rebuilt from key poses and approved.</description>
+</item>
+<item>
 <title>Dev Log #42: Owain's sword arm, clip by clip</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-04-owains-sword-arm-clip-by-clip</link>
 <guid isPermaLink="false">2026-11-04-owains-sword-arm-clip-by-clip</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-08-hands-ears-and-the-review-pass</guid>
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 <description>A wrist texture fix on both male bodies, new hair rules around the ears, and a ten-step review checklist for every hero.</description>
-</item>
-<item>
-<title>Dev Log #12: Every head is Unreal-ready, Geraint and Custennin, eyelashes, and a live link to the editor</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-07-every-head-unreal-ready</link>
-<guid isPermaLink="false">2026-10-07-every-head-unreal-ready</guid>
-<pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
-<description>Eight heads packaged for Unreal Engine, Geraint complete, Custennin's face widened, eyelashes on every head, an armpit fix on the standard body, and Unreal connected to Claude.</description>
 </item>
 </channel></rss>
