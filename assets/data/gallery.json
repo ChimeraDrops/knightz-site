@@ -28,6 +28,29 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_hazel_woodland_1106.jpg",
+    "caption": "Hazel woodland with ferns, grass tufts and leaf litter on the environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_severn_ford_gravel_1025.jpg",
+    "caption": "The Severn ford, a gravel bar under the water from post to post, Dev Log #33"
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_carts_and_wagons_1027.jpg",
+    "caption": "Carts, wagons and their loads, Dev Log #35",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cynan_topology.jpg",
+    "caption": "Cynan, expression topology, eye, mouth and chipped tooth",
+    "size": "full"
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog42_walk_carry_checks_1103.png",
     "caption": "Owain's walk carry against the raw takes, Dev Log #42",
@@ -442,12 +465,6 @@
   },
   {
     "group": "Props",
-    "src": "assets/img/gallery/devlog35_carts_and_wagons_1027.jpg",
-    "caption": "Carts, wagons and their loads, Dev Log #35",
-    "contain": true
-  },
-  {
-    "group": "Props",
     "src": "assets/img/gallery/devlog35_the_dead_1027.jpg",
     "caption": "Fallen villagers, the ox at the ford and bones, Dev Log #35",
     "size": "wide",
@@ -545,11 +562,6 @@
     "src": "assets/img/gallery/home_outfits_1026.jpg",
     "caption": "The four women in their twelve rebuilt outfits, fitted gowns and open capes",
     "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog33_severn_ford_gravel_1025.jpg",
-    "caption": "The Severn ford, a gravel bar under the water from post to post, Dev Log #33"
   },
   {
     "group": "World",
@@ -732,12 +744,6 @@
     "src": "assets/img/gallery/devlog27_grain_field_1019.jpg",
     "caption": "Grain field, Dev Log #27",
     "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/cynan_topology.jpg",
-    "caption": "Cynan, expression topology, eye, mouth and chipped tooth",
-    "size": "full"
   },
   {
     "group": "Animation",
