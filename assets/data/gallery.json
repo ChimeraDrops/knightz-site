@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog44_heavy3_spin_1105.png",
+    "caption": "Owain's jumping spin, hips and shoulders from takeoff to touchdown, Dev Log #44",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog44_heavy_chain_timing_1105.png",
+    "caption": "Owain's three-swing heavy combo and its branch frames, Dev Log #44",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog43_heavy_swing_speed_1104.png",
     "caption": "Owain's heavy cut, blade speed per frame through the downswing, Dev Log #43",
     "size": "wide",

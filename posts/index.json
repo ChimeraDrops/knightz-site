@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-06-a-heavy-combo-that-leaves-the-ground",
+    "title": "Dev Log #44: A heavy combo that leaves the ground",
+    "date": "2026-11-06",
+    "summary": "Owain's heavy attack now opens a three-swing combo: a downward cut, a shield smash and a jumping spin, all approved. The shield bash was rebuilt by hand and a push kick is in progress.",
+    "tags": [
+      "animation",
+      "combat",
+      "blender"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-05-a-three-strike-chain-and-a-heavy-cut",
     "title": "Dev Log #43: A three-strike chain and a heavy cut",
     "date": "2026-11-05",

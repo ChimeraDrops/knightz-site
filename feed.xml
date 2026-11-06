@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #44: A heavy combo that leaves the ground</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-06-a-heavy-combo-that-leaves-the-ground</link>
+<guid isPermaLink="false">2026-11-06-a-heavy-combo-that-leaves-the-ground</guid>
+<pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain's heavy attack now opens a three-swing combo: a downward cut, a shield smash and a jumping spin, all approved. The shield bash was rebuilt by hand and a push kick is in progress.</description>
+</item>
+<item>
 <title>Dev Log #43: A three-strike chain and a heavy cut</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-05-a-three-strike-chain-and-a-heavy-cut</link>
 <guid isPermaLink="false">2026-11-05-a-three-strike-chain-and-a-heavy-cut</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-08-lighter-characters-same-faces</guid>
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 <description>Textured hair and beard shells, reduced bodies and heads, and a typical character cut from about 93,000 to about 45,000 triangles.</description>
-</item>
-<item>
-<title>Dev Log #15: Hands, ears, and the review pass</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-08-hands-ears-and-the-review-pass</link>
-<guid isPermaLink="false">2026-10-08-hands-ears-and-the-review-pass</guid>
-<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-<description>A wrist texture fix on both male bodies, new hair rules around the ears, and a ten-step review checklist for every hero.</description>
 </item>
 </channel></rss>
