@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #45: Severing cuts and a stricter joint check</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-07-severing-cuts-and-a-stricter-joint-check</link>
+<guid isPermaLink="false">2026-11-07-severing-cuts-and-a-stricter-joint-check</guid>
+<pubDate>Sat, 07 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain's severing attacks and push kick are rebuilt and approved, a stricter joint check now runs on every frame, and 42 of his 76 clips pass the hand audit.</description>
+</item>
+<item>
 <title>Dev Log #44: A heavy combo that leaves the ground</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-06-a-heavy-combo-that-leaves-the-ground</link>
 <guid isPermaLink="false">2026-11-06-a-heavy-combo-that-leaves-the-ground</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-09-outfits-cloaks-and-textured-hair-for-the-whole-cast</guid>
 <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
 <description>A shared garment kit, casual and work outfits for 15 characters, physics cloaks, hidden under-layers and a new hair method.</description>
-</item>
-<item>
-<title>Dev Log #14: Lighter characters, same faces</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-08-lighter-characters-same-faces</link>
-<guid isPermaLink="false">2026-10-08-lighter-characters-same-faces</guid>
-<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-<description>Textured hair and beard shells, reduced bodies and heads, and a typical character cut from about 93,000 to about 45,000 triangles.</description>
 </item>
 </channel></rss>

@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-07-severing-cuts-and-a-stricter-joint-check",
+    "title": "Dev Log #45: Severing cuts and a stricter joint check",
+    "date": "2026-11-07",
+    "summary": "Owain's severing attacks and push kick are rebuilt and approved, a stricter joint check now runs on every frame, and 42 of his 76 clips pass the hand audit.",
+    "tags": [
+      "animation",
+      "combat",
+      "blender"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-06-a-heavy-combo-that-leaves-the-ground",
     "title": "Dev Log #44: A heavy combo that leaves the ground",
     "date": "2026-11-06",

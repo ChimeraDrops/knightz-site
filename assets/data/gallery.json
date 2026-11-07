@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog45_arm_cut_1106.png",
+    "caption": "Owain's arm cut, blade angle and body turn by frame, Dev Log #45",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog45_joint_check_1106.png",
+    "caption": "Joint check limits for every animation frame, Dev Log #45",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog44_heavy3_spin_1105.png",
     "caption": "Owain's jumping spin, hips and shoulders from takeoff to touchdown, Dev Log #44",
     "size": "wide",
