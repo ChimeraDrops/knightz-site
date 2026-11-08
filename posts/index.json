@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-08-two-finishers-built-as-paired-clips",
+    "title": "Dev Log #46: Two finishers, built as paired clips",
+    "date": "2026-11-08",
+    "summary": "Owain's ground finisher and beheading cut are rebuilt with matching enemy clips, the crawling enemy gets five approach variants, and 44 of his 76 clips are approved.",
+    "tags": [
+      "animation",
+      "combat",
+      "blender"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-07-severing-cuts-and-a-stricter-joint-check",
     "title": "Dev Log #45: Severing cuts and a stricter joint check",
     "date": "2026-11-07",

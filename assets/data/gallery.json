@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog46_finisher_beats_1107.png",
+    "caption": "Owain's two finishers, beat by beat, Dev Log #46",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog46_approach_angles_1107.png",
+    "caption": "Ground finisher, enemy clip picked by approach angle, Dev Log #46",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog45_arm_cut_1106.png",
     "caption": "Owain's arm cut, blade angle and body turn by frame, Dev Log #45",
     "size": "wide",
