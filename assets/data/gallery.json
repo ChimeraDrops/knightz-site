@@ -14,6 +14,43 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_woodland_clearing_1108.jpg",
+    "caption": "A player character with sword and round shield in a sunlit woodland clearing with grass tufts, leaf litter and a fallen log, environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/bedwyr_final.jpg",
+    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_shields.jpg",
+    "caption": "One round limewood shield, six of its seven painted designs",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
+    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
+    "size": "wide"
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog36_ox_idle_graze_1028.jpg",
+    "caption": "Ox standing idle and grazing sets, Dev Log #36",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
+    "caption": "The chapel set, Dev Log #35",
+    "contain": true
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog45_arm_cut_1106.png",
     "caption": "Owain's arm cut, blade angle and body turn by frame, Dev Log #45",
@@ -354,18 +391,6 @@
     "size": "wide"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
-    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/bedwyr_final.jpg",
-    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
-    "size": "wide"
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/owain_head_4view.jpg",
     "caption": "Owain, textured head on the healthy male body, hair hidden"
@@ -422,13 +447,6 @@
   },
   {
     "group": "Animals",
-    "src": "assets/img/gallery/devlog36_ox_idle_graze_1028.jpg",
-    "caption": "Ox standing idle and grazing sets, Dev Log #36",
-    "size": "wide",
-    "contain": true
-  },
-  {
-    "group": "Animals",
     "src": "assets/img/gallery/devlog36_bovine_gaits_chart_1028.png",
     "caption": "Ox and cow speed and stride per gait, Dev Log #36",
     "size": "wide",
@@ -470,12 +488,6 @@
     "src": "assets/img/gallery/devlog35_farm_yard_props_1027.jpg",
     "caption": "Farm and yard props, Dev Log #35",
     "size": "wide",
-    "contain": true
-  },
-  {
-    "group": "Props",
-    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
-    "caption": "The chapel set, Dev Log #35",
     "contain": true
   },
   {
@@ -717,12 +729,6 @@
     "caption": "Female movement set: all 201 clips generated in one overnight run, Dev Log #29",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_shields.jpg",
-    "caption": "One round limewood shield, six of its seven painted designs",
-    "size": "wide"
   },
   {
     "group": "Animation",
