@@ -14,6 +14,41 @@
     "contain": true
   },
   {
+    "group": "Characters",
+    "src": "assets/img/gallery/home_tysilio_head_1109.jpg",
+    "caption": "Brother Tysilio, front and side, long white hair and beard and the clouded eye",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/owain_head_4view.jpg",
+    "caption": "Owain, textured head on the healthy male body, hair hidden"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_cape_before_after_1025.jpg",
+    "caption": "Nest's court outfit before and after: fitted gown and open cape, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
+    "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_household_props_1015.jpg",
+    "caption": "Household props kit: hearths, beds, benches, chests and lights, Dev Log #23",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_manor.jpg",
+    "caption": "The manor, overall concept and site plan",
+    "size": "wide"
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog46_finisher_beats_1107.png",
     "caption": "Owain's two finishers, beat by beat, Dev Log #46",
@@ -405,17 +440,6 @@
     "size": "wide"
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/owain_head_4view.jpg",
-    "caption": "Owain, textured head on the healthy male body, hair hidden"
-  },
-  {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_manor.jpg",
-    "caption": "The manor, overall concept and site plan",
-    "size": "wide"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog37_wolf_clip_set_chart_1029.png",
     "caption": "Wolf animation set: 47 clips by group, 42 approved, Dev Log #37",
@@ -446,12 +470,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog27_woodland_floor_1019.jpg",
     "caption": "Woodland floor with hazel, ferns and leaf litter, Dev Log #27"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
-    "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
-    "size": "full"
   },
   {
     "group": "World",
@@ -489,12 +507,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
     "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog23_household_props_1015.jpg",
-    "caption": "Household props kit: hearths, beds, benches, chests and lights, Dev Log #23",
     "size": "wide"
   },
   {
@@ -627,12 +639,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog33_moorland_streams_1025.jpg",
     "caption": "High Country moorland streams cut into the hillside, Dev Log #33"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog33_cape_before_after_1025.jpg",
-    "caption": "Nest's court outfit before and after: fitted gown and open cape, Dev Log #33",
-    "size": "wide"
   },
   {
     "group": "World",
