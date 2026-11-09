@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog47_clip_beats_1108.png",
+    "caption": "Owain's takedowns, defended-attack reactions and stamina stun, beat by beat, Dev Log #47",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog47_reaction_travel_1108.png",
+    "caption": "Top-down travel for each parried and blocked reaction, Dev Log #47",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog46_finisher_beats_1107.png",
     "caption": "Owain's two finishers, beat by beat, Dev Log #46",
     "size": "wide",
