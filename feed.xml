@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #48: A grapple built for two bodies</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-10-a-grapple-built-for-two-bodies</link>
+<guid isPermaLink="false">2026-11-10-a-grapple-built-for-two-bodies</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain's grapple struggle and shield shove escape are rebuilt as synced pairs with matching enemy clips. 51 of his 76 clips are approved.</description>
+</item>
+<item>
 <title>Dev Log #47: Takedowns and reactions to a defended attack</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-09-takedowns-and-reactions-to-a-defended-attack</link>
 <guid isPermaLink="false">2026-11-09-takedowns-and-reactions-to-a-defended-attack</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-11-a-motion-library-written-in-plain-english</guid>
 <pubDate>Sun, 11 Oct 2026 12:00:00 +0000</pubDate>
 <description>865 combat and movement animations for the player, allies, four undead bodies and brigands, generated locally from plain-English descriptions and audited clip by clip.</description>
-</item>
-<item>
-<title>Dev Log #18: Combat prototype, real terrain and hair level of detail</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-10-combat-prototype-real-terrain-and-hair-lods</link>
-<guid isPermaLink="false">2026-10-10-combat-prototype-real-terrain-and-hair-lods</guid>
-<pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
-<description>A first playable combat system in C++, ten regions rebuilt from real elevation and river data, and hair level of detail for 15 heroes imported into Unreal.</description>
 </item>
 </channel></rss>

@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-10-a-grapple-built-for-two-bodies",
+    "title": "Dev Log #48: A grapple built for two bodies",
+    "date": "2026-11-10",
+    "summary": "Owain's grapple struggle and shield shove escape are rebuilt as synced pairs with matching enemy clips. 51 of his 76 clips are approved.",
+    "tags": [
+      "animation",
+      "combat",
+      "blender"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-09-takedowns-and-reactions-to-a-defended-attack",
     "title": "Dev Log #47: Takedowns and reactions to a defended attack",
     "date": "2026-11-09",

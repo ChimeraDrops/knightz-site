@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog48_grapple_beats_1109.png",
+    "caption": "Owain's grapple struggle and escape with the matching enemy clips, beat by beat, Dev Log #48",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
+    "src": "assets/img/gallery/devlog48_struggle_push_pull_1109.png",
+    "caption": "Lean and shield distance through the grapple struggle loop, Dev Log #48",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog47_clip_beats_1108.png",
     "caption": "Owain's takedowns, defended-attack reactions and stamina stun, beat by beat, Dev Log #47",
     "size": "wide",
