@@ -14,6 +14,43 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_willow_variants_1110.jpg",
+    "caption": "Three willow tree variants built in Blender, summer foliage",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
+    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_spathas.jpg",
+    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_palisade_1014.jpg",
+    "caption": "Palisade enclosure test in Unreal, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog38_wolf_sound_cuts_1029.jpg",
+    "caption": "Spectrograms of the 15 wolf sound cuts: howls, snarls, growls and bite grunts, Dev Log #38",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_farm_yard_props_1027.jpg",
+    "caption": "Farm and yard props, Dev Log #35",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog47_clip_beats_1108.png",
     "caption": "Owain's takedowns, defended-attack reactions and stamina stun, beat by beat, Dev Log #47",
@@ -416,17 +453,6 @@
     "size": "wide"
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_spathas.jpg",
-    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
-    "contain": true
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
-    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog38_dog_hound_clip_sets_1030.png",
     "caption": "Herding dog and hound animation sets by group, Dev Log #38",
@@ -437,13 +463,6 @@
     "group": "Animals",
     "src": "assets/img/gallery/devlog38_hound_gaits_chart_1030.png",
     "caption": "Hound gaits: speed and stride from walk to gallop, Dev Log #38",
-    "size": "wide",
-    "contain": true
-  },
-  {
-    "group": "Animals",
-    "src": "assets/img/gallery/devlog38_wolf_sound_cuts_1029.jpg",
-    "caption": "Spectrograms of the 15 wolf sound cuts: howls, snarls, growls and bite grunts, Dev Log #38",
     "size": "wide",
     "contain": true
   },
@@ -486,12 +505,6 @@
     "caption": "Woodland floor with hazel, ferns and leaf litter, Dev Log #27"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_palisade_1014.jpg",
-    "caption": "Palisade enclosure test in Unreal, Dev Log #22",
-    "size": "full"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog36_bovine_gaits_chart_1028.png",
     "caption": "Ox and cow speed and stride per gait, Dev Log #36",
@@ -522,13 +535,6 @@
     "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
     "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
     "size": "wide"
-  },
-  {
-    "group": "Props",
-    "src": "assets/img/gallery/devlog35_farm_yard_props_1027.jpg",
-    "caption": "Farm and yard props, Dev Log #35",
-    "size": "wide",
-    "contain": true
   },
   {
     "group": "World",
