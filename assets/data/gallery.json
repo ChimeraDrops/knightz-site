@@ -1,6 +1,20 @@
 [
   {
     "group": "Animation",
+    "src": "assets/img/gallery/devlog49_downed_beats_1111.png",
+    "caption": "Owain's downed struggle and escape with the crawling enemy, beat by beat, Dev Log #49",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog49_restless_variants_1111.png",
+    "caption": "Sixteen Restless body variants on three base bodies and how each was built, Dev Log #49",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Animation",
     "src": "assets/img/gallery/devlog48_grapple_beats_1109.png",
     "caption": "Owain's grapple struggle and escape with the matching enemy clips, beat by beat, Dev Log #48",
     "size": "wide",

@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #49: Kicked free from the ground</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-11-kicked-free-from-the-ground</link>
+<guid isPermaLink="false">2026-11-11-kicked-free-from-the-ground</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain's downed struggle and escape are approved, with a matching clip for the crawling enemy. 53 of his 76 clips are approved, and 16 Restless body variants and nine generic heads are built in Blender.</description>
+</item>
+<item>
 <title>Dev Log #48: A grapple built for two bodies</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-10-a-grapple-built-for-two-bodies</link>
 <guid isPermaLink="false">2026-11-10-a-grapple-built-for-two-bodies</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-12-from-motion-library-to-fighting-stance</guid>
 <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
 <description>All 883 generated clips retargeted into Unreal, put back on the ground and reviewed in a new editor level, with a sword and shield guard, one-cycle loops and a first pass over every weapon set.</description>
-</item>
-<item>
-<title>Dev Log #19: A motion library written in plain English</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-11-a-motion-library-written-in-plain-english</link>
-<guid isPermaLink="false">2026-10-11-a-motion-library-written-in-plain-english</guid>
-<pubDate>Sun, 11 Oct 2026 12:00:00 +0000</pubDate>
-<description>865 combat and movement animations for the player, allies, four undead bodies and brigands, generated locally from plain-English descriptions and audited clip by clip.</description>
 </item>
 </channel></rss>
