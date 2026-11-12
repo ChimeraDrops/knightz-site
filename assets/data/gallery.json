@@ -15,6 +15,43 @@
   },
   {
     "group": "World",
+    "src": "assets/img/gallery/home_rowan_autumn_1112.jpg",
+    "caption": "Three rowan tree variants built in Blender, young, mature and old, in autumn leaf",
+    "size": "wide"
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog41_twelve_birds_1102.jpg",
+    "caption": "The twelve birds on the shared bird skeleton, Dev Log #41",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/tysilio_hair_beard.jpg",
+    "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/home_shields_1101.jpg",
+    "caption": "Painted round shields of Owain, Bedwyr and Cynan",
+    "size": "wide"
+  },
+  {
+    "group": "Tools",
+    "src": "assets/img/gallery/tools_conditions.jpg",
+    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
+    "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_hay_meadow_1028.jpg",
+    "caption": "Hay meadow by the river on the environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "World",
     "src": "assets/img/gallery/home_wildcherry_seasons_1111.jpg",
     "caption": "Wild cherry tree built in Blender, in spring blossom, summer leaf and autumn colour",
     "size": "wide"
@@ -363,13 +400,6 @@
   },
   {
     "group": "Animals",
-    "src": "assets/img/gallery/devlog41_twelve_birds_1102.jpg",
-    "caption": "The twelve birds on the shared bird skeleton, Dev Log #41",
-    "size": "wide",
-    "contain": true
-  },
-  {
-    "group": "Animals",
     "src": "assets/img/gallery/devlog41_roe_otter_beaver_1102.jpg",
     "caption": "Roe buck, otter and beaver, Dev Log #41",
     "size": "wide",
@@ -440,18 +470,6 @@
     "caption": "Manor house modular building kit, post-Roman Britain"
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/tysilio_hair_beard.jpg",
-    "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
-    "size": "wide"
-  },
-  {
-    "group": "Tools",
-    "src": "assets/img/gallery/tools_conditions.jpg",
-    "caption": "Work axe, billhook, sickle and spade, each new, worn and mended",
-    "size": "full"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog39_clip_counts_1031.png",
     "caption": "Animation clips per animal, Dev Log #39",
@@ -471,12 +489,6 @@
     "caption": "Shoulder heights set for the animals, Dev Log #39",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/home_shields_1101.jpg",
-    "caption": "Painted round shields of Owain, Bedwyr and Cynan",
-    "size": "wide"
   },
   {
     "group": "Characters",
@@ -560,12 +572,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
     "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_hay_meadow_1028.jpg",
-    "caption": "Hay meadow by the river on the environment test map",
     "size": "wide"
   },
   {
