@@ -14,6 +14,42 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_wildcherry_seasons_1111.jpg",
+    "caption": "Wild cherry tree built in Blender, in spring blossom, summer leaf and autumn colour",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_hall_firelight_1031.jpg",
+    "caption": "Inside the aisled hall, lit by the long hearth, with benches, wall shields and the high table",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
+    "caption": "Sir Bedwyr, combat outfit concept",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_spears_bow.jpg",
+    "caption": "War spear, hunting spear, angon, 1.75 m yew bow, quiver, arrows and sling. Same scale.",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/home_outfits_1026.jpg",
+    "caption": "The four women in their twelve rebuilt outfits, fitted gowns and open capes",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_pasture_fields_1030.jpg",
+    "caption": "Grazed pasture with a lone oak, rising to crop fields and a track on the environment test map in Unreal",
+    "size": "wide"
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog48_grapple_beats_1109.png",
     "caption": "Owain's grapple struggle and escape with the matching enemy clips, beat by beat, Dev Log #48",
@@ -372,12 +408,6 @@
     "contain": true
   },
   {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
-    "caption": "Sir Bedwyr, combat outfit concept",
-    "size": "wide"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog40_clip_counts_1101.png",
     "caption": "Animation clips per animal, Dev Log #40",
@@ -414,12 +444,6 @@
     "src": "assets/img/gallery/tysilio_hair_beard.jpg",
     "caption": "Brother Tysilio, finished head with long white hair and beard (Blender)",
     "size": "wide"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_spears_bow.jpg",
-    "caption": "War spear, hunting spear, angon, 1.75 m yew bow, quiver, arrows and sling. Same scale.",
-    "contain": true
   },
   {
     "group": "Tools",
@@ -481,12 +505,6 @@
     "contain": true
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/home_hall_firelight_1031.jpg",
-    "caption": "Inside the aisled hall, lit by the long hearth, with benches, wall shields and the high table",
-    "size": "wide"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog37_wolf_clip_set_chart_1029.png",
     "caption": "Wolf animation set: 47 clips by group, 42 approved, Dev Log #37",
@@ -506,12 +524,6 @@
     "caption": "Wolf turn-bend layer, degrees per bone, Dev Log #37",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_pasture_fields_1030.jpg",
-    "caption": "Grazed pasture with a lone oak, rising to crop fields and a track on the environment test map in Unreal",
-    "size": "wide"
   },
   {
     "group": "World",
@@ -661,12 +673,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog33_salinae_flow_carve_map_1025.jpg",
     "caption": "Salinae from above: water, carved ground and flow all heading west, Dev Log #33",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/home_outfits_1026.jpg",
-    "caption": "The four women in their twelve rebuilt outfits, fitted gowns and open capes",
     "size": "wide"
   },
   {
