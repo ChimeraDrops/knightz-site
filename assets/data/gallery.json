@@ -1,5 +1,19 @@
 [
   {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog50_restless_wardrobe_1113.png",
+    "caption": "The Restless wardrobe: torn garments, worn hair, ragged trousers and damaged Roman armour by base body, Dev Log #50",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog50_male_refit_1113.png",
+    "caption": "Male clothing refit, gap between cloth and skin before and after, Dev Log #50",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog49_downed_beats_1111.png",
     "caption": "Owain's downed struggle and escape with the crawling enemy, beat by beat, Dev Log #49",
