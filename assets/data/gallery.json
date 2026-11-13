@@ -14,6 +14,42 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_hawthorn_seasons_1113.jpg",
+    "caption": "Mature hawthorn built in Blender, in spring blossom, summer leaf, autumn colour and bare winter branches",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_moorland_stream_1102.jpg",
+    "caption": "A cloaked swordsman above a stream winding across upland moorland, environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog41_roe_otter_beaver_1102.jpg",
+    "caption": "Roe buck, otter and beaver, Dev Log #41",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/tysilio_skin_close.jpg",
+    "caption": "Brother Tysilio, skin detail and the cataract eye"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
+    "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_salwarpe_creek_1029.jpg",
+    "caption": "Wading a shallow river under yellow willows, water test map",
+    "size": "wide"
+  },
+  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog49_downed_beats_1111.png",
     "caption": "Owain's downed struggle and escape with the crawling enemy, beat by beat, Dev Log #49",
@@ -396,28 +432,10 @@
     "size": "full"
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
-    "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
-    "size": "wide"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
     "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
     "size": "full"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/tysilio_skin_close.jpg",
-    "caption": "Brother Tysilio, skin detail and the cataract eye"
-  },
-  {
-    "group": "Animals",
-    "src": "assets/img/gallery/devlog41_roe_otter_beaver_1102.jpg",
-    "caption": "Roe buck, otter and beaver, Dev Log #41",
-    "size": "wide",
-    "contain": true
   },
   {
     "group": "Animals",
@@ -471,12 +489,6 @@
     "caption": "Shoulder heights set for the animals, Dev Log #40",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_moorland_stream_1102.jpg",
-    "caption": "A cloaked swordsman above a stream winding across upland moorland, environment test map in Unreal",
-    "size": "wide"
   },
   {
     "group": "Concept art",
@@ -569,12 +581,6 @@
     "caption": "Roman ruin kit pieces placed in the old Roman city, Dev Log #36",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_salwarpe_creek_1029.jpg",
-    "caption": "Wading a shallow river under yellow willows, water test map",
-    "size": "wide"
   },
   {
     "group": "World",
