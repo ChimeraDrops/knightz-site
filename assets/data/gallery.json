@@ -14,6 +14,44 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_lime_seasons_1114.jpg",
+    "caption": "Small-leaved lime built in Blender, in summer leaf, autumn colour and bare winter branches",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog33_outfits_lineup_1025.jpg",
+    "caption": "All twelve rebuilt outfits for the four women in the engine, Dev Log #33",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
+    "caption": "First Blender-built oak in Unreal, Dev Log #23",
+    "size": "wide"
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog41_three_fish_1102.jpg",
+    "caption": "Eel, brown trout and pike, Dev Log #41",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_river_meander_1022.jpg",
+    "caption": "River winding through open grassland with trees along the bank, environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_river_ruins_and_tools_1027.jpg",
+    "caption": "River pieces, Roman ruins and hand tools, Dev Log #35",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog50_restless_wardrobe_1113.png",
     "caption": "The Restless wardrobe: torn garments, worn hair, ragged trousers and damaged Roman armour by base body, Dev Log #50",
@@ -412,18 +450,6 @@
     "size": "wide"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/devlog23_oak_test_1015.jpg",
-    "caption": "First Blender-built oak in Unreal, Dev Log #23",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog33_outfits_lineup_1025.jpg",
-    "caption": "All twelve rebuilt outfits for the four women in the engine, Dev Log #33",
-    "size": "wide"
-  },
-  {
     "group": "Arms and armour",
     "src": "assets/img/gallery/arms_shield_damage.jpg",
     "caption": "Round shield, intact and two damage states"
@@ -450,13 +476,6 @@
     "src": "assets/img/gallery/devlog22_hall_longhouses_1014.jpg",
     "caption": "Aisled hall and longhouse built from kit pieces in Unreal, Dev Log #22",
     "size": "full"
-  },
-  {
-    "group": "Animals",
-    "src": "assets/img/gallery/devlog41_three_fish_1102.jpg",
-    "caption": "Eel, brown trout and pike, Dev Log #41",
-    "size": "wide",
-    "contain": true
   },
   {
     "group": "Animals",
@@ -537,12 +556,6 @@
     "size": "wide"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/home_river_meander_1022.jpg",
-    "caption": "River winding through open grassland with trees along the bank, environment test map in Unreal",
-    "size": "wide"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog38_dog_hound_clip_sets_1030.png",
     "caption": "Herding dog and hound animation sets by group, Dev Log #38",
@@ -607,13 +620,6 @@
     "src": "assets/img/gallery/devlog22_longhouse_interior_1014.jpg",
     "caption": "Longhouse interior with the roof frame (Blender), Dev Log #22",
     "size": "wide"
-  },
-  {
-    "group": "Props",
-    "src": "assets/img/gallery/devlog35_river_ruins_and_tools_1027.jpg",
-    "caption": "River pieces, Roman ruins and hand tools, Dev Log #35",
-    "size": "wide",
-    "contain": true
   },
   {
     "group": "World",
