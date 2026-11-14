@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #51: Five ways to fall and one way back up</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-14-five-ways-to-fall-and-one-way-back-up</link>
+<guid isPermaLink="false">2026-11-14-five-ways-to-fall-and-one-way-back-up</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain gets a spike wall death, four random combat deaths that end in rag doll, and a shared knockout with a get-up. 57 of his 76 clips are approved.</description>
+</item>
+<item>
 <title>Dev Log #50: The Restless get their rags</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-13-the-restless-get-their-rags</link>
 <guid isPermaLink="false">2026-11-13-the-restless-get-their-rags</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-14-a-village-from-kit-pieces</guid>
 <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
 <description>Buildings now come from shared kit pieces on one grid: timber and daub, palisade, build stages and reused Roman stone. Sixteen buildings are in Unreal as level instances, with weathered, snow, burned, charred and rotten states.</description>
-</item>
-<item>
-<title>Dev Log #21: Arms that carry their weight</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-13-arms-that-carry-their-weight</link>
-<guid isPermaLink="false">2026-10-13-arms-that-carry-their-weight</guid>
-<pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
-<description>A full arm pass on every movement clip: fists, free wrists, square shoulders, leg-driven arm swing and a carried bow. The approved set is now in the game with walk and run, a guard walk on right mouse, and hidden dismemberment seams.</description>
 </item>
 </channel></rss>

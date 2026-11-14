@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog51_death_beats_1114.png",
+    "caption": "Owain's spike wall death and four random combat deaths, beat by beat, Dev Log #51",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog51_knockout_getup_1114.png",
+    "caption": "The shared knockout and the get-up that follows it, Dev Log #51",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog50_restless_wardrobe_1113.png",
     "caption": "The Restless wardrobe: torn garments, worn hair, ragged trousers and damaged Roman armour by base body, Dev Log #50",
     "size": "wide",
