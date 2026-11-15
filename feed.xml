@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #52: Bandage, cure, campfire and a parry for each side</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-15-bandage-cure-campfire-and-a-parry-for-each-side</link>
+<guid isPermaLink="false">2026-11-15-bandage-cure-campfire-and-a-parry-for-each-side</guid>
+<pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain kneels to bandage his arm, sticks his sword in the ground to drink a cure, rests at a fire in three chained clips and gets a parry for each side. 61 of his 76 clips are approved.</description>
+</item>
+<item>
 <title>Dev Log #51: Five ways to fall and one way back up</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-14-five-ways-to-fall-and-one-way-back-up</link>
 <guid isPermaLink="false">2026-11-14-five-ways-to-fall-and-one-way-back-up</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-15-firelight-earthworks-and-the-first-trees</guid>
 <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
 <description>The manor buildings are furnished and lit, with flickering fires and doors that open. The palisade sits on a bank and ditch with a walkway, the first oak, ash and alder trees are planted, the rivers have flowing water and the hub streams by distance.</description>
-</item>
-<item>
-<title>Dev Log #22: A village from kit pieces</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-14-a-village-from-kit-pieces</link>
-<guid isPermaLink="false">2026-10-14-a-village-from-kit-pieces</guid>
-<pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-<description>Buildings now come from shared kit pieces on one grid: timber and daub, palisade, build stages and reused Roman stone. Sixteen buildings are in Unreal as level instances, with weathered, snow, burned, charred and rotten states.</description>
 </item>
 </channel></rss>

@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog52_field_care_1115.png",
+    "caption": "Owain's bandage, cure and rest at a fire, beat by beat, Dev Log #52",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog52_parry_sides_1115.png",
+    "caption": "The left and right single swipe parries: shield contact and shoulder turn, Dev Log #52",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog51_death_beats_1114.png",
     "caption": "Owain's spike wall death and four random combat deaths, beat by beat, Dev Log #51",
     "size": "wide",
