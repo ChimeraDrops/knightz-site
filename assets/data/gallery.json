@@ -14,6 +14,43 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_birch_autumn_1115.jpg",
+    "caption": "Three birch variants built in Blender, young, mature and a multi-stem clump, in autumn leaf",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_chapel_village_1015.jpg",
+    "caption": "Stone chapel with thatched granaries and byres, built from kit pieces in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
+    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_rea_brook_wading_1103.jpg",
+    "caption": "Wading the Rea Brook with sword and shield, the water reacting around the player, water test map",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/home_arms_kit_1104.jpg",
+    "caption": "Boar-crest spangenhelm, war horn, and gold and silver arm-rings",
+    "size": "wide"
+  },
+  {
+    "group": "Animals",
+    "src": "assets/img/gallery/devlog36_ox_gaits_1028.jpg",
+    "caption": "Ox walk, trot and gallop prototype on the new bovine skeleton, Dev Log #36",
+    "size": "wide",
+    "contain": true
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog51_death_beats_1114.png",
     "caption": "Owain's spike wall death and four random combat deaths, beat by beat, Dev Log #51",
@@ -388,13 +425,6 @@
     "size": "wide"
   },
   {
-    "group": "Animals",
-    "src": "assets/img/gallery/devlog36_ox_gaits_1028.jpg",
-    "caption": "Ox walk, trot and gallop prototype on the new bovine skeleton, Dev Log #36",
-    "size": "wide",
-    "contain": true
-  },
-  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
     "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
@@ -469,12 +499,6 @@
     "caption": "Round shield, intact and two damage states"
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/home_arms_kit_1104.jpg",
-    "caption": "Boar-crest spangenhelm, war horn, and gold and silver arm-rings",
-    "size": "wide"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog33_salwarpe_ford_1025.jpg",
     "caption": "The Salinae ford, shallow water across the road over a gravel bar, Dev Log #33"
@@ -497,12 +521,6 @@
     "caption": "Animation clips per animal family, 36 animals and 898 clips, Dev Log #41",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_rea_brook_wading_1103.jpg",
-    "caption": "Wading the Rea Brook with sword and shield, the water reacting around the player, water test map",
-    "size": "wide"
   },
   {
     "group": "Characters",
@@ -564,12 +582,6 @@
     "contain": true
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
-    "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
-    "size": "wide"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog38_dog_hound_clip_sets_1030.png",
     "caption": "Herding dog and hound animation sets by group, Dev Log #38",
@@ -622,12 +634,6 @@
     "caption": "Roman ruin kit pieces placed in the old Roman city, Dev Log #36",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_chapel_village_1015.jpg",
-    "caption": "Stone chapel with thatched granaries and byres, built from kit pieces in Unreal",
-    "size": "wide"
   },
   {
     "group": "World",
