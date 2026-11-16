@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog53_parry_beats_1116.png",
+    "caption": "Owain's parries and broken parries, beat by beat, Dev Log #53",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog53_blocks_audit_1116.png",
+    "caption": "The first three blocks and the animation audit count, Dev Log #53",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog52_field_care_1115.png",
     "caption": "Owain's bandage, cure and rest at a fire, beat by beat, Dev Log #52",
     "size": "wide",

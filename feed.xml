@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #53: A shield bash for a broken guard</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-16-a-shield-bash-for-a-broken-guard</link>
+<guid isPermaLink="false">2026-11-16-a-shield-bash-for-a-broken-guard</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain finishes his parries, gets five broken parries that end in a shield bash and stun, and his first three blocks. 70 of his 76 clips are approved.</description>
+</item>
+<item>
 <title>Dev Log #52: Bandage, cure, campfire and a parry for each side</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-15-bandage-cure-campfire-and-a-parry-for-each-side</link>
 <guid isPermaLink="false">2026-11-15-bandage-cure-campfire-and-a-parry-for-each-side</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-16-a-female-base-body-and-a-heavier-grip</guid>
 <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
 <description>A new healthy female base body is built, reduced to 25,000 triangles, rigged and textured, with four levels of detail and the shared neck seam. The large male body now holds swords, axes, spears and shields on its own sockets, and a see-through ring on two sword pommels is fixed.</description>
-</item>
-<item>
-<title>Dev Log #23: Firelight, earthworks and the first trees</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-15-firelight-earthworks-and-the-first-trees</link>
-<guid isPermaLink="false">2026-10-15-firelight-earthworks-and-the-first-trees</guid>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<description>The manor buildings are furnished and lit, with flickering fires and doors that open. The palisade sits on a bank and ditch with a walkway, the first oak, ash and alder trees are planted, the rivers have flowing water and the hub streams by distance.</description>
 </item>
 </channel></rss>
