@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #54: The audit is done and the clips are in the fight</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-17-the-audit-is-done-and-the-clips-are-in-the-fight</link>
+<guid isPermaLink="false">2026-11-17-the-audit-is-done-and-the-clips-are-in-the-fight</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+<description>Owain's last blocks and five hit reactions finish his animation audit. All 90 edited clips are back in Unreal, the game picks the right variant and every clip plays at its own speed.</description>
+</item>
+<item>
 <title>Dev Log #53: A shield bash for a broken guard</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-16-a-shield-bash-for-a-broken-guard</link>
 <guid isPermaLink="false">2026-11-16-a-shield-bash-for-a-broken-guard</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-17-four-women-twelve-outfits-and-cloth-that-swings</guid>
 <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
 <description>Four female heads are built on the new body with face rigs, skin, hair and eyelashes. Twelve outfits follow, every cloak and shawl now simulates as cloth in Unreal, a woman in a riding outfit is the test player and character parts now change detail together.</description>
-</item>
-<item>
-<title>Dev Log #24: A female base body and a heavier grip</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-16-a-female-base-body-and-a-heavier-grip</link>
-<guid isPermaLink="false">2026-10-16-a-female-base-body-and-a-heavier-grip</guid>
-<pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-<description>A new healthy female base body is built, reduced to 25,000 triangles, rigged and textured, with four levels of detail and the shared neck seam. The large male body now holds swords, axes, spears and shields on its own sockets, and a see-through ring on two sword pommels is fixed.</description>
 </item>
 </channel></rss>

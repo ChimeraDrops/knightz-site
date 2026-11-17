@@ -1,5 +1,18 @@
 [
   {
+    "slug": "2026-11-17-the-audit-is-done-and-the-clips-are-in-the-fight",
+    "title": "Dev Log #54: The audit is done and the clips are in the fight",
+    "date": "2026-11-17",
+    "summary": "Owain's last blocks and five hit reactions finish his animation audit. All 90 edited clips are back in Unreal, the game picks the right variant and every clip plays at its own speed.",
+    "tags": [
+      "animation",
+      "combat",
+      "unreal",
+      "blender"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-16-a-shield-bash-for-a-broken-guard",
     "title": "Dev Log #53: A shield bash for a broken guard",
     "date": "2026-11-16",

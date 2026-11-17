@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog54_hits_blocks_beats_1117.png",
+    "caption": "Owain's last blocks and hit reactions, beat by beat, Dev Log #54",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog54_clip_timing_1117.png",
+    "caption": "Clips now play at their authored speed, Dev Log #54",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog53_parry_beats_1116.png",
     "caption": "Owain's parries and broken parries, beat by beat, Dev Log #53",
     "size": "wide",
