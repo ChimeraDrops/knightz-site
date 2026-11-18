@@ -14,6 +14,40 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_sessileoak_autumn_1118.jpg",
+    "caption": "Four sessile oak variants built in Blender in autumn leaf: young, mature, wind-trimmed upland and multi-stem coppice",
+    "size": "wide"
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
+    "caption": "The chapel set, Dev Log #35",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
+    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_shield_damage.jpg",
+    "caption": "Round shield, intact and two damage states"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cadoc_expressions.jpg",
+    "caption": "Brother Cadoc, expression and speech shapes",
+    "size": "full"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog33_roman_piers_1025.jpg",
+    "caption": "The ruined Roman bridge piers in the Severn, Dev Log #33"
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog54_hits_blocks_beats_1117.png",
     "caption": "Owain's last blocks and hit reactions, beat by beat, Dev Log #54",
@@ -49,18 +83,6 @@
     "group": "Arms and armour",
     "src": "assets/img/gallery/arms_shields.jpg",
     "caption": "One round limewood shield, six of its seven painted designs",
-    "size": "wide"
-  },
-  {
-    "group": "Props",
-    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
-    "caption": "The chapel set, Dev Log #35",
-    "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
-    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
     "size": "wide"
   },
   {
@@ -554,20 +576,9 @@
     "contain": true
   },
   {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_shield_damage.jpg",
-    "caption": "Round shield, intact and two damage states"
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog33_salwarpe_ford_1025.jpg",
     "caption": "The Salinae ford, shallow water across the road over a gravel bar, Dev Log #33"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/cadoc_expressions.jpg",
-    "caption": "Brother Cadoc, expression and speech shapes",
-    "size": "full"
   },
   {
     "group": "World",
@@ -799,11 +810,6 @@
     "group": "World",
     "src": "assets/img/gallery/devlog33_moorland_streams_1025.jpg",
     "caption": "High Country moorland streams cut into the hillside, Dev Log #33"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog33_roman_piers_1025.jpg",
-    "caption": "The ruined Roman bridge piers in the Severn, Dev Log #33"
   },
   {
     "group": "World",
