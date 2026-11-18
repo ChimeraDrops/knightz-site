@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-18-rag-doll-aim-and-lock-on",
+    "title": "Dev Log #55: Rag doll, aim and lock-on",
+    "date": "2026-11-18",
+    "summary": "Owain's clips get sound and prop markers, he drops his weapons and falls into a rag doll that stays on the ground, his hits land on the impact frame, his strikes are aimed at the enemy and the lock-on can switch targets.",
+    "tags": [
+      "combat",
+      "animation",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-17-the-audit-is-done-and-the-clips-are-in-the-fight",
     "title": "Dev Log #54: The audit is done and the clips are in the fight",
     "date": "2026-11-17",

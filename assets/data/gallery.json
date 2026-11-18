@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog55_attack_aim_1118.png",
+    "caption": "Owain's strikes now land on the target, Dev Log #55",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog55_hit_moment_1118.png",
+    "caption": "Hits now register when the blade arrives, Dev Log #55",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog54_hits_blocks_beats_1117.png",
     "caption": "Owain's last blocks and hit reactions, beat by beat, Dev Log #54",
     "size": "wide",
@@ -12,6 +26,42 @@
     "caption": "Clips now play at their authored speed, Dev Log #54",
     "size": "wide",
     "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_holly_winter_1117.jpg",
+    "caption": "Young and mature holly built in Blender, winter leaf with red berries",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_manor.jpg",
+    "caption": "The manor, overall concept and site plan",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/bedwyr_final.jpg",
+    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_shields.jpg",
+    "caption": "One round limewood shield, six of its seven painted designs",
+    "size": "wide"
+  },
+  {
+    "group": "Props",
+    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
+    "caption": "The chapel set, Dev Log #35",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
+    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
+    "size": "wide"
   },
   {
     "group": "Characters",
@@ -399,12 +449,6 @@
     "size": "wide"
   },
   {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_manor.jpg",
-    "caption": "The manor, overall concept and site plan",
-    "size": "wide"
-  },
-  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog46_finisher_beats_1107.png",
     "caption": "Owain's two finishers, beat by beat, Dev Log #46",
@@ -423,30 +467,6 @@
     "src": "assets/img/gallery/home_woodland_clearing_1108.jpg",
     "caption": "A player character with sword and round shield in a sunlit woodland clearing with grass tufts, leaf litter and a fallen log, environment test map",
     "size": "wide"
-  },
-  {
-    "group": "Characters",
-    "src": "assets/img/gallery/bedwyr_final.jpg",
-    "caption": "Sir Bedwyr, final head with hooded lids, brows and beard",
-    "size": "wide"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_shields.jpg",
-    "caption": "One round limewood shield, six of its seven painted designs",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
-    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
-    "size": "wide"
-  },
-  {
-    "group": "Props",
-    "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
-    "caption": "The chapel set, Dev Log #35",
-    "contain": true
   },
   {
     "group": "Animation",
