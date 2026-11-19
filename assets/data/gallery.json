@@ -14,6 +14,40 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_fieldmaple_seasons_1119.jpg",
+    "caption": "Old open-grown field maple built in Blender, shown in summer, autumn and winter",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/owain_head_4view.jpg",
+    "caption": "Owain, textured head on the healthy male body, hair hidden"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog23_household_props_1015.jpg",
+    "caption": "Household props kit: hearths, beds, benches, chests and lights, Dev Log #23",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/arms_spathas.jpg",
+    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
+    "contain": true
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
+    "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
+    "size": "full"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
+    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog55_attack_aim_1118.png",
     "caption": "Owain's strikes now land on the target, Dev Log #55",
@@ -411,17 +445,6 @@
     "size": "wide"
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/cadoc_skin_hair.jpg",
-    "caption": "Brother Cadoc, skin and Insular tonsure (Workbench)"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/arms_spathas.jpg",
-    "caption": "Spathas for Bedwyr, Owain and Gwalchmai, with the long and bone seaxes. All at the same scale.",
-    "contain": true
-  },
-  {
     "group": "World",
     "src": "assets/img/gallery/devlog22_palisade_1014.jpg",
     "caption": "Palisade enclosure test in Unreal, Dev Log #22",
@@ -463,25 +486,8 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/owain_head_4view.jpg",
-    "caption": "Owain, textured head on the healthy male body, hair hidden"
-  },
-  {
-    "group": "Characters",
     "src": "assets/img/gallery/devlog33_cape_before_after_1025.jpg",
     "caption": "Nest's court outfit before and after: fitted gown and open cape, Dev Log #33",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_stone_chapel_1014.jpg",
-    "caption": "Stone chapel walls with Roman tile bands, Dev Log #22",
-    "size": "full"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog23_household_props_1015.jpg",
-    "caption": "Household props kit: hearths, beds, benches, chests and lights, Dev Log #23",
     "size": "wide"
   },
   {
