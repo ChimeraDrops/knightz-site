@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-19-slower-heavier-swings",
+    "title": "Dev Log #56: Slower, heavier swings",
+    "date": "2026-11-19",
+    "summary": "A melee rework begins. Owain's attacks play at their animated speed and chain on set combo frames, his body turn is aimed at the blade's full reach, brigands get longer tells, and enemies no longer pull the camera in.",
+    "tags": [
+      "combat",
+      "animation",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-18-rag-doll-aim-and-lock-on",
     "title": "Dev Log #55: Rag doll, aim and lock-on",
     "date": "2026-11-18",

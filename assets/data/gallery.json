@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog56_attack_length_1119.png",
+    "caption": "Owain's attacks now play at their animated speed, Dev Log #56",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog56_body_turn_1119.png",
+    "caption": "A bigger body turn so the blade meets the target, Dev Log #56",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog55_attack_aim_1118.png",
     "caption": "Owain's strikes now land on the target, Dev Log #55",
     "size": "wide",

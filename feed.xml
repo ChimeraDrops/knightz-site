@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #56: Slower, heavier swings</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-19-slower-heavier-swings</link>
+<guid isPermaLink="false">2026-11-19-slower-heavier-swings</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<description>A melee rework begins. Owain's attacks play at their animated speed and chain on set combo frames, his body turn is aimed at the blade's full reach, brigands get longer tells, and enemies no longer pull the camera in.</description>
+</item>
+<item>
 <title>Dev Log #55: Rag doll, aim and lock-on</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-18-rag-doll-aim-and-lock-on</link>
 <guid isPermaLink="false">2026-11-18-rag-doll-aim-and-lock-on</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-20-five-million-plants-crop-strips-and-kitchen-gardens</guid>
 <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
 <description>A test copy of the hub now carries over five million plants placed by script across ten biomes, from grazed pasture and hay meadow to reed beds and bluebell woods. Fields hold strips of spelt, rye, barley, oats, peas, beans and flax, the manor has kitchen gardens, and a bug that turned leaves black is fixed project wide.</description>
-</item>
-<item>
-<title>Dev Log #26: An ash sky, horses and life on the road</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-18-an-ash-sky-horses-and-life-on-the-road</link>
-<guid isPermaLink="false">2026-10-18-an-ash-sky-horses-and-life-on-the-road</guid>
-<pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
-<description>The hub now sits under a volcanic ash sky with drifting black cloud, a red sun, rare lightning and a red moon. A design session set new map scale rules, brought horse riding into the game, and planned tree felling, spear fishing, hunting, road events and paired combat animation.</description>
 </item>
 </channel></rss>
