@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog57_strike_distance_1120.png",
+    "caption": "Distance to the brigand at each hit, Dev Log #57",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog57_blade_angle_1120.png",
+    "caption": "Every test swing within 10 degrees of the target, Dev Log #57",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog56_attack_length_1119.png",
     "caption": "Owain's attacks now play at their animated speed, Dev Log #56",
     "size": "wide",

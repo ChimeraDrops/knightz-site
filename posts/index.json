@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-20-every-swing-lands-on-the-brigand",
+    "title": "Dev Log #57: Every swing lands on the brigand",
+    "date": "2026-11-20",
+    "summary": "Owain's attacks get a set strike distance. He slides to it and faces the enemy before each hit, so every test swing from close and from 3 m landed on the brigand.",
+    "tags": [
+      "combat",
+      "animation",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-19-slower-heavier-swings",
     "title": "Dev Log #56: Slower, heavier swings",
     "date": "2026-11-19",
