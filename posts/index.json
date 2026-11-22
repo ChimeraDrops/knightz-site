@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-21-sparks-blood-and-a-flinching-brigand",
+    "title": "Dev Log #58: Sparks, blood and a flinching brigand",
+    "date": "2026-11-21",
+    "summary": "Blocks now throw sparks and hits draw blood, with stains, splats and pools after a sever. The brigand gets eight hit reactions, one for each of Owain's attacks, built to the blade's real contact path.",
+    "tags": [
+      "combat",
+      "animation",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-20-every-swing-lands-on-the-brigand",
     "title": "Dev Log #57: Every swing lands on the brigand",
     "date": "2026-11-20",

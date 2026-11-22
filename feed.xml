@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #58: Sparks, blood and a flinching brigand</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-21-sparks-blood-and-a-flinching-brigand</link>
+<guid isPermaLink="false">2026-11-21-sparks-blood-and-a-flinching-brigand</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+<description>Blocks now throw sparks and hits draw blood, with stains, splats and pools after a sever. The brigand gets eight hit reactions, one for each of Owain's attacks, built to the blade's real contact path.</description>
+</item>
+<item>
 <title>Dev Log #57: Every swing lands on the brigand</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-20-every-swing-lands-on-the-brigand</link>
 <guid isPermaLink="false">2026-11-20-every-swing-lands-on-the-brigand</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-22-all-201-clips-generated</guid>
 <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
 <description>One overnight run generated all 201 clips of the female movement set across seven weapon sets. Six sets are cut and checked: 149 clips pass, 14 are flagged for another pass, and a first arm pass has run on 153 clips.</description>
-</item>
-<item>
-<title>Dev Log #28: The women start to move</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-21-the-women-start-to-move</link>
-<guid isPermaLink="false">2026-10-21-the-women-start-to-move</guid>
-<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-<description>The female body gets its own movement set: 201 clips across seven weapon sets, generated fresh for her build and scaled to her stride. The sword and the sword and shield sets are cut into loops and checked, and generation for the rest is running.</description>
 </item>
 </channel></rss>

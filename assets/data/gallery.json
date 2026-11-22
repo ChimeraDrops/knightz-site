@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog58_brigand_reactions_1121.png",
+    "caption": "Eight brigand hit reactions, one per attack, Dev Log #58",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog58_sever_blood_1121.png",
+    "caption": "Blood timing after a sever, first pass, Dev Log #58",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog57_strike_distance_1120.png",
     "caption": "Distance to the brigand at each hit, Dev Log #57",
     "size": "wide",
