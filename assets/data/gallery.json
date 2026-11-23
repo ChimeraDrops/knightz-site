@@ -14,6 +14,42 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_hazel_autumn_1123.jpg",
+    "caption": "Hazel variants built in Blender in autumn: young coppice regrowth, a taller stool, a full mature clump and a young single-stem tree",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_river_meander_1022.jpg",
+    "caption": "River winding through open grassland with trees along the bank, environment test map in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "Concept art",
+    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
+    "caption": "Sir Bedwyr, combat outfit concept",
+    "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/home_tysilio_head_1109.jpg",
+    "caption": "Brother Tysilio, front and side, long white hair and beard and the clouded eye",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_woodland_clearing_1108.jpg",
+    "caption": "A player character with sword and round shield in a sunlit woodland clearing with grass tufts, leaf litter and a fallen log, environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_grain_field_1024.jpg",
+    "caption": "Ripe grain field under a cloudy sky on the environment test map",
+    "size": "wide"
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog58_brigand_reactions_1121.png",
     "caption": "Eight brigand hit reactions, one per attack, Dev Log #58",
@@ -388,12 +424,6 @@
     "contain": true
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/home_river_meander_1022.jpg",
-    "caption": "River winding through open grassland with trees along the bank, environment test map in Unreal",
-    "size": "wide"
-  },
-  {
     "group": "Props",
     "src": "assets/img/gallery/devlog35_river_ruins_and_tools_1027.jpg",
     "caption": "River pieces, Roman ruins and hand tools, Dev Log #35",
@@ -478,12 +508,6 @@
     "size": "wide"
   },
   {
-    "group": "Concept art",
-    "src": "assets/img/gallery/concept_bedwyr_combat.jpg",
-    "caption": "Sir Bedwyr, combat outfit concept",
-    "size": "wide"
-  },
-  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog48_grapple_beats_1109.png",
     "caption": "Owain's grapple struggle and escape with the matching enemy clips, beat by beat, Dev Log #48",
@@ -539,12 +563,6 @@
   },
   {
     "group": "Characters",
-    "src": "assets/img/gallery/home_tysilio_head_1109.jpg",
-    "caption": "Brother Tysilio, front and side, long white hair and beard and the clouded eye",
-    "size": "wide"
-  },
-  {
-    "group": "Characters",
     "src": "assets/img/gallery/devlog33_cape_before_after_1025.jpg",
     "caption": "Nest's court outfit before and after: fitted gown and open cape, Dev Log #33",
     "size": "wide"
@@ -562,12 +580,6 @@
     "caption": "Ground finisher, enemy clip picked by approach angle, Dev Log #46",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_woodland_clearing_1108.jpg",
-    "caption": "A player character with sword and round shield in a sunlit woodland clearing with grass tufts, leaf litter and a fallen log, environment test map",
-    "size": "wide"
   },
   {
     "group": "Animation",
@@ -943,12 +955,6 @@
     "caption": "Trees, shrubs and ground plants on each region map, Dev Log #31",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_grain_field_1024.jpg",
-    "caption": "Ripe grain field under a cloudy sky on the environment test map",
-    "size": "wide"
   },
   {
     "group": "Characters",
