@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog59_seax_attacks_1122.png",
+    "caption": "Brigand seax attacks: windup, strike and recovery, Dev Log #59",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog59_reactions_in_game_1122.png",
+    "caption": "Approved brigand hit reactions now in game, Dev Log #59",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog58_brigand_reactions_1121.png",
     "caption": "Eight brigand hit reactions, one per attack, Dev Log #58",
     "size": "wide",

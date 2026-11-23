@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-22-the-brigand-fights-back",
+    "title": "Dev Log #59: The brigand fights back",
+    "date": "2026-11-22",
+    "summary": "All eight brigand hit reactions are approved and in game, with heavy hits knocking him back several steps. The brigand also gets four new seax attacks built from Owain's own swings.",
+    "tags": [
+      "combat",
+      "animation",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-21-sparks-blood-and-a-flinching-brigand",
     "title": "Dev Log #58: Sparks, blood and a flinching brigand",
     "date": "2026-11-21",
