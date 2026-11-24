@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #60: Real motion capture for the brigand</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-23-real-motion-capture-for-the-brigand</link>
+<guid isPermaLink="false">2026-11-23-real-motion-capture-for-the-brigand</guid>
+<pubDate>Mon, 23 Nov 2026 12:00:00 +0000</pubDate>
+<description>The brigand's attacks move to real motion capture after three other sources failed review. Seven sword clips, two three-step chains and a kick, are retargeted onto him and in review.</description>
+</item>
+<item>
 <title>Dev Log #59: The brigand fights back</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-22-the-brigand-fights-back</link>
 <guid isPermaLink="false">2026-11-22-the-brigand-fights-back</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over</guid>
 <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
 <description>All ten region maps around the hub were rebuilt overnight from real elevation data, each with its own biome map and our own plants. The hub got the approved planting, and the rivers were cleared and restarted from one test stretch where the Rea Brook meets the Severn.</description>
-</item>
-<item>
-<title>Dev Log #30: Every region gets its own plants, and the seasons turn</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-23-every-region-gets-its-own-plants-and-the-seasons-turn</link>
-<guid isPermaLink="false">2026-10-23-every-region-gets-its-own-plants-and-the-seasons-turn</guid>
-<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-<description>All 99 hand-built plant sets are now assigned across the 11 regions, and every region has plants found nowhere else. One switch now turns every plant through spring, summer, autumn and winter, and the environment test map was rebuilt with only our own plants.</description>
 </item>
 </channel></rss>

@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog60_mocap_picks_1123.png",
+    "caption": "Brigand attack picks from motion capture, Dev Log #60",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog60_attack_sources_1123.png",
+    "caption": "Where the brigand attacks came from, Dev Log #60",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog59_seax_attacks_1122.png",
     "caption": "Brigand seax attacks: windup, strike and recovery, Dev Log #59",
     "size": "wide",

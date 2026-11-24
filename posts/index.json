@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-23-real-motion-capture-for-the-brigand",
+    "title": "Dev Log #60: Real motion capture for the brigand",
+    "date": "2026-11-23",
+    "summary": "The brigand's attacks move to real motion capture after three other sources failed review. Seven sword clips, two three-step chains and a kick, are retargeted onto him and in review.",
+    "tags": [
+      "combat",
+      "animation",
+      "pipeline"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-22-the-brigand-fights-back",
     "title": "Dev Log #59: The brigand fights back",
     "date": "2026-11-22",
