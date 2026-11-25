@@ -14,6 +14,42 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_blackthorn_seasons_1124.jpg",
+    "caption": "Blackthorn built in Blender, the same bush in spring blossom, summer leaf, autumn colour and bare winter branches",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_rea_brook_wading_1103.jpg",
+    "caption": "Wading the Rea Brook with sword and shield, the water reacting around the player, water test map",
+    "size": "wide"
+  },
+  {
+    "group": "Arms and armour",
+    "src": "assets/img/gallery/home_arms_kit_1104.jpg",
+    "caption": "Boar-crest spangenhelm, war horn, and gold and silver arm-rings",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_chapel_village_1015.jpg",
+    "caption": "Stone chapel with thatched granaries and byres, built from kit pieces in Unreal",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_longhouse_interior_1016.jpg",
+    "caption": "Longhouse interior under the thatched roof frame, built from timber and daub kit pieces",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_pasture_oak_1020.jpg",
+    "caption": "Open pasture with a lone oak on the environment test map in Unreal",
+    "size": "wide"
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog59_seax_attacks_1122.png",
     "caption": "Brigand seax attacks: windup, strike and recovery, Dev Log #59",
@@ -368,27 +404,9 @@
     "size": "wide"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/home_chapel_village_1015.jpg",
-    "caption": "Stone chapel with thatched granaries and byres, built from kit pieces in Unreal",
-    "size": "wide"
-  },
-  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog17_outfits_lineup_a_1009.jpg",
     "caption": "Casual outfits in Unreal, first half of the cast, Dev Log #17",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_rea_brook_wading_1103.jpg",
-    "caption": "Wading the Rea Brook with sword and shield, the water reacting around the player, water test map",
-    "size": "wide"
-  },
-  {
-    "group": "Arms and armour",
-    "src": "assets/img/gallery/home_arms_kit_1104.jpg",
-    "caption": "Boar-crest spangenhelm, war horn, and gold and silver arm-rings",
     "size": "wide"
   },
   {
@@ -1241,18 +1259,6 @@
     "group": "World",
     "src": "assets/img/gallery/home_hall_longhouses_1014.jpg",
     "caption": "Timber and daub hall with a thatched roof, built from kit pieces in Unreal",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_longhouse_interior_1016.jpg",
-    "caption": "Longhouse interior under the thatched roof frame, built from timber and daub kit pieces",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_pasture_oak_1020.jpg",
-    "caption": "Open pasture with a lone oak on the environment test map in Unreal",
     "size": "wide"
   }
 ]
