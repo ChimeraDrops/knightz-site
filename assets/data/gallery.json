@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog61_brigand_chains_1125.png",
+    "caption": "Brigand attack chains in game, Dev Log #61",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog61_next_candidates_1125.png",
+    "caption": "Next brigand clips under review, Dev Log #61",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog60_mocap_picks_1123.png",
     "caption": "Brigand attack picks from motion capture, Dev Log #60",
     "size": "wide",

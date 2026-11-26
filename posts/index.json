@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-25-the-brigand-strikes-in-chains",
+    "title": "Dev Log #61: The brigand strikes in chains",
+    "date": "2026-11-25",
+    "summary": "The brigand's seven motion capture attacks are approved and in game, chained into three-step light and heavy combos like Owain's. Clips for his stopped swings, defence, dodges and deaths are in review.",
+    "tags": [
+      "combat",
+      "animation",
+      "unreal"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-23-real-motion-capture-for-the-brigand",
     "title": "Dev Log #60: Real motion capture for the brigand",
     "date": "2026-11-23",

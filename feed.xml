@@ -5,6 +5,13 @@
 <description>Daily development updates on KnightZ: The Failing Light by KSUIE_Gaming.</description>
 <language>en</language>
 <item>
+<title>Dev Log #61: The brigand strikes in chains</title>
+<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-25-the-brigand-strikes-in-chains</link>
+<guid isPermaLink="false">2026-11-25-the-brigand-strikes-in-chains</guid>
+<pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+<description>The brigand's seven motion capture attacks are approved and in game, chained into three-step light and heavy combos like Owain's. Clips for his stopped swings, defence, dodges and deaths are in review.</description>
+</item>
+<item>
 <title>Dev Log #60: Real motion capture for the brigand</title>
 <link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-11-23-real-motion-capture-for-the-brigand</link>
 <guid isPermaLink="false">2026-11-23-real-motion-capture-for-the-brigand</guid>
@@ -206,12 +213,5 @@
 <guid isPermaLink="false">2026-10-25-rivers-that-move-and-creeks-you-can-wade</guid>
 <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
 <description>The river and creek look was rebuilt and approved, starting where the Rea Brook meets the Severn. Every river in the test area is filled, the player can wade in, the live water simulation now costs 0.04 ms per frame, and the ground under the water is real creek bed.</description>
-</item>
-<item>
-<title>Dev Log #31: Ten regions rebuilt, and the rivers start over</title>
-<link>https://chimeradrops.github.io/knightz-site/post.html?p=2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over</link>
-<guid isPermaLink="false">2026-10-24-ten-regions-rebuilt-and-the-rivers-start-over</guid>
-<pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-<description>All ten region maps around the hub were rebuilt overnight from real elevation data, each with its own biome map and our own plants. The hub got the approved planting, and the rivers were cleared and restarted from one test stretch where the Rea Brook meets the Severn.</description>
 </item>
 </channel></rss>
