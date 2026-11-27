@@ -28,6 +28,30 @@
     "contain": true
   },
   {
+    "group": "World",
+    "src": "assets/img/gallery/home_pedoak_summer_1127.jpg",
+    "caption": "Pedunculate oak built in Blender, four growth stages in summer leaf: young, mature, old and dead",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_crabapple_seasons_1125.jpg",
+    "caption": "Crab apple built in Blender, the same tree in spring blossom, summer leaf, autumn colour and bare winter branches",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_longhouse_thatch_1105.jpg",
+    "caption": "Small timber and daub longhouse with a hipped thatch roof, built from kit pieces",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_salwarpe_creek_1029.jpg",
+    "caption": "Wading a shallow river under yellow willows, water test map",
+    "size": "wide"
+  },
+  {
     "group": "Characters",
     "src": "assets/img/gallery/devlog60_mocap_picks_1123.png",
     "caption": "Brigand attack picks from motion capture, Dev Log #60",
@@ -381,12 +405,6 @@
     "size": "wide"
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/home_longhouse_thatch_1105.jpg",
-    "caption": "Small timber and daub longhouse with a hipped thatch roof, built from kit pieces",
-    "size": "wide"
-  },
-  {
     "group": "Animals",
     "src": "assets/img/gallery/devlog36_ox_idle_graze_1028.jpg",
     "caption": "Ox standing idle and grazing sets, Dev Log #36",
@@ -526,12 +544,6 @@
     "group": "Characters",
     "src": "assets/img/gallery/devlog33_period_footwear_1025.jpg",
     "caption": "Turnshoes, ankle boots and tall boots, Dev Log #33",
-    "size": "wide"
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_salwarpe_creek_1029.jpg",
-    "caption": "Wading a shallow river under yellow willows, water test map",
     "size": "wide"
   },
   {
