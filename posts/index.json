@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-26-stopped-swings-and-a-bronze-brooch-hud",
+    "title": "Dev Log #62: Stopped swings and a bronze brooch HUD",
+    "date": "2026-11-26",
+    "summary": "The brigand's parry recoils are approved, and a planted-feet block recoil is next, with a pause before he can strike again. The HUD is being redesigned as a bronze brooch with a garnet health orb and a minimal enemy display.",
+    "tags": [
+      "combat",
+      "animation",
+      "ui"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-25-the-brigand-strikes-in-chains",
     "title": "Dev Log #61: The brigand strikes in chains",
     "date": "2026-11-25",

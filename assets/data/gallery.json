@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog62_stopped_swings_1126.png",
+    "caption": "Brigand parry recoils and the pause after a stopped swing, Dev Log #62",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog62_hud_brooch_1126.png",
+    "caption": "Bronze brooch HUD concept layout, Dev Log #62",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog61_brigand_chains_1125.png",
     "caption": "Brigand attack chains in game, Dev Log #61",
     "size": "wide",
