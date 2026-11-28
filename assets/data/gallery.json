@@ -28,18 +28,28 @@
     "contain": true
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog61_brigand_chains_1125.png",
-    "caption": "Brigand attack chains in game, Dev Log #61",
-    "size": "wide",
-    "contain": true
+    "group": "World",
+    "src": "assets/img/gallery/home_pear_seasons_1128.jpg",
+    "caption": "Cultivated pear tree built in Blender, in spring blossom, summer leaf, autumn colour and bare winter branches",
+    "size": "wide"
   },
   {
-    "group": "Characters",
-    "src": "assets/img/gallery/devlog61_next_candidates_1125.png",
-    "caption": "Next brigand clips under review, Dev Log #61",
-    "size": "wide",
-    "contain": true
+    "group": "World",
+    "src": "assets/img/gallery/home_creek_bed_1107.jpg",
+    "caption": "A player character with a round shield on the grass beside a shallow, winding creek, environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/home_hazel_woodland_1106.jpg",
+    "caption": "Hazel woodland with ferns, grass tufts and leaf litter on the environment test map",
+    "size": "wide"
+  },
+  {
+    "group": "World",
+    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
+    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
+    "size": "wide"
   },
   {
     "group": "World",
@@ -52,6 +62,20 @@
     "src": "assets/img/gallery/home_crabapple_seasons_1125.jpg",
     "caption": "Crab apple built in Blender, the same tree in spring blossom, summer leaf, autumn colour and bare winter branches",
     "size": "wide"
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog61_brigand_chains_1125.png",
+    "caption": "Brigand attack chains in game, Dev Log #61",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog61_next_candidates_1125.png",
+    "caption": "Next brigand clips under review, Dev Log #61",
+    "size": "wide",
+    "contain": true
   },
   {
     "group": "World",
@@ -337,12 +361,6 @@
     "src": "assets/img/gallery/devlog35_chapel_set_1027.jpg",
     "caption": "The chapel set, Dev Log #35",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/devlog22_longhouse_states_1014.jpg",
-    "caption": "One longhouse in new, weathered, snow, rotten and charred states, Dev Log #22",
-    "size": "wide"
   },
   {
     "group": "Arms and armour",
@@ -696,12 +714,6 @@
     "contain": true
   },
   {
-    "group": "World",
-    "src": "assets/img/gallery/home_creek_bed_1107.jpg",
-    "caption": "A player character with a round shield on the grass beside a shallow, winding creek, environment test map",
-    "size": "wide"
-  },
-  {
     "group": "Animation",
     "src": "assets/img/gallery/devlog21_sword_guard_walk_1013.jpg",
     "caption": "Sword guard walk with a relaxed wrist, Dev Log #21",
@@ -720,12 +732,6 @@
     "caption": "Owain's three-strike light chain, branch frames and click windows, Dev Log #43",
     "size": "wide",
     "contain": true
-  },
-  {
-    "group": "World",
-    "src": "assets/img/gallery/home_hazel_woodland_1106.jpg",
-    "caption": "Hazel woodland with ferns, grass tufts and leaf litter on the environment test map",
-    "size": "wide"
   },
   {
     "group": "World",
