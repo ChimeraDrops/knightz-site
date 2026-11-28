@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-11-27-the-brooch-goes-in-and-the-brigand-feels-the-cut",
+    "title": "Dev Log #63: The brooch goes in and the brigand feels the cut",
+    "date": "2026-11-27",
+    "summary": "The bronze brooch HUD is in game and checked in real fights. The brigand's block recoils are approved and wired per attack, and losing an arm now gets its own reaction with blood that pumps in beats.",
+    "tags": [
+      "combat",
+      "ui",
+      "animation"
+    ],
+    "author": "KSUIE_Gaming"
+  },
+  {
     "slug": "2026-11-26-stopped-swings-and-a-bronze-brooch-hud",
     "title": "Dev Log #62: Stopped swings and a bronze brooch HUD",
     "date": "2026-11-26",

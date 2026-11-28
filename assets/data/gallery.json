@@ -1,6 +1,20 @@
 [
   {
     "group": "Characters",
+    "src": "assets/img/gallery/devlog63_hud_in_game_1127.png",
+    "caption": "Bronze brooch HUD checks in game, Dev Log #63",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
+    "src": "assets/img/gallery/devlog63_heartbeat_blood_1127.png",
+    "caption": "Heartbeat blood and the brigand's arm sever reaction, Dev Log #63",
+    "size": "wide",
+    "contain": true
+  },
+  {
+    "group": "Characters",
     "src": "assets/img/gallery/devlog62_stopped_swings_1126.png",
     "caption": "Brigand parry recoils and the pause after a stopped swing, Dev Log #62",
     "size": "wide",
